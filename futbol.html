@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>iRaffle Sports - APP</title>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap" />
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+    <!--FontAwesome Animated -->
+    <link rel="stylesheet" href="https://slowdsports.com/css/font-awesome-animation.css" />
+    <!--Bootstrap Flags -->
+    <link rel="stylesheet" href="https://slowdsports.com/css/flags.css" />
+    <!-- HOME Styles -->
+    <link rel="stylesheet" href="https://slowdsports.com/app/css/home.css" />
+    <!-- Schedule Styles -->
+    <link rel="stylesheet" href="https://slowdsports.com/css/schedule.css" />
+    <!-- Basket DB -->
+    <link rel="stylesheet" href="https://slowdsports.com/css/basket.css" /> 
+    <!-- Salvavida DB -->
+    <link rel="stylesheet" href="https://slowdsports.com/css/lnfp.css" />  
+    <!-- INTL DB -->
+    <link rel="stylesheet" href="https://slowdsports.com/css/intl.css" />   
+    <style>
+        .href-ns{
+            text-decoration: none;
+            color: #212529;
+        }   
+    </style>
+</head>
+<body>
+
+    <!-- ======= Menu Section ======= -->    
+    
+    <div class="menu-toggle">
+		<a href="go:" class="menu-link">
+      
+      <span class="menu-logo">
+        <img src="https://i.ibb.co/PNytkmd/logob-1.png" alt="">
+        <p class="text-menu"></p>
+      </span>
+      
+			<span class="menu-icon">
+				<span class="menu-line menu-line-1"></span>
+				<span class="menu-line menu-line-2"></span>
+			</span>
+
+      <span class="menu-circle">
+        <span class="menu-pulse first-pulse"></span>
+        <span class="menu-pulse second-pulse"></span>
+      </span>
+      
+    </a>
+  </div>
+   <br><br><br><br><hr>
+   
+   
+   
+   <div class="container">
+           
+           <h5><i class="fa fa-info-circle"></i> Hoy en Vivo:
+           
+            <!--UCL--
+            <a href="go:ucl" class="btn btn-sm">
+                <img width="25" src="https://api.sofascore.com/api/v1/unique-tournament/7/image" alt="" class="">
+            </a> 
+            <!--UEL--
+            <a href="go:uel" class="btn btn-sm">
+                <img width="25" src="https://api.sofascore.com/api/v1/unique-tournament/679/image" alt="" class="">
+            </a> 
+            <!--SUDAMERICANA--
+            <a href="go:sudamericana" class="btn btn-sm">
+                <img width="25" src="https://api.sofascore.com/api/v1/unique-tournament/480/image" alt="" class="">
+            </a> 
+            <!--PREMIER--
+            <a href="go:premier" class="btn btn-sm">
+                <img width="25" src="https://api.sofascore.com/api/v1/unique-tournament/17/image" alt="" class="">
+            </a> 
+               <!--EFL--
+            <a href="go:eflcup" class="btn btn-sm">
+                <img width="25" src="https://api.sofascore.com/api/v1/unique-tournament/21/image" alt="" class="">
+            </a> 
+               <!--LALIGA--
+            <a href="go:laliga" class="btn btn-sm ">
+                <img width="25" src="https://api.sofascore.com/api/v1/unique-tournament/8/image" alt="" class="">
+            </a> 
+               <!--LALIGA2--
+            <a href="go:laliga2" class="btn btn-sm ">
+                <img width="25" src="https://i.ibb.co/gjf1sDd/descarga.png" alt="" class="">
+            </a> 
+               <!--SERIEA--
+            <a href="go:seriea" class="btn btn-sm ">
+                <img width="25" src="https://api.sofascore.com/api/v1/unique-tournament/23/image" alt="" class="">
+            </a> 
+               <!--BUNDESLIGA--
+            <a href="go:bundesliga" class="btn btn-sm ">
+                <img width="25" src="https://api.sofascore.com/api/v1/unique-tournament/35/image" alt="" class="">
+            </a>
+               <!--LIGUE1--
+            <a href="go:ligue1" class="btn btn-sm ">
+                <img width="25" src="https://api.sofascore.com/api/v1/unique-tournament/34/image" alt="" class="">
+            </a>
+               <!--CONCACAF--
+            <a href="go:concacafl" class="btn btn-sm ">
+                <img width="25" src="https://api.sofascore.com/api/v1/unique-tournament/10447/image" alt="" class="">
+            </a>
+               <!--LIGAMX--
+            <a href="go:ligamx" class="btn btn-sm ">
+                <img width="25" src="https://api.sofascore.com/api/v1/unique-tournament/11621/image" alt="" class="">
+            </a>
+               <!--COPAMX--
+            <a href="go:copamx" class="btn btn-sm ">
+                <img width="25" src="https://api.sofascore.com/api/v1/unique-tournament/1598/image" alt="" class="">
+            </a>
+               <!--MLS--
+            <a href="go:mls" class="btn btn-sm ">
+                <img width="25" src="https://api.sofascore.com/api/v1/unique-tournament/242/image" alt="" class="">
+            </a>
+               <!--LIBERTADORES--
+            <a href="go:libertadores" class="btn btn-sm ">
+                <img width="25" src="https://api.sofascore.com/api/v1/unique-tournament/384/image" alt="" class="">
+            </a>
+               <!--FPD--
+            <a href="go:fpd" class="btn btn-sm ">
+                <img width="25" src="https://api.sofascore.com/api/v1/unique-tournament/11535/image" alt="" class="">
+            </a>
+               <!--BETPLAY--
+            <a href="go:betplay" class="btn btn-sm ">
+                <img width="25" src="https://api.sofascore.com/api/v1/unique-tournament/11539/image" alt="" class="">
+            </a>
+               <!--SALVAVIDA--
+            <a href="go:salvavida" class="btn btn-sm ">
+                <img width="25" src="https://api.sofascore.com/api/v1/unique-tournament/11613/image" alt="" class="">
+            </a>
+            <!--/LIGAS-->
+           
+           
+           </h5>
+            <hr>
+            
+            <!--ALERTA--
+             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <center>                
+                <div class="alert alert-out alert-danger">
+                <strong><i class="fa fa-info-circle"></i></strong> Se dejarán de cubrir las retransmisiones de las siguientes ligas: <br><br>
+                <ul style="list-style: none;">
+                    <h5>
+                    <li>
+                    <img src="https://i.ibb.co/w0qg9JF/trans.png" alt="" class="competition betplay"> Betplay
+                    <img src="https://i.ibb.co/w0qg9JF/trans.png" alt="" class="competition mls"> MLS
+                    <br><br>
+                    </li>
+                    </h5>
+                    Debido a que hay muy poca audiencia para dichas ligas.
+                </ul>
+                </div>
+            <script type="text/javascript">
+            $(document).ready(function () {
+            window.setTimeout(function() {
+                $(".alert-out").fadeTo(1000, 0).slideUp(1000, function(){
+                    $(this).remove(); 
+                });
+            }, 20000);
+            });
+            </script>
+            </center>
+          <!--/ALERTA-->
+           
+           
+            <!--TIME-->
+            <script src="//slowdsports.com/js/11/2/timer1.js"></script>
+            <script src="//slowdsports.com/js/11/2/timer2.js"></script>
+            <script src="//slowdsports.com/js/11/2/timer3.js"></script>
+            <script src="//slowdsports.com/js/11/2/timer4.js"></script>
+            <script src="//slowdsports.com/js/11/2/timer5.js"></script>
+            <script src="//slowdsports.com/js/11/2/timer6.js"></script>
+            <script src="//slowdsports.com/js/11/2/timer7.js"></script>
+            <script src="//slowdsports.com/js/test2.js"></script>
+   
+   
+   
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+            
+            <div class="row row-cols-1">
+            
+            <center>
+                
+                <!--ALERTA--
+                     
+                     <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                      <strong>AVISO!</strong> Estamos experimentando una serie de problemas con el contador del horario.
+                      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                     
+                 <!--/ALERTA-->
+                 
+                 <!--LIGA-LIVE-->
+                
+                <div class="card">
+                 <a href="go:chiri" role="button" aria-expanded="false">
+                  <div style="color: #343a40;" class="card-body">
+                   <center>
+                   
+                   <figure class="figure">
+                    <img class="figure competition img-fluid " width="58" src="https://lh3.googleusercontent.com/mkj7XktIoZ5QgRg_JP4p5evMTBPNobcuNeAr2_evI2CAXxszrUwjc3tVE6u0GGjygg8" alt="">
+                    <figcaption style="font-size: 20px;margin-bottom: -10%; margin-top: 3%; margin-right: 5px;" class="figure-caption">
+                        Chiringuito
+                    </figcaption>
+                    </figure>
+
+                    <p class="d4t5pm mb-0" style="position: absolute;relative; margin-top: -3%;">
+                    <span class="">
+                    CCHH
+                    </span>
+                    </p>
+
+                    <img class="img-fluid competition float-right mega" width="48" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/MEGA.svg/1200px-MEGA.svg.png" alt="">
+
+                    <img class="img-fluid competition float-left " width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+
+                   </center>
+                  </div>
+                 </a>
+                </div>
+                
+                <div class="row">
+                  <div class="col">
+                    <div class="collapse multi-collapse" id="juego0">
+                      <div class="card card-body">
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--/LIGA-LIVE-->
+            </center>
+            </div>
+                    
+        
+        <div class="row row-cols-2">
+         
+
+                   
+          <div class="col" data-aos="zoom-in" data-aos-delay="200">
+           <a href="go:ucl">
+               
+            <div class="icon-box futbol-b">
+              <div class="icon"><img width="80px" class="competition ucl" src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
+              <h4><a href="go:ucl">Champions</a></h4>
+            </div>
+           </a>
+          </div>
+            
+                     
+          <div class="col" data-aos="zoom-in" data-aos-delay="200">
+           <a href="go:uel">
+               
+            <div class="icon-box futbol-b">
+              <div class="icon"><img class="competition uel" src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
+              <h4><a href="go:uel">Europa</a></h4>
+            </div>
+           </a>
+          </div>
+            
+            <div class="col" data-aos="zoom-in" data-aos-delay="200">
+           <a href="go:sudamerica">
+               
+            <div class="icon-box futbol-b">
+              <div class="icon"><img class="competition mundialconmebol" src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
+              <h4><a href="go:sudamerica"> Conmebol</a></h4>
+            </div>
+           </a>
+          </div>
+                       
+          <div class="col" data-aos="zoom-in" data-aos-delay="200">
+           <a href="go:libertador">
+               
+            <div class="icon-box futbol-b">
+              <div class="icon"><img class="competition libertadores" src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
+              <h4><a href="go:libertador">Libertadores</a></h4>
+            </div>
+           </a>
+          </div>
+                   
+          <div class="col" data-aos="zoom-in" data-aos-delay="200">
+           <a href="go:laliga">
+               
+            <div class="icon-box futbol-b">
+              <div class="icon"><img class="competition laliga" src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
+              <h4><a href="go:laliga"> <i class="flag es"></i>La Liga</a></h4>
+            </div>
+           </a>
+          </div>
+            
+                     
+          <div class="col" data-aos="zoom-in" data-aos-delay="200">
+           <a href="go:premier">
+               
+            <div class="icon-box futbol-b">
+              <div class="icon"><img class="competition premier" src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
+              <h4><a href="go:premier"><i class="flag england"></i>Premier </a></h4>
+            </div>
+           </a>
+          </div>
+            
+                     
+          <div class="col" data-aos="zoom-in" data-aos-delay="200">
+           <a href="go:laliga2">
+               
+            <div class="icon-box futbol-b">
+              <div class="icon"><img class="competition laliga" src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
+              <h4><a href="go:laliga2"><i class="flag es"></i>La Liga 2</a></h4>
+            </div>
+           </a>
+          </div>
+            
+                     
+          <div class="col" data-aos="zoom-in" data-aos-delay="200">
+           <a href="go:seriea">
+               
+            <div class="icon-box futbol-b">
+              <div class="icon"><img class="competition seriea" src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
+              <h4><a href="go:seriea"><i class="flag it"></i>Serie A</a></h4>
+            </div>
+           </a>
+          </div>
+            
+                     
+          <div class="col" data-aos="zoom-in" data-aos-delay="200">
+           <a href="go:bundesliga">
+               
+            <div class="icon-box futbol-b">
+              <div class="icon"><img class="competition bundesliga" src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
+              <h4><a href="go:bundesliga"><i class="flag de"></i>Bundesliga</a></h4>
+            </div>
+           </a>
+          </div>
+                               
+          <div class="col" data-aos="zoom-in" data-aos-delay="200">
+           <a href="go:ligue1">
+               
+            <div class="icon-box futbol-b">
+              <div class="icon"><img class="competition ligue1" src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
+              <h4><a href="go:ligue1"><i class="flag fr"></i>Ligue1</a></h4>
+            </div>
+           </a>
+          </div>
+                               
+          <div class="col" data-aos="zoom-in" data-aos-delay="200">
+           <a href="go:nations">
+               
+            <div class="icon-box futbol-b">
+              <div class="icon"><img class="competition nationsleague" src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
+              <h4><a href="go:nations">Nations League</a></h4>
+            </div>
+           </a>
+          </div> 
+                               
+          <div class="col" data-aos="zoom-in" data-aos-delay="200">
+           <a href="go:mundial">
+               
+            <div class="icon-box futbol-b">
+              <div class="icon"><img class="competition mundial" src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
+              <h4><a href="go:mundial">Copa del Mundo</a></h4>
+            </div>
+           </a>
+          </div>      
+            
+            <div class="col" data-aos="zoom-in" data-aos-delay="200">
+           <a href="go:cdr">
+               
+            <div class="icon-box futbol-b">
+              <div class="icon"><img class="competition copadelrey" src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
+              <h4><a href="go:cdr"><i class="flag es"></i>Copa del Rey</a></h4>
+            </div>
+           </a>
+          </div>
+            
+            <div class="col" data-aos="zoom-in" data-aos-delay="200">
+           <a href="go:eflcup">
+               
+            <div class="icon-box futbol-b">
+              <div class="icon"><img class="competition eflcup" src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
+              <h4><a href="go:eflcup"><i class="flag england"></i>EFL</a></h4>
+            </div>
+           </a>
+          </div>
+          
+          <!--FA-Hide--
+          <div class="col" data-aos="zoom-in" data-aos-delay="200">
+           <a href="go:facup">
+               
+            <div class="icon-box futbol-b">
+              <div class="icon"><img class="competition facup" src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
+              <h4><a href="go:facup"><i class="flag england"></i>FA Cup</a></h4>
+            </div>
+           </a>
+          </div>
+          <!--/FA-Hide-->
+             
+            <div class="col" data-aos="zoom-in" data-aos-delay="200">
+           <a href="go:coppa">
+               
+            <div class="icon-box futbol-b">
+              <div class="icon"><img class="competition coppaitalia" src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
+              <h4><a href="go:coppa"><i class="flag it"></i>Coppa</a></h4>
+            </div>
+           </a>
+          </div>
+            
+                       
+          <div class="col" data-aos="zoom-in" data-aos-delay="200">
+           <a href="go:coupe">
+               
+            <div class="icon-box futbol-b">
+              <div class="icon"><img class="competition coupedelaligue" src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
+              <h4><a href="go:coupe"><i class="flag fr"></i>Coupe</a></h4>
+            </div>
+           </a>
+          </div>
+            
+            <div class="col" data-aos="zoom-in" data-aos-delay="200">
+           <a href="go:concacafl">
+               
+            <div class="icon-box futbol-b">
+              <div class="icon"><img class="competition concacaf" src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
+              <h4><a href="go:concacafl">Concacaf League</a></h4>
+            </div>
+           </a>
+          </div>
+           
+            <div class="col" data-aos="zoom-in" data-aos-delay="200">
+           <a href="go:ligamx">
+               
+            <div class="icon-box futbol-b">
+              <div class="icon"><img class="competition ligamx" src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
+              <h4><a href="go:ligamx"><i class="flag mx"></i>Liga MX</a></h4>
+            </div>
+           </a>
+          </div>            
+                       
+          <div class="col" data-aos="zoom-in" data-aos-delay="200">
+           <a href="go:copamx">
+               
+            <div class="icon-box futbol-b">
+              <div class="icon"><img class="competition copamx" src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
+              <h4><a href="go:copamx"><i class="flag mx"></i>Copa MX</a></h4>
+            </div>
+           </a>
+          </div>
+              
+          <!--MLS-Hide--
+          <div class="col" data-aos="zoom-in" data-aos-delay="200">
+           <a href="go:">
+               
+            <div class="icon-box futbol-b">
+              <div class="icon"><img class="competition mls" src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
+              <strike>
+              <h4><a href="go:"><i class="flag us"></i>MLS</a></h4>
+              </strike>
+            </div>
+           </a>
+          </div> 
+          <!--/MLS-Hide-->                                       
+                                   
+          <div class="col" data-aos="zoom-in" data-aos-delay="200">
+           <a href="go:saf">
+               
+            <div class="icon-box futbol-b">
+              <div class="icon"><img class="competition superliga" src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
+              <h4><a href="go:saf"><i class="flag ar"></i>Superliga</a></h4>
+            </div>
+           </a>
+          </div>
+              
+          <!--MLS-Hide--
+          <div class="col" data-aos="zoom-in" data-aos-delay="200">
+           <a href="go:">
+               
+            <div class="icon-box futbol-b">
+              <div class="icon"><img class="competition betplay" src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
+              <strike>
+              <h4><a href="go:"><i class="flag co"></i>Betplay</a></h4>
+              </strike>
+            </div>
+           </a>
+          </div>
+          <!--/MLS-Hide-->
+            
+                       
+          <div class="col" data-aos="zoom-in" data-aos-delay="200">
+           <a href="go:salvavida">
+               
+            <div class="icon-box futbol-b">
+              <div class="icon"><img class="competition salvavida"  src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
+              <h4><a href="go:salvavida"><i class="flag hn"></i>Salvavida</a></h4>
+            </div>
+           </a>
+          </div>
+          
+          <!--FPD-Hide--                         
+          <div class="col" data-aos="zoom-in" data-aos-delay="200">
+           <a href="go:fpd">
+               
+            <div class="icon-box futbol-b">
+              <div class="icon"><img class="competition fpd" src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
+              <h4><a href="go:fpd"><i class="flag cr"></i>FPD</a></h4>
+            </div>
+           </a>
+          </div>
+         <!--/FPD-Hide-->    
+                                 
+          <div class="col" data-aos="zoom-in" data-aos-delay="200">
+           <a href="go:amistosos">
+               
+            <div class="icon-box futbol-b">
+              <div class="icon"><img class="competition" src="https://api.sofascore.com/api/v1/unique-tournament/851/image" alt=""></div>
+              <h4><a href="go:amistosos">Amistosos</a></h4>
+            </div>
+           </a>
+          </div>
+
+      </div>
+      </div>
+    </section><!-- End Services Section -->
+    <br><br>
+    <div class="altmenu">
+      <center>
+      <ul class="list-group-horizontal">
+        <li class="list-grup-item">
+        <a href="go:home">
+        <span class="activo">
+        <img width="40%" src="https://image.flaticon.com/icons/svg/149/149412.svg" alt="">
+        </span>
+        </a>
+        </li>
+        <li>
+        <a href="go:eventos">
+        <span>
+        <img width="40%" src="https://image.flaticon.com/icons/svg/149/149363.svg" alt="">
+        </span>
+        </a>
+        </li>
+        <li>
+        <a href="go:futbol">
+        <span>
+        <img width="40%" src="https://image.flaticon.com/icons/svg/606/606077.svg" alt="">
+        </span>
+        </a>
+        </li>
+        <li>
+        <a href="go:livetv">
+        <span>
+        <img width="40%" src="https://image.flaticon.com/icons/svg/149/149096.svg" alt="">
+        </span>
+        </a>
+        </li>
+        <li>
+        <a href="go:social">
+        <span>
+        <img width="40%" src="https://image.flaticon.com/icons/svg/149/149179.svg" alt="">
+        </span>
+        </a>
+        </li>
+      </ul>
+    </center>
+       </div>
+       </div>
+    <!--Ajax Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!--Bootstrap Scripts -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
