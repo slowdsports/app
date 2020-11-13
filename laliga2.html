@@ -88,6 +88,49 @@
                  <h4> <img src="https://i.ibb.co/w0qg9JF/trans.png" alt="" class="competition laliga2"> Juegos de LaLiga Smartbank</h4>
                  <hr>
                  
+<!-- Side Modal Top Right -->
+
+<!-- Button trigger modal --
+<button type="button" class="btn btn-sm aqua-gradient" data-toggle="modal" data-target="#sideModalSuccess">
+  Tabla de Liga
+</button>
+
+<!-- To change the direction of the modal animation change .right class -->
+<div class="modal fade right modal-notify modal-success" id="sideModalSuccess" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+
+  <!-- Add class .modal-side and then add class .modal-top-right (or other classes from list above) to set a position to the modal -->
+  <div class="modal-dialog modal-side modal-top-right modal-notify modal-success" role="document">
+
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title w-100" id="myModalLabel">Tabla de Liga</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <!--Body-->
+       <div class="modal-body">
+         <div class="text-center">
+           <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+           
+           
+               <iframe width="100%" height="700" src="//slowdsports.com/soccer/app/standings/laliga.php" frameborder="0"></iframe>
+           
+         </div>
+       </div>
+       <!--Footer-->
+       <div class="modal-footer justify-content-center">
+         <a type="button" class="btn btn-success">Get it now <i class="far fa-gem ml-1 text-white"></i></a>
+         <a type="button" class="btn btn-outline-success waves-effect" data-dismiss="modal">Cerrar</a>
+       </div>
+     </div>
+     <!--/.Content-->
+  </div>
+</div>
+<!-- Side Modal Top Right -->
+                 
                  
                  <!--LIGA-LIVE--
                 
@@ -186,14 +229,6 @@
                       <div class="card card-body">
                        
                         <ul style="margin-top: 1%;" class="list-group list-group-horizontal-xlg">
-                         <a href="go:c1">
-                         <li class="list-group-item">
-                         <i class="es flag"></i> M LaLiga | HD (C1)</li>
-                         </a>
-                         <a href="go:mlaliga">
-                         <li class="list-group-item">
-                         <i class="es flag"></i> M LaLiga | SD</li>
-                         </a>
                          <a href="go:goles">
                          <li class="list-group-item">
                          <i class="es flag"></i> Gol | SD</li>
