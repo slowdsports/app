@@ -73,16 +73,34 @@ let c2 = `
 <i class="es flag"></i> La Liga (2) | HD</li>
 </a>
 `;
-let c3 = `
+let c2b = `
+<a href="go:c2">
+<li class="list-group-item">
+<i class="us flag"></i> BeIN Sports (2) | HD</li>
+</a>
+`;
+let c3b = `
 <a href="go:c3">
 <li class="list-group-item">
 <i class="es flag"></i> La Liga (3) | HD</li>
+</a>
+`;
+let c3b = `
+<a href="go:c3">
+<li class="list-group-item">
+<i class="us flag"></i> BeIN Ñ (3) | HD</li>
 </a>
 `;
 let c4 = `
 <a href="go:c4">
 <li class="list-group-item">
 <i class="es flag"></i> La Liga (4) | HD</li>
+</a>
+`;
+let c4b = `
+<a href="go:c4">
+<li class="list-group-item">
+<i class="us flag"></i> Peacock (4) | HD</li>
 </a>
 `;
 let c5 = `
@@ -365,6 +383,18 @@ let beinn = `
 <a href="go:beinn">
 <li class="list-group-item">
 <i class="es flag"></i> BeIN Ñ (Op2) | HD</li>
+</a>
+`;
+let beinuse = `
+<a href="go:beinuse">
+<li class="list-group-item">
+<i class="us flag"></i> BeIN Sports | HD</li>
+</a>
+`;
+let beinuse = `
+<a href="go:beinuse">
+<li class="list-group-item">
+<i class="us flag"></i> BeIN Sports | HD</li>
 </a>
 `;
 let canal5hn = `
@@ -688,8 +718,11 @@ for(const ele of document.getElementsByClassName("p10")){ele.innerHTML=(p10)};
 // LALIGA
 for(const ele of document.getElementsByClassName("c1")){ele.innerHTML=(c1)};
 for(const ele of document.getElementsByClassName("c2")){ele.innerHTML=(c2)};
+for(const ele of document.getElementsByClassName("c2b")){ele.innerHTML=(c2b)};
 for(const ele of document.getElementsByClassName("c3")){ele.innerHTML=(c3)};
+for(const ele of document.getElementsByClassName("c3b")){ele.innerHTML=(c3b)};
 for(const ele of document.getElementsByClassName("c4")){ele.innerHTML=(c4)};
+for(const ele of document.getElementsByClassName("c4b")){ele.innerHTML=(c4b)};
 for(const ele of document.getElementsByClassName("c5")){ele.innerHTML=(c5)};
 for(const ele of document.getElementsByClassName("c6")){ele.innerHTML=(c6)};
 for(const ele of document.getElementsByClassName("c7")){ele.innerHTML=(c7)};
@@ -740,6 +773,7 @@ for(const ele of document.getElementsByClassName("azteca7")){ele.innerHTML=(azte
 for(const ele of document.getElementsByClassName("bemad")){ele.innerHTML=(bemad)};
 for(const ele of document.getElementsByClassName("beinne")){ele.innerHTML=(beinne)};
 for(const ele of document.getElementsByClassName("beinn")){ele.innerHTML=(beinn)};
+for(const ele of document.getElementsByClassName("beinuse")){ele.innerHTML=(beinuse)};
 for(const ele of document.getElementsByClassName("canal5hn")){ele.innerHTML=(canal5hn)};
 for(const ele of document.getElementsByClassName("cbshq")){ele.innerHTML=(cbshq)};
 for(const ele of document.getElementsByClassName("directv1")){ele.innerHTML=(directv1)};
