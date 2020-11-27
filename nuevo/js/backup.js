@@ -59,301 +59,330 @@ let p10 = `
 <i class="england flag"></i> Premier (10) | HD</li>
 </a>
 `;
-
+for(const ele of document.getElementsByClassName("p1")){ele.innerHTML=(p1)};
+for(const ele of document.getElementsByClassName("p2")){ele.innerHTML=(p2)};
+for(const ele of document.getElementsByClassName("p3")){ele.innerHTML=(p3)};
+for(const ele of document.getElementsByClassName("p4")){ele.innerHTML=(p4)};
+for(const ele of document.getElementsByClassName("p5")){ele.innerHTML=(p5)};
+for(const ele of document.getElementsByClassName("p6")){ele.innerHTML=(p6)};
+for(const ele of document.getElementsByClassName("p7")){ele.innerHTML=(p7)};
+for(const ele of document.getElementsByClassName("p8")){ele.innerHTML=(p8)};
+for(const ele of document.getElementsByClassName("p9")){ele.innerHTML=(p9)};
+for(const ele of document.getElementsByClassName("p10")){ele.innerHTML=(p10)};
 // LALIGA
 let c1 = `
 <a href="go:c1">
 <li class="list-group-item">
-<i class="es flag"></i> La Liga (1) | HD</li>
+<i class="es flag"></i> LaLiga (1) | HD</li>
 </a>
 `;
 let c2 = `
 <a href="go:c2">
 <li class="list-group-item">
-<i class="es flag"></i> La Liga (2) | HD</li>
+<i class="es flag"></i> LaLiga (2) | HD</li>
 </a>
 `;
-let c2b = `
-<a href="go:c2">
-<li class="list-group-item">
-<i class="us flag"></i> BeIN Sports (2) | HD</li>
-</a>
-`;
-let c3b = `
+let c3 = `
 <a href="go:c3">
 <li class="list-group-item">
-<i class="es flag"></i> La Liga (3) | HD</li>
-</a>
-`;
-let c3b = `
-<a href="go:c3">
-<li class="list-group-item">
-<i class="us flag"></i> BeIN Ñ (3) | HD</li>
+<i class="es flag"></i> LaLiga (3) | HD</li>
 </a>
 `;
 let c4 = `
 <a href="go:c4">
 <li class="list-group-item">
-<i class="es flag"></i> La Liga (4) | HD</li>
-</a>
-`;
-let c4b = `
-<a href="go:c4">
-<li class="list-group-item">
-<i class="us flag"></i> Peacock (4) | HD</li>
+<i class="es flag"></i> LaLiga (4) | HD</li>
 </a>
 `;
 let c5 = `
 <a href="go:c5">
 <li class="list-group-item">
-<i class="es flag"></i> La Liga (5) | HD</li>
+<i class="es flag"></i> LaLiga (5) | HD</li>
 </a>
 `;
 let c6 = `
 <a href="go:c6">
 <li class="list-group-item">
-<i class="es flag"></i> La Liga (6) | HD</li>
+<i class="es flag"></i> LaLiga (6) | HD</li>
 </a>
 `;
 let c7 = `
 <a href="go:c7">
 <li class="list-group-item">
-<i class="es flag"></i> La Liga (7) | HD</li>
+<i class="es flag"></i> LaLiga (7) | HD</li>
 </a>
 `;
 let c8 = `
 <a href="go:c8">
 <li class="list-group-item">
-<i class="es flag"></i> La Liga (8) | HD</li>
+<i class="es flag"></i> LaLiga (8) | HD</li>
 </a>
 `;
 let c9 = `
 <a href="go:c9">
 <li class="list-group-item">
-<i class="es flag"></i> La Liga (9) | HD</li>
+<i class="es flag"></i> LaLiga (9) | HD</li>
 </a>
 `;
 let c10 = `
 <a href="go:c10">
 <li class="list-group-item">
-<i class="es flag"></i> La Liga (10) | HD</li>
+<i class="es flag"></i> LaLiga (10) | HD</li>
 </a>
 `;
-
+for(const ele of document.getElementsByClassName("c1")){ele.innerHTML=(c1)};
+for(const ele of document.getElementsByClassName("c2")){ele.innerHTML=(c2)};
+for(const ele of document.getElementsByClassName("c3")){ele.innerHTML=(c3)};
+for(const ele of document.getElementsByClassName("c4")){ele.innerHTML=(c4)};
+for(const ele of document.getElementsByClassName("c5")){ele.innerHTML=(c5)};
+for(const ele of document.getElementsByClassName("c6")){ele.innerHTML=(c6)};
+for(const ele of document.getElementsByClassName("c7")){ele.innerHTML=(c7)};
+for(const ele of document.getElementsByClassName("c8")){ele.innerHTML=(c8)};
+for(const ele of document.getElementsByClassName("c9")){ele.innerHTML=(c9)};
+for(const ele of document.getElementsByClassName("c10")){ele.innerHTML=(c10)};
 // LALIGA 2
 let cc1 = `
 <a href="go:cc1">
 <li class="list-group-item">
-<i class="es flag"></i> La Liga (11) | HD</li>
+<i class="es flag"></i> LaLiga (11) | HD</li>
 </a>
 `;
 let cc2 = `
 <a href="go:cc2">
 <li class="list-group-item">
-<i class="es flag"></i> La Liga (12) | HD</li>
+<i class="es flag"></i> LaLiga (12) | HD</li>
 </a>
 `;
 let cc3 = `
 <a href="go:cc3">
 <li class="list-group-item">
-<i class="es flag"></i> La Liga (13) | HD</li>
+<i class="es flag"></i> LaLiga (13) | HD</li>
 </a>
 `;
 let cc4 = `
 <a href="go:cc4">
 <li class="list-group-item">
-<i class="es flag"></i> La Liga (14) | HD</li>
+<i class="es flag"></i> LaLiga (14) | HD</li>
 </a>
 `;
 let cc5 = `
 <a href="go:cc5">
 <li class="list-group-item">
-<i class="es flag"></i> La Liga (15) | HD</li>
+<i class="es flag"></i> LaLiga (15) | HD</li>
 </a>
 `;
 let cc6 = `
 <a href="go:cc6">
 <li class="list-group-item">
-<i class="es flag"></i> La Liga (16) | HD</li>
+<i class="es flag"></i> LaLiga (16) | HD</li>
 </a>
 `;
 let cc7 = `
 <a href="go:cc7">
 <li class="list-group-item">
-<i class="es flag"></i> La Liga (17) | HD</li>
+<i class="es flag"></i> LaLiga (17) | HD</li>
 </a>
 `;
 let cc8 = `
 <a href="go:cc8">
 <li class="list-group-item">
-<i class="es flag"></i> La Liga (18) | HD</li>
+<i class="es flag"></i> LaLiga (18) | HD</li>
 </a>
 `;
 let cc9 = `
 <a href="go:cc9">
 <li class="list-group-item">
-<i class="es flag"></i> La Liga (19) | HD</li>
+<i class="es flag"></i> LaLiga (19) | HD</li>
 </a>
 `;
 let cc10 = `
 <a href="go:cc10">
 <li class="list-group-item">
-<i class="es flag"></i> La Liga (20) | HD</li>
+<i class="es flag"></i> LaLiga (20) | HD</li>
 </a>
 `;
-
+for(const ele of document.getElementsByClassName("cc1")){ele.innerHTML=(cc1)};
+for(const ele of document.getElementsByClassName("cc2")){ele.innerHTML=(cc2)};
+for(const ele of document.getElementsByClassName("cc3")){ele.innerHTML=(cc3)};
+for(const ele of document.getElementsByClassName("cc4")){ele.innerHTML=(cc4)};
+for(const ele of document.getElementsByClassName("cc5")){ele.innerHTML=(cc5)};
+for(const ele of document.getElementsByClassName("cc6")){ele.innerHTML=(cc6)};
+for(const ele of document.getElementsByClassName("cc7")){ele.innerHTML=(cc7)};
+for(const ele of document.getElementsByClassName("cc8")){ele.innerHTML=(cc8)};
+for(const ele of document.getElementsByClassName("cc9")){ele.innerHTML=(cc9)};
+for(const ele of document.getElementsByClassName("cc10")){ele.innerHTML=(cc10)};
 // SERIE A
-let seriea1 = `
-<a href="go:seriea1">
+let s1 = `
+<a href="go:s1">
 <li class="list-group-item">
-<i class="es flag"></i> Serie A (1) | HD</li>
+<i class="it flag"></i> Serie A (1) | HD</li>
 </a>
 `;
-let seriea2 = `
-<a href="go:seriea2">
+let s2 = `
+<a href="go:s2">
 <li class="list-group-item">
 <i class="it flag"></i> Serie A (2) | HD</li>
 </a>
 `;
-let seriea3 = `
-<a href="go:seriea3">
+let s3 = `
+<a href="go:s3">
 <li class="list-group-item">
 <i class="it flag"></i> Serie A (3) | HD</li>
 </a>
 `;
-let seriea4 = `
-<a href="go:seriea4">
+let s4 = `
+<a href="go:s4">
 <li class="list-group-item">
 <i class="it flag"></i> Serie A (4) | HD</li>
 </a>
 `;
-let seriea5 = `
-<a href="go:seriea5">
+let s5 = `
+<a href="go:s5">
 <li class="list-group-item">
 <i class="it flag"></i> Serie A (5) | HD</li>
 </a>
 `;
-let seriea6 = `
-<a href="go:seriea6">
+let s6 = `
+<a href="go:s6">
 <li class="list-group-item">
 <i class="it flag"></i> Serie A (6) | HD</li>
 </a>
 `;
-
+for(const ele of document.getElementsByClassName("s1")){ele.innerHTML=(s1)};
+for(const ele of document.getElementsByClassName("s2")){ele.innerHTML=(s2)};
+for(const ele of document.getElementsByClassName("s3")){ele.innerHTML=(s3)};
+for(const ele of document.getElementsByClassName("s4")){ele.innerHTML=(s4)};
+for(const ele of document.getElementsByClassName("s5")){ele.innerHTML=(s5)};
+for(const ele of document.getElementsByClassName("s6")){ele.innerHTML=(s6)};
 // BUNDESLIGA
 let b1 = `
 <a href="go:b1">
 <li class="list-group-item">
-<i class="de flag"></i> Bundesliga (1) | HD</li>
+<i class="uk flag"></i> Bundesliga (1) | HD</li>
 </a>
 `;
 let b2 = `
 <a href="go:b2">
 <li class="list-group-item">
-<i class="de flag"></i> Bundesliga (2) | HD</li>
+<i class="uk flag"></i> Bundesliga (2) | HD</li>
 </a>
 `;
 let b3 = `
 <a href="go:b3">
 <li class="list-group-item">
-<i class="de flag"></i> Bundesliga (3) | HD</li>
+<i class="uk flag"></i> Bundesliga (3) | HD</li>
 </a>
 `;
 let b4 = `
 <a href="go:b4">
 <li class="list-group-item">
-<i class="de flag"></i> Bundesliga (4) | HD</li>
+<i class="uk flag"></i> Bundesliga (4) | HD</li>
 </a>
 `;
 let b5 = `
 <a href="go:b5">
 <li class="list-group-item">
-<i class="de flag"></i> Bundesliga (5) | HD</li>
+<i class="uk flag"></i> Bundesliga (5) | HD</li>
 </a>
 `;
 let b6 = `
 <a href="go:b6">
 <li class="list-group-item">
-<i class="de flag"></i> Bundesliga (6) | HD</li>
+<i class="uk flag"></i> Bundesliga (6) | HD</li>
 </a>
 `;
-
+for(const ele of document.getElementsByClassName("b1")){ele.innerHTML=(b1)};
+for(const ele of document.getElementsByClassName("b2")){ele.innerHTML=(b2)};
+for(const ele of document.getElementsByClassName("b3")){ele.innerHTML=(b3)};
+for(const ele of document.getElementsByClassName("b4")){ele.innerHTML=(b4)};
+for(const ele of document.getElementsByClassName("b5")){ele.innerHTML=(b5)};
+for(const ele of document.getElementsByClassName("b6")){ele.innerHTML=(b6)};
 // LIGUE 1
 let l1 = `
 <a href="go:l1">
 <li class="list-group-item">
-<i class="fr flag"></i> Ligue 1 (1) | HD</li>
+<i class="uk flag"></i> Ligue 1 (1) | HD</li>
 </a>
 `;
 let l2 = `
 <a href="go:l2">
 <li class="list-group-item">
-<i class="fr flag"></i> Ligue 1 (2) | HD</li>
+<i class="uk flag"></i> Ligue 1 (2) | HD</li>
 </a>
 `;
 let l3 = `
 <a href="go:l3">
 <li class="list-group-item">
-<i class="fr flag"></i> Ligue 1 (3) | HD</li>
+<i class="uk flag"></i> Ligue 1 (3) | HD</li>
 </a>
 `;
 let l4 = `
 <a href="go:l4">
 <li class="list-group-item">
-<i class="fr flag"></i> Ligue 1 (4) | HD</li>
+<i class="uk flag"></i> Ligue 1 (4) | HD</li>
 </a>
 `;
 let l5 = `
 <a href="go:l5">
 <li class="list-group-item">
-<i class="fr flag"></i> Ligue 1 (5) | HD</li>
+<i class="uk flag"></i> Ligue 1 (5) | HD</li>
 </a>
 `;
 let l6 = `
 <a href="go:l6">
 <li class="list-group-item">
-<i class="fr flag"></i> Ligue 1 (6) | HD</li>
+<i class="uk flag"></i> Ligue 1 (6) | HD</li>
 </a>
 `;
-
+for(const ele of document.getElementsByClassName("l1")){ele.innerHTML=(l1)};
+for(const ele of document.getElementsByClassName("l2")){ele.innerHTML=(l2)};
+for(const ele of document.getElementsByClassName("l3")){ele.innerHTML=(l3)};
+for(const ele of document.getElementsByClassName("l4")){ele.innerHTML=(l4)};
+for(const ele of document.getElementsByClassName("l5")){ele.innerHTML=(l5)};
+for(const ele of document.getElementsByClassName("l6")){ele.innerHTML=(l6)};
 // OTROS
 let otro1 = `
 <a href="go:otro1">
 <li class="list-group-item">
-<i class=" flag"></i> Otro (1) | HD</li>
+<i class="us flag"></i> Otro (1) | HD</li>
 </a>
 `;
 let otro2 = `
 <a href="go:otro2">
 <li class="list-group-item">
-<i class=" flag"></i> Otro (2) | HD</li>
+<i class="us flag"></i> Otro (2) | HD</li>
 </a>
 `;
 let otro3 = `
 <a href="go:otro3">
 <li class="list-group-item">
-<i class=" flag"></i> Otro (3) | HD</li>
+<i class="us flag"></i> Otro (3) | HD</li>
 </a>
 `;
 let otro4 = `
 <a href="go:otro4">
 <li class="list-group-item">
-<i class=" flag"></i> Otro (4) | HD</li>
+<i class="us flag"></i> Otro (4) | HD</li>
 </a>
 `;
 let otro5 = `
 <a href="go:otro5">
 <li class="list-group-item">
-<i class=" flag"></i> Otro (5) | HD</li>
+<i class="us flag"></i> Otro (5) | HD</li>
 </a>
 `;
 let otro6 = `
 <a href="go:otro6">
 <li class="list-group-item">
-<i class=" flag"></i> Otro (6) | HD</li>
+<i class="us flag"></i> Otro (6) | HD</li>
 </a>
 `;
-
+for(const ele of document.getElementsByClassName("otro1")){ele.innerHTML=(otro1)};
+for(const ele of document.getElementsByClassName("otro2")){ele.innerHTML=(otro2)};
+for(const ele of document.getElementsByClassName("otro3")){ele.innerHTML=(otro3)};
+for(const ele of document.getElementsByClassName("otro4")){ele.innerHTML=(otro4)};
+for(const ele of document.getElementsByClassName("otro5")){ele.innerHTML=(otro5)};
+for(const ele of document.getElementsByClassName("otro6")){ele.innerHTML=(otro6)};
 // CANALES
 let vamos = `
 <a href="go:vamos">
@@ -383,12 +412,6 @@ let beinn = `
 <a href="go:beinn">
 <li class="list-group-item">
 <i class="es flag"></i> BeIN Ñ (Op2) | HD</li>
-</a>
-`;
-let beinuse = `
-<a href="go:beinuse">
-<li class="list-group-item">
-<i class="us flag"></i> BeIN Sports | HD</li>
 </a>
 `;
 let beinuse = `
@@ -703,71 +726,6 @@ let win = `
 <i class="co flag"></i> Win Sports | HD</li>
 </a>
 `;
-
-// PREMIER
-for(const ele of document.getElementsByClassName("p1")){ele.innerHTML=(p1)};
-for(const ele of document.getElementsByClassName("p2")){ele.innerHTML=(p2)};
-for(const ele of document.getElementsByClassName("p3")){ele.innerHTML=(p3)};
-for(const ele of document.getElementsByClassName("p4")){ele.innerHTML=(p4)};
-for(const ele of document.getElementsByClassName("p5")){ele.innerHTML=(p5)};
-for(const ele of document.getElementsByClassName("p6")){ele.innerHTML=(p6)};
-for(const ele of document.getElementsByClassName("p7")){ele.innerHTML=(p7)};
-for(const ele of document.getElementsByClassName("p8")){ele.innerHTML=(p8)};
-for(const ele of document.getElementsByClassName("p9")){ele.innerHTML=(p9)};
-for(const ele of document.getElementsByClassName("p10")){ele.innerHTML=(p10)};
-// LALIGA
-for(const ele of document.getElementsByClassName("c1")){ele.innerHTML=(c1)};
-for(const ele of document.getElementsByClassName("c2")){ele.innerHTML=(c2)};
-for(const ele of document.getElementsByClassName("c2b")){ele.innerHTML=(c2b)};
-for(const ele of document.getElementsByClassName("c3")){ele.innerHTML=(c3)};
-for(const ele of document.getElementsByClassName("c3b")){ele.innerHTML=(c3b)};
-for(const ele of document.getElementsByClassName("c4")){ele.innerHTML=(c4)};
-for(const ele of document.getElementsByClassName("c4b")){ele.innerHTML=(c4b)};
-for(const ele of document.getElementsByClassName("c5")){ele.innerHTML=(c5)};
-for(const ele of document.getElementsByClassName("c6")){ele.innerHTML=(c6)};
-for(const ele of document.getElementsByClassName("c7")){ele.innerHTML=(c7)};
-for(const ele of document.getElementsByClassName("c8")){ele.innerHTML=(c8)};
-for(const ele of document.getElementsByClassName("c9")){ele.innerHTML=(c9)};
-for(const ele of document.getElementsByClassName("c10")){ele.innerHTML=(c10)};
-for(const ele of document.getElementsByClassName("cc1")){ele.innerHTML=(cc1)};
-for(const ele of document.getElementsByClassName("cc2")){ele.innerHTML=(cc2)};
-for(const ele of document.getElementsByClassName("cc3")){ele.innerHTML=(cc3)};
-for(const ele of document.getElementsByClassName("cc4")){ele.innerHTML=(cc4)};
-for(const ele of document.getElementsByClassName("cc5")){ele.innerHTML=(cc5)};
-for(const ele of document.getElementsByClassName("cc6")){ele.innerHTML=(cc6)};
-for(const ele of document.getElementsByClassName("cc7")){ele.innerHTML=(cc7)};
-for(const ele of document.getElementsByClassName("cc8")){ele.innerHTML=(cc8)};
-for(const ele of document.getElementsByClassName("cc9")){ele.innerHTML=(cc9)};
-for(const ele of document.getElementsByClassName("cc10")){ele.innerHTML=(cc10)};
-// SERIE A
-for(const ele of document.getElementsByClassName("s1")){ele.innerHTML=(s1)};
-for(const ele of document.getElementsByClassName("s2")){ele.innerHTML=(s2)};
-for(const ele of document.getElementsByClassName("s3")){ele.innerHTML=(s3)};
-for(const ele of document.getElementsByClassName("s4")){ele.innerHTML=(s4)};
-for(const ele of document.getElementsByClassName("s5")){ele.innerHTML=(s5)};
-for(const ele of document.getElementsByClassName("s6")){ele.innerHTML=(s6)};
-// BUNDESLIGA
-for(const ele of document.getElementsByClassName("b1")){ele.innerHTML=(b1)};
-for(const ele of document.getElementsByClassName("b2")){ele.innerHTML=(b2)};
-for(const ele of document.getElementsByClassName("b3")){ele.innerHTML=(b3)};
-for(const ele of document.getElementsByClassName("b4")){ele.innerHTML=(b4)};
-for(const ele of document.getElementsByClassName("b5")){ele.innerHTML=(b5)};
-for(const ele of document.getElementsByClassName("b6")){ele.innerHTML=(b6)};
-// LIGUE 1
-for(const ele of document.getElementsByClassName("l1")){ele.innerHTML=(l1)};
-for(const ele of document.getElementsByClassName("l2")){ele.innerHTML=(l2)};
-for(const ele of document.getElementsByClassName("l3")){ele.innerHTML=(l3)};
-for(const ele of document.getElementsByClassName("l4")){ele.innerHTML=(l4)};
-for(const ele of document.getElementsByClassName("l5")){ele.innerHTML=(l5)};
-for(const ele of document.getElementsByClassName("l6")){ele.innerHTML=(l6)};
-// OTROS
-for(const ele of document.getElementsByClassName("otro1")){ele.innerHTML=(otro1)};
-for(const ele of document.getElementsByClassName("otro2")){ele.innerHTML=(otro2)};
-for(const ele of document.getElementsByClassName("otro3")){ele.innerHTML=(otro3)};
-for(const ele of document.getElementsByClassName("otro4")){ele.innerHTML=(otro4)};
-for(const ele of document.getElementsByClassName("otro5")){ele.innerHTML=(otro5)};
-for(const ele of document.getElementsByClassName("otro6")){ele.innerHTML=(otro6)};
-// CANALES
 for(const ele of document.getElementsByClassName("vamos")){ele.innerHTML=(vamos)};
 for(const ele of document.getElementsByClassName("azteca7")){ele.innerHTML=(azteca7)};
 for(const ele of document.getElementsByClassName("bemad")){ele.innerHTML=(bemad)};

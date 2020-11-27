@@ -7,4 +7,4 @@ Medellín
 </figure>
 `;
 
-for (const ele of document.getElementsByClassName("lib-flamengo")){ele.innerHTML=(flamengo)}
+for (const ele of document.getElementsByClassName("suda-medellin")){ele.innerHTML=(medellin)}
