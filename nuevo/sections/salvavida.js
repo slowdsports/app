@@ -62,17 +62,17 @@ Platense
 </figcaption>
 </figure>
 `;
-let realsociedad = `
+let hn-realsociedad = `
 <figure class="figure">
-<img class="figure img-fluid competition realsociedad" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+<img class="figure img-fluid competition hn-realsociedad" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
 Sociedad
 </figcaption>
 </figure>
 `;
-let hondurasprogreso = `
+let cdhonduras = `
 <figure class="figure">
-<img class="figure img-fluid competition hondurasprogreso" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+<img class="figure img-fluid competition cdhonduras" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
 Progreso
 </figcaption>
@@ -87,5 +87,5 @@ for (const ele of document.getElementsByClassName("sal-lobos")){ele.innerHTML=(l
 for (const ele of document.getElementsByClassName("sal-realespana")){ele.innerHTML=(realespana)}
 for (const ele of document.getElementsByClassName("sal-realdeminas")){ele.innerHTML=(realdeminas)}
 for (const ele of document.getElementsByClassName("sal-platense")){ele.innerHTML=(platense)}
-for (const ele of document.getElementsByClassName("sal-realsociedad")){ele.innerHTML=(realsociedad)}
-for (const ele of document.getElementsByClassName("sal-hondurasprogreso")){ele.innerHTML=(hondurasprogreso)}
+for (const ele of document.getElementsByClassName("sal-hn-realsociedad")){ele.innerHTML=(hn-realsociedad)}
+for (const ele of document.getElementsByClassName("sal-cdhonduras")){ele.innerHTML=(cdhonduras)}
