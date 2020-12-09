@@ -1,0 +1,12 @@
+1x1
+https://video.wixstatic.com/video/3fde83_009a10097dd544f8b9d5d794cf405efe/720p/mp4/file.mp4
+1x2
+https://video.wixstatic.com/video/3fde83_847d432fd3494749af7263523fa9dbd5/720p/mp4/file.mp4
+1x3
+https://video.wixstatic.com/video/3fde83_7a6f98805ab248949b97c1d42a6d286d/720p/mp4/file.mp4
+1x4
+https://video.wixstatic.com/video/3fde83_2070241294d24e47a51f7e8043a45496/720p/mp4/file.mp4
+1x5
+https://video.wixstatic.com/video/3fde83_0c5304c8e214432bb2ea24fea0e323dd/720p/mp4/file.mp4
+1x6
+https://video.wixstatic.com/video/3fde83_112efef689a148f1b50ae0f0c8ea7873/720p/mp4/file.mp4
