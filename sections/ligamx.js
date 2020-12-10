@@ -143,7 +143,7 @@ León
 </figure>
 `;
 
-for(const ele of document.getElementsByClassName("mx leon")){ele.innerHTML=(leon)};
+for(const ele of document.getElementsByClassName("mx-leon")){ele.innerHTML=(leon)};
 
 for(const ele of document.getElementsByClassName("mx-pumas")){ele.innerHTML=(pumas)};
 
