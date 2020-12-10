@@ -21,7 +21,7 @@ let logo = `
     </a>
   </div>
    <br><br><br><br><hr>
-`
+`;
 for(const ele of document.getElementsByClassName("app-logo")){ele.innerHTML=(logo)};
 
 // BOTTOM BAR
@@ -67,6 +67,6 @@ let bottombar = `
       </ul>
       </center>
        </div>
-`
+`;
 for(const ele of document.getElementsByClassName("bottom-bar")){ele.innerHTML=(bottombar)};
 
