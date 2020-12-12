@@ -240,6 +240,16 @@ Warriors
 </figcaption>
 </figure>
 `;
+//OTRO
+let blazers = `
+<figure class="figure">
+<img class="figure img-fluid competition blazers" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+<figcaption style="margin-bottom: -10%; margin-top: 8%; margin-left: 5px;" class="figure-caption">
+Blazers
+</figcaption>
+</figure>
+`;
+
 // ESTE
 for(const ele of document.getElementsByClassName("nba-bucks")){ele.innerHTML=(bucks)};
 
@@ -301,3 +311,7 @@ for(const ele of document.getElementsByClassName("nba-pelicans")){ele.innerHTML=
 for(const ele of document.getElementsByClassName("nba-timberwolves")){ele.innerHTML=(timberwolves)};
 
 for(const ele of document.getElementsByClassName("nba-warriors")){ele.innerHTML=(warriors)};
+
+// OTRO
+
+for(const ele of document.getElementsByClassName("nba-blazers")){ele.innerHTML=(blazers)};
