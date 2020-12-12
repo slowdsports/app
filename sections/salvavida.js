@@ -1,6 +1,6 @@
 let olimpia = `
 <figure class="figure">
-<img class="figure img-fluid competition olimpia" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+<img class="figure img-fluid competition olimpiahn" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
 Olimpia
 </figcaption>
@@ -62,30 +62,40 @@ Platense
 </figcaption>
 </figure>
 `;
-let hn-realsociedad = `
+let realsociedad = `
 <figure class="figure">
-<img class="figure img-fluid competition hn-realsociedad" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+<img class="figure img-fluid competition realsociedad" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
 Sociedad
 </figcaption>
 </figure>
 `;
-let cdhonduras = `
+let hondurasprogreso = `
 <figure class="figure">
-<img class="figure img-fluid competition cdhonduras" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+<img class="figure img-fluid competition hondurasprogreso" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
 Progreso
 </figcaption>
 </figure>
 `;
 
-for (const ele of document.getElementsByClassName("sal-olimpia")){ele.innerHTML=(olimpia)}
-for (const ele of document.getElementsByClassName("sal-marathon")){ele.innerHTML=(marathon)}
-for (const ele of document.getElementsByClassName("sal-motagua")){ele.innerHTML=(motagua)}
-for (const ele of document.getElementsByClassName("sal-vida")){ele.innerHTML=(vida)}
-for (const ele of document.getElementsByClassName("sal-lobos")){ele.innerHTML=(lobos)}
-for (const ele of document.getElementsByClassName("sal-realespana")){ele.innerHTML=(realespana)}
-for (const ele of document.getElementsByClassName("sal-realdeminas")){ele.innerHTML=(realdeminas)}
-for (const ele of document.getElementsByClassName("sal-platense")){ele.innerHTML=(platense)}
-for (const ele of document.getElementsByClassName("sal-hn-realsociedad")){ele.innerHTML=(hn-realsociedad)}
-for (const ele of document.getElementsByClassName("sal-cdhonduras")){ele.innerHTML=(cdhonduras)}
+for (const ele of document.getElementsByClassName("salv-olimpia")){ele.innerHTML=(olimpia)};
+
+for (const ele of document.getElementsByClassName("salv-marathon")){ele.innerHTML=(marathon)};
+
+for (const ele of document.getElementsByClassName("salv-motagua")){ele.innerHTML=(motagua)};
+
+for (const ele of document.getElementsByClassName("salv-vida")){ele.innerHTML=(vida)};
+
+for (const ele of document.getElementsByClassName("salv-lobos")){ele.innerHTML=(lobos)};
+
+for (const ele of document.getElementsByClassName("salv-realespana")){ele.innerHTML=(realespana)};
+
+for (const ele of document.getElementsByClassName("salv-realdeminas")){ele.innerHTML=(realdeminas)};
+
+for (const ele of document.getElementsByClassName("salv-platense")){ele.innerHTML=(platense)};
+
+for (const ele of document.getElementsByClassName("salv-realsociedad")){ele.innerHTML=(realsociedad)};
+
+for (const ele of document.getElementsByClassName("salv-hondurasprogreso")){ele.innerHTML=(hondurasprogreso)};
+
