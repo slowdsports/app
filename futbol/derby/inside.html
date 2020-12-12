@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <script type="text/javascript" charset="utf-8" src="http://cdn.jsdelivr.net/clappr/latest/clappr.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="http://towerz.me/clappr-youtube-playback/j/clappr-youtube-playback.js"></script>
+  <title>youtube-playback Test Page</title>
+  <style>
+  </style>
+</head>
+<body bgcolor='black' style='margin:0' oncontextmenu='return false' onkeydown='return false'>
+ <center>
+ <div class="container" style="display: flex; justify-content: center; align-items: center; height: 100vh; width: 100%; margin-top: 0%;">
+ 
+  <div style="height: 100%; width: 100%; margin-top: 0%" id="player-wrapper">
+  </div>
+  
+ </div>
+ </center>
+ 
+  <script type="text/javascript" charset="utf-8">
+window.onload = function() {
+  var player = new Clappr.Player({
+    sources: ['vhhXKmGCTn0'],
+    poster: 'https://i.ytimg.com/vi/vhhXKmGCTn0/hq720.jpg?sqp=-oaymwEZCOgCEMoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAOulWJwQ1xThoxDQ-PRnE6A1IT3w',
+    parentId: '#player-wrapper',
+    youtubeShowRelated: true,
+    plugins: {
+      playback: [YoutubePlayback]
+    }
+  });
+}
+  </script>
+</body>
+</html>
