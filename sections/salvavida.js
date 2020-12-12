@@ -64,15 +64,15 @@ Platense
 `;
 let realsociedad = `
 <figure class="figure">
-<img class="figure img-fluid competition hn-realsociedad" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+<img class="figure img-fluid competition realsociedad" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
 Sociedad
 </figcaption>
 </figure>
 `;
-let cdhonduras = `
+let hondurasprogreso = `
 <figure class="figure">
-<img class="figure img-fluid competition cdhonduras" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+<img class="figure img-fluid competition hondurasprogreso" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
 Progreso
 </figcaption>
@@ -95,7 +95,7 @@ for (const ele of document.getElementsByClassName("salv-realdeminas")){ele.inner
 
 for (const ele of document.getElementsByClassName("salv-platense")){ele.innerHTML=(platense)};
 
-for (const ele of document.getElementsByClassName("salv-hn-realsociedad")){ele.innerHTML=(hn-realsociedad)};
+for (const ele of document.getElementsByClassName("salv-realsociedad")){ele.innerHTML=(realsociedad)};
 
-for (const ele of document.getElementsByClassName("salv-cdhonduras")){ele.innerHTML=(cdhonduras)};
+for (const ele of document.getElementsByClassName("salv-hondurasprogreso")){ele.innerHTML=(hondurasprogreso)};
 
