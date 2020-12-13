@@ -588,6 +588,12 @@ let fs3sur = `
 <i class="ar flag"></i> Fox Sports 3 | SD</li>
 </a>
 `;
+let foxp = `
+<a href="go:foxp">
+<li class="list-group-item">
+<i class="ar flag"></i> Fox Premium | SD</li>
+</a>
+`;
 let goles = `
 <a href="go:goles">
 <li class="list-group-item">
@@ -700,6 +706,18 @@ let tyc = `
 <a href="go:tyc">
 <li class="list-group-item">
 <i class="ar flag"></i> TyC Sports | HD</li>
+</a>
+`;
+let tycus = `
+<a href="go:tycus">
+<li class="list-group-item">
+<i class="ar flag"></i> TyC Sports US | SD</li>
+</a>
+`;
+let tntar = `
+<a href="go:tntar">
+<li class="list-group-item">
+<i class="ar flag"></i> TNT Sports | SD</li>
 </a>
 `;
 let tycsd = `
