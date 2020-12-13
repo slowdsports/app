@@ -723,7 +723,7 @@ let tntar = `
 let tycsd = `
 <a href="go:tycsd">
 <li class="list-group-item">
-<i class="es flag"></i> TyC Sports | SD</li>
+<i class="ar flag"></i> TyC Sports | SD</li>
 </a>
 `;
 let unimase = `
