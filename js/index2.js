@@ -32,33 +32,36 @@ let bottombar = `
         <li class="list-grup-item">
         <a href="go:home">
         <span class="activo">
-        <img width="40%" src="https://www.flaticon.es/svg/static/icons/svg/3778/3778757.svg" alt="">
+        <img width="40%" src="https://image.flaticon.com/icons/svg/149/149412.svg" alt="">
         </span>
-        <h6><b>Inicio</b></h6>
         </a>
         </li>
         <li>
         <a href="go:eventos">
         <span>
-        <img width="40%" src="https://www.flaticon.es/svg/static/icons/svg/3778/3778916.svg" alt="">
+        <img width="40%" src="https://image.flaticon.com/icons/svg/149/149363.svg" alt="">
         </span>
-        <h6><b>Eventos</b></h6>
         </a>
         </li>
         <li>
         <a href="go:futbol">
         <span>
-        <img width="40%" src="https://www.flaticon.es/svg/static/icons/svg/3697/3697055.svg" alt="">
+        <img width="40%" src="https://image.flaticon.com/icons/svg/606/606077.svg" alt="">
         </span>
-        <h6><b>Fútbol</b></h6>
         </a>
         </li>
         <li>
         <a href="go:livetv">
         <span>
-        <img width="40%" src="https://www.flaticon.es/svg/static/icons/svg/3778/3778336.svg" alt="">
+        <img width="40%" src="https://image.flaticon.com/icons/svg/149/149096.svg" alt="">
         </span>
-        <h6><b>Live TV</b></h6>
+        </a>
+        </li>
+        <li>
+        <a href="go:social">
+        <span>
+        <img width="40%" src="https://image.flaticon.com/icons/svg/149/149179.svg" alt="">
+        </span>
         </a>
         </li>
       </ul>
