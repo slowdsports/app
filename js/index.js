@@ -58,7 +58,7 @@ let bottombar = `
         <span>
         <img width="40%" src="https://www.flaticon.es/svg/static/icons/svg/3778/3778336.svg" alt="">
         </span>
-        <h6><b>Live TV</b></h6>
+        <h6><b>TV</b></h6>
         </a>
         </li>
       </ul>
