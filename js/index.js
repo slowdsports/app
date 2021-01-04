@@ -34,6 +34,7 @@ let bottombar = `
         <span class="activo">
         <img width="40%" src="https://image.flaticon.com/icons/svg/149/149412.svg" alt="">
         </span>
+        <h6><b>Inicio</b></h6>
         </a>
         </li>
         <li>
@@ -41,6 +42,7 @@ let bottombar = `
         <span>
         <img width="40%" src="https://image.flaticon.com/icons/svg/149/149363.svg" alt="">
         </span>
+        <h6><b>Eventos</b></h6>
         </a>
         </li>
         <li>
@@ -49,19 +51,14 @@ let bottombar = `
         <img width="40%" src="https://image.flaticon.com/icons/svg/606/606077.svg" alt="">
         </span>
         </a>
+        <h6><b>Fútbol</b></h6>
         </li>
         <li>
         <a href="go:livetv">
         <span>
         <img width="40%" src="https://image.flaticon.com/icons/svg/149/149096.svg" alt="">
         </span>
-        </a>
-        </li>
-        <li>
-        <a href="go:social">
-        <span>
-        <img width="40%" src="https://image.flaticon.com/icons/svg/149/149179.svg" alt="">
-        </span>
+        <h6><b>TV</b></h6>
         </a>
         </li>
       </ul>
