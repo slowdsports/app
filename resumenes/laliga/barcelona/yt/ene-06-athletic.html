@@ -1,37 +1,15 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script type="text/javascript" charset="utf-8" src="http://cdn.jsdelivr.net/clappr/latest/clappr.min.js"></script>
-  <script type="text/javascript" charset="utf-8" src="http://towerz.me/clappr-youtube-playback/j/clappr-youtube-playback.js"></script>
-  <title>youtube-playback Test Page</title>
-  <style>
-      #player-wrapper{
-          margin: auto;
-          width: 50%;
-          height: 100%;
-          padding: 100px;
-          
-      }  
-  </style>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .*{
+            background-color: #0000;
+            align-content: center;
+        }
+    </style>
 </head>
-<body bgcolor='black' style='margin:0' oncontextmenu='return false' onkeydown='return false'>
-  <div id="player-wrapper">
-  </div>
-  <script type="text/javascript" charset="utf-8">
-window.onload = function() {
-  var player = new Clappr.Player({ 
-    sources: ['4hME3n8Lkbs'],
-    parentId: '#player-wrapper',
-    autoplay: true,
-    mute: false,
-    youtubeShowRelated: true,
-    plugins: {
-      playback: [YoutubePlayback]
-    }
-  });
-}
-  </script>
+<body>
 </body>
 </html>
