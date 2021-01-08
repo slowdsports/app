@@ -251,3 +251,22 @@
     background-size:48px;
     background-repeat:no-repeat
 }
+.euro-olympiacos{
+    background-image:url(https://api.sofascore.com/api/v1/team/3501/image);
+    background-size:48px;
+    background-repeat:no-repeat
+}
+.euro-bayern{
+    background-image:url(https://api.sofascore.com/api/v1/team/26071/image);
+    background-size:48px;
+    background-repeat:no-repeat
+}
+.euro-realmadrid{
+    background-image:url(https://api.sofascore.com/api/v1/team/3540/image);
+    background-size:48px;
+    background-repeat:no-repeat
+}
+.euro-olimpia{
+    background-image:url(https://api.sofascore.com/api/v1/team/3580/image);
+    background-size:48px;
+    background-repeat:no-repeat
