@@ -20,7 +20,9 @@
     <!-- Schedule Styles -->
     <link rel="stylesheet" href="https://slowdsports.com/css/schedule.css" />
     <!-- Basket DB -->
-    <link rel="stylesheet" href="https://slowdsports.com/css/basket.css" />   
+    <link rel="stylesheet" href="https://slowdsports.com/css/basket.css" />
+        <!-- Euroliga DB -->
+    <link rel="stylesheet" href="https://slowdsports.com/css/euroliga.css" />
     <style>
         .href-ns{
             text-decoration: none;
@@ -31,11 +33,7 @@
             background-size: cover;
             background-repeat: no-repeat;
         }
-        .acb{
-            background-image: url(https://api.sofascore.com/api/v1/unique-tournament/264/image);
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
+ 
     </style>
 </head>
 <body>
@@ -48,13 +46,13 @@
    
    <div class="container">
             <!--TIME-->
-            <script src="//slowdsports.com/js/11/3/timer1.js"></script>
-            <script src="//slowdsports.com/js/11/3/timer2.js"></script>
-            <script src="//slowdsports.com/js/11/3/timer3.js"></script>
-            <script src="//slowdsports.com/js/11/3/timer4.js"></script>
-            <script src="//slowdsports.com/js/11/3/timer5.js"></script>
-            <script src="//slowdsports.com/js/11/3/timer6.js"></script>
-            <script src="//slowdsports.com/js/11/3/timer7.js"></script>
+            <script src="//slowdsports.com/js/1/2/timer1.js"></script>
+            <script src="//slowdsports.com/js/1/2/timer2.js"></script>
+            <script src="//slowdsports.com/js/1/2/timer3.js"></script>
+            <script src="//slowdsports.com/js/1/2/timer4.js"></script>
+            <script src="//slowdsports.com/js/1/2/timer5.js"></script>
+            <script src="//slowdsports.com/js/1/2/timer6.js"></script>
+            <script src="//slowdsports.com/js/1/2/timer7.js"></script>
             <script src="//slowdsports.com/js/test2.js"></script>
    
    
@@ -78,46 +76,55 @@
             <hr>
             
             <center>
+                 <h4>
+                     <img height="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="" class="competition euroliga">
+                     Juegos de Euroliga
+                 </h4>
+                 <hr>
                 
-                <div class="alert alert-primary" role="alert">
-                  Estas competiciones se empezarán a cubrir a partir de Enero de 2021.
-                </div>  
-                 
-                 <div class="row row-cols-2">
-                   
-                  <div class="col" data-aos="zoom-in" data-aos-delay="200">
-                   <a href="go:nba">
+                
+                                 
+                 <!--LIGA-LIVE-->
+                
+                <div class="card">
+                 <a data-toggle="collapse" href="#juego1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" href="javascript:void(0)">
+                  <div style="color: #343a40;" class="card-body">
+                  <div style="color: #343a40;" class="card-body">
+                   <center>
+                    <span class="euro-olympiacos"></span>
 
-                    <div class="icon-box futbol-b">
-                      <div class="icon"><img width="80px" class="competition nba" src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
-                      <h4><a href="go:nba">NBA</a></h4>
+                    <p class="d5t1pm mb-0" style="position: absolute;relative; margin-top: -3%;">
+                    Ene 8
+                    </p>
+                    vs
+                    <span class="euro-bayern"></span>
+
+                    <img class="img-fluid float-right competition movistar" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+
+                    <img class="img-fluid float-left competition euroliga" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+
+                   </center>
+                  </div>
+                 </a>
+                </div>
+                
+                <div class="row">
+                  <div class="col">
+                    <div class="collapse multi-collapse" id="juego1">
+                      <div class="card card-body">
+                       
+                        <ul style="margin-top: 1%;" class="list-group list-group-horizontal-xlg">
+                         <a href="go:l1">
+                         <li class="list-group-item">
+                         <i class="es flag"></i> Euroliga (L1) | HD</li>
+                         </a>
+                        </ul>
+                        
+                      </div>
                     </div>
-                   </a>
                   </div>
-                   
-                  <div class="col" data-aos="zoom-in" data-aos-delay="200">
-                   <a href="go:euroliga">
-
-                    <div class="icon-box futbol-b">
-                      <div class="icon"><img width="80px" class="competition euroliga" src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
-                      <h4><a href="go:euroliga">Euroliga</a></h4>
-                    </div>
-                   </a>
-                  </div>
-                   
-                  <div class="col" data-aos="zoom-in" data-aos-delay="200">
-                   <a href="go:acb">
-
-                    <div class="icon-box futbol-b">
-                      <div class="icon"><img width="80px" class="competition euroliga" src="https://i.ibb.co/w0qg9JF/trans.png" alt=""></div>
-                      <h4><a href="go:acb">Endesa</a></h4>
-                    </div>
-                   </a>
-                  </div>
-                  
-                  </div>
-                  
-
+                </div>
+                <!--/LIGA-LIVE-->
       </center>
 
       </div>
@@ -131,7 +138,7 @@
        
     <!-- JS -->
     <script src="../js/index.js"></script>
-    <script src="../sections/basket.js"></script>
+    <script src="../sections/euroliga.js"></script>
     <script src="../js/canales.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
