@@ -99,6 +99,11 @@
     
     background-repeat: no-repeat;    
 }
+.euroliga{
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/138/image);
+    
+    background-repeat: no-repeat;    
+}
 .apf{
     background-image: url(https://api.sofascore.com/api/v1/unique-tournament/11540/image);
     
