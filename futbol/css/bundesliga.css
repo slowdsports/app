@@ -99,3 +99,9 @@
     
     background-repeat: no-repeat;    
 }
+
+.holstein{
+    background-image: url(https://api.sofascore.com/api/v1/team/2573/image);
+    
+    background-repeat: no-repeat;    
+}
