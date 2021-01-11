@@ -142,6 +142,15 @@ Schalke
 </figcaption>
 </figure>
 `;
+let holstein = `
+<figure class="figure">
+<img class="figure img-fluid competition holstein" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+<figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
+Schalke
+</figcaption>
+</figure>
+`;
+
 
 for (const ele of document.getElementsByClassName("bund-bayern")){ele.innerHTML=(bayern)};
 for (const ele of document.getElementsByClassName("bund-dortmund")){ele.innerHTML=(dortmund)};
@@ -161,3 +170,4 @@ for (const ele of document.getElementsByClassName("bund-mainz")){ele.innerHTML=(
 for (const ele of document.getElementsByClassName("bund-bielefeld")){ele.innerHTML=(bielefeld)};
 for (const ele of document.getElementsByClassName("bund-koln")){ele.innerHTML=(koln)};
 for (const ele of document.getElementsByClassName("bund-schalke")){ele.innerHTML=(schalke)};
+for (const ele of document.getElementsByClassName("bund-holstein")){ele.innerHTML=(holstein)};
