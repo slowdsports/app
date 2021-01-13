@@ -7,10 +7,23 @@
     </head>
     <body id="main">
         <div id='player'>
-            <video width="100%" height="100%" src="source" controls autoplay>
+            <video id="myVideo" width="100%" height="100%" controls autoplay>
+            <source id="video_source">
             </video>
             <script>
-            var source: "https://dailysportbucket5.s3.eu-west-2.amazonaws.com/1/1.m3u8";
+             //here somehow I am getting the string with the base64-encoded video
+             function playVideo(message) {
+                      var myVideo = document.getElementById("myVideo");
+                      var mySource = document.getElementById("video_source");
+                      mySource.setAttribute("src", getEncodedVideoString("mp4", message));
+                      myVideo.load();
+                      myVideo.play();         
+                  };
+
+              // here I am formatting and concatenating the string for my source attribute 
+              function getEncodedVideoString(type, message) {
+                    return 'data:video/' + type + ';base64,' + message;
+                }
             </script>
         </div>
     </body>
