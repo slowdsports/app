@@ -187,3 +187,4 @@ for (const ele of document.getElementsByClassName("serie-parma")){ele.innerHTML=
 for (const ele of document.getElementsByClassName("serie-torino")){ele.innerHTML=(torino)}
 for (const ele of document.getElementsByClassName("serie-genoa")){ele.innerHTML=(genoa)}
 for (const ele of document.getElementsByClassName("serie-crotone")){ele.innerHTML=(crotone)}
+for (const ele of document.getElementsByClassName("serie-empoli")){ele.innerHTML=(empoli)}
