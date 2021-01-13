@@ -114,3 +114,8 @@
     
     background-repeat: no-repeat;    
 }
+.empoli{
+    background-image: url(https://api.sofascore.com/api/v1/team/2705/image);
+    
+    background-repeat: no-repeat;    
+}
