@@ -1,4 +1,8 @@
 /*LIGUE 1*/
+.supercopafra{
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/339/image);
+    background-repeat: no-repeat;
+}
 .stade{
     background-image: url(https://www.sofascore.com/images/team-logo/football_1658.png);
     
