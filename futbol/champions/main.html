@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>iRaffle Sports - APP</title>
@@ -19,8 +19,16 @@
     <link rel="stylesheet" href="../../css/home.css" />
     <!-- Schedule Styles -->
     <link rel="stylesheet" href="../../css/schedule.css" /> 
-    <!-- INTL DB -->
-    <link rel="stylesheet" href="../../css/intl.css" />   
+    <!-- Bundesliga DB -->
+    <link rel="stylesheet" href="../css/bundesliga.css" /> 
+    <!-- LaLiga DB -->
+    <link rel="stylesheet" href="../css/laliga.css" /> 
+    <!-- Ligue1 DB -->
+    <link rel="stylesheet" href="../css/ligue1.css" /> 
+    <!-- Premier DB -->
+    <link rel="stylesheet" href="../css/premier.css" /> 
+    <!-- Serie A DB -->
+    <link rel="stylesheet" href="../css/seriea.css" />    
     <style>
         .href-ns{
             text-decoration: none;
@@ -52,41 +60,84 @@
     <!-- ======= Services Section ======= -->
     <section id="services" class="services section-bg">
       <div class="container" data-aos="fade-up">
+                   
+      <div class="row row-cols-1">
+        
+                </div>               
+                    <hr>
         
         <div class="row row-cols-1">
             
             <center>
-                 <h4> <img height="48" src="https://api.sofascore.com/api/v1/unique-tournament/851/image" alt="" class="competition "> Juegos Amistosos</h4>
+                 <h4> <img src="https://i.ibb.co/w0qg9JF/trans.png" alt="" class="competition ucl"> Juegos de Champions League</h4>
                  <hr>
                  
-                 
-                 <!--LIGA-LIVE--
+                 <!--LIGA-LIVE-->
                 
+                <div class="card">
+                 <a href="go:c3" role="button" aria-expanded="false">
+                  <div style="color: #343a40;" class="card-body">
+                   <center>
+                   
+                   <figure class="figure">
+                    <img class="figure img-fluid competition ucl" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
+                        Multi-Champions
+                    </figcaption>
+                    </figure>
+
+                    <p class="time mb-0" style="position: absolute;relative; margin-top: -3%;">
+                    <span class="">
+                    Live
+                    <i class="fa fa-circle faa-flash animated"></i>
+                    </span>
+                    </p>
+
+                    <img class="img-fluid competition float-right sky" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+
+                    <img class="img-fluid competition float-left ucl" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+
+                   </center>
+                  </div>
+                 </a>
+                </div>
+                
+                <div class="row">
+                  <div class="col">
+                    <div class="collapse multi-collapse" id="juego0">
+                      <div class="card card-body">
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+              <!--LIGA-LIVE--
                 <div class="card">
                  <a data-toggle="collapse" href="#juego1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" href="javascript:void(0)">
                   <div style="color: #343a40;" class="card-body">
                    <center>
                     <figure class="figure">
-                    <img class="figure img-fluid estadosunidos" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="figure img-fluid competition " width="48" src="https://cdn.livesoccertv.com/images/teams/russia/logos/zenit.png" alt="">
                     <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
-                        USA
+                        Zenit
                     </figcaption>
                     </figure>
 
-                    <p class="d3t630pm mb-0" style="position: absolute;relative; margin-top: -3%;">
-                    Dic 9
+                    <p class="d2t12pm mb-0" style="position: absolute;relative; margin-top: -3%;">
+                    Dic 8
                     </p>
                     vs
                     <figure class="figure">
-                    <img class="figure img-fluid elsalvador" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="figure img-fluid competition dortmund" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
                     <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-left: 5px;" class="figure-caption">
-                        El Salvador
+                        Dortmund
                     </figcaption>
                     </figure>
 
-                    <img class="img-fluid float-right " width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="img-fluid competition float-right sky" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 
-                    <img class="img-fluid float-left " width="48" src="https://api.sofascore.com/api/v1/unique-tournament/851/image" alt="">
+                    <img class="img-fluid competition float-left ucl" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 
                    </center>
                   </div>
@@ -103,13 +154,9 @@
                          <li class="list-group-item">
                          <i class="mx flag"></i> TUDN | HD</li>
                          </a>
-                         <a href="go:espn2mx">
+                         <a href="go:p1">
                          <li class="list-group-item">
-                         <i class="mx flag"></i> ESPN 2 | SD</li>
-                         </a>
-                         <a href="go:unimase">
-                         <li class="list-group-item">
-                         <i class="mx flag"></i> Unimás | HD</li>
+                         <i class="england flag"></i> Premier (1) | HD</li>
                          </a>
                         </ul>
                         
@@ -118,33 +165,87 @@
                   </div>
                 </div>
                 <!--/LIGA-LIVE-->
-                  
-                  <!--LIGA-LIVE--
-                <div class="card filterDiv f-betplay">
+              
+              <!--LIGA-LIVE--
+                <div class="card">
+                 <a data-toggle="collapse" href="#juego1-1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" href="javascript:void(0)">
+                  <div style="color: #343a40;" class="card-body">
+                   <center>
+                    <figure class="figure">
+                    <img class="figure img-fluid competition lazio" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
+                        Lazio
+                    </figcaption>
+                    </figure>
+
+                    <p class="d2t12pm mb-0" style="position: absolute;relative; margin-top: -3%;">
+                    Dic 8
+                    </p>
+                    vs
+                    <figure class="figure">
+                    <img class="figure img-fluid competition " width="48" src="https://cdn.livesoccertv.com/images/teams/belgium/logos/club-brugge.png" alt="">
+                    <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-left: 5px;" class="figure-caption">
+                        Brugge
+                    </figcaption>
+                    </figure>
+
+                    <img class="img-fluid competition float-right sky" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+
+                    <img class="img-fluid competition float-left ucl" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+
+                   </center>
+                  </div>
+                 </a>
+                </div>
+                
+                <div class="row">
+                  <div class="col">
+                    <div class="collapse multi-collapse" id="juego1-1">
+                      <div class="card card-body">
+                       
+                        <ul style="margin-top: 1%;" class="list-group list-group-horizontal-xlg">
+                         <a href="go:galavision">
+                         <li class="list-group-item">
+                         <i class="mx flag"></i> Galavisión | HD</li>
+                         </a>
+                         <a href="go:p2">
+                         <li class="list-group-item">
+                         <i class="england flag"></i> Premier (2) | HD</li>
+                         </a>
+                        </ul>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--/LIGA-LIVE-->
+                
+                <!--LIGA-LIVE--
+                <div class="card filterDiv f-ucl">
                  <a data-toggle="collapse" href="#juego2" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" href="javascript:void(0)">
                   <div style="color: #343a40;" class="card-body">
                    <center>
                     <figure class="figure">
-                    <img class="figure img-fluid japon" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="figure img-fluid competition rennes" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
                     <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
-                        Japón
+                        Rennes
                     </figcaption>
                     </figure>
 
                     <p class="d2t2pm mb-0" style="position: absolute;relative; margin-top: -3%;">
-                    Nov 17
+                    Dic 8
                     </p>
                     vs
                     <figure class="figure">
-                    <img class="figure img-fluid mexico" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="figure img-fluid competition sevilla" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
                     <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-left: 5px;" class="figure-caption">
-                        México
+                        Sevilla
                     </figcaption>
                     </figure>
 
-                    <img class="img-fluid float-right " width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="img-fluid competition float-right sky" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 
-                    <img class="img-fluid float-left" width="48" src="https://api.sofascore.com/api/v1/unique-tournament/851/image" alt="">
+                    <img class="img-fluid competition float-left ucl" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 
                    </center>
                   </div>
@@ -157,9 +258,21 @@
                       <div class="card card-body">
                        
                         <ul style="margin-top: 1%;" class="list-group list-group-horizontal-xlg">
-                         <a href="go:tudne">
+                         <a href="go:p1">
                          <li class="list-group-item">
-                         <i class="mx flag"></i> TUDN | HD</li>
+                         <i class="england flag"></i> Premier (1) | HD</li>
+                         </a>
+                         <a href="go:c2">
+                         <li class="list-group-item">
+                         <i class="es flag"></i> Liga Campeones 1 (C2) | HD</li>
+                         </a>
+                         <a href="go:l1">
+                         <li class="list-group-item">
+                         <i class="es flag"></i> Liga Campeones 1 (L1) | SD</li>
+                         </a>
+                         <a href="go:cc2">
+                         <li class="list-group-item">
+                         <i class="england flag"></i> LaLiga (C12) | HD</li>
                          </a>
                         </ul>
                         
@@ -170,31 +283,31 @@
                 <!--/LIGA-LIVE-->
                   
                   <!--LIGA-LIVE--
-                <div class="card filterDiv f-betplay">
+                <div class="card filterDiv f-ucl">
                  <a data-toggle="collapse" href="#juego3" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" href="javascript:void(0)">
                   <div style="color: #343a40;" class="card-body">
                    <center>
                     <figure class="figure">
-                    <img class="figure img-fluid alemania" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="figure img-fluid competition chelsea" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
                     <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
-                        Alemania
+                        Chelsea
                     </figcaption>
                     </figure>
 
-                    <p class="d3t2pm mb-0" style="position: absolute;relative; margin-top: -3%;">
-                    Nov 11
+                    <p class="d2t2pm mb-0" style="position: absolute;relative; margin-top: -3%;">
+                    Dic 8
                     </p>
                     vs
                     <figure class="figure">
-                    <img class="figure img-fluid republicacheca" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="figure img-fluid competition " width="48" src="https://cdn.livesoccertv.com/images/teams/russia/logos/krasnodar.png" alt="">
                     <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-left: 5px;" class="figure-caption">
-                        Chequia
+                        Krasnodar
                     </figcaption>
                     </figure>
 
-                    <img class="img-fluid float-right " width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="img-fluid competition float-right sky" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 
-                    <img class="img-fluid float-left" width="48" src="https://api.sofascore.com/api/v1/unique-tournament/851/image" alt="">
+                    <img class="img-fluid competition float-left ucl" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 
                    </center>
                   </div>
@@ -211,9 +324,17 @@
                          <li class="list-group-item">
                          <i class="england flag"></i> Premier (3) | HD</li>
                          </a>
-                         <a href="go:directv1">
+                         <a href="go:c4">
                          <li class="list-group-item">
-                         <i class="ar flag"></i> DirecTV Sports | SD</li>
+                         <i class="es flag"></i> Liga Campeones 6 (C4) | HD</li>
+                         </a>
+                         <a href="go:cc1">
+                         <li class="list-group-item">
+                         <i class="england flag"></i> LaLiga (C11) | HD</li>
+                         </a>
+                         <a href="go:l6">
+                         <li class="list-group-item">
+                         <i class="es flag"></i> Liga Campeones 6 (L6) | SD</li>
                          </a>
                          <a href="go:p4">
                          <li class="list-group-item">
@@ -227,32 +348,33 @@
                 </div>
                 <!--/LIGA-LIVE-->
                   
+                  
                   <!--LIGA-LIVE--
-                <div class="card filterDiv f-betplay">
+                <div class="card filterDiv f-ucl">
                  <a data-toggle="collapse" href="#juego4" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" href="javascript:void(0)">
                   <div style="color: #343a40;" class="card-body">
                    <center>
                     <figure class="figure">
-                    <img class="figure img-fluid italia" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="figure img-fluid competition barcelona" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
                     <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
-                        Italia
+                        Barcelona
                     </figcaption>
                     </figure>
 
-                    <p class="d3t2pm mb-0" style="position: absolute;relative; margin-top: -3%;">
-                    Nov 11
+                    <p class="d2t2pm mb-0" style="position: absolute;relative; margin-top: -3%;">
+                    Dic 8
                     </p>
                     vs
                     <figure class="figure">
-                    <img class="figure img-fluid estonia" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="figure img-fluid competition juventus" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
                     <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-left: 5px;" class="figure-caption">
-                        Estonia
+                        Juventus
                     </figcaption>
                     </figure>
 
-                    <img class="img-fluid float-right " width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="img-fluid competition float-right sky" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 
-                    <img class="img-fluid float-left" width="48" src="https://api.sofascore.com/api/v1/unique-tournament/851/image" alt="">
+                    <img class="img-fluid competition float-left ucl" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 
                    </center>
                   </div>
@@ -265,13 +387,25 @@
                       <div class="card card-body">
                        
                         <ul style="margin-top: 1%;" class="list-group list-group-horizontal-xlg">
+                         <a href="go:tudne">
+                         <li class="list-group-item">
+                         <i class="mx flag"></i> TUDN | HD</li>
+                         </a>
                          <a href="go:p5">
                          <li class="list-group-item">
                          <i class="england flag"></i> Premier (5) | HD</li>
                          </a>
-                         <a href="go:otro3">
+                         <a href="go:c1">
                          <li class="list-group-item">
-                         <i class="ar flag"></i> DirecTV Sports + (O3) | SD</li>
+                         <i class="es flag"></i> Liga Campeones (C1) | HD</li>
+                         </a>
+                         <a href="go:cc2">
+                         <li class="list-group-item">
+                         <i class="england flag"></i> LaLiga (C12) | HD</li>
+                         </a>
+                         <a href="go:espn2sur">
+                         <li class="list-group-item">
+                         <i class="ar flag"></i> ESPN 2 | SD</li>
                          </a>
                          <a href="go:p6">
                          <li class="list-group-item">
@@ -286,31 +420,30 @@
                 <!--/LIGA-LIVE-->
                   
                   <!--LIGA-LIVE--
-                <div class="card filterDiv f-betplay">
+                <div class="card filterDiv f-ucl">
                  <a data-toggle="collapse" href="#juego5" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" href="javascript:void(0)">
                   <div style="color: #343a40;" class="card-body">
                    <center>
                     <figure class="figure">
-                    <img class="figure img-fluid holanda" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="figure img-fluid competition psg" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
                     <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
-                        Holanda
+                        PSG
                     </figcaption>
                     </figure>
 
-                    <p class="d3t2pm mb-0" style="position: absolute;relative; margin-top: -3%;">
-                    Nov 11
+                    <p class="d3t12pm mb-0" style="position: absolute;relative; margin-top: -3%;">
                     </p>
                     vs
                     <figure class="figure">
-                    <img class="figure img-fluid espana" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="figure img-fluid competition " width="48" src="https://img.uefa.com/imgml/TP/teams/logos/140X140/2600288.png?imwidth=36" alt="">
                     <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-left: 5px;" class="figure-caption">
-                        España
+                        Istanbul
                     </figcaption>
                     </figure>
 
-                    <img class="img-fluid float-right " width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="img-fluid competition float-right sky" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 
-                    <img class="img-fluid float-left" width="48" src="https://api.sofascore.com/api/v1/unique-tournament/851/image" alt="">
+                    <img class="img-fluid competition float-left ucl" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 
                    </center>
                   </div>
@@ -323,21 +456,18 @@
                       <div class="card card-body">
                        
                         <ul style="margin-top: 1%;" class="list-group list-group-horizontal-xlg">
-                         <a href="go:la1">
-                         <li class="list-group-item">
-                         <i class="es flag"></i> La 1 | HD</li>
-                         </a>
+                         <li class="list-group-item"><i class="fa fa-info-circle"></i> <p>Juego postpuesto para 09 de diciembre de 2020 luego de haber sido suspendido por comentarios racistas.</p></li>
                          <a href="go:tudne">
                          <li class="list-group-item">
                          <i class="mx flag"></i> TUDN | HD</li>
                          </a>
-                         <a href="go:otro1">
+                         <a href="go:c2">
                          <li class="list-group-item">
-                         <i class="es flag"></i> La 1 (O1) | SD</li>
+                         <i class="es flag"></i> Movistar + (C2) | HD</li>
                          </a>
-                         <a href="go:unimase">
+                         <a href="go:c10">
                          <li class="list-group-item">
-                         <i class="mx flag"></i> Unimás | HD</li>
+                         <i class="england flag"></i> LaLiga (C10) | HD</li>
                          </a>
                         </ul>
                         
@@ -348,31 +478,31 @@
                 <!--/LIGA-LIVE-->
                   
                   <!--LIGA-LIVE--
-                <div class="card filterDiv f-betplay">
+                <div class="card filterDiv f-ucl">
                  <a data-toggle="collapse" href="#juego6" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" href="javascript:void(0)">
                   <div style="color: #343a40;" class="card-body">
                    <center>
                     <figure class="figure">
-                    <img class="figure img-fluid portugal" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="figure img-fluid competition leipzig" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
                     <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
-                        Portugal
+                        Leipzig
                     </figcaption>
                     </figure>
 
-                    <p class="d3t2pm mb-0" style="position: absolute;relative; margin-top: -3%;">
-                    Nov 11
+                    <p class="d2t2pm mb-0" style="position: absolute;relative; margin-top: -3%;">
+                    Dic 8
                     </p>
                     vs
                     <figure class="figure">
-                    <img class="figure img-fluid andorra" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="figure img-fluid competition united" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
                     <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-left: 5px;" class="figure-caption">
-                        Andorra
+                        United
                     </figcaption>
                     </figure>
 
-                    <img class="img-fluid float-right " width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="img-fluid competition float-right sky" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 
-                    <img class="img-fluid float-left" width="48" src="https://api.sofascore.com/api/v1/unique-tournament/851/image" alt="">
+                    <img class="img-fluid competition float-left ucl" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 
                    </center>
                   </div>
@@ -385,67 +515,21 @@
                       <div class="card card-body">
                        
                         <ul style="margin-top: 1%;" class="list-group list-group-horizontal-xlg">
-                         <a href="go:p7">
+                         <a href="go:galavision">
                          <li class="list-group-item">
-                         <i class="england flag"></i> Premier (7) | HD</li>
+                         <i class="mx flag"></i> Galavisión | HD</li>
                          </a>
-                         <a href="go:p8">
+                         <a href="go:c5">
                          <li class="list-group-item">
-                         <i class="england flag"></i> Premier (8) | HD</li>
+                         <i class="es flag"></i> Liga Campeones (C5) | HD</li>
                          </a>
-                        </ul>
-                        
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!--/LIGA-LIVE-->
-                  
-                  <!--LIGA-LIVE--
-                <div class="card filterDiv f-betplay">
-                 <a data-toggle="collapse" href="#juego7" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" href="javascript:void(0)">
-                  <div style="color: #343a40;" class="card-body">
-                   <center>
-                    <figure class="figure">
-                    <img class="figure img-fluid francia" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-                    <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
-                        Francia
-                    </figcaption>
-                    </figure>
-
-                    <p class="d3t2pm mb-0" style="position: absolute;relative; margin-top: -3%;">
-                    Nov 11
-                    </p>
-                    vs
-                    <figure class="figure">
-                    <img class="figure img-fluid finlandia" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-                    <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-left: 5px;" class="figure-caption">
-                        Finlandia
-                    </figcaption>
-                    </figure>
-
-                    <img class="img-fluid float-right " width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-
-                    <img class="img-fluid float-left" width="48" src="https://api.sofascore.com/api/v1/unique-tournament/851/image" alt="">
-
-                   </center>
-                  </div>
-                 </a>
-                </div>
-                
-                <div class="row">
-                  <div class="col">
-                    <div class="collapse multi-collapse" id="juego7">
-                      <div class="card card-body">
-                       
-                        <ul style="margin-top: 1%;" class="list-group list-group-horizontal-xlg">
                          <a href="go:p9">
                          <li class="list-group-item">
                          <i class="england flag"></i> Premier (9) | HD</li>
                          </a>
-                         <a href="go:otro2">
+                         <a href="go:c10">
                          <li class="list-group-item">
-                         <i class="ar flag"></i> DirecTV Sports 2 (O2) | SD</li>
+                         <i class="england flag"></i> LaLiga (C10) | HD</li>
                          </a>
                          <a href="go:p10">
                          <li class="list-group-item">
@@ -458,33 +542,99 @@
                   </div>
                 </div>
                 <!--/LIGA-LIVE-->
-                  
-                  <!--LIGA-LIVE--
-                <div class="card filterDiv f-betplay">
+                
+                <!--LIGA-LIVE--
+                <div class="card filterDiv f-ucl">
+                 <a data-toggle="collapse" href="#juego7" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" href="javascript:void(0)">
+                  <div style="color: #343a40;" class="card-body">
+                   <center>
+                    <figure class="figure">
+                    <img class="figure img-fluid competition " width="48" src="https://img.uefa.com/imgml/TP/teams/logos/140X140/50143.png?imwidth=36" alt="">
+                    <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
+                        Ajax
+                    </figcaption>
+                    </figure>
+
+                    <p class="d3t12pm mb-0" style="position: absolute;relative; margin-top: -3%;">
+                    Dic 9
+                    </p>
+                    vs
+                    <figure class="figure">
+                    <img class="figure img-fluid competition atalanta" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-left: 5px;" class="figure-caption">
+                        Atalanta
+                    </figcaption>
+                    </figure>
+
+                    <img class="img-fluid competition float-right sky" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+
+                    <img class="img-fluid competition float-left ucl" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+
+                   </center>
+                  </div>
+                 </a>
+                </div>
+                
+                <div class="row">
+                  <div class="col">
+                    <div class="collapse multi-collapse" id="juego7">
+                      <div class="card card-body">
+                       
+                        <ul style="margin-top: 1%;" class="list-group list-group-horizontal-xlg">
+                         <a href="go:galavision">
+                         <li class="list-group-item">
+                         <i class="mx flag"></i> Galavision | HD</li>
+                         </a>
+                         <a href="go:c4">
+                         <li class="list-group-item">
+                         <i class="es flag"></i> Liga Campeones 2 (C4) | HD</li>
+                         </a>
+                         <a href="go:cc2">
+                         <li class="list-group-item">
+                         <i class="england flag"></i> LaLiga (C12) | HD</li>
+                         </a>
+                         <a href="go:espnsur">
+                         <li class="list-group-item">
+                         <i class="ar flag"></i> ESPN | SD</li>
+                         </a>
+                         <a href="go:p1">
+                         <li class="list-group-item">
+                         <i class="england flag"></i> Premier (1) | HD</li>
+                         </a>
+                        </ul>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--/LIGA-LIVE-->
+                
+                <!--LIGA-LIVE--
+                <div class="card filterDiv f-ucl">
                  <a data-toggle="collapse" href="#juego8" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" href="javascript:void(0)">
                   <div style="color: #343a40;" class="card-body">
                    <center>
                     <figure class="figure">
-                    <img class="figure img-fluid gales" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="figure img-fluid competition " width="48" src="https://img.uefa.com/imgml/TP/teams/logos/140X140/75795.png?imwidth=75" alt="">
                     <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
-                        Gales
+                        Midtjylland
                     </figcaption>
                     </figure>
 
-                    <p class="d4t2pm mb-0" style="position: absolute;relative; margin-top: -3%;">
-                    Nov 12
+                    <p class="d3t12pm mb-0" style="position: absolute;relative; margin-top: -3%;">
+                    Dic 9
                     </p>
                     vs
                     <figure class="figure">
-                    <img class="figure img-fluid estadosunidos" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="figure img-fluid competition liverpool" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
                     <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-left: 5px;" class="figure-caption">
-                        EUA
+                        Liverpool
                     </figcaption>
                     </figure>
 
-                    <img class="img-fluid float-right " width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="img-fluid competition float-right sky" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 
-                    <img class="img-fluid float-left" width="48" src="https://api.sofascore.com/api/v1/unique-tournament/851/image" alt="">
+                    <img class="img-fluid competition float-left ucl" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 
                    </center>
                   </div>
@@ -497,21 +647,25 @@
                       <div class="card card-body">
                        
                         <ul style="margin-top: 1%;" class="list-group list-group-horizontal-xlg">
-                         <a href="go:tudne">
+                         <a href="go:mx1">
                          <li class="list-group-item">
-                         <i class="mx flag"></i> TUDN | HD</li>
+                         <i class="mx flag"></i> Test - TUDN Xtra (MX1) | HD</li>
                          </a>
-                         <a href="go:fs1">
+                         <a href="go:c3">
                          <li class="list-group-item">
-                         <i class="us flag"></i> FS1 | SD</li>
+                         <i class="es flag"></i> Liga Campeones 1 (C3) | HD</li>
                          </a>
-                         <a href="go:p1">
+                         <a href="go:c10">
                          <li class="list-group-item">
-                         <i class="england flag"></i> Premier (1) | HD</li>
+                         <i class="england flag"></i> LaLiga (C10) | HD</li>
                          </a>
-                         <a href="go:unimase">
+                         <a href="go:l1">
                          <li class="list-group-item">
-                         <i class="mx flag"></i> Unimás | HD</li>
+                         <i class="es flag"></i> Liga Campeones 1 (L1) | SD</li>
+                         </a>
+                         <a href="go:p2">
+                         <li class="list-group-item">
+                         <i class="england flag"></i> Premier (2) | HD</li>
                          </a>
                         </ul>
                         
@@ -520,33 +674,33 @@
                   </div>
                 </div>
                 <!--/LIGA-LIVE-->
-                  
-                  <!--LIGA-LIVE--
-                <div class="card filterDiv f-betplay">
+                
+                <!--LIGA-LIVE--
+                <div class="card filterDiv f-ucl">
                  <a data-toggle="collapse" href="#juego9" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" href="javascript:void(0)">
                   <div style="color: #343a40;" class="card-body">
                    <center>
                     <figure class="figure">
-                    <img class="figure img-fluid inglaterra" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="figure img-fluid competition bayern" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
                     <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
-                        Inglaterra
+                        Bayern
                     </figcaption>
                     </figure>
 
-                    <p class="d4t2pm mb-0" style="position: absolute;relative; margin-top: -3%;">
-                    Nov 12
+                    <p class="d3t2pm mb-0" style="position: absolute;relative; margin-top: -3%;">
+                    Dic 9
                     </p>
                     vs
                     <figure class="figure">
-                    <img class="figure img-fluid irlanda" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="figure img-fluid competition " width="48" src="https://img.uefa.com/imgml/TP/teams/logos/140X140/53065.png?imwidth=36" alt="">
                     <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-left: 5px;" class="figure-caption">
-                        Irlanda
+                        Lokomotiv
                     </figcaption>
                     </figure>
 
-                    <img class="img-fluid float-right " width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="img-fluid competition float-right sky" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 
-                    <img class="img-fluid float-left" width="48" src="https://api.sofascore.com/api/v1/unique-tournament/851/image" alt="">
+                    <img class="img-fluid competition float-left ucl" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 
                    </center>
                   </div>
@@ -559,17 +713,25 @@
                       <div class="card card-body">
                        
                         <ul style="margin-top: 1%;" class="list-group list-group-horizontal-xlg">
-                         <a href="go:p2">
-                         <li class="list-group-item">
-                         <i class="england flag"></i> Premier (2) | HD</li>
-                         </a>
-                         <a href="go:espn2sur">
-                         <li class="list-group-item">
-                         <i class="ar flag"></i> ESPN 2 | SD</li>
-                         </a>
                          <a href="go:p3">
                          <li class="list-group-item">
                          <i class="england flag"></i> Premier (3) | HD</li>
+                         </a>
+                         <a href="go:c5">
+                         <li class="list-group-item">
+                         <i class="es flag"></i> Liga Campeones 1 (C5) | HD</li>
+                         </a>
+                         <a href="go:cc3">
+                         <li class="list-group-item">
+                         <i class="england flag"></i> LaLiga (C13) | HD</li>
+                         </a>
+                         <a href="go:espnmx">
+                         <li class="list-group-item">
+                         <i class="mx flag"></i> ESPN | SD</li>
+                         </a>
+                         <a href="go:p4">
+                         <li class="list-group-item">
+                         <i class="england flag"></i> Premier (4) | HD</li>
                          </a>
                         </ul>
                         
@@ -578,33 +740,33 @@
                   </div>
                 </div>
                 <!--/LIGA-LIVE-->
-                  
-                  <!--LIGA-LIVE--
-                <div class="card filterDiv f-betplay">
+                
+                <!--LIGA-LIVE--
+                <div class="card filterDiv f-ucl">
                  <a data-toggle="collapse" href="#juego10" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" href="javascript:void(0)">
                   <div style="color: #343a40;" class="card-body">
                    <center>
                     <figure class="figure">
-                    <img class="figure img-fluid japon" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="figure img-fluid competition " width="48" src="https://img.uefa.com/imgml/TP/teams/logos/140X140/50030.png?imwidth=36" alt="">
                     <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
-                        Japón
+                        Salzburg
                     </figcaption>
                     </figure>
 
-                    <p class="d5t8am mb-0" style="position: absolute;relative; margin-top: -3%;">
-                    Nov 13
+                    <p class="d3t2pm mb-0" style="position: absolute;relative; margin-top: -3%;">
+                    Dic 9
                     </p>
                     vs
                     <figure class="figure">
-                    <img class="figure img-fluid panama" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="figure img-fluid competition atletico" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
                     <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-left: 5px;" class="figure-caption">
-                        Panamá
+                        Atletico
                     </figcaption>
                     </figure>
 
-                    <img class="img-fluid float-right " width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="img-fluid competition float-right sky" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 
-                    <img class="img-fluid float-left" width="48" src="https://api.sofascore.com/api/v1/unique-tournament/851/image" alt="">
+                    <img class="img-fluid competition float-left ucl" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 
                    </center>
                   </div>
@@ -617,9 +779,21 @@
                       <div class="card card-body">
                        
                         <ul style="margin-top: 1%;" class="list-group list-group-horizontal-xlg">
-                         <a href="go:tudne">
+                         <a href="go:galavision">
                          <li class="list-group-item">
-                         <i class="jp flag"></i> Canal Internacional (O1)</li>
+                         <i class="mx flag"></i> Galavision | HD</li>
+                         </a>
+                         <a href="go:c2">
+                         <li class="list-group-item">
+                         <i class="es flag"></i> Liga Campeones (C2) | HD</li>
+                         </a>
+                         <a href="go:cc2">
+                         <li class="list-group-item">
+                         <i class="england flag"></i> LaLiga (C12) | HD</li>
+                         </a>
+                         <a href="go:p5">
+                         <li class="list-group-item">
+                         <i class="england flag"></i> Premier (5) | HD</li>
                          </a>
                         </ul>
                         
@@ -628,33 +802,33 @@
                   </div>
                 </div>
                 <!--/LIGA-LIVE-->
-                  
-                  <!--LIGA-LIVE--
-                <div class="card filterDiv f-betplay">
+                
+                <!--LIGA-LIVE--
+                <div class="card filterDiv f-ucl">
                  <a data-toggle="collapse" href="#juego11" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" href="javascript:void(0)">
                   <div style="color: #343a40;" class="card-body">
                    <center>
                     <figure class="figure">
-                    <img class="figure img-fluid qatar" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="figure img-fluid competition inter" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
                     <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
-                        Catar
+                        Inter
                     </figcaption>
                     </figure>
 
-                    <p class="d5t1pm mb-0" style="position: absolute;relative; margin-top: -3%;">
-                    Nov 13
+                    <p class="d3t2pm mb-0" style="position: absolute;relative; margin-top: -3%;">
+                    Dic 9
                     </p>
                     vs
                     <figure class="figure">
-                    <img class="figure img-fluid costarica" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="figure img-fluid competition " width="48" src="https://img.uefa.com/imgml/TP/teams/logos/140X140/52707.png?imwidth=36" alt="">
                     <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-left: 5px;" class="figure-caption">
-                        CRC
+                        Shakhtar
                     </figcaption>
                     </figure>
 
-                    <img class="img-fluid float-right " width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="img-fluid competition float-right sky" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 
-                    <img class="img-fluid float-left" width="48" src="https://api.sofascore.com/api/v1/unique-tournament/851/image" alt="">
+                    <img class="img-fluid competition float-left ucl" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 
                    </center>
                   </div>
@@ -667,9 +841,25 @@
                       <div class="card card-body">
                        
                         <ul style="margin-top: 1%;" class="list-group list-group-horizontal-xlg">
-                        <a href="go:telecadena">
+                         <a href="go:p6">
                          <li class="list-group-item">
-                         <i class="hn flag"></i> Telecadena</li>
+                         <i class="england flag"></i> Premier (6) | HD</li>
+                         </a>
+                         <a href="go:c4">
+                         <li class="list-group-item">
+                         <i class="es flag"></i> Liga Campeones 3 (C4) | HD</li>
+                         </a>
+                         <a href="go:cc4">
+                         <li class="list-group-item">
+                         <i class="england flag"></i> LaLiga (C14) | HD</li>
+                         </a>
+                         <a href="go:espnsur">
+                         <li class="list-group-item">
+                         <i class="ar flag"></i> ESPN | SD</li>
+                         </a>
+                         <a href="go:p7">
+                         <li class="list-group-item">
+                         <i class="england flag"></i> Premier (7) | HD</li>
                          </a>
                         </ul>
                         
@@ -678,33 +868,33 @@
                   </div>
                 </div>
                 <!--/LIGA-LIVE-->
-                  
-                  <!--LIGA-LIVE--
-                <div class="card filterDiv f-betplay">
+                
+                <!--LIGA-LIVE--
+                <div class="card filterDiv f-ucl">
                  <a data-toggle="collapse" href="#juego12" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" href="javascript:void(0)">
                   <div style="color: #343a40;" class="card-body">
                    <center>
                     <figure class="figure">
-                    <img class="figure img-fluid mexico" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="figure img-fluid competition realmadrid" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
                     <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
-                        México
+                        Madrid
                     </figcaption>
                     </figure>
 
-                    <p class="d6t2pm mb-0" style="position: absolute;relative; margin-top: -3%;">
-                    Nov 14
+                    <p class="d3t2pm mb-0" style="position: absolute;relative; margin-top: -3%;">
+                    Dic 9
                     </p>
                     vs
                     <figure class="figure">
-                    <img class="figure img-fluid coreadelsur" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="figure img-fluid competition mgladbach" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
                     <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-left: 5px;" class="figure-caption">
-                        Corea
+                        Mgladbach
                     </figcaption>
                     </figure>
 
-                    <img class="img-fluid float-right " width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="img-fluid competition float-right sky" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 
-                    <img class="img-fluid float-left" width="48" src="https://api.sofascore.com/api/v1/unique-tournament/851/image" alt="">
+                    <img class="img-fluid competition float-left ucl" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 
                    </center>
                   </div>
@@ -721,13 +911,21 @@
                          <li class="list-group-item">
                          <i class="mx flag"></i> TUDN | HD</li>
                          </a>
-                         <a href="go:tudne">
+                         <a href="go:c1">
                          <li class="list-group-item">
-                         <i class="mx flag"></i> Univisión | HD</li>
+                         <i class="es flag"></i> Liga Campeones (C1) | HD</li>
                          </a>
-                         <a href="go:tudne">
+                         <a href="go:cc1">
                          <li class="list-group-item">
-                         <i class="mx flag"></i> Azteca 7 | HD</li>
+                         <i class="england flag"></i> LaLiga (C11) | HD</li>
+                         </a>
+                         <a href="go:espn2sur">
+                         <li class="list-group-item">
+                         <i class="ar flag"></i> ESPN 2 | SD</li>
+                         </a>
+                         <a href="go:p8">
+                         <li class="list-group-item">
+                         <i class="england flag"></i> Premier (8) | HD</li>
                          </a>
                         </ul>
                         
@@ -736,33 +934,33 @@
                   </div>
                 </div>
                 <!--/LIGA-LIVE-->
-                  
-                  <!--LIGA-LIVE--
-                <div class="card filterDiv f-betplay">
+                
+                <!--LIGA-LIVE--
+                <div class="card filterDiv f-ucl">
                  <a data-toggle="collapse" href="#juego13" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" href="javascript:void(0)">
                   <div style="color: #343a40;" class="card-body">
                    <center>
                     <figure class="figure">
-                    <img class="figure img-fluid guatemala" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="figure img-fluid competition city" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
                     <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
-                        Guatemala
+                        Man City
                     </figcaption>
                     </figure>
 
-                    <p class="d7t11am mb-0" style="position: absolute;relative; margin-top: -3%;">
-                    Nov 15
+                    <p class="d3t2pm mb-0" style="position: absolute;relative; margin-top: -3%;">
+                    Dic 9
                     </p>
                     vs
                     <figure class="figure">
-                    <img class="figure img-fluid honduras" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="figure img-fluid competition marseille" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
                     <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-left: 5px;" class="figure-caption">
-                        Honduras
+                        OM
                     </figcaption>
                     </figure>
 
-                    <img class="img-fluid float-right " width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                    <img class="img-fluid competition float-right sky" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 
-                    <img class="img-fluid float-left" width="48" src="https://api.sofascore.com/api/v1/unique-tournament/851/image" alt="">
+                    <img class="img-fluid competition float-left ucl" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 
                    </center>
                   </div>
@@ -775,17 +973,17 @@
                       <div class="card card-body">
                        
                         <ul style="margin-top: 1%;" class="list-group list-group-horizontal-xlg">
-                         <a href="go:7y4">
+                         <a href="go:p9">
                          <li class="list-group-item">
-                         <i class="hn flag"></i> Telecadena | HD</li>
+                         <i class="england flag"></i> Premier (9) | HD</li>
                          </a>
-                         <a href="go:otro3">
+                         <a href="go:c10">
                          <li class="list-group-item">
-                         <i class="us flag"></i> FOX Deportes (O3) | SD</li>
+                         <i class="england flag"></i> LaLiga (C10) | HD</li>
                          </a>
-                         <a href="go:tsi">
+                         <a href="go:p10">
                          <li class="list-group-item">
-                         <i class="hn flag"></i> TSi | HD</li>
+                         <i class="england flag"></i> Premier (10) | HD</li>
                          </a>
                         </ul>
                         
@@ -794,15 +992,16 @@
                   </div>
                 </div>
                 <!--/LIGA-LIVE-->
+                 
+                 
                   
-
       </center>
 
       </div>
       
-      </div>
+      <br><br></div>
     </section><!-- End Services Section -->
-    <br><br>
+    <br><br><br>
     <div class="bottom-bar"></div>
        
        </div>
