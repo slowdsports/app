@@ -28,6 +28,11 @@
     
     background-repeat: no-repeat;    
 }
+.shebelieves{
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/3076/image);
+    
+    background-repeat: no-repeat;    
+}
 .mundialconmebol{
     background-image: url(https://api.sofascore.com/api/v1/unique-tournament/295/image);
     
