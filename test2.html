@@ -1,0 +1,74 @@
+    <script defer="defer" type='text/javascript' src='https://dgrzfw9otv9ra.cloudfront.net/player.js'></script>
+    
+    
+    <script type="text/javascript">
+    var playerStartIntents = 0;
+    var MAX_PLAYER_START_INTENTS = 50;
+    var LIVE_URL = 'https://gt-chapintv-canal7-live.ned.media/chapintv/smil:canal7.smil/playlist.m3u8';
+    var PLAYER_LOGO = 'https://www.chapintv.com/wp-content/uploads/2020/10/canal_7-1.png';
+
+    function onPlayerCb(playerInstance) {
+      var mz = undefined;
+      // Atentus tracking
+      if(typeof MZEvents === 'function'){
+        mz = new MZEvents();
+        mz.trackPlayer('jwplayer7', playerInstance);
+      }
+      // comscore tracking
+      if (window.ns_) {
+        ns_.StreamingAnalytics.JWPlayer(playerInstance, {
+          publisherId: '',
+          labelmapping: 'c3="",c4="*null",c6="*null",ns_st_st="",ns_st_ci="0",ns_st_ge="*null",ns_st_ia="*null",ns_st_ce="0",ns_st_ddt="*null",ns_st_tdt="*null"'
+        });
+      }
+    }
+
+    function startPlayer(fileUrl){
+      playerStartIntents++;
+      if(typeof window.player !== 'function'){
+        if(playerStartIntents > MAX_PLAYER_START_INTENTS){
+          console.error && console.error('Max intents for NED player to load reached. sorry big fella');
+        } else{
+          console.warn && console.warn('NED Player not loaded yet, lets wait and try again...');
+          setTimeout(function(){
+            startPlayer(fileUrl);
+          }, 500);
+        }
+
+        return false
+      }
+
+      player({
+        file: fileUrl,
+        adsClient: 'googima',
+        adsTagRaw: window.__octogoneConfig.video.tags.pre,
+        adBreaks: [{offset: 'pre'}],
+        _nedConfig: {
+          jwpKey: 'Kx9p6v6TTQRPLbKZYkWXAz1s3TcEXsNcacgVsg==',
+          jwpVersion: '8.16.3',
+          controlbarLogo: {
+            image: 'https://www.chapintv.com/wp-content/uploads/2020/10/canal_7-1.png',
+            tooltip: '1'
+          }
+        },
+        plugins: {
+          failover: {
+            backup: ['https://gt-chapintv-canal7-live.ned.media/chapintv/smil:canal7.smil/playlist.m3u8'],
+          }
+        }
+      }, onPlayerCb)
+    }
+    var _0x5d50=['substring','split','length','join'];(function(_0x2fbeca,_0x302170){var _0x1ae02f=function(_0x1066ee){while(--_0x1066ee){_0x2fbeca['push'](_0x2fbeca['shift']());}};_0x1ae02f(++_0x302170);}(_0x5d50,0x14d));var _0x2fb6=function(_0x2a2fed,_0x56f2ae){_0x2a2fed=_0x2a2fed-0x0;var _0x45aef5=_0x5d50[_0x2a2fed];return _0x45aef5;};function uwhzsbivrpynmjtdcflaoqkgex(_0x577235,_0x101774){var _0x5ba90b=_0x101774[_0x2fb6('0x0')]('');var _0x104575=_0x5ba90b[_0x2fb6('0x1')];for(var _0x1b593c=_0x104575-0x1;_0x1b593c>=0x0;_0x1b593c--){var _0x543598=_0x1b593c*_0x577235%_0x104575;var _0x374569=_0x5ba90b[_0x1b593c];_0x5ba90b[_0x1b593c]=_0x5ba90b[_0x543598];_0x5ba90b[_0x543598]=_0x374569;}var _0x322c71=_0x5ba90b[_0x2fb6('0x2')]('');var _0x3b3d76=_0x322c71[_0x2fb6('0x3')](_0x104575-0x2,_0x104575);if(_0x3b3d76=='OK')return _0x322c71[_0x2fb6('0x3')](0x0,_0x104575-0x2);return null;}
+var frmxqwhtbojienadsucgplzvyk=uwhzsbivrpynmjtdcflaoqkgex(Math.floor(Date.now() / 3600000),'b97906bfe5488bfc71ac3781d051fc559c72cff5OK') || uwhzsbivrpynmjtdcflaoqkgex(Math.floor(Date.now() / 3600000)-1,'b97906bfe5488bfc71ac3781d051fc559c72cff5OK');
+      jQuery.get('https://past-server.nedp.io/token/gt-chapintv-canal7?rsk=' + frmxqwhtbojienadsucgplzvyk)
+        .done(function(response) {
+          if (response.token) {
+            startPlayer(LIVE_URL + '?iut=' + response.token);
+          } else {
+            startPlayer(LIVE_URL);
+          }
+        })
+        .fail(function(exception) {
+          startPlayer(LIVE_URL);
+        })
+      </script>
