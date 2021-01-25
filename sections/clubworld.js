@@ -22,3 +22,7 @@ Ahly
 </figcaption>
 </figure>
 `;
+
+for (const ele of document.getElementsByClassName("club-ulsan")){ele.innerHTML=(ulsan)};
+for (const ele of document.getElementsByClassName("club-duhail")){ele.innerHTML=(duhail)};
+for (const ele of document.getElementsByClassName("club-ahly")){ele.innerHTML=(ahly)};
