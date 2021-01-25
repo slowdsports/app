@@ -38,6 +38,11 @@
     
     background-repeat: no-repeat;    
 }
+.mundialclubes{
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/357/image);
+    
+    background-repeat: no-repeat;    
+}
 .nationsleague{
     background-image: url(https://api.sofascore.com/api/v1/unique-tournament/10783/image);
     
