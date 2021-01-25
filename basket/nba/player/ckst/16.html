@@ -1,0 +1,20 @@
+<html lang="en">
+    <head>
+        <meta charset=utf-8/>
+        <style>
+            #main{background-color: #000;}
+        </style>
+    </head>
+    <body id="main">
+        <div id='player'>
+            <video id="vidarea" class="video-js vjs-default-skin" width="100%" height="100%" controls autoplay ></video>
+            
+            <script>
+            var link = "aHR0cHM6Ly9kYWlseXNwb3J0YnVja2V0Ny5zMy5ldS13ZXN0LTIuYW1hem9uYXdzLmNvbS8xNi8xNi5tM3U4";    
+            var vid = document.getElementById("vidarea");
+            vid.src = window.atob(link);
+            </script> 
+       
+        </div>
+    </body>
+</html>
