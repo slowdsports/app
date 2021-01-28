@@ -7,7 +7,7 @@ Saprissa
 </figure>
 `;
 
-for(const ele of document.getElementsByClassName("fpd-saprisa")){ele.innerHTML=(saprisa)};
+for(const ele of document.getElementsByClassName("fpd-saprissa")){ele.innerHTML=(saprissa)};
 
 let herdiano = `
 <figure class="figure">
