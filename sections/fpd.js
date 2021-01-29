@@ -9,16 +9,16 @@ Saprissa
 
 for(const ele of document.getElementsByClassName("fpd-saprissa")){ele.innerHTML=(saprissa)};
 
-let herdiano = `
+let herediano = `
 <figure class="figure">
-<img class="figure img-fluid competition herdiano" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+<img class="figure img-fluid competition herediano" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
-Herdiano
+herediano
 </figcaption>
 </figure>
 `;
 
-for(const ele of document.getElementsByClassName("fpd-herdiano")){ele.innerHTML=(herediano)};
+for(const ele of document.getElementsByClassName("fpd-herediano")){ele.innerHTML=(herediano)};
 
 let cartagines = `
 <figure class="figure">
