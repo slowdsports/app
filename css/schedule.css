@@ -379,3 +379,8 @@
     
     background-repeat: no-repeat;    
 }
+.ligapy{
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/11541/image);
+    
+    background-repeat: no-repeat;    
+}
