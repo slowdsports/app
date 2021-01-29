@@ -78,6 +78,11 @@
     
     background-repeat: no-repeat;    
 }
+.eredivisie{
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/37/image);
+    
+    background-repeat: no-repeat;    
+}
 .seriea{
     background-image: url(https://api.sofascore.com/api/v1/unique-tournament/23/image);
     
