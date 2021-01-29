@@ -340,6 +340,28 @@ for(const ele of document.getElementsByClassName("l3")){ele.innerHTML=(l3)};
 for(const ele of document.getElementsByClassName("l4")){ele.innerHTML=(l4)};
 for(const ele of document.getElementsByClassName("l5")){ele.innerHTML=(l5)};
 for(const ele of document.getElementsByClassName("l6")){ele.innerHTML=(l6)};
+// EREDIVISIE
+let espnnl = `
+<a href="go:espnnl">
+<li class="list-group-item">
+<i class="nl flag"></i> ESPN | HD</li>
+</a>
+`;
+let espn2nl = `
+<a href="go:espn2nl">
+<li class="list-group-item">
+<i class="nl flag"></i> ESPN 2 | HD</li>
+</a>
+`;
+let espn3nl = `
+<a href="go:espn3nl">
+<li class="list-group-item">
+<i class="nl flag"></i> ESPN 3 | HD</li>
+</a>
+`;
+for(const ele of document.getElementsByClassName("espnnl")){ele.innerHTML=(espnnl)};
+for(const ele of document.getElementsByClassName("espn2nl")){ele.innerHTML=(espn2nl)};
+for(const ele of document.getElementsByClassName("espn3nl")){ele.innerHTML=(espn3nl)};
 // OTROS
 let otro1 = `
 <a href="go:otro1">
