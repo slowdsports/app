@@ -389,3 +389,8 @@
     
     background-repeat: no-repeat;    
 }
+.ligacl{
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/11653/image);
+    
+    background-repeat: no-repeat;    
+}
