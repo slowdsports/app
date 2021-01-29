@@ -51,7 +51,7 @@ Jicaral
 </figure>
 `;
 
-for(const ele of document.getElementsByClassName("fpd-sancarlos")){ele.innerHTML=(jicaral)};
+for(const ele of document.getElementsByClassName("fpd-jicaral")){ele.innerHTML=(jicaral)};
 
 let sancarlos = `
 <figure class="figure">
