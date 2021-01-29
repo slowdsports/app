@@ -344,7 +344,7 @@ for(const ele of document.getElementsByClassName("l6")){ele.innerHTML=(l6)};
 let espnnl = `
 <a href="go:espnnl">
 <li class="list-group-item">
-<i class="nl flag"></i> ESPN 1 | HD</li>
+<i class="nl flag"></i> ESPN | HD</li>
 </a>
 `;
 let espn2nl = `
