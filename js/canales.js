@@ -688,7 +688,7 @@ let telecadena = `
 <i class="hn flag"></i> Telecadena | HD</li>
 </a>
 `;
-let telemundoe = `
+let telemundon = `
 <a href="go:telemundoe">
 <li class="list-group-item">
 <i class="mx flag"></i> Telemundo | HD</li>
@@ -811,7 +811,7 @@ for(const ele of document.getElementsByClassName("mformula1")){ele.innerHTML=(mf
 for(const ele of document.getElementsByClassName("mlaliga")){ele.innerHTML=(mlaliga)};
 for(const ele of document.getElementsByClassName("tdtvp")){ele.innerHTML=(tdtvp)};
 for(const ele of document.getElementsByClassName("telecadena")){ele.innerHTML=(telecadena)};
-for(const ele of document.getElementsByClassName("telemundoe")){ele.innerHTML=(telemundoe)};
+for(const ele of document.getElementsByClassName("telemundon")){ele.innerHTML=(telemundon)};
 for(const ele of document.getElementsByClassName("tigohn")){ele.innerHTML=(tigohn)};
 for(const ele of document.getElementsByClassName("tigopy")){ele.innerHTML=(tigopy)};
 for(const ele of document.getElementsByClassName("tntsports")){ele.innerHTML=(tntsports)};
