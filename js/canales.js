@@ -689,7 +689,7 @@ let telecadena = `
 </a>
 `;
 let telemundon = `
-<a href="go:telemundoe">
+<a href="go:telemundon">
 <li class="list-group-item">
 <i class="mx flag"></i> Telemundo | HD</li>
 </a>
