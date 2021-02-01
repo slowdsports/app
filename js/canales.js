@@ -637,7 +637,7 @@ let la1 = `
 let bar = `
 <a href="go:bar">
 <li class="list-group-item">
-<i class="es flag"></i> Liga TV | SD</li>
+<i class="es flag"></i>Movistar LaLiga | HD</li>
 </a>
 `;
 let barsd = `
