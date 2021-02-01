@@ -673,7 +673,7 @@ let mformula1 = `
 let mlaliga = `
 <a href="go:mlaliga">
 <li class="list-group-item">
-<i class="es flag"></i> Movistar LaLiga | SD</li>
+<i class="es flag"></i> Movistar La Liga | HD</li>
 </a>
 `;
 let tdtvp = `
