@@ -32,35 +32,28 @@ let bottombar = `
         <li class="list-grup-item">
         <a href="go:home">
         <span class="activo">
-        <img width="40%" src="https://www.flaticon.es/svg/vstatic/svg/104/104702.svg?token=exp=1612509930~hmac=158824771d818c39c4e9bc038264894c" alt="">
+        <img width="40%" src="https://image.flaticon.com/icons/svg/149/149412.svg" alt="">
         </span>
         </a>
         </li>
         <li>
         <a href="go:eventos">
         <span>
-        <img width="40%" src="https://www.flaticon.es/svg/vstatic/svg/833/833593.svg?token=exp=1612510022~hmac=5f7fb5692a5e035868efa22b9f4e9f17" alt="">
+        <img width="40%" src="https://image.flaticon.com/icons/svg/149/149363.svg" alt="">
         </span>
         </a>
         </li>
         <li>
         <a href="go:futbol">
         <span>
-        <img width="40%" src="https://www.flaticon.com/svg/vstatic/svg/53/53283.svg?token=exp=1612510062~hmac=e621819242187477bd5a6aa2f09a1cb4" alt="">
-        </span>
-        </a>
-        </li>
-        <li>
-        <a href="go:basket">
-        <span>
-        <img width="40%" src="https://www.flaticon.com/svg/vstatic/svg/921/921183.svg?token=exp=1612510114~hmac=cacd7b70e895f8af4a6844c8971fcc64" alt="">
+        <img width="40%" src="https://image.flaticon.com/icons/svg/606/606077.svg" alt="">
         </span>
         </a>
         </li>
         <li>
         <a href="go:livetv">
         <span>
-        <img width="40%" src="https://www.flaticon.es/svg/vstatic/svg/88/88056.svg?token=exp=1612509459~hmac=661d57a311243d89f5b8108e7ba74e6d" alt="">
+        <img width="40%" src="https://image.flaticon.com/icons/svg/149/149096.svg" alt="">
         </span>
         </a>
         </li>
