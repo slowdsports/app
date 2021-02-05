@@ -56,7 +56,7 @@ let bottombar = `
         <li>
         <a href="go:basket">
         <span>
-        <img width="40%" src="//www.flaticon.com/svg/vstatic/svg/921/921183.svg?token=exp=1612510114~hmac=cacd7b70e895f8af4a6844c8971fcc64" alt="">
+        <img width="40%" src="images/basket.png" alt="">
         </span>
         <p class="bottom-text">Basket</p>
         </a>
