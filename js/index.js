@@ -34,6 +34,7 @@ let bottombar = `
         <span class="activo">
         <img width="40%" src="https://www.flaticon.es/svg/vstatic/svg/104/104702.svg?token=exp=1612509930~hmac=158824771d818c39c4e9bc038264894c" alt="">
         </span>
+        <p class="bottom-text">Inicio</p>
         </a>
         </li>
         <li>
@@ -41,6 +42,7 @@ let bottombar = `
         <span>
         <img width="40%" src="https://www.flaticon.es/svg/vstatic/svg/833/833593.svg?token=exp=1612510022~hmac=5f7fb5692a5e035868efa22b9f4e9f17" alt="">
         </span>
+        <p class="bottom-text">Eventos</p>
         </a>
         </li>
         <li>
@@ -48,6 +50,7 @@ let bottombar = `
         <span>
         <img width="40%" src="https://www.flaticon.com/svg/vstatic/svg/53/53283.svg?token=exp=1612510062~hmac=e621819242187477bd5a6aa2f09a1cb4" alt="">
         </span>
+        <p class="bottom-text">Fútbol</p>
         </a>
         </li>
         <li>
@@ -55,6 +58,7 @@ let bottombar = `
         <span>
         <img width="40%" src="https://www.flaticon.com/svg/vstatic/svg/921/921183.svg?token=exp=1612510114~hmac=cacd7b70e895f8af4a6844c8971fcc64" alt="">
         </span>
+        <p class="bottom-text">Basket</p>
         </a>
         </li>
         <li>
@@ -62,6 +66,7 @@ let bottombar = `
         <span>
         <img width="40%" src="https://www.flaticon.es/svg/vstatic/svg/88/88056.svg?token=exp=1612509459~hmac=661d57a311243d89f5b8108e7ba74e6d" alt="">
         </span>
+        <p class="bottom-text">TV</p>
         </a>
         </li>
       </ul>
