@@ -86,7 +86,7 @@ Defensor
 
 for(const ele of document.getElementsByClassName("uru-defensor")){ele.innerHTML=(defensor)};
 
-let riveruy = `
+let river = `
 <figure class="figure">
 <img class="figure img-fluid competition riveruy" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
@@ -95,7 +95,7 @@ River
 </figure>
 `;
 
-for(const ele of document.getElementsByClassName("uru-riveruy")){ele.innerHTML=(riveruy)};
+for(const ele of document.getElementsByClassName("uru-river")){ele.innerHTML=(river)};
 
 let fenix = `
 <figure class="figure">
