@@ -7,7 +7,7 @@ let octubre = `
 </figure>
 `;
 
-for(const ele of document.getElementsByClassName("para-octubre")){ele.innerHTML=(nacional)};
+for(const ele of document.getElementsByClassName("para-octubre")){ele.innerHTML=(octubre)};
 
 let nacional = `
 <figure class="figure">
