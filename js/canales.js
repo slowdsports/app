@@ -715,19 +715,19 @@ let tntsports = `
 let tntcl = `
 <a href="go:tntcl">
 <li class="list-group-item">
-<i class="cl flag"></i> TNT Sports Chile | HD</li>
+<i class="chile flag"></i> TNT Sports Chile | HD</li>
 </a>
 `;
 let tntcl2 = `
 <a href="go:tntcl2">
 <li class="list-group-item">
-<i class="cl flag"></i> TNT Sports Chile | HD</li>
+<i class="chile flag"></i> TNT Sports Chile | HD</li>
 </a>
 `;
 let tntcl3 = `
 <a href="go:tntcl3">
 <li class="list-group-item">
-<i class="cl flag"></i> TNT Sports Chile | HD</li>
+<i class="chile flag"></i> TNT Sports Chile | HD</li>
 </a>
 `;
 let tsi = `
