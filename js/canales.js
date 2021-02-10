@@ -712,19 +712,19 @@ let tntsports = `
 <i class="ar flag"></i> TNT Sports | HD</li>
 </a>
 `;
-let tntsports = `
+let tntcl = `
 <a href="go:tntcl">
 <li class="list-group-item">
 <i class="cl flag"></i> TNT Sports Chile | HD</li>
 </a>
 `;
-let tntsports = `
+let tntcl2 = `
 <a href="go:tntcl2">
 <li class="list-group-item">
 <i class="cl flag"></i> TNT Sports Chile | HD</li>
 </a>
 `;
-let tntsports = `
+let tntcl3 = `
 <a href="go:tntcl3">
 <li class="list-group-item">
 <i class="cl flag"></i> TNT Sports Chile | HD</li>
@@ -833,9 +833,9 @@ for(const ele of document.getElementsByClassName("telemundon")){ele.innerHTML=(t
 for(const ele of document.getElementsByClassName("tigohn")){ele.innerHTML=(tigohn)};
 for(const ele of document.getElementsByClassName("tigopy")){ele.innerHTML=(tigopy)};
 for(const ele of document.getElementsByClassName("tntsports")){ele.innerHTML=(tntsports)};
-for(const ele of document.getElementsByClassName("tntsports")){ele.innerHTML=(tntcl)};
-for(const ele of document.getElementsByClassName("tntsports")){ele.innerHTML=(tntcl2)};
-for(const ele of document.getElementsByClassName("tntsports")){ele.innerHTML=(tntcl3)};
+for(const ele of document.getElementsByClassName("tntcl")){ele.innerHTML=(tntcl)};
+for(const ele of document.getElementsByClassName("tntcl2")){ele.innerHTML=(tntcl2)};
+for(const ele of document.getElementsByClassName("tntcl3")){ele.innerHTML=(tntcl3)};
 for(const ele of document.getElementsByClassName("tsi")){ele.innerHTML=(tsi)};
 for(const ele of document.getElementsByClassName("tudne")){ele.innerHTML=(tudne)};
 for(const ele of document.getElementsByClassName("tyc")){ele.innerHTML=(tyc)};
