@@ -32,7 +32,7 @@ let bottombar = `
         <li class="list-grup-item">
         <a href="go:home">
         <span class="activo">
-        <img width="40%" src="http://app.slowdsports.com/js/images/home.png" alt="">
+        <img width="40%" src="https://slowdsports.github.io/app/js/images/home.png" alt="">
         </span>
         <p class="bottom-text">Inicio</p>
         </a>
@@ -40,7 +40,7 @@ let bottombar = `
         <li>
         <a href="go:eventos">
         <span>
-        <img width="40%" src="http://app.slowdsports.com/js/images/eventos.png" alt="">
+        <img width="40%" src="https://slowdsports.github.io/app/js/images/eventos.png" alt="">
         </span>
         <p class="bottom-text">Eventos</p>
         </a>
@@ -48,7 +48,7 @@ let bottombar = `
         <li>
         <a href="go:futbol">
         <span>
-        <img width="40%" src="http://app.slowdsports.com/js/images/futbol.png" alt="">
+        <img width="40%" src="https://slowdsports.github.io/app/js/images/futbol.png" alt="">
         </span>
         <p class="bottom-text">Fútbol</p>
         </a>
@@ -56,7 +56,7 @@ let bottombar = `
         <li>
         <a href="go:basket">
         <span>
-        <img width="40%" src="http://app.slowdsports.com/js/images/basket.png" alt="">
+        <img width="40%" src="https://slowdsports.github.io/app/js/images/basket.png" alt="">
         </span>
         <p class="bottom-text">Basket</p>
         </a>
@@ -64,7 +64,7 @@ let bottombar = `
         <li>
         <a href="go:livetv">
         <span>
-        <img width="40%" src="http://app.slowdsports.com/js/images/tv.png" alt="">
+        <img width="40%" src="https://slowdsports.github.io/app/js/images/tv.png" alt="">
         </span>
         <p class="bottom-text">TV</p>
         </a>
