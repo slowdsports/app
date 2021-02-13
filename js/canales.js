@@ -574,8 +574,8 @@ let fsnews = `
 <i class="us flag"></i> FS News | HD</li>
 </a>
 `;
-let fsmx = `
-<a href="go:fsmx">
+let fs1mx = `
+<a href="go:fs1mx">
 <li class="list-group-item">
 <i class="mx flag"></i> Fox Sports | SD</li>
 </a>
@@ -811,7 +811,7 @@ for(const ele of document.getElementsByClassName("eursport2")){ele.innerHTML=(eu
 for(const ele of document.getElementsByClassName("fs1")){ele.innerHTML=(fs1)};
 for(const ele of document.getElementsByClassName("fs2")){ele.innerHTML=(fs2)};
 for(const ele of document.getElementsByClassName("fsnews")){ele.innerHTML=(fsnews)};
-for(const ele of document.getElementsByClassName("fsmx")){ele.innerHTML=(fsmx)};
+for(const ele of document.getElementsByClassName("fs1mx")){ele.innerHTML=(fs1mx)};
 for(const ele of document.getElementsByClassName("fs2mx")){ele.innerHTML=(fs2mx)};
 for(const ele of document.getElementsByClassName("fs3mx")){ele.innerHTML=(fs3mx)};
 for(const ele of document.getElementsByClassName("fssur")){ele.innerHTML=(fssur)};
