@@ -556,6 +556,12 @@ let eurosport2 = `
 <i class=" flag"></i> Eurosport 1 | HD</li>
 </a>
 `;
+let foxa = `
+<a href="go:foxa">
+<li class="list-group-item">
+<i class="mx flag"></i> Fox Acion | HD</li>
+</a>
+`;
 let fs1 = `
 <a href="go:fs1">
 <li class="list-group-item">
@@ -808,6 +814,7 @@ for(const ele of document.getElementsByClassName("espn3sur")){ele.innerHTML=(esp
 for(const ele of document.getElementsByClassName("espnpsur")){ele.innerHTML=(espnpsur)};
 for(const ele of document.getElementsByClassName("eursport1")){ele.innerHTML=(eursport1)};
 for(const ele of document.getElementsByClassName("eursport2")){ele.innerHTML=(eurosport2)}
+for(const ele of document.getElementsByClassName("foxa")){ele.innerHTML=(foxa)};
 for(const ele of document.getElementsByClassName("fs1")){ele.innerHTML=(fs1)};
 for(const ele of document.getElementsByClassName("fs2")){ele.innerHTML=(fs2)};
 for(const ele of document.getElementsByClassName("fsnews")){ele.innerHTML=(fsnews)};
