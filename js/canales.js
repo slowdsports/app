@@ -556,8 +556,8 @@ let eurosport2 = `
 <i class=" flag"></i> Eurosport 1 | HD</li>
 </a>
 `;
-let foxa = `
-<a href="go:foxa">
+let fox = `
+<a href="go:fox">
 <li class="list-group-item">
 <i class="mx flag"></i> Fox Action | HD</li>
 </a>
