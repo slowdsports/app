@@ -559,7 +559,7 @@ let eurosport2 = `
 let foxa = `
 <a href="go:foxa">
 <li class="list-group-item">
-<i class="mx flag"></i> Fox Acion | HD</li>
+<i class="mx flag"></i> Fox Action | HD</li>
 </a>
 `;
 let fs1 = `
