@@ -140,3 +140,14 @@ Alajuelense
 `;
 
 for(const ele of document.getElementsByClassName("fpd-alajuelense")){ele.innerHTML=(alajuelense)};
+
+let sporting = `
+<figure class="figure">
+<img class="figure img-fluid competition sporting" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+<figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
+Sporting
+</figcaption>
+</figure>
+`;
+
+for(const ele of document.getElementsByClassName("fpd-sporting")){ele.innerHTML=(sporting)};
