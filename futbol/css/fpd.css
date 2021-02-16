@@ -64,3 +64,8 @@
     
     background-repeat: no-repeat;    
 }
+.sporting{
+    background-image: url(https://api.sofascore.com/api/v1/team/262906/image);
+    
+    background-repeat: no-repeat;    
+}
