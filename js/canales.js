@@ -846,6 +846,7 @@ for(const ele of document.getElementsByClassName("tntcl3")){ele.innerHTML=(tntcl
 for(const ele of document.getElementsByClassName("tsi")){ele.innerHTML=(tsi)};
 for(const ele of document.getElementsByClassName("tudne")){ele.innerHTML=(tudne)};
 for(const ele of document.getElementsByClassName("tyc")){ele.innerHTML=(tyc)};
+for(const ele of document.getElementsByClassName("tycus")){ele.innerHTML=(tycus)};
 for(const ele of document.getElementsByClassName("tycsd")){ele.innerHTML=(tycsd)};
 for(const ele of document.getElementsByClassName("unimase")){ele.innerHTML=(unimase)};
 for(const ele of document.getElementsByClassName("univision")){ele.innerHTML=(univision)};
