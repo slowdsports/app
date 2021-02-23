@@ -790,6 +790,12 @@ let win = `
 <i class="co flag"></i> Win Sports | HD</li>
 </a>
 `;
+let tudnmx = `
+<a href="go:tudnmx">
+<li class="list-group-item">
+<i class="mx flag"></i> TUDN | HD</li>
+</a>
+`;
 for(const ele of document.getElementsByClassName("vamos")){ele.innerHTML=(vamos)};
 for(const ele of document.getElementsByClassName("azteca7")){ele.innerHTML=(azteca7)};
 for(const ele of document.getElementsByClassName("bemad")){ele.innerHTML=(bemad)};
@@ -853,3 +859,4 @@ for(const ele of document.getElementsByClassName("tycsd")){ele.innerHTML=(tycsd)
 for(const ele of document.getElementsByClassName("unimase")){ele.innerHTML=(unimase)};
 for(const ele of document.getElementsByClassName("univision")){ele.innerHTML=(univision)};
 for(const ele of document.getElementsByClassName("win")){ele.innerHTML=(win)};
+for(const ele of document.getElementsByClassName("tudnmx")){ele.innerHTML=(tudnmx)};
