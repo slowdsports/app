@@ -640,18 +640,7 @@ let la1 = `
 <i class="es flag"></i> La 1 | HD</li>
 </a>
 `;
-let bar = `
-<a href="go:bar">
-<li class="list-group-item">
-<i class="es flag"></i>Movistar LaLiga | HD</li>
-</a>
-`;
-let barsd = `
-<a href="go:barsd">
-<li class="list-group-item">
-<i class="uk flag"></i> Liga TV | HD</li>
-</a>
-`;
+
 let lequipe = `
 <a href="go:lequipe">
 <li class="list-group-item">
@@ -680,6 +669,12 @@ let mlaliga = `
 <a href="go:mlaliga">
 <li class="list-group-item">
 <i class="es flag"></i> Movistar La Liga | HD</li>
+</a>
+`;
+let mlaligasd = `
+<a href="go:mlaliga">
+<li class="list-group-item">
+<i class="es flag"></i> Movistar La Liga | SD</li>
 </a>
 `;
 let tdtvp = `
@@ -834,13 +829,12 @@ for(const ele of document.getElementsByClassName("foxp")){ele.innerHTML=(foxp)};
 for(const ele of document.getElementsByClassName("goles")){ele.innerHTML=(goles)};
 for(const ele of document.getElementsByClassName("goltvec")){ele.innerHTML=(goltvec)};
 for(const ele of document.getElementsByClassName("la1")){ele.innerHTML=(la1)};
-for(const ele of document.getElementsByClassName("bar")){ele.innerHTML=(bar)};
-for(const ele of document.getElementsByClassName("barsd")){ele.innerHTML=(barsd)};
+for(const ele of document.getElementsByClassName("mlaligasd")){ele.innerHTML=(mlaligasd)};
 for(const ele of document.getElementsByClassName("lequipe")){ele.innerHTML=(lequipe)};
 for(const ele of document.getElementsByClassName("mdep")){ele.innerHTML=(mdep)};
 for(const ele of document.getElementsByClassName("mlcamp")){ele.innerHTML=(mlcamp)};
 for(const ele of document.getElementsByClassName("mformula1")){ele.innerHTML=(mformula1)};
-for(const ele of document.getElementsByClassName("mlaliga")){ele.innerHTML=(mlaliga)};
+for(const ele of document.getElementsByClassName("mlaligahd")){ele.innerHTML=(mlaligahd)};
 for(const ele of document.getElementsByClassName("tdtvp")){ele.innerHTML=(tdtvp)};
 for(const ele of document.getElementsByClassName("telecadena")){ele.innerHTML=(telecadena)};
 for(const ele of document.getElementsByClassName("telemundon")){ele.innerHTML=(telemundon)};
