@@ -668,13 +668,13 @@ let mformula1 = `
 let mlaliga = `
 <a href="go:mlaliga">
 <li class="list-group-item">
-<i class="es flag"></i> Movistar La Liga | HD</li>
+<i class="es flag"></i> Movistar LaLiga | HD</li>
 </a>
 `;
 let mlaligasd = `
-<a href="go:mlaliga">
+<a href="go:mlaligasd">
 <li class="list-group-item">
-<i class="es flag"></i> Movistar La Liga | SD</li>
+<i class="es flag"></i> Movistar LaLiga | SD</li>
 </a>
 `;
 let tdtvp = `
