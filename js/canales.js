@@ -665,8 +665,8 @@ let mformula1 = `
 <i class="es flag"></i> Movistar F1 | SD</li>
 </a>
 `;
-let mlaliga = `
-<a href="go:mlaliga">
+let movistar = `
+<a href="go:movistar">
 <li class="list-group-item">
 <i class="es flag"></i> Movistar LaLiga | HD</li>
 </a>
@@ -834,7 +834,7 @@ for(const ele of document.getElementsByClassName("lequipe")){ele.innerHTML=(lequ
 for(const ele of document.getElementsByClassName("mdep")){ele.innerHTML=(mdep)};
 for(const ele of document.getElementsByClassName("mlcamp")){ele.innerHTML=(mlcamp)};
 for(const ele of document.getElementsByClassName("mformula1")){ele.innerHTML=(mformula1)};
-for(const ele of document.getElementsByClassName("mlaliga")){ele.innerHTML=(mlaliga)};
+for(const ele of document.getElementsByClassName("movistar")){ele.innerHTML=(movistar)};
 for(const ele of document.getElementsByClassName("tdtvp")){ele.innerHTML=(tdtvp)};
 for(const ele of document.getElementsByClassName("telecadena")){ele.innerHTML=(telecadena)};
 for(const ele of document.getElementsByClassName("telemundon")){ele.innerHTML=(telemundon)};
