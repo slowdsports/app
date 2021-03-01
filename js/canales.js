@@ -406,6 +406,24 @@ for(const ele of document.getElementsByClassName("otro4")){ele.innerHTML=(otro4)
 for(const ele of document.getElementsByClassName("otro5")){ele.innerHTML=(otro5)};
 for(const ele of document.getElementsByClassName("otro6")){ele.innerHTML=(otro6)};
 // CANALES
+let bar = `
+<a href="go:bar">
+<li class="list-group-item">
+<i class="es flag"></i> Movistar LaLiga | HD</li>
+</a>
+`;
+let mlaliga1 = `
+<a href="go:mlaliga1">
+<li class="list-group-item">
+<i class="es flag"></i> Movistar LaLiga 1 | HD</li>
+</a>
+`;
+let mlaliga2 = `
+<a href="go:mlaliga2">
+<li class="list-group-item">
+<i class="es flag"></i> Movistar LaLiga 2 | HD</li>
+</a>
+`;
 let vamos = `
 <a href="go:vamos">
 <li class="list-group-item">
@@ -650,13 +668,25 @@ let lequipe = `
 let mdep = `
 <a href="go:mdep">
 <li class="list-group-item">
-<i class="es flag"></i> Movistar Deportes | SD</li>
+<i class="es flag"></i> Movistar Deportes | HD</li>
+</a>
+`;
+let mdep2 = `
+<a href="go:mdep2">
+<li class="list-group-item">
+<i class="es flag"></i> Movistar Deportes 2 | HD</li>
 </a>
 `;
 let mlcamp = `
 <a href="go:mlcamp">
 <li class="list-group-item">
-<i class="es flag"></i> Liga Campeones | SD</li>
+<i class="es flag"></i> Liga Campeones | HD</li>
+</a>
+`;
+let mlcamp2 = `
+<a href="go:mlcamp2">
+<li class="list-group-item">
+<i class="es flag"></i> Liga Campeones 2 | HD</li>
 </a>
 `;
 let mformula1 = `
@@ -791,6 +821,9 @@ let tudnmx = `
 <i class="mx flag"></i> TUDN | HD</li>
 </a>
 `;
+for(const ele of document.getElementsByClassName("bar")){ele.innerHTML=(bar)};
+for(const ele of document.getElementsByClassName("mlaliga1")){ele.innerHTML=(mlaliga1)};
+for(const ele of document.getElementsByClassName("mlaliga2")){ele.innerHTML=(mlaliga2)};
 for(const ele of document.getElementsByClassName("vamos")){ele.innerHTML=(vamos)};
 for(const ele of document.getElementsByClassName("azteca7")){ele.innerHTML=(azteca7)};
 for(const ele of document.getElementsByClassName("bemad")){ele.innerHTML=(bemad)};
@@ -832,7 +865,9 @@ for(const ele of document.getElementsByClassName("la1")){ele.innerHTML=(la1)};
 for(const ele of document.getElementsByClassName("mlaligasd")){ele.innerHTML=(mlaligasd)};
 for(const ele of document.getElementsByClassName("lequipe")){ele.innerHTML=(lequipe)};
 for(const ele of document.getElementsByClassName("mdep")){ele.innerHTML=(mdep)};
+for(const ele of document.getElementsByClassName("mdep2")){ele.innerHTML=(mdep2)};
 for(const ele of document.getElementsByClassName("mlcamp")){ele.innerHTML=(mlcamp)};
+for(const ele of document.getElementsByClassName("mlcamp2")){ele.innerHTML=(mlcamp2)};
 for(const ele of document.getElementsByClassName("mformula1")){ele.innerHTML=(mformula1)};
 for(const ele of document.getElementsByClassName("movistar")){ele.innerHTML=(movistar)};
 for(const ele of document.getElementsByClassName("tdtvp")){ele.innerHTML=(tdtvp)};
