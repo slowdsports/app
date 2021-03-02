@@ -83,6 +83,11 @@ margin-top: -5%;
     #primary { width:100%; }
     #secondary { width:100%; margin:0; border:none; }
 }
+.card:hover{
+    transition: box-shadow .3s;
+    background: #fff;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
 
 
         /*--------------------------------------------------------------
