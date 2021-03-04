@@ -677,6 +677,12 @@ let mdep1 = `
 <i class="es flag"></i> Movistar Deportes 1 | HD</li>
 </a>
 `;
+let mdep2 = `
+<a href="go:mdep2">
+<li class="list-group-item">
+<i class="es flag"></i> Movistar Deportes 2 | HD</li>
+</a>
+`;
 let mlcamp = `
 <a href="go:mlcamp">
 <li class="list-group-item">
@@ -866,6 +872,7 @@ for(const ele of document.getElementsByClassName("mlaligasd")){ele.innerHTML=(ml
 for(const ele of document.getElementsByClassName("lequipe")){ele.innerHTML=(lequipe)};
 for(const ele of document.getElementsByClassName("mdep")){ele.innerHTML=(mdep)};
 for(const ele of document.getElementsByClassName("mdep1")){ele.innerHTML=(mdep1)};
+for(const ele of document.getElementsByClassName("mdep2")){ele.innerHTML=(mdep2)};
 for(const ele of document.getElementsByClassName("mlcamp")){ele.innerHTML=(mlcamp)};
 for(const ele of document.getElementsByClassName("mlcamp2")){ele.innerHTML=(mlcamp2)};
 for(const ele of document.getElementsByClassName("mformula1")){ele.innerHTML=(mformula1)};
