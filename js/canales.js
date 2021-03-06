@@ -517,49 +517,49 @@ let espnsec = `
 let espnmx = `
 <a href="go:espnmx">
 <li class="list-group-item">
-<i class="mx flag"></i> ESPN | SD</li>
+<i class="mx flag"></i> ESPN | HD</li>
 </a>
 `;
 let espn2mx = `
 <a href="go:espn2mx">
 <li class="list-group-item">
-<i class="mx flag"></i> ESPN 2 | SD</li>
+<i class="mx flag"></i> ESPN 2 | HD</li>
 </a>
 `;
 let espn3mx = `
 <a href="go:espn3mx">
 <li class="list-group-item">
-<i class="mx flag"></i> ESPN 3 | SD</li>
+<i class="mx flag"></i> ESPN 3 | HD</li>
 </a>
 `;
 let espn3dep = `
 <a href="go:espn3dep">
 <li class="list-group-item">
-<i class="mx flag"></i> ESPN Deportes | SD</li>
+<i class="mx flag"></i> ESPN Deportes | HD</li>
 </a>
 `;
 let espnsur = `
 <a href="go:espnsur">
 <li class="list-group-item">
-<i class="ar flag"></i> ESPN | SD</li>
+<i class="ar flag"></i> ESPN | HD</li>
 </a>
 `;
 let espn2sur = `
 <a href="go:espn2sur">
 <li class="list-group-item">
-<i class="ar flag"></i> ESPN 2 | SD</li>
+<i class="ar flag"></i> ESPN 2 | HD</li>
 </a>
 `;
 let espn3sur = `
 <a href="go:espn3sur">
 <li class="list-group-item">
-<i class="ar flag"></i> ESPN 3 | SD</li>
+<i class="ar flag"></i> ESPN 3 | HD</li>
 </a>
 `;
 let espnpsur = `
 <a href="go:espnpsur">
 <li class="list-group-item">
-<i class="ar flag"></i> ESPN + | SD</li>
+<i class="ar flag"></i> ESPN + | HD</li>
 </a>
 `;
 let eurosport1 = `
@@ -601,49 +601,49 @@ let fsnews = `
 let fs1mx = `
 <a href="go:fs1mx">
 <li class="list-group-item">
-<i class="mx flag"></i> Fox Sports | SD</li>
+<i class="mx flag"></i> Fox Sports | HD</li>
 </a>
 `;
 let fs2mx = `
 <a href="go:fs2mx">
 <li class="list-group-item">
-<i class="mx flag"></i> Fox Sports 2 | SD</li>
+<i class="mx flag"></i> Fox Sports 2 | HD</li>
 </a>
 `;
 let fs3mx = `
 <a href="go:fs3mx">
 <li class="list-group-item">
-<i class="mx flag"></i> Fox Sports 3 | SD</li>
+<i class="mx flag"></i> Fox Sports 3 | HD</li>
 </a>
 `;
 let fssur = `
 <a href="go:fssur">
 <li class="list-group-item">
-<i class="ar flag"></i> Fox Sports | SD</li>
+<i class="ar flag"></i> Fox Sports | HD</li>
 </a>
 `;
 let fs2sur = `
 <a href="go:fs2sur">
 <li class="list-group-item">
-<i class="ar flag"></i> Fox Sports 2 | SD</li>
+<i class="ar flag"></i> Fox Sports 2 | HD</li>
 </a>
 `;
 let fs3sur = `
 <a href="go:fs3sur">
 <li class="list-group-item">
-<i class="ar flag"></i> Fox Sports 3 | SD</li>
+<i class="ar flag"></i> Fox Sports 3 | HD</li>
 </a>
 `;
 let foxp = `
 <a href="go:foxp">
 <li class="list-group-item">
-<i class="ar flag"></i> Fox Premium | SD</li>
+<i class="ar flag"></i> Fox Premium | HD</li>
 </a>
 `;
 let goles = `
 <a href="go:goles">
 <li class="list-group-item">
-<i class="es flag"></i> Gol | SD</li>
+<i class="es flag"></i> Gol | HD</li>
 </a>
 `;
 let goltvec = `
@@ -698,7 +698,7 @@ let mlcamp2 = `
 let mformula1 = `
 <a href="go:mformula1">
 <li class="list-group-item">
-<i class="es flag"></i> Movistar F1 | SD</li>
+<i class="es flag"></i> Movistar F1 | HD</li>
 </a>
 `;
 let movistar = `
@@ -794,7 +794,7 @@ let tycus = `
 let tntar = `
 <a href="go:tntar">
 <li class="list-group-item">
-<i class="ar flag"></i> TNT Sports | SD</li>
+<i class="ar flag"></i> TNT Sports | HD</li>
 </a>
 `;
 let tycsd = `
