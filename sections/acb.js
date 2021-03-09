@@ -199,3 +199,5 @@ for(const ele of document.getElementsByClassName("ac-betis")){ele.innerHTML=(bet
 for(const ele of document.getElementsByClassName("ac-canaria")){ele.innerHTML=(canaria)};
 
 for(const ele of document.getElementsByClassName("ac-delteco")){ele.innerHTML=(delteco)};
+
+for(const ele of document.getElementsByClassName("ac-miraflores")){ele.innerHTML=(burgos)};
