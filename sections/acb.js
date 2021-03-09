@@ -160,6 +160,15 @@ Delteco
 </figure>
 `;
 
+let gipuzkoa = `
+<figure class="figure">
+<img class="figure img-fluid competition acb-gipuzkoa" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+<figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
+Gipuzkoa
+</figcaption>
+</figure>
+`;
+
 for(const ele of document.getElementsByClassName("ac-realmadrid")){ele.innerHTML=(realmadrid)};
 
 for(const ele of document.getElementsByClassName("ac-iberostar")){ele.innerHTML=(iberostar)};
@@ -199,3 +208,7 @@ for(const ele of document.getElementsByClassName("ac-betis")){ele.innerHTML=(bet
 for(const ele of document.getElementsByClassName("ac-canaria")){ele.innerHTML=(canaria)};
 
 for(const ele of document.getElementsByClassName("ac-delteco")){ele.innerHTML=(delteco)};
+
+for(const ele of document.getElementsByClassName("ac-miraflores")){ele.innerHTML=(burgos)};
+
+for(const ele of document.getElementsByClassName("ac-gipuzkoa")){ele.innerHTML=(gipuzkoa)};
