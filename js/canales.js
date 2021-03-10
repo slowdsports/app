@@ -215,37 +215,37 @@ for(const ele of document.getElementsByClassName("cc10")){ele.innerHTML=(cc10)};
 let s1 = `
 <a href="go:s1">
 <li class="list-group-item">
-<i class="it flag"></i> Serie A (1) | HD</li>
+<i class="us flag"></i> Serie A (1) | HD</li>
 </a>
 `;
 let s2 = `
 <a href="go:s2">
 <li class="list-group-item">
-<i class="it flag"></i> Serie A (2) | HD</li>
+<i class="us flag"></i> Serie A (2) | HD</li>
 </a>
 `;
 let s3 = `
 <a href="go:s3">
 <li class="list-group-item">
-<i class="it flag"></i> Serie A (3) | HD</li>
+<i class="us flag"></i> Serie A (3) | HD</li>
 </a>
 `;
 let s4 = `
 <a href="go:s4">
 <li class="list-group-item">
-<i class="it flag"></i> Serie A (4) | HD</li>
+<i class="us flag"></i> Serie A (4) | HD</li>
 </a>
 `;
 let s5 = `
 <a href="go:s5">
 <li class="list-group-item">
-<i class="it flag"></i> Serie A (5) | HD</li>
+<i class="us flag"></i> Serie A (5) | HD</li>
 </a>
 `;
 let s6 = `
 <a href="go:s6">
 <li class="list-group-item">
-<i class="it flag"></i> Serie A (6) | HD</li>
+<i class="us flag"></i> Serie A (6) | HD</li>
 </a>
 `;
 for(const ele of document.getElementsByClassName("s1")){ele.innerHTML=(s1)};
