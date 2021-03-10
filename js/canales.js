@@ -689,6 +689,12 @@ let mlcamp = `
 <i class="es flag"></i> Liga Campeones | HD</li>
 </a>
 `;
+let mlcamp1 = `
+<a href="go:mlcamp1">
+<li class="list-group-item">
+<i class="es flag"></i> Liga Campeones 1 | HD</li>
+</a>
+`;
 let mlcamp2 = `
 <a href="go:mlcamp2">
 <li class="list-group-item">
@@ -874,6 +880,7 @@ for(const ele of document.getElementsByClassName("mdep")){ele.innerHTML=(mdep)};
 for(const ele of document.getElementsByClassName("mdep1")){ele.innerHTML=(mdep1)};
 for(const ele of document.getElementsByClassName("mdep2")){ele.innerHTML=(mdep2)};
 for(const ele of document.getElementsByClassName("mlcamp")){ele.innerHTML=(mlcamp)};
+for(const ele of document.getElementsByClassName("mlcamp1")){ele.innerHTML=(mlcamp1)};
 for(const ele of document.getElementsByClassName("mlcamp2")){ele.innerHTML=(mlcamp2)};
 for(const ele of document.getElementsByClassName("mformula1")){ele.innerHTML=(mformula1)};
 for(const ele of document.getElementsByClassName("movistar")){ele.innerHTML=(movistar)};
