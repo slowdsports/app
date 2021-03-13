@@ -1,9 +1,64 @@
+
+<script type="text/javascript" src="//cdn.jsdelivr.net/clappr/latest/clappr.min.js"></script>
+<script src="//cdn.jsdelivr.net/clappr.level-selector/latest/level-selector.min.js" type="text/javascript"></script>
+<script src="//cdn.jsdelivr.net/npm/clappr-chromecast-plugin@latest/dist/clappr-chromecast-plugin.min.js"></script>
+<script src="xhr.js?1614368820"></script>
+
+<script>
+
+var b = 'trusturl.org';
+if (document.referrer.indexOf(b)!=-1){
+location.href='https://sports24.icu';
+}
+
+var b = 'freestreams-live1.com';
+if (document.referrer.indexOf(b)!=-1){
+location.href='https://sports24.icu';
+}
+
+</script>
 <style>
-#main
-    {
-        background-color: #000;
-    }
+body {
+        margin:0px;
+				padding:0px;
+}
+
 </style>
-<body id="main">
-<iframe allow="autoplay; encrypted-media" allowfullscreen="true" frameborder="0" height="420" scrolling="no" src="https://megatelevisionhd.xyz/flow/foxsports2.html?get=aHR0cHM6Ly9lZGdlNC1oci5jdmF0dHYuY29tLmFyL2xpdmUvYzNlZHMvRm94U3BvcnRzMkhEL1NBX0xpdmVfZGFzaF9lbmNfMkEvRm94U3BvcnRzMkhELm1wZA==" style="height: 100%; left: 0; position: absolute; width: 100%;" width="730"></iframe>
-</body>
+<div id="ppp">
+<script type="text/javascript">
+
+
+var xurl = atob('aHR0cHM6Ly9jb250ZW50LnVwbHluay5jb20vY2hhbm5lbC9hOTIxNjNkYjYzOWE0YzdiOTY2MTc3ZDMyZTM1ZTlmMi5tM3U4P2Nxcz1IRmV5TmVJTDJORVY2ZkZyN3ZETURIRjUxTnlXZ1FCcDZQVEp6VkZ2cllMOGFzZ1ZTWVduWkkwdkFBd3dNQW1UT1lUYW9oT3N3RXE0NEJrWDVhT0RoaWVwX0dRS214UmhkcFVEd2hJajF6OGlTLUZrUzlqUDI3YkZXTGxIVjZORWc1OFpIYlFpQ3NrWXlEUlQ2Z1FyOUg0YU9RV254VDhoM0JUanBIREpuRTI2RlZoOHhkamQxWDFORDVGVS1RTHhFUDRUVE10ZzB1MEQwVUhfRjhqR0R2TFMxV1dnQWZIb0xqeFVhZUZMYTM5bHNiWHRndlRMVTcyUXFHQXF3N0VDeXltRFRaeUJkS3E4ZVBzaTJUWnFER1BYZnNCakxwcDBZU2ZybUxpcGRwV0lfTE42Qy1VbjdxcU9oRkNCcjVLTDcxcjBaZ0VOUktKOGlhZThBMURUTG1jREdxcTNPOE9xY2ZmdmdGNEo1SGdJd0VUdnBhNGZRdTIxeXBzVm1sSDdYOGhzMWItOVZuR3pTMDRtUnNac3JUaUIwUHB3M3BsVWNLZkk4QlVSWXNZTWFQQUE5UmtOblRZUXlvNUxKR0VVVlQ5eEhzQWI5VWw3VkFTcXdFMzlpZz09JmtpZD03ZTYyYmIyYTU1MDM0M2I1YThiN2I0OGU2M2NjMjJiZg==');
+
+
+         player = new Clappr.Player({ source: xurl, mimeType: "application/x-mpegURL", autoPlay: false, width: "100%", height: "100%",
+         plugins: [LevelSelector, ChromecastPlugin],
+				 crossOrigin: "anonymous",
+    
+    playInline: true,
+    //playbackNotSupportedMessage: "video will be up soon.. please standby",
+
+    chromecast: {
+        appId: "9DFB77C0",
+        contentType: "video/m3u8",
+        media: {
+            type: ChromecastPlugin.Movie,
+            title: "Sports24",
+            subtitle: "Sports24"
+        }
+    },
+		flushLiveURLCache: false,
+		levelSelectorConfig: {
+           labelCallback: function(playbackLevel, customLabel) {
+               return Math.round(playbackLevel.level.bitrate / 1000) + ' kbps';
+           }
+       },
+			 disableVideoTagContextMenu: true,
+		
+                parentId: "#ppp"});
+
+player.getPlugin('click_to_pause').disable();
+				
+
+</script>
+</div>
