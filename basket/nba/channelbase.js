@@ -1,3 +1,10 @@
+// VARIABLE
+let base = "//";
+let vrb = "y.";
+let cks = "crackstream.gq/show/";
+let fnl = "/playlist.m3u8";
+//console.log(xurl);
+
 let nba1 = `
 <a href="go:mx1">
 <li class="list-group-item">
