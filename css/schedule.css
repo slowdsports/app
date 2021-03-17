@@ -53,6 +53,11 @@
     
     background-repeat: no-repeat;    
 }
+.olympic{
+    background-image: url(https://i.ibb.co/3Svj8pt/2020-CONCACAF-Men-s-Olympic-Qualifying-Championship.png);
+    
+    background-repeat: no-repeat;    
+}
 .uel{
     background-image: url(https://api.sofascore.com/api/v1/unique-tournament/679/image);
     
