@@ -18,6 +18,11 @@
 .fa-circle{
     color: red;
 }
+.tournament{
+    background-image: url(https://www.sofascore.com/static/images/placeholders/tournament.png);
+    
+    background-repeat: no-repeat;    
+}
 .ucl{
     background-image: url(https://api.sofascore.com/api/v1/unique-tournament/7/image);
     
