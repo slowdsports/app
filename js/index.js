@@ -38,6 +38,40 @@ let bottombar = `
         </a>
         </li>
         <li>
+        <a href="go:futbol">
+        <span>
+        <img width="40%" src="https://slowdsports.github.io/app/js/images/futbol.png" alt="">
+        </span>
+        <p class="bottom-text">Fútbol</p>
+        </a>
+        </li>
+        <li>
+        <a href="go:basket">
+        <span>
+        <img width="40%" src="https://slowdsports.github.io/app/js/images/basket.png" alt="">
+        </span>
+        <p class="bottom-text">Basket</p>
+        </a>
+        </li>
+      </ul>
+      </center>
+       </div>
+`;
+for(const ele of document.getElementsByClassName("bottom-bar")){ele.innerHTML=(bottombar)};
+// BOTTOM BAR
+let bottombar2 = `
+<div style="position: fixed;" class="altmenu">
+      <center>
+      <ul class="list-group-horizontal">
+        <li class="list-grup-item">
+        <a href="go:home">
+        <span class="activo">
+        <img width="40%" src="https://slowdsports.github.io/app/js/images/home.png" alt="">
+        </span>
+        <p class="bottom-text">Inicio</p>
+        </a>
+        </li>
+        <li>
         <a href="go:eventos">
         <span>
         <img width="40%" src="https://slowdsports.github.io/app/js/images/eventos.png" alt="">
@@ -73,5 +107,5 @@ let bottombar = `
       </center>
        </div>
 `;
-for(const ele of document.getElementsByClassName("bottom-bar")){ele.innerHTML=(bottombar)};
+for(const ele of document.getElementsByClassName("bottom-bar2")){ele.innerHTML=(bottombar2)};
 
