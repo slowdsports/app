@@ -1,6 +1,6 @@
 // VARIABLE
 let base = "//";
-let vrb = "s.";
+let vrb = "ns.";
 let cks = "crackstreams.gq/show/";
 let fnl = "/playlist.m3u8";
 //let xurl = base + vrb + cks + show + fnl;
