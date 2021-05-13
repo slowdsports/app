@@ -1,8 +1,8 @@
 // VARIABLE
 let base = "//";
-let vrb = "nba.";
+let vrb = "nba2.";
 let cks = "cdncrack.gq/live/";
-let fnl = "/playlist.m3u8";
+let fnl = "/chunks.m3u8";
 //let xurl = base + vrb + cks + show + fnl;
 //console.log(xurl);
 
