@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>iRaffle Sports - APP</title>
+    <title>ZamTV - APP</title>
     <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
     <!-- Bootstrap core CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Material Design Bootstrap -->
@@ -12,65 +12,59 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
     <!--FontAwesome Animated -->
-    <link rel="stylesheet" href="css/font-awesome-animation.css" />
+    <link rel="stylesheet" href="../../css/font-awesome-animation.css" />
     <!--Bootstrap Flags -->
     <link rel="stylesheet" href="css/flags.css" />
     <!-- HOME Styles -->
     <link rel="stylesheet" href="css/home.css" />
     <!-- Schedule Styles -->
     <link rel="stylesheet" href="css/schedule.css" /> 
-    <!-- Mintenance DB -->
-    <link rel="stylesheet" href="css/maintenance.css" />   
+    <!-- INTL DB -->
+    <link rel="stylesheet" href="css/intl.css" />
     <style>
         .href-ns{
             text-decoration: none;
             color: #212529;
         }   
     </style>
-</head>
-<body>
+    
+    <body>
       <!-- ======= Menu Section ======= -->    
     
-    <div class="menu-toggle">
-		<a href="#" class="menu-link">
-      
-      <span class="menu-logo">
-        <img src="https://i.ibb.co/PNytkmd/logob-1.png" alt="">
-        <p class="text-menu"></p>
-      </span>
-      
-			<span class="menu-icon">
-				<span class="menu-line menu-line-1"></span>
-				<span class="menu-line menu-line-2"></span>
-			</span>
-
-      <span class="menu-circle">
-        <span class="menu-pulse first-pulse"></span>
-        <span class="menu-pulse second-pulse"></span>
-      </span>
-      
-    </a>
-  </div>
+    <div class="app-logo"></div>
+    
     <!-- ======= Services Section ======= -->
     <section id="services" class="services section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-         <br><br><br><br><br>
-          <h2>¡Bienvenido a iRaffle TV!</h2>
-          
-          <div class="animation">
-             <div class="one spin-one"></div>
-             <div class="two spin-two"></div>
-             <div class="three spin-one"></div>
-          </div>
-          
-          <h3>La app estará temporalmente inactiva por problemas internos <br> Recibiréis una notificación cuando esté funcionando nuevamente. </h3>
+          <h2>¡Bienvenido a iRaffle 2.0!</h2>
+      
         </div>
+        <center><p><i class="fab fa-android"></i><b>Entrar a la app: </b></p></center>
         <hr>
         
+        <!--MODAL-->
+            <!-- Button trigger modal -->
+            <center>
+            <a href="go:home" style="margin-right: -6px;" type="button" value="Submit" onclick="checkPswd()" class="btn btn-large btn-outline-primary"><i style="margin-left: -8px; margin-right: 3px;" class="fa fa-sign-in-alt"></i> Entrar</a>
+            <br>
+            <center><p><i class="fa fa-users"></i> Únete a nuestro canal de Telegram:</p></center>
+            <hr>            
+            <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#exampleModal">
+             <a href="go:social">
+              <i class="fa fa-paper-plane"></i> Telegram
+             </a>
+            </button>
+            
+            <br><br>
+            <p><em><i style="transform: rotate(360deg);" class="fa fa-key"></i> Password: 0101</em></p>
+            <hr>
+            <script async src="https://telegram.org/js/telegram-widget.js?11" data-telegram-post="slowdsports/1756" data-width="100%"></script>
+            </center>
         </div></section>
    <!--Ajax Scripts -->
+    <script src="js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
