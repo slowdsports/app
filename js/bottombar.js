@@ -37,9 +37,9 @@ let bottombarHome = `
         </li>
         
         <li class="list-grup-item menu-element">
-        <a href="go:tv">
+        <a href="go:livetv">
         <span>
-        <a class="nav-bar-icon" href="go:tv">
+        <a class="nav-bar-icon" href="go:livetv">
         <i class="blancolormenu bottom-icon fas fa-tv"></i>
         <p class="blancolormenu bottom-text">Televisión</p>
         </a>
@@ -101,9 +101,9 @@ let bottombarFutbol = `
         </li>
         
         <li class="list-grup-item menu-element">
-        <a href="go:tv">
+        <a href="go:livetv">
         <span>
-        <a class="nav-bar-icon" href="go:tv">
+        <a class="nav-bar-icon" href="go:livetv">
         <i class="blancolormenu bottom-icon fas fa-tv"></i>
         <p class="blancolormenu bottom-text">Televisión</p>
         </a>
@@ -165,9 +165,9 @@ let bottombarBasket = `
         </li>
         
         <li class="list-grup-item menu-element">
-        <a href="go:tv">
+        <a href="go:livetv">
         <span>
-        <a class="nav-bar-icon" href="go:tv">
+        <a class="nav-bar-icon" href="go:livetv">
         <i class="blancolormenu bottom-icon fas fa-tv"></i>
         <p class="blancolormenu bottom-text">Televisión</p>
         </a>
@@ -229,9 +229,9 @@ let bottombarTv = `
         </li>
         
         <li class="list-grup-item menu-element">
-        <a href="go:tv">
+        <a href="go:livetv">
         <span>
-        <a class="nav-bar-icon" href="go:tv">
+        <a class="nav-bar-icon" href="go:livetv">
         <i class="blancolormenu bottom-icon fas fa-tv activo"></i>
         <p class="blancolormenu bottom-text activo">Televisión</p>
         </a>
@@ -293,9 +293,9 @@ let bottombarInfo = `
         </li>
         
         <li class="list-grup-item menu-element">
-        <a href="go:tv">
+        <a href="go:livetv">
         <span>
-        <a class="nav-bar-icon" href="go:tv">
+        <a class="nav-bar-icon" href="go:livetv">
         <i class="blancolormenu bottom-icon fas fa-tv"></i>
         <p class="blancolormenu bottom-text">Televisión</p>
         </a>
