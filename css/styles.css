@@ -157,5 +157,9 @@
             position: absolute; 
             margin-top: -3%;
         }
-        
-        
+        .center-frame {
+            margin: auto;
+            width: 100%;
+            border: 0px solid green;
+            padding: 100px 0px 0px 0px;
+        }
