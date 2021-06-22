@@ -1,10 +1,19 @@
-let tudnmx = `
-<a href="go:tudnmx">
-<li class="list-group-item">
-<i class="mx flag"></i> TUDN | HD</li>
-</a>
+let validacionOK = `
+<div class="center">
+  <h1>¡Bienvenido!</h1>
+  <h3>Esta versión estará disponible hasta: </h3>
+  <p class="">ESTO</p>
+  <a href="#"><div class="btn">Acceder</div></a>
+</div>
 `;
-for(const ele of document.getElementsByClassName("bar")){ele.innerHTML=(bar)};
+
+//for(const ele of document.getElementsByClassName("ok")){ele.innerHTML=(validacionOK)};
+
+let validacionMal = `
+<p>Prueba mal</p>
+`;
+
+//for(const ele of document.getElementsByClassName("mal")){ele.innerHTML=(validacionMal)};
 
 
 function validarLogin() {
@@ -36,19 +45,13 @@ function validarLogin() {
 
     // Output the result in an element with id="demo"
     for (const ele of document.getElementsByClassName("validarLogin")) {
-      ele.innerHTML = (days + "<span>d</span> " + hours + "<span>h</span> " +
-        minutes + "<span>m</span> " + seconds + "<span>s</span><br />")
+      ele.innerHTML = (validacionOK)
     }
 
     // If the count down is over, write some text
     if (distance < 0) {
       for (const ele of document.getElementsByClassName("validarLogin")) {
-        ele.innerHTML = "<p class='live-text'>Live <i class='fa fa-circle faa-flash animated'></i></p> ";
-      }
-      if (distance + 7200000 < 0) {
-        for (const allEllements of document.getElementsByClassName("validarLogin")) {
-          allEllements.innerHTML = "Ended";
-        }
+      ele.innerHTML = (validacionMal);
       }
     }
   }, 1000);
