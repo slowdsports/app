@@ -7,7 +7,7 @@ let bottombarHome = `
         <a href="javascript:void(0)">
         <span>
         <a class="nav-bar-icon" href="javascript:void(0)">
-        <i class="blancolormenu bottom-icon fas fa-home activo"></i>
+        <i class="blancolormenu bottom-icon uil uil uil-estate activo"></i>
         <p class="blancolormenu bottom-text activo">Inicio</p>
         </a>
         </span>
@@ -18,7 +18,7 @@ let bottombarHome = `
         <a href="go:futbol">
         <span>
         <a class="nav-bar-icon" href="go:futbol">
-        <i class="blancolormenu bottom-icon fas fa-futbol"></i>
+        <i class="blancolormenu bottom-icon uil uil-football"></i>
         <p class="blancolormenu bottom-text">Fútbol</p>
         </a>
         </span>
@@ -29,7 +29,7 @@ let bottombarHome = `
         <a href="go:basket">
         <span>
         <a class="nav-bar-icon" href="go:basket">
-        <i class="blancolormenu bottom-icon fas fa-basketball-ball"></i>
+        <i class="blancolormenu bottom-icon fas uil uil-basketball-hoop"></i>
         <p class="blancolormenu bottom-text">Basket</p>
         </a>
         </span>
@@ -40,7 +40,7 @@ let bottombarHome = `
         <a href="go:livetv">
         <span>
         <a class="nav-bar-icon" href="go:livetv">
-        <i class="blancolormenu bottom-icon fas fa-tv"></i>
+        <i class="blancolormenu bottom-icon uil uil-tv-retro"></i>
         <p class="blancolormenu bottom-text">Televisión</p>
         </a>
         </span>
@@ -51,7 +51,7 @@ let bottombarHome = `
         <a href="go:info">
         <span>
         <a class="nav-bar-icon" href="go:info">
-        <i class="blancolormenu bottom-icon fas fa-info-circle"></i>
+        <i class="blancolormenu bottom-icon uil uil-info-circle"></i>
         <p class="blancolormenu bottom-text">Información</p>
         </a>
         </span>
@@ -71,7 +71,7 @@ let bottombarFutbol = `
         <a href="javascript:void(0)">
         <span>
         <a class="nav-bar-icon" href="javascript:void(0)">
-        <i class="blancolormenu bottom-icon fas fa-home"></i>
+        <i class="blancolormenu bottom-icon uil uil uil-estate"></i>
         <p class="blancolormenu bottom-text">Inicio</p>
         </a>
         </span>
@@ -82,7 +82,7 @@ let bottombarFutbol = `
         <a href="go:futbol">
         <span>
         <a class="nav-bar-icon" href="go:futbol">
-        <i class="blancolormenu bottom-icon fas fa-futbol activo"></i>
+        <i class="blancolormenu bottom-icon uil uil-football activo"></i>
         <p class="blancolormenu bottom-text activo">Fútbol</p>
         </a>
         </span>
@@ -93,7 +93,7 @@ let bottombarFutbol = `
         <a href="go:basket">
         <span>
         <a class="nav-bar-icon" href="go:basket">
-        <i class="blancolormenu bottom-icon fas fa-basketball-ball"></i>
+        <i class="blancolormenu bottom-icon fas uil uil-basketball-hoop"></i>
         <p class="blancolormenu bottom-text">Basket</p>
         </a>
         </span>
@@ -104,7 +104,7 @@ let bottombarFutbol = `
         <a href="go:livetv">
         <span>
         <a class="nav-bar-icon" href="go:livetv">
-        <i class="blancolormenu bottom-icon fas fa-tv"></i>
+        <i class="blancolormenu bottom-icon uil uil-tv-retro"></i>
         <p class="blancolormenu bottom-text">Televisión</p>
         </a>
         </span>
@@ -115,7 +115,7 @@ let bottombarFutbol = `
         <a href="go:info">
         <span>
         <a class="nav-bar-icon" href="go:info">
-        <i class="blancolormenu bottom-icon fas fa-info-circle"></i>
+        <i class="blancolormenu bottom-icon uil uil-info-circle"></i>
         <p class="blancolormenu bottom-text">Información</p>
         </a>
         </span>
@@ -135,7 +135,7 @@ let bottombarBasket = `
         <a href="javascript:void(0)">
         <span>
         <a class="nav-bar-icon" href="javascript:void(0)">
-        <i class="blancolormenu bottom-icon fas fa-home"></i>
+        <i class="blancolormenu bottom-icon uil uil uil-estate"></i>
         <p class="blancolormenu bottom-text">Inicio</p>
         </a>
         </span>
@@ -146,7 +146,7 @@ let bottombarBasket = `
         <a href="go:futbol">
         <span>
         <a class="nav-bar-icon" href="go:futbol">
-        <i class="blancolormenu bottom-icon fas fa-futbol"></i>
+        <i class="blancolormenu bottom-icon uil uil-football"></i>
         <p class="blancolormenu bottom-text">Fútbol</p>
         </a>
         </span>
@@ -157,7 +157,7 @@ let bottombarBasket = `
         <a href="go:basket">
         <span>
         <a class="nav-bar-icon" href="go:basket">
-        <i class="blancolormenu bottom-icon fas fa-basketball-ball activo"></i>
+        <i class="blancolormenu bottom-icon fas uil uil-basketball-hoop activo"></i>
         <p class="blancolormenu bottom-text activo">Basket</p>
         </a>
         </span>
@@ -168,7 +168,7 @@ let bottombarBasket = `
         <a href="go:livetv">
         <span>
         <a class="nav-bar-icon" href="go:livetv">
-        <i class="blancolormenu bottom-icon fas fa-tv"></i>
+        <i class="blancolormenu bottom-icon uil uil-tv-retro"></i>
         <p class="blancolormenu bottom-text">Televisión</p>
         </a>
         </span>
@@ -179,7 +179,7 @@ let bottombarBasket = `
         <a href="go:info">
         <span>
         <a class="nav-bar-icon" href="go:info">
-        <i class="blancolormenu bottom-icon fas fa-info-circle"></i>
+        <i class="blancolormenu bottom-icon uil uil-info-circle"></i>
         <p class="blancolormenu bottom-text">Información</p>
         </a>
         </span>
@@ -199,7 +199,7 @@ let bottombarTv = `
         <a href="javascript:void(0)">
         <span>
         <a class="nav-bar-icon" href="javascript:void(0)">
-        <i class="blancolormenu bottom-icon fas fa-home"></i>
+        <i class="blancolormenu bottom-icon uil uil uil-estate"></i>
         <p class="blancolormenu bottom-text">Inicio</p>
         </a>
         </span>
@@ -210,7 +210,7 @@ let bottombarTv = `
         <a href="go:futbol">
         <span>
         <a class="nav-bar-icon" href="go:futbol">
-        <i class="blancolormenu bottom-icon fas fa-futbol"></i>
+        <i class="blancolormenu bottom-icon uil uil-football"></i>
         <p class="blancolormenu bottom-text">Fútbol</p>
         </a>
         </span>
@@ -221,7 +221,7 @@ let bottombarTv = `
         <a href="go:basket">
         <span>
         <a class="nav-bar-icon" href="go:basket">
-        <i class="blancolormenu bottom-icon fas fa-basketball-ball"></i>
+        <i class="blancolormenu bottom-icon fas uil uil-basketball-hoop"></i>
         <p class="blancolormenu bottom-text">Basket</p>
         </a>
         </span>
@@ -232,7 +232,7 @@ let bottombarTv = `
         <a href="go:livetv">
         <span>
         <a class="nav-bar-icon" href="go:livetv">
-        <i class="blancolormenu bottom-icon fas fa-tv activo"></i>
+        <i class="blancolormenu bottom-icon uil uil-tv-retro activo"></i>
         <p class="blancolormenu bottom-text activo">Televisión</p>
         </a>
         </span>
@@ -243,7 +243,7 @@ let bottombarTv = `
         <a href="go:info">
         <span>
         <a class="nav-bar-icon" href="go:info">
-        <i class="blancolormenu bottom-icon fas fa-info-circle"></i>
+        <i class="blancolormenu bottom-icon uil uil-info-circle"></i>
         <p class="blancolormenu bottom-text">Información</p>
         </a>
         </span>
@@ -263,7 +263,7 @@ let bottombarInfo = `
         <a href="javascript:void(0)">
         <span>
         <a class="nav-bar-icon" href="javascript:void(0)">
-        <i class="blancolormenu bottom-icon fas fa-home"></i>
+        <i class="blancolormenu bottom-icon uil uil uil-estate"></i>
         <p class="blancolormenu bottom-text">Inicio</p>
         </a>
         </span>
@@ -274,7 +274,7 @@ let bottombarInfo = `
         <a href="go:futbol">
         <span>
         <a class="nav-bar-icon" href="go:futbol">
-        <i class="blancolormenu bottom-icon fas fa-futbol"></i>
+        <i class="blancolormenu bottom-icon uil uil-football"></i>
         <p class="blancolormenu bottom-text">Fútbol</p>
         </a>
         </span>
@@ -285,7 +285,7 @@ let bottombarInfo = `
         <a href="go:basket">
         <span>
         <a class="nav-bar-icon" href="go:basket">
-        <i class="blancolormenu bottom-icon fas fa-basketball-ball"></i>
+        <i class="blancolormenu bottom-icon fas uil uil-basketball-hoop"></i>
         <p class="blancolormenu bottom-text">Basket</p>
         </a>
         </span>
@@ -296,7 +296,7 @@ let bottombarInfo = `
         <a href="go:livetv">
         <span>
         <a class="nav-bar-icon" href="go:livetv">
-        <i class="blancolormenu bottom-icon fas fa-tv"></i>
+        <i class="blancolormenu bottom-icon uil uil-tv-retro"></i>
         <p class="blancolormenu bottom-text">Televisión</p>
         </a>
         </span>
@@ -307,7 +307,7 @@ let bottombarInfo = `
         <a href="go:info">
         <span>
         <a class="nav-bar-icon" href="go:info">
-        <i class="blancolormenu bottom-icon fas fa-info-circle activo"></i>
+        <i class="blancolormenu bottom-icon uil uil-info-circle activo"></i>
         <p class="blancolormenu bottom-text activo">Información</p>
         </a>
         </span>

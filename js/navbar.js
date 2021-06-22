@@ -1,26 +1,26 @@
 let navbarIconHome = `
 <a class="nav-bar-icon" href="javascript:void(0)">
-    <i class="blancolor fas fa-home"></i>
+    <i class="blancolor uil uil uil-estate"></i>
 </a>
 `;
 let navbarIconFutbol = `
 <a class="nav-bar-icon" href="javascript:void(0)">
-    <i class="blancolor fas fa-futbol"></i>
+    <i class="blancolor uil uil-football"></i>
 </a>
 `;
 let navbarIconBasket = `
 <a class="nav-bar-icon" href="javascript:void(0)">
-    <i class="blancolor fas fa-basketball-ball"></i>
+    <i class="blancolor uil uil-basketball-hoop"></i>
 </a>
 `;
 let navbarIconTv = `
 <a class="nav-bar-icon" href="javascript:void(0)">
-    <i class="blancolor fas fa-tv"></i>
+    <i class="blancolor uil uil-tv-retro"></i>
 </a>
 `;
 let navbarIconInfo = `
 <a class="nav-bar-icon" href="javascript:void(0)">
-    <i class="blancolor fas fa-info-circle"></i>
+    <i class="blancolor uil uil-info-circle"></i>
 </a>
 `;
 let navbarLogo = `
@@ -31,7 +31,7 @@ let navbarLogo = `
 let navbarFiltersMovie = `
     <div class="dropdown">
         <a class="nav-bar-icon" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <i class="blancolor" data-feather="filter"></i>
+        <i class="blancolor uil uil-filter"></i>
         </a>        
         <div class="dropdown-menu bg-dark text-white" aria-labelledby="dropdownMenuButton">           
             <div class="row">
@@ -58,7 +58,7 @@ let navbarFiltersMovie = `
 let navbarFiltersTv = `
     <div class="dropdown">
         <a class="nav-bar-icon" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <i class="blancolor fas fa-filter"></i>
+        <i class="blancolor uil uil-filter"></i>
         </a>        
         <div class="dropdown-menu bg-dark text-white" aria-labelledby="dropdownMenuButton">           
             <div class="row">
@@ -82,7 +82,7 @@ let navbarFiltersTv = `
 let navbarFiltersRadio = `
     <div class="dropdown">
         <a class="nav-bar-icon" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <i class="blancolor" data-feather="filter"></i>
+        <i class="blancolor uil uil-filter"></i>
         </a>        
         <div class="dropdown-menu bg-dark text-white" aria-labelledby="dropdownMenuButton">           
             <div class="row">
@@ -113,7 +113,7 @@ let navbarIconRight = `
 `;
 let navbarIconSocial = `
 <a class="nav-bar-icon" href="https://t.me/joinchat/UlMJ70dClitaFGCM">
-    <i class="blancolor" data-feather="users"></i>
+    <i class="blancolor uil uil-user-arrows"></i>
 </a>
 `;
 
