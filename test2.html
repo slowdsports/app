@@ -1,23 +1,17 @@
-<html lang="es">
-    <head>
-        <meta charset=utf-8/>
-        <style>
-            #main{background-color: #000;}
-        </style>
-    </head>
-    <body id="main">
-        <div id='player'>
-            <video id="vidarea" class="video-js vjs-default-skin" width="100%" height="100%" controls autoplay ></video>
-            
-            <script src="//slowdsports.github.io/app/basket/nba/channelbase.js"></script>
-            <script>
-            var show = "1";
-            var xurl = base + vrb + cks + show + fnl;   
-            var link = xurl;    
-            var vid = document.getElementById("vidarea");
-            vid.src = link;
-            </script>
-       
-        </div>
-    </body>
-</html>
+<form id="loginform" action="login.php" onSubmit="return login(this);">
+ <input name="username" type="text" />
+ <input name="password" type="password" />
+ <input name="doLogin"  type="submit" value="Login" />
+</form>
+
+
+<script>
+function login(f){
+    var username = f.username.value;
+    var password = f.password.value;
+
+    /* Make your validation and ajax magic here. */
+
+    return false; //or the form will post your data to login.php
+}
+</script>
