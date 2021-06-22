@@ -2,7 +2,7 @@ let validacionOK = `
 <div class="center">
   <h1>¡Bienvenido!</h1>
   <h3>Esta versión estará disponible hasta: </h3>
-  <p class="">ESTO</p>
+  <p class="">30 de junio de 2021</p>
   <a href="#"><div class="btn">Acceder</div></a>
 </div>
 `;
@@ -10,7 +10,11 @@ let validacionOK = `
 //for(const ele of document.getElementsByClassName("ok")){ele.innerHTML=(validacionOK)};
 
 let validacionMal = `
-<p>Prueba mal</p>
+<div class="center">
+  <h1>¡Lo Sentimos!</h1>
+  <h3>Esta versión ha caducado: </h3>
+  <a href="#"><div class="btn">Actualizar</div></a>
+</div>
 `;
 
 //for(const ele of document.getElementsByClassName("mal")){ele.innerHTML=(validacionMal)};
