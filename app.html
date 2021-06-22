@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>ZamTV - APP</title>
+    <title>iRaffle TV - App</title>
     <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap" />
     <!-- Bootstrap core CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Material Design Bootstrap -->
@@ -15,295 +15,129 @@
     <link rel="stylesheet" href="css/font-awesome-animation.css" />
     <!--Bootstrap Flags -->
     <link rel="stylesheet" href="css/flags.css" />
-    <!-- HOME Styles -->
-    <link rel="stylesheet" href="css/home.css" />
-    <!-- Schedule Styles -->
-    <link rel="stylesheet" href="css/schedule.css" /> 
-    <!-- INTL DB -->
+    <!-- Intl Flags -->
     <link rel="stylesheet" href="css/intl.css" />
-    </head>
-    <body>
-
-    <!-- ======= Menu Section ======= -->    
-    <div class="app-logo"></div>
-   
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg">
-      <div class="container" data-aos="fade-up">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+        
+    </style>
+</head>
+<body>
+  
+  <!--header-->
+      <nav class="nav-top navbar navbar-dark darkbg">
       
-      <!-- Alerta Roja -->
-       <script src="//assets.slowdsports.com/js/timer/2/2/timer3.js"></script>
-        <div class="alert alert-danger" role="alert">
-          <a href="#" class="alert-link"><i class="fa fa-exclamation-circle faa-tada animated"></i></a> La aplicación continúa en mantenimiento
-          <footer class="blockquote-footer"><cite title="Source Title">Alexander</cite></footer>
-        </div>
-        <!-- // Alerta -->
-       
-        <div class="section-title">
-          <h2>¡iRaffle TV!</h2>
-          <p>Aplicación de eventos deportivos en vivo, sin cortes, en alta definición y completamente gratis.</p>
-        </div>
-        
-        <div class="container">
-        
-        <!--Modal--
-          <center>
-           <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">iRaffle Sports</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    Hace un par de días recibimos unos mensajes de un usuario aportando una idea para poder mantener la app en nuestro <a href="https://t.me/c/1381173743/16921" target="_blank">grupo de Telegram.</a>
-                    <br><br>
-                    <h5>Audios de <a href="https://t.me/eljarrka">@eljarrka</a>:</h5>
-                    <audio controls>
-                      <source src="audio/audio_2021-04-11_16-28-39.ogg" type="audio/ogg">
-                      Tu dispositivo no puede reproducir este contenido.
-                    </audio>
-                    <audio controls>
-                      <source src="audio/audio_2021-04-11_16-29-14.ogg" type="audio/ogg">
-                      Tu dispositivo no puede reproducir este contenido.
-                    </audio>
-                    <hr>
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSccOMguggfIwe59-QxC8fEMzWGWTZuUqAPOKRm2RRk-lXKecQ/viewform?embedded=true" width="100%" height="620" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Cerrar</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </center>
-            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-            <script type="text/javascript">
-            $(window).on('load', function() {
-                $('#myModal').modal('show');
-            });
-            </script>
-        <!--/Modal-->
-                
-                        
-                                
-                                                
-        <div class="row row-cols-2">
-          <!-- Futbol -->  
-          <div class="col" data-aos="zoom-in" data-aos-delay="200">
-           <a href="go:futbol">
-               
-            <div class="icon-box futbol-b">
-              <div class="icon"><img src="https://image.flaticon.com/icons/svg/3099/3099380.svg" height="48px" alt=""></div>
-              <h4><a href="go:futbol">Fútbol</a></h4>
-            </div>
-           </a>
-          </div>
-          <!-- //Futbol -->
-          <!-- Basket -->                
-          <div class="col" data-aos="zoom-in" data-aos-delay="200">
-           <a href="go:basket">
-               
-            <div class="icon-box basketball-b">
-              <div class="icon"><img src="https://image.flaticon.com/icons/svg/3076/3076850.svg" height="48px" alt=""></div>
-              <h4><a href="go:basket">Basketball</a></h4>
-            </div>
-           </a>
-          </div>
-          <!-- //Basket -->
-          <!-- TV -->
-          <div class="col" data-aos="zoom-in" data-aos-delay="200">
-           <a href="go:livetv">
-               
-            <div class="icon-box ufc-b">
-              <div class="icon"><img src="https://www.flaticon.es/svg/static/icons/svg/3746/3746452.svg" height="48px" alt=""></div>
-              <h4><a href="go:livetv">TV En Vivo</a>
-              </h4>
-            </div>
-           </a>
-          </div>
-          <!-- // TV -->
-          <!--HIDE--                            
-          <div class="col" data-aos="zoom-in" data-aos-delay="200">
-           <a href="go:baseball">
-               
-            <div class="icon-box baseball-b">
-              <div class="icon"><img src="https://image.flaticon.com/icons/svg/3106/3106438.svg" height="48px" alt=""></div>
-              <h4><a href="go:baseball">Baseball</a></h4>
-            </div>
-           </a>
-          </div>
-          <!--/HIDE-->
-          <!--HIDE--    
-          <div class="col" data-aos="zoom-in" data-aos-delay="200">
-           <a href="go:documen">
-               
-            <div class="icon-box baseball-b">
-              <div class="icon"><img src="https://www.flaticon.es/svg/static/icons/svg/3164/3164303.svg" height="48px" alt=""></div>
-              <h4><a href="go:documen">Documentales</a></h4>
-            </div>
-           </a>
-          </div>
-          <!--/HIDE-->
-         <!--HIDE--        
-        <div class="col" data-aos="zoom-in" data-aos-delay="200">
-           <a href="go:resumen">
-               
-            <div class="icon-box baseball-b">
-              <div class="icon"><img src="https://www.flaticon.es/svg/static/icons/svg/2085/2085913.svg" height="48px" alt=""></div>
-              <h4><a href="go:resumen">Resúmenes</a></h4>
-            </div>
-           </a>
-          </div>
-        <!--/HIDE-->
-        <!--HIDE--
-        <div class="col" data-aos="zoom-in" data-aos-delay="200">
-           <a href="go:diferido">
-               
-            <div class="icon-box baseball-b">
-              <div class="icon"><img src="https://i.ibb.co/DgCdLhy/reverse-arrow.png" height="48px" alt=""></div>
-              <h4><a href="go:diferido">Diferidos</a></h4>
-            </div>
-           </a>
-          </div>
-         <!--/HIDE-->
-         <!-- UFC -->
-          <div class="col" data-aos="zoom-in" data-aos-delay="200">
-           <a href="go:ufc">
-               
-            <div class="icon-box ufc-b">
-              <div class="icon"><img src="https://image.flaticon.com/icons/svg/889/889462.svg" height="48px" alt=""></div>
-              <h4><a href="go:ufc">UFC</a></h4>
-            </div>
-           </a>
-          </div>
-          <!-- // UFC -->
-          <!-- WWE --
-          <div class="col" data-aos="zoom-in" data-aos-delay="200">
-           <a href="go:wwe">
-               
-            <div class="icon-box wwe-b">
-              <div class="icon"><img src="https://www.flaticon.es/svg/static/icons/svg/1599/1599792.svg" height="48px" alt=""></div>
-              <h4><a href="go:wwe">WWE</a></h4>
-            </div>
-           </a>
-          </div>
-          <!-- // WWE -->                
-          <div class="col" data-aos="zoom-in" data-aos-delay="200">
-           <a href="go:nfl">
-               
-            <div class="icon-box nfl-b">
-              <div class="icon"><img src="https://image.flaticon.com/icons/svg/1508/1508171.svg" height="48px" alt=""></div>
-              <h4><a href="go:nfl">NFL</a></h4>
-            </div>
-           </a>
-          </div>
-          <!-- F1 -->                  
-          <div class="col" data-aos="zoom-in" data-aos-delay="200">
-           <a href="go:f1">
-               
-            <div class="icon-box nfl-b">
-              <div class="icon"><img src="https://image.flaticon.com/icons/svg/3088/3088973.svg" height="48px" alt=""></div>
-              <h4><a href="go:f1">Formula 1</a></h4>
-            </div>
-           </a>
-          </div>
-          <!-- // F1 -->
-          <!-- MotoGP --
-          <div class="col" data-aos="zoom-in" data-aos-delay="200">
-           <a href="go:motogp">
-               
-            <div class="icon-box nfl-b">
-              <div class="icon"><img src="https://www.flaticon.es/svg/static/icons/svg/766/766944.svg" height="48px" alt=""></div>
-              <h4><a href="go:motogp">Moto GP</a></h4>
-            </div>
-           </a>
-          </div>
-          <!-- // MotoGP -->
-          <!-- Tennis --  
-          <div class="col" data-aos="zoom-in" data-aos-delay="200">
-           <a href="go:tennis">
-               
-            <div class="icon-box tennis-b">
-              <div class="icon"><img src="https://image.flaticon.com/icons/svg/2906/2906838.svg" height="48px" alt=""></div>
-              <h4><a href="go:tennis">Tennis</a></h4>
-            </div>
-           </a>
-          </div>
-          <!-- // Tennis -->
-          <!-- Box --               
-          <div class="col" data-aos="zoom-in" data-aos-delay="200">
-           <a href="go:box">
-               
-            <div class="icon-box box-b">
-              <div class="icon"><img src="https://image.flaticon.com/icons/svg/889/889515.svg" height="48px" alt=""></div>
-              <h4><a href="go:box">Box</a></h4>
-            </div>
-           </a>
-          </div>
-          <!-- // Box -->
-        <!--HIDE--                    
-          <div class="col" data-aos="zoom-in" data-aos-delay="200">
-           <a href="go:golf">
-               
-            <div class="icon-box box-b">
-              <div class="icon"><img src="https://image.flaticon.com/icons/svg/1584/1584143.svg" height="48px" alt=""></div>
-              <h4><a href="go:golf">Golf</a></h4>
-            </div>
-           </a>
-          </div>
-        <!--/HIDE-->  
-        <!--HIDE--   
-        <div class="col" data-aos="zoom-in" data-aos-delay="200">
-           <a href="go:caav">
-               
-            <div class="icon-box ufc-b">
-              <div class="icon"><img src="https://image.flaticon.com/icons/svg/2920/2920329.svg" height="48px" alt=""></div>
-              <h4><a href="go:caav">Más Apps</a></h4>
-            </div>
-           </a>
-          </div>
-          <!--/HIDE-->
-          <!--HIDE--                  
-          <div class="col" data-aos="zoom-in" data-aos-delay="200">
-           <a href="go:social">
-               
-            <div class="icon-box box-b">
-              <div class="icon"><img src="https://image.flaticon.com/icons/svg/3011/3011121.svg" height="48px" alt=""></div>
-              <h4><a href="go:social">Reportes</a></h4>
-            </div>
-           </a>
-          </div>
-          <!--/HIDE-->                 
-              <!-- Hide --
-          <div class="col" data-aos="zoom-in" data-aos-delay="200">
-           <a href="go:sugerencia">
-               
-            <div class="icon-box box-b">
-              <div class="icon"><img src="https://www.flaticon.es/svg/static/icons/svg/923/923058.svg" height="48px" alt=""></div>
-              <h4><a href="go:sugerencia">Sugerencias</a></h4>
-              <span style="position: absolute; margin-left: 18%; margin-top: -10%; float: right;" class="badge badge-danger faa-tada animated">New!</span>
-            </div>
-           </a>
-          </div>
-              <!--// Hide -->
+      <form class="form-inline">
+        <span class="navbar-icon-home"></span>
+        <span class="navbar-filters-tvv"></span>
+      </form>
+      
+      <span class="navbar-logo"></span>
+      <!--/HIDE-RIGHT-->
+      <form class="form-inline">
+        <span class="navbar-icon-rightt"></span>
+        <span class="navbar-icon-social"></span>
+      </form>
+      <!--/HIDE-RIGHT-->
+    </nav>
+  <!--/header-->
+  <br><br>
+  
+ <center>
+    <!--TODO-->
+     <div class="tab-pane fade show active" id="list-todo" role="tabpanel" aria-labelledby="list-todo-list">
+     
+     <p class="home-saludo"></p>
+     <br><hr><br>
+  
+      <div class="container" id="channelsList">
+     
+     <div class="row card-canal px-2">
+   
+   <!--ELEMENTO-->
+  <div class="col-6 col-sm-4">  
+    <span class="home-futbol"></span>
+  </div>
+   <!--/ELEMENTO-->
+   
+   <!--ELEMENTO-->
+  <div class="col-6 col-sm-4">  
+    <span class="home-basket"></span>
+  </div>
+   <!--/ELEMENTO-->
+   
+   <!--ELEMENTO-->
+  <div class="col-6 col-sm-4">  
+    <span class="home-nfl"></span>
+  </div>
+   <!--/ELEMENTO-->
+   
+   <!--ELEMENTO-->
+  <div class="col-6 col-sm-4">  
+    <span class="home-tv"></span>
+  </div>
+   <!--/ELEMENTO-->
+   
+   <!--ELEMENTO-->
+  <div class="col-6 col-sm-4">  
+    <span class="home-ufc"></span>
+  </div>
+   <!--/ELEMENTO-->
+   
+   <!--ELEMENTO-->
+  <div class="col-6 col-sm-4">  
+    <span class="home-box"></span>
+  </div>
+   <!--/ELEMENTO-->
+   
+   <!--ELEMENTO-->
+  <div class="col-6 col-sm-4">  
+    <span class="home-f1"></span>
+  </div>
+   <!--/ELEMENTO-->
+   
+   <!--ELEMENTO-->
+  <div class="col-6 col-sm-4">  
+    <span class="home-motogp"></span>
+  </div>
+   <!--/ELEMENTO-->
+   
+   <!--ELEMENTO-->
+  <div class="col-6 col-sm-4">  
+    <span class="home-tennis"></span>
+  </div>
+   <!--/ELEMENTO-->
+  
+     </div>
+     <br><br>
+     
+     </div>
+     
+     </div>
+     
+     <!--/TODO-->
+ </center>
 
-
-        </div></div>
-
-      </div>
-    </section>
-    <!-- End Services Section -->
-    <br><br><br><br>
-    <div class="bottom-bar"></div>
-       
-    <!-- JS -->
+   <!--Nav-Bottom-->
+    <div class="navbar-bottom-home"></div>
+   <!--/Nav-Bottom-->
+    <!--JS-->
     <script src="js/index.js"></script>
-    <script src="js/canales.js"></script>
+    <script src="js/home/elementos.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/bottombar.js"></script>
+    <!-- Feather Icons -->
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace()
+    </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <!--FILTERS-->
+    <script src="js/filtro.js"></script>
+    <!--/ACTIVE-->
+    <!--/JS-->
 </body>
 </html>

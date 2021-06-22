@@ -1,0 +1,160 @@
+        *{
+            transition: all 0.3s ease-out;
+        }
+        hr{
+            color: #fff!important;
+        }
+        html body{
+            background-color: #000;
+        }
+        .darkolorbg{
+            background-color: #2d2e2e!important;
+        }
+        .blancolor{
+            color: #fff!important;
+        }
+        .blancolormenu{
+            color: rgba(255,255,255,0.6);;
+        }
+        .nav-bar-icon{
+            margin-left: 8px;
+            font-size: 150%;
+        }
+        .card-canal{
+            padding: 0px 15px 0px 15px;
+            margin-bottom: 1%;
+        }
+        .card-juego{
+            padding: 0px 0px 0px 0px;
+            margin-bottom: 1%;
+        }
+        .canal-img{
+            width: 50px;
+            float: center;
+        }
+        .sports{
+            margin-bottom: 5px;
+        }
+        .canal-feather{
+            width: 100px;
+            background-size: 100px;
+            float: center;
+        }
+        .canal-text{
+            text-align: center;
+        }
+        .title{
+            font-size: 90%;
+        }
+        .darkbg{
+            background-color: #000;
+        }
+        .dark2bg{
+            background-color: #2f363d;
+        }
+        .icons-padding{
+            padding: 1px 80px!important;
+        }
+        .nav-top{
+            border-bottom:1px solid #aba;
+        }
+        .nav-bottom{
+            border-top:2px solid rgb(1,10,100);padding-top:10px;
+        }
+        .card-group{
+            padding: 5px 90px;
+        }
+        .card{
+            margin-right: 5%;
+            margin-bottom: 5%;
+            position: relative;
+            border-radius: 4px;
+            overflow: hidden;
+            border: 0px solid #cccccc;
+        }
+        .card:hover{
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+            text-decoration: none;
+        }
+
+        .card-link{
+            text-decoration: none;
+        }
+        .card-img-top{
+            width: 50px;
+            align-items: center;
+            align-content: center;
+        }
+        .categ-text{
+            margin-top: 3%;
+        }
+        /*MENU*/
+        .altmenu
+        {
+            width:100%;
+            height: auto;
+            background:0 0;
+            background-color: #000;
+            position:fixed;
+            bottom:0;
+            left:0;
+            border-top:1px solid #aba;
+        }
+        .altmenu ul
+        {
+            padding:0;
+            margin:0;
+            background-color: #000;
+        }
+        .altmenu ul li
+        {
+            display:inline-block;
+            width:15.04%;
+            margin-left: 0px;
+        }
+        .altmenu ul li a
+        {
+            position:relative;
+            display:block;
+            padding: 8px 80px;
+            text-align:center;
+            font-size:10px;color:#fff;
+            background:#000;
+            transition:300ms;
+        }
+        .altmenu ul li a:hover
+        {
+            color:teal
+        }
+        .activo
+        {
+            color:#fff!important;
+        }
+        @media(max-width:930px)
+        {}
+         .altmenu ul li a
+        {
+            padding:4px;
+        }
+        .bottom-icon{
+            background-color: #000;
+            font-size: 180%;
+        }
+        .bottom-text{
+            background-color: #000;
+            margin-bottom: -5px;
+        }
+        .menu-element{
+            color: red;!important
+            top: 1px;
+        }
+        .figure-caption , .mb-0 , .vs{
+            color: #cccccc;
+        }
+        .timer{
+            position: absolute; 
+            margin-top: -3%;
+        }
+        
+        

@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>iRaffle Sports - APP</title>
+    <title>iRaffle TV - App</title>
     <!-- Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap" />
     <!-- Bootstrap core CSS -->
@@ -12,1885 +12,2138 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
     <!--FontAwesome Animated -->
-    <link rel="stylesheet" href="../../css/font-awesome-animation.css" />
+    <link rel="stylesheet" href="css/font-awesome-animation.css" />
     <!--Bootstrap Flags -->
     <link rel="stylesheet" href="css/flags.css" />
-    <!-- HOME Styles -->
-    <link rel="stylesheet" href="css/home.css" />
-    <!-- Schedule Styles -->
-    <link rel="stylesheet" href="css/schedule.css" /> 
-    <!-- INTL DB -->
+    <!-- Intl Flags -->
     <link rel="stylesheet" href="css/intl.css" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css" />
     <style>
-        .href-ns{
-            text-decoration: none;
-            color: #212529;
-        }
-        .ch-logo{
-            height: 48px;
-        }
-        .status{
-            font-size: 15px;
-            margin-top: -10px;
-        }
-        .live-green{
-            color: limegreen;
-        }
-        .down-red{
-            color: red;
-        }
-        .medium-yellow{
-            color: yellow;
-        }
-        .list-group{
-            margin-top: 1%;
-        }
-        .fa-arrow-down{
-            font-size: 15px;
-        }
+        
     </style>
 </head>
 <body>
-
-    <!-- ======= Menu Section ======= -->    
-    
-    <div class="app-logo"></div>
-    
-    <!-- ======= Services Section ======= -->
-    <center>
-    <!-- AVISO --
-    <div class="alert alert-primary alert-dismissible fade show" role="alert">
-      <strong><i class="fa fa-exclamation-triangle"></i> AVISO!</strong> Algunos canales pueden tardar en cargar. Si alguna señal es inestable o ha dejado de funcionar, por favor repórtala a un administrador.
-      <br> 
-      <a style="padding: 6px; font-size: 10px;" href="https://t.me/slowdmelendez360" type="button" class="btn btn-outline-danger"><i class="fa fa-spider"></i> REPORTAR</a> 
-      <a style="padding: 6px; font-size: 10px;" href="go:ads" type="button" class="btn btn-outline-secondary"><i class="fa fa-ad"></i> APOYAR</a>
-
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-        <span aria-hidden="true">×</span>
-      </button>
-    </div>
-    <!-- // END AVISO -->
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-    <div class="alert alert-out alert-warning">
-    <strong><i class="fa fa-info-circle"></i></strong> Se hace mantenimiento a los canales cada 24 o 48 horas. Si algún canal no funciona, por favor espera algunas horas antes de reportarlo.
-    </div>
-    <script type="text/javascript">
-    $(document).ready(function () {
-    window.setTimeout(function() {
-        $(".alert-out").fadeTo(1000, 0).slideUp(1000, function(){
-            $(this).remove(); 
-        });
-    }, 5000);
-    });
-    </script>
-    </center>
-    
-    <section id="services" class="services section-bg">
-      <div class="container" data-aos="fade-up">
-        
-        <center>
-        
-        <div class="container">
-        
-        <!-- Explain --
-        <div class="row row-cols-1">
-            
-        <div id="myBtnContainer" class="mx-auto" style="width: ; padding: 0px 30px;">
-          <ul class="list-group list-group-horizontal">
-          
-          <li class="list-group-item">
-          <i class="fa fa-info-circle"></i> 
-          <b>Estado:</b>
-          </li>
-          
-          <li class="list-group-item">
-          
-          <i class="fa fa-circle faa-tada animated" style="color: limegreen; font-size: 15px; margin-top: -10px!important;"></i> 
-          Estable
-          </li>
-          
-          <li class="list-group-item">
-          
-          <i class="fa fa-circle faa-tada animated" style="color: yellow; font-size: 15px; margin-top: -10px!important;"></i> 
-          Inestable
-          </li>
-          
-          <li class="list-group-item">
-          <i class="fa fa-exclamation-triangle faa-nothing animated" style="color: red; font-size: 15px; margin-top: -10px!important;"></i> 
-          No Funciona
-          </li>
-          
-        </ul>  
-        </div>
-            
-        </div><br>    
-            
-        <!-- // END Explain -->
-        
-        <!--Search-->
-          
-          <!-- Search form -->           
-            <form class="form-inline d-flex justify-content-center md-form form-sm active-cyan active-cyan-2 mt-2">
-              <i class="fas fa-search" aria-hidden="true"></i>
-              <input class="form-control form-control-sm ml-3 w-75" id="anythingSearch" type="text" placeholder="Buscar"
-                aria-label="Search">
-            </form>            
-            <script>
-            // FIlter anything
-            $(document).ready(function () {
-              $("#anythingSearch").on("keyup", function () {
-                var value = $(this).val().toLowerCase();
-                $("#myDIV *").filter(function () {
-                  $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-                });
-              });
-            });
-            </script>
-        <!--/Search-->
-        
-        <div id="myDIV" class="row row-cols-2">
-               
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:#0">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://upload.wikimedia.org/wikipedia/commons/7/73/0_Movistar%2B.svg" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:#0">
-                               <span class="tv-live"></span>
-                               #0
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:vamostv">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Vamos.svg/2490px-Vamos.svg.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:vamostv">
-                               <span class="tv-live"></span>
-                               #Vamos
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-             
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="//nelsonefe1971.github.io/myrepotv/&flix.html">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://i.ibb.co/17Xw2X0/images.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="//nelsonefe1971.github.io/myrepotv/&flix.html">
-                               <span class="tv-live"></span>
-                               &Flix
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-               
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="//nelsonefe1971.github.io/myrepotv/20mitalia.html">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://i.ibb.co/xsbTt5z/descarga-1.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="//nelsonefe1971.github.io/myrepotv/20mitalia.html">
-                               <span class="tv-live"></span>
-                               20 M Italia
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-               
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="//nelsonefe1971.github.io/myrepotv/24h.html">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Logo_TVE-24h.svg" alt="">
-                       </div>
-                       <h4>
-                           <a href="//nelsonefe1971.github.io/myrepotv/24h.html">
-                               <span class="tv-live"></span>
-                               24H
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-               
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:accn">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://theacc.com/images/2018/11/30/ACCN_Launch.png?preset=large.storyimage" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:accn">
-                               <span class="tv-live"></span>
-                               ACCN
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-               
-          
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="//nelsonefe1971.github.io/myrepotv/adventuresports.html">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://play-lh.googleusercontent.com/gx0Csw0jwDuUKlBzkUsosk5337JFXUBC4tfrarH7zMHNX-FBZoCgSW-UfzuZKQZEAg" alt="">
-                       </div>
-                       <h4>
-                           <a href="//nelsonefe1971.github.io/myrepotv/adventuresports.html">
-                               <span class="tv-live"></span>
-                               Adventure Sports
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-               
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="//nelsonefe1971.github.io/myrepotv/atgsport.html">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://images.ctfassets.net/tldhjvq55hjd/2sRJgcUghTOwcvVt8UEIsZ/cbe662f8ed25fc98b33ecdd94585f75b/atg.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="//nelsonefe1971.github.io/myrepotv/atgsport.html">
-                               <span class="tv-live"></span>
-                               ATG Sport
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-               
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="//nelsonefe1971.github.io/myrepotv/awesome.html">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://awesomeitv.com/wp-content/uploads/2019/02/awesometv.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="//nelsonefe1971.github.io/myrepotv/awesome.html">
-                               <span class="tv-live"></span>
-                               Awesome
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->  
-              
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="//nelsonefe1971.github.io/myrepotv/20mitalia.html">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://i.ibb.co/xsbTt5z/descarga-1.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="//nelsonefe1971.github.io/myrepotv/20mitalia.html">
-                               <span class="tv-live"></span>
-                               20 M Italia
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-               
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:azteca7">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Logo_Azteca_7_2011.svg/968px-Logo_Azteca_7_2011.svg.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:azteca7">
-                               <span class="tv-live"></span>
-                               Azteca 7
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-               
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:bayerntv">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://fcbayern.com/fcb/assets/favicon/mstile-310x310.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:bayerntv">
-                               <span class="tv-live"></span>
-                               Bayern TV
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-               
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:bemad">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://upload.wikimedia.org/wikipedia/commons/7/70/Be_Mad_TV.svg" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:bemad">
-                               <span class="tv-live"></span>
-                               Be Mad!
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-               
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a data-toggle="collapse" href="#beinsports" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://image.flaticon.com/icons/svg/870/870887.svg" alt="">
-                       </div>
-                       <h4 style="margin-bottom: -10px;">
-                           <a data-toggle="collapse" href="#beinsports" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                               <span class="tv-live"></span>
-                               BeIN Sports <i class="fa fa-arrow-down"></i>
-                           </a>
-                       </h4>   
-                           <div class="row">
-                               <div class="col">
-                                   <div class="collapse multi-collapse" id="beinsports">
-                                       <center>
-                                           <ul class="list-group list-group-horizontal-xlg">
-                                               <a href="go:beinn">
-                                                   <li class="list-group-item">
-                                                       <i class="mx flag"></i>
-                                                       BeIN Ñ
-                                                   </li>
-                                               </a>
-                                               <a href="go:beinus">
-                                                   <li class="list-group-item">
-                                                       <i class="us flag"></i>
-                                                       BeIN
-                                                   </li>
-                                               </a>
-                                               <a href="go:beinne">
-                                                   <li class="list-group-item">
-                                                       <i class="mx flag"></i>
-                                                       BeIN Ñ
-                                                   </li>
-                                               </a>
-                                               <a href="go:beinlaliga">
-                                                   <li class="list-group-item">
-                                                       <i class="us flag"></i>
-                                                       BeIN LaLiga
-                                                   </li>
-                                               </a>
-                                               <a href="go:beinnk">
-                                                   <li class="list-group-item">
-                                                       <i class="mx flag"></i>
-                                                       BeIN Ñ
-                                                   </li>
-                                               </a>
-                                               <a href="go:beinxtra">
-                                                   <li class="list-group-item">
-                                                       <i class="us flag"></i>
-                                                       BeIN Xtra
-                                                   </li>
-                                               </a>
-                                           </ul>
-                                       </center>
-                                   </div>
-                               </div>
-                           </div>
-                           
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->           
-                 
-           
-                  
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:canal5mx">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://img.pngio.com/filelogotipo-canal-5-mexicopng-wikimedia-commons-png-5-600_600.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:canal5mx">
-                               <span class="tv-live"></span>
-                               Canal 5
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-                             
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:cbse">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://www.sportsvideo.org/new/wp-content/uploads/2018/08/image003.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:cbse">
-                               <span class="tv-live"></span>
-                               CBS Sports
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-                             
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:cuatro">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Cuatro_logo.svg/768px-Cuatro_logo.svg.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:cuatro">
-                               <span class="tv-live"></span>
-                               Cuatro
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a data-toggle="collapse" href="#cdo" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://www.tumundo.cl/multimedia/canales/cdopremium.svg" alt="">
-                       </div>
-                       <h4 style="margin-bottom: -10px;">
-                           <a data-toggle="collapse" href="#cdo" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                               <span class="tv-live"></span>
-                               CDO <i class="fa fa-arrow-down"></i>
-                           </a>
-                        </h4>   
-                           <div class="row">
-                               <div class="col">
-                                   <div class="collapse multi-collapse" id="cdo">
-                                       <center>
-                                           <ul class="list-group list-group-horizontal-xlg">
-                                               <a href="go:cdo">
-                                                   <li class="list-group-item">
-                                                       <i class="cl flag"></i>
-                                                       CDO
-                                                   </li>
-                                               </a>
-                                               <a href="go:cdop">
-                                                   <li class="list-group-item">
-                                                       <i class="cl flag"></i>
-                                                       CDO Premium
-                                                   </li>
-                                               </a>
-                                           </ul>
-                                       </center>
-                                   </div>
-                               </div>
-                           </div>
-                           
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:daznf1">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/DAZN_F1_logo.png/245px-DAZN_F1_logo.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:daznf1">
-                               <span class="tv-live"></span>
-                               DAZN
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:dturbo">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://www.flaticon.es/svg/static/icons/svg/870/870897.svg" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:dturbo">
-                               <span class="tv-live"></span>
-                               Turbo
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:divinity">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Divinity_c%C3%ADrculo.svg/1200px-Divinity_c%C3%ADrculo.svg.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:divinity">
-                               <span class="tv-live"></span>
-                               Divinity
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:dubai">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://i.ibb.co/kGYgtQk/dubai-racing-logo-hexelized-by-asatiir-d6t8p0x-fullview.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:dubai">
-                               <span class="tv-live"></span>
-                               Dubai Racing
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:edgesport">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://i1.wp.com/www.broadbandtvnews.com/wp-content/uploads/2019/11/EDGEsport-logo-2019.png?resize=300%2C131&ssl=1" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:edgesport">
-                               <span class="tv-live"></span>
-                               Edge Sport
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:energy">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Energy.svg" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:energy">
-                               <span class="tv-live"></span>
-                               Energy
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-          
-        
-                                 
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:esports3">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Esport3.svg/1200px-Esport3.svg.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:esports3">
-                               <span class="tv-live"></span>
-                               Esport3
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-                                
-           <!-- Canal --
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="//nelsonefe1971.github.io/myrepotv/estrellatv.html">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://upload.wikimedia.org/wikipedia/en/4/46/Estrella_TV_2020_Logo.svg" alt="">
-                       </div>
-                       <h4>
-                           <a href="//nelsonefe1971.github.io/myrepotv/estrellatv.html">
-                               <span class="tv-down"></span>
-                               Estrella TV
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a data-toggle="collapse" href="#espnus" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://image.flaticon.com/icons/svg/870/870901.svg" alt="">
-                       </div>
-                       <h4 style="margin-bottom: -10px;">
-                           <a data-toggle="collapse" href="#espnus" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                               <span class="tv-live"></span>
-                               ESPN <i class="flag us"></i><i class="fa fa-arrow-down"></i>
-                           </a>
-                        </h4>   
-                           <div class="row">
-                               <div class="col">
-                                   <div class="collapse multi-collapse" id="espnus">
-                                       <center>
-                                           <ul class="list-group list-group-horizontal-xlg">
-                                               <a href="go:espnus">
-                                                   <li class="list-group-item">
-                                                       <i class="us flag"></i>
-                                                       ESPN
-                                                   </li>
-                                               </a>
-                                               <a href="go:espn2us">
-                                                   <li class="list-group-item">
-                                                       <i class="us flag"></i>
-                                                       ESPN 2
-                                                   </li>
-                                               </a>
-                                               <a href="go:espnu">
-                                                   <li class="list-group-item">
-                                                       <i class="us flag"></i>
-                                                       ESPN U
-                                                   </li>
-                                               </a>
-                                               <a href="go:espnnews">
-                                                   <li class="list-group-item">
-                                                       <i class="us flag"></i>
-                                                       ESPN News
-                                                   </li>
-                                               </a>
-                                           </ul>
-                                       </center>
-                                   </div>
-                               </div>
-                           </div>
-                           
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a data-toggle="collapse" href="#espnmx" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://image.flaticon.com/icons/svg/870/870901.svg" alt="">
-                       </div>
-                       <h4 style="margin-bottom: -10px;">
-                           <a data-toggle="collapse" href="#espnmx" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                               <span class="tv-live"></span>
-                               ESPN <i class="flag mx"></i><i class="fa fa-arrow-down"></i>
-                           </a>
-                        </h4>   
-                           <div class="row">
-                               <div class="col">
-                                   <div class="collapse multi-collapse" id="espnmx">
-                                       <center>
-                                           <ul class="list-group list-group-horizontal-xlg">
-                                               <a href="go:espnmxtv">
-                                                   <li class="list-group-item">
-                                                       <i class="mx flag"></i>
-                                                       ESPN
-                                                   </li>
-                                               </a>
-                                               <a href="go:espn2mxtv">
-                                                   <li class="list-group-item">
-                                                       <i class="mx flag"></i>
-                                                       ESPN 2
-                                                   </li>
-                                                   
-                                               </a>
-                                               <a href="go:espn3mxtv">
-                                                   <li class="list-group-item">
-                                                       <i class="mx flag"></i>
-                                                       ESPN 3
-                                                   </li>
-                                                   
-                                               </a>
-                                           </ul>
-                                       </center>
-                                   </div>
-                               </div>
-                           </div>
-                           
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a data-toggle="collapse" href="#espnar" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://image.flaticon.com/icons/svg/870/870901.svg" alt="">
-                       </div>
-                       <h4 style="margin-bottom: -10px;">
-                           <a data-toggle="collapse" href="#espnar" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                               <span class="tv-live"></span>
-                               ESPN <i class="flag ar"></i><i class="fa fa-arrow-down"></i>
-                           </a>
-                        </h4>   
-                           <div class="row">
-                               <div class="col">
-                                   <div class="collapse multi-collapse" id="espnar">
-                                       <center>
-                                           <ul class="list-group list-group-horizontal-xlg">
-                                               <a href="go:espnsurtv">
-                                                   <li class="list-group-item">
-                                                       <i class="ar flag"></i>
-                                                       ESPN
-                                                   </li>
-                                               </a>
-                                               <a href="go:espn2surtv">
-                                                   <li class="list-group-item">
-                                                       <i class="ar flag"></i>
-                                                       ESPN 2
-                                                   </li>
-                                               </a>
-                                               <a href="go:espn3surtv">
-                                                   <li class="list-group-item">
-                                                       <i class="ar flag"></i>
-                                                       ESPN 3
-                                                   </li>
-                                                   
-                                               </a>
-                                           </ul>
-                                       </center>
-                                   </div>
-                               </div>
-                           </div>
-                           
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a data-toggle="collapse" href="#espndep" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://image.flaticon.com/icons/svg/870/870901.svg" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:espndep">
-                               <span class="tv-live"></span>
-                               ESPN Deportes
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-        
-           
-           
-           
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a data-toggle="collapse" href="#fsportsus" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Fox_Sports_logo1.svg/1200px-Fox_Sports_logo1.svg.png" alt="">
-                       </div>
-                       <h4 style="margin-bottom: -10px;">
-                           <a data-toggle="collapse" href="#fsportsus" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                               <span class="tv-live"></span>
-                               Fox Sports <i class="flag us"></i><i class="fa fa-arrow-down"></i>
-                           </a>
-                        </h4>   
-                           <div class="row">
-                               <div class="col">
-                                   <div class="collapse multi-collapse" id="fsportsus">
-                                       <center>
-                                           <ul class="list-group list-group-horizontal-xlg">
-                                               <a href="go:fs1">
-                                                   <li class="list-group-item">
-                                                       <i class="us flag"></i>
-                                                       FS 1
-                                                   </li>
-                                               </a>
-                                               <a href="go:fs2">
-                                                   <li class="list-group-item">
-                                                       <i class="us flag"></i>
-                                                       FS 2
-                                                   </li>
-                                               </a>
-                                               <a href="go:fsnews">
-                                                   <li class="list-group-item">
-                                                       <i class="us flag"></i>
-                                                       FS News
-                                                   </li>
-                                               </a>
-                                           </ul>
-                                       </center>
-                                   </div>
-                               </div>
-                           </div>
-                           
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a data-toggle="collapse" href="#fsportsmx" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Fox_Sports_logo1.svg/1200px-Fox_Sports_logo1.svg.png" alt="">
-                       </div>
-                       <h4 style="margin-bottom: -10px;">
-                           <a data-toggle="collapse" href="#fsportsmx" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                               <span class="tv-live"></span>
-                               Fox Sports <i class="flag mx"></i><i class="fa fa-arrow-down"></i>
-                           </a>
-                        </h4>   
-                           <div class="row">
-                               <div class="col">
-                                   <div class="collapse multi-collapse" id="fsportsmx">
-                                       <center>
-                                           <ul class="list-group list-group-horizontal-xlg">
-                                               <a href="go:fs1mx">
-                                                   <li class="list-group-item">
-                                                       <i class="mx flag"></i>
-                                                       FS 1
-                                                   </li>
-                                               </a>
-                                               <a href="go:fs2mx">
-                                                   <li class="list-group-item">
-                                                       <i class="mx flag"></i>
-                                                       FS 2
-                                                   </li>
-                                               </a>
-                                               <a href="go:fs3mx">
-                                                   <li class="list-group-item">
-                                                       <i class="mx flag"></i>
-                                                       FS 3
-                                                   </li>
-                                               </a>
-                                           </ul>
-                                       </center>
-                                   </div>
-                               </div>
-                           </div>
-                           
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a data-toggle="collapse" href="#fsportsar" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Fox_Sports_logo1.svg/1200px-Fox_Sports_logo1.svg.png" alt="">
-                       </div>
-                       <h4 style="margin-bottom: -10px;">
-                           <a data-toggle="collapse" href="#fsportsar" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                               <span class="tv-live"></span>
-                               Fox Sports <i class="flag ar"></i><i class="fa fa-arrow-down"></i>
-                           </a>
-                        </h4>   
-                           <div class="row">
-                               <div class="col">
-                                   <div class="collapse multi-collapse" id="fsportsar">
-                                       <center>
-                                           <ul class="list-group list-group-horizontal-xlg">
-                                               <a href="go:fssur">
-                                                   <li class="list-group-item">
-                                                       <i class="ar flag"></i>
-                                                       FS 1
-                                                   </li>
-                                               </a>
-                                               <a href="go:fs2sur">
-                                                   <li class="list-group-item">
-                                                       <i class="ar flag"></i>
-                                                       FS 2
-                                                   </li>
-                                               </a>
-                                               <a href="go:fs3sur">
-                                                   <li class="list-group-item">
-                                                       <i class="ar flag"></i>
-                                                       FS 3
-                                                   </li>
-                                               </a>
-                                               <a href="go:foxp">
-                                                   <li class="list-group-item">
-                                                       <i class="ar flag"></i>
-                                                       Fox Premium
-                                                   </li>
-                                               </a>
-                                           </ul>
-                                       </center>
-                                   </div>
-                               </div>
-                           </div>
-                           
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-            <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a data-toggle="collapse" href="#foxdep" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://i.ibb.co/85F3Vvq/Fox-sports-deportes-us.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:foxdep">
-                               <span class="tv-live"></span>
-                               Fox Deportes
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:galavision">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Galavision_Logo_2013.svg/1200px-Galavision_Logo_2013.svg.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:galavision">
-                               <span class="tv-live"></span>
-                               Galavisión
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:goles">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://www.telefonoatencionclientes.com/wp-content/uploads/2018/10/telefono-goltv.jpg" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:goles">
-                               <span class="tv-live"></span>
-                               Gol
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:goltvec">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://allvectorlogo.com/img/2016/07/goltv-logo.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:goltvec">
-                               <span class="tv-live"></span>
-                               Gol TV
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-       
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:la1">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://upload.wikimedia.org/wikipedia/commons/7/76/La_1_HD_TVE.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:la1">
-                               <span class="tv-live"></span>
-                               La 1
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:lequipe">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://i.ibb.co/cbnqWRG/lequipe.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:lequipe">
-                               <span class="tv-live"></span>
-                               L'Équipe
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:mdep">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Movistar_Deportes.svg/1280px-Movistar_Deportes.svg.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:mdeptv">
-                               <span class="tv-live"></span>
-                               M Deportes
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:mlcamp">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Movistar_Liga_de_Campeones.svg/1280px-Movistar_Liga_de_Campeones.svg.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:mlcamptv">
-                               <span class="tv-live"></span>
-                               M Campeones
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-        
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:bar">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://www.envivofutbol.tv/wp-content/uploads/2020/03/Canales-para-ver-movistar-laliga-en-vivo.jpg" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:bar">
-                               <span class="tv-live"></span>
-                               M LaLiga
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-            <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:mgolf">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://i.ibb.co/CmNgRZ6/Movistar-Golf.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:mgolf">
-                               <span class="tv-live"></span>
-                               M Golf
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-          
-                     
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:megaes">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="http://logovectorseek.com/wp-content/uploads/2019/08/mega-tv-logo-vector.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:megaes">
-                               <span class="tv-live"></span>
-                               Mega
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal --> 
-                     
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:mlbtv">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/MLBNetworkLogo.svg/1200px-MLBNetworkLogo.svg.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:mlbtv">
-                               <span class="tv-live"></span>
-                               MLB Network
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:nbatv">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://www.teleprogreso.tv/wp-content/uploads/2020/01/nba_PNG14.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:nbatv">
-                               <span class="tv-live"></span>
-                               NBA TV
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:nbcu">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://variety.com/wp-content/uploads/2014/11/nbc-universo-logo.jpg?w=1000" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:nbcu">
-                               <span class="tv-live"></span>
-                               Universo
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:nbcsn">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://www.wvxu.org/sites/wvxu/files/styles/x_large/public/202101/2018_nbc_sn.jpg" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:nbcsn">
-                               <span class="tv-live"></span>
-                               NBC Sports
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-         
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:nfltv">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://www.sportsvideo.org/new/wp-content/uploads/2016/08/NFL-Network.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:nfltv">
-                               <span class="tv-live"></span>
-                               NFL Network
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:olympictv">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Olympic_Channel_logo.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:olympictv">
-                               <span class="tv-live"></span>
-                               Olympic
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-        
-       
-         
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:racingtv">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://i.ibb.co/3Sk93qc/6379-Racing-Victoria-Logo.jpg" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:racingtv">
-                               <span class="tv-live"></span>
-                               Racing
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:rmtves">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://vignette.wikia.nocookie.net/logopedia/images/b/b5/Real_Madrid_TV_HD.png/revision/latest/scale-to-width-down/340?cb=20170103061913" alt="">
-                       </div>
-                       <h4 style="margin-bottom: -10px;">
-                           <a data-toggle="collapse" href="go:rmtves" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                               <span class="tv-live"></span>
-                               Real Madrid
-                           </a>
-                        </h4>   
-                           
-                           
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-          
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="//nelsonefe1971.github.io/myrepotv/sevillatv.html">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Sevilla_FC_logo.svg/1200px-Sevilla_FC_logo.svg.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="//nelsonefe1971.github.io/myrepotv/sevillatv.html">
-                               <span class="tv-live"></span>
-                               Sevilla TV
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a data-toggle="collapse" href="#skytv" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://image.flaticon.com/icons/svg/870/870916.svg" alt="">
-                       </div>
-                       <h4 style="margin-bottom: -10px;">
-                           <a data-toggle="collapse" href="#skytv" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                               <span class="tv-live"></span>
-                               Sky TV <i class="fa fa-arrow-down"></i>
-                           </a>
-                        </h4>   
-                           <div class="row">
-                               <div class="col">
-                                   <div class="collapse multi-collapse" id="skytv">
-                                       <center>
-                                           <ul class="list-group list-group-horizontal-xlg">
-                                               <a href="go:skynews">
-                                                   <li class="list-group-item">
-                                                       <i class="us flag"></i>
-                                                       News
-                                                   </li>
-                                               </a>
-                                               <a href="go:skyarabia">
-                                                   <li class="list-group-item">
-                                                       <i class="sa flag"></i>
-                                                       News
-                                                   </li>
-                                               </a>
-                                               <a href="go:thouroughb">
-                                                   <li class="list-group-item">
-                                                       <i class="us flag"></i>
-                                                       Thouroughbred
-                                                   </li>
-                                               </a>
-                                               <a href="go:sk1racing">
-                                                   <li class="list-group-item">
-                                                       <i class="us flag"></i>
-                                                       Racing 1
-                                                   </li>
-                                               </a>
-                                               <a href="go:sk2racing">
-                                                   <li class="list-group-item">
-                                                       <i class="us flag"></i>
-                                                       Racing 2
-                                                   </li>
-                                               </a>
-                                               <a href="go:skysports1">
-                                                   <li class="list-group-item">
-                                                       <i class="us flag"></i>
-                                                       Sports 1
-                                                   </li>
-                                               </a>
-                                           </ul>
-                                       </center>
-                                   </div>
-                               </div>
-                           </div>
-                           
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a data-toggle="collapse" href="#sonyten" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Sony_TEN_logo.png" alt="">
-                       </div>
-                       <h4 style="margin-bottom: -10px;">
-                           <a data-toggle="collapse" href="#sonyten" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                               <span class="tv-live"></span>
-                               Sony TEN <i class="fa fa-arrow-down"></i>
-                           </a>
-                        </h4>   
-                           <div class="row">
-                               <div class="col">
-                                   <div class="collapse multi-collapse" id="sonyten">
-                                       <center>
-                                           <ul class="list-group list-group-horizontal-xlg">
-                                               <a href="go:sonyten1">
-                                                   <li class="list-group-item">
-                                                       <i class="us flag"></i>
-                                                       TEN 1
-                                                   </li>
-                                               </a>
-                                               <a href="go:sonyten2">
-                                                   <li class="list-group-item">
-                                                       <i class="us flag"></i>
-                                                       TEN 2
-                                                   </li>
-                                               </a>
-                                               <a href="go:sonyten3">
-                                                   <li class="list-group-item">
-                                                       <i class="us flag"></i>
-                                                       TEN 3
-                                                   </li>
-                                               </a>
-                                           </ul>
-                                       </center>
-                                   </div>
-                               </div>
-                           </div>
-                           
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-                           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:space">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://i.pinimg.com/originals/d6/6b/b5/d66bb576495837a6336a136895c0ee31.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:space">
-                               <span class="tv-live"></span>
-                               Space
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           
-                           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:stadiumtv">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://vignette.wikia.nocookie.net/logopedia/images/e/ec/Stadium_logo_2017.svg/revision/latest/scale-to-width-down/340?cb=20190603015712" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:stadiumtv">
-                               <span class="tv-live"></span>
-                               Stadium
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:spliga">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://i.ibb.co/ccRrWPs/SSN.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:spliga">
-                               <span class="tv-live"></span>
-                               SuperSport 
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-          
-           
-                           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="//nelsonefe1971.github.io/myrepotv/tdp.html">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Teledeporte.svg" alt="">
-                       </div>
-                       <h4>
-                           <a href="//nelsonefe1971.github.io/myrepotv/tdp.html">
-                               <span class="tv-live"></span>
-                               TDP
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-                    
-                    
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a data-toggle="collapse" href="#tennistv" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Tennis_Channel_logo.svg/1200px-Tennis_Channel_logo.svg.png" alt="">
-                       </div>
-                       <h4 style="margin-bottom: -10px;">
-                           <a data-toggle="collapse" href="#tennistv" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                               <span class="tv-live"></span>
-                               Tennis Channel <i class="fa fa-arrow-down"></i>
-                           </a>
-                        </h4>   
-                           
-                           <div class="row">
-                               <div class="col">
-                                   <div class="collapse multi-collapse" id="tennistv">
-                                       <center>
-                                           <ul class="list-group list-group-horizontal-xlg">
-                                               <a href="go:tennistv">
-                                                   <li class="list-group-item">
-                                                       <i class="us flag"></i>
-                                                       Tennis Channel
-                                                   </li>
-                                               </a>
-                                               
-                                           </ul>
-                                       </center>
-                                   </div>
-                               </div>
-                           </div>
-                           
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:telecinco">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Telecinco.svg" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:telecinco">
-                               <span class="tv-live"></span>
-                               Telecinco
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:telemundom">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/1214px-Telemundo_logo_2018.svg.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:telemundom">
-                               <span class="tv-live"></span>
-                               Telemundo
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-          
-           
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:tntsports">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://i.ibb.co/cYFBk2D/TNT-Sports.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:tntsports">
-                               <span class="tv-live"></span>
-                               TNT Sports
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:toros">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://www.nos.pt/particulares/televisao/canais/premium/PublishingImages/toros-tv/logo/medium.jpg" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:toros">
-                               <span class="tv-live"></span>
-                               Toros
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-         
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:tudne">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://seeklogo.com/images/T/tudn-logo-5AD119A8E6-seeklogo.com.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:tudne">
-                               <span class="tv-live"></span>
-                               TUDN
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-                           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:tyc">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://cdn.tvpassport.com/image/station/240x135/tycsports.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:tyc">
-                               <span class="tv-live"></span>
-                               TyC Sports
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-                          
-     <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:tv5">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://i.ibb.co/60tqMRt/TV5-Monde-logo.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:tv5">
-                               <span class="tv-live"></span>
-                               TV5 Monde
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-                           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:udtv">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://i.ibb.co/k4SPqmL/unnamed.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:udtv">
-                               <span class="tv-live"></span>
-                               UD TV
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-                           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:unimase">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://i.ibb.co/qxPXqbR/descarga-1.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:unimase">
-                               <span class="tv-live"></span>
-                               Unimás
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-                           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:univision">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://i.ibb.co/y4zBxmX/Univision.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:univision">
-                               <span class="tv-live"></span>
-                               Univisión
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-          
-        
-          
-           
-           <!-- Canal -->
-           <div class="col column deportes" data-aos="zoom-in" data-aos-delay="200">
-               <a href="go:wwetv">
-                   <div class="icon-box futbol-b">
-                       <div class="icon">
-                           <img class="ch-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/WWE_Network_logo.svg/1315px-WWE_Network_logo.svg.png" alt="">
-                       </div>
-                       <h4>
-                           <a href="go:wwetv">
-                               <span class="tv-live"></span>
-                               WWE Network
-                           </a>
-                       </h4>
-                   </div>
-               </a>               
-           </div>
-           <!-- END Canal -->
-           
-           
-         
-
-        </div>
-           <br><br>
-            </div>
-            </center>
-
-            
+  
+  <!--header-->
+      <nav class="nav-top navbar navbar-dark darkbg">
+      
+      <form class="form-inline">
+        <span class="navbar-icon-tv"></span>
+        <span class="navbar-filters-tv"></span>
+        <!-- SEARCH ICON --  
+        <a class="nav-bar-icon" href="#">
+        <i class="blancolor" data-feather="search"></i>
+        </a>
+        <!-- SEARCH ICON -->
+      </form>
+      
+      <span class="navbar-logo"></span>
+      <!--/HIDE-RIGHT-->
+      <form class="form-inline">
+        <span class="navbar-icon-right"></span>
+        <span class="navbar-icon-social"></span>
+      </form>
+      <!--/HIDE-RIGHT-->
+    </nav>
+  <!--/header-->
+  <br><br>
+  
+ <center>
+ <div class="tab-content" id="nav-tabContent">
+    <!--TODO-->
+     <div class="tab-pane fade show active" id="list-todo" role="tabpanel" aria-labelledby="list-todo-list">
+     
+     <div class="container">
+      <input id="channelSearch" onkeyup="myFunction()" class="form-control mb-4" id="tableSearch" type="text"
+        placeholder="Buscar...">
       </div>
-    </section><!-- End Services Section -->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  
+      <div class="container" id="channelsList">
+     
+     <div class="row card-canal px-2">
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-3">  
+    <span class="tv-#0"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-1+1"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-1hd"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-1music"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-3abn"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-4fun"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-5rtv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-6play"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-007"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-7larioja"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-7rm"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-7tv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-8andalucia"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-8lamarina"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-8montblanc"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-9laloma"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-13"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-13max"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-14"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-15"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-18"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-24h"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-25"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-26"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-26ac"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-30atv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-33"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-45"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-101"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-247retro"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-324"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-538"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-a3"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-a3cine"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-a24"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-abc"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-abcau"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-acc"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-acentotv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-actv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-adm"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-adultswim"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-adventure"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-ae"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-afv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-ahc"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-ahoratv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-akctv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-aktionar"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-alarabiya"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-alcarriatv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-alee"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-alex"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-alhurra"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-aliento"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-aljazeera"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-alkass"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-allsports"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-almansa"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-almassora"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-alsace20"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-amc"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-amcanal"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-america"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-americanhorrors"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-americateve"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-americatv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-amsports"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-animalplanet"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-animeallday"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-ann"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-ant1"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-antenalatina"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-antenne"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-antofagasta"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-aprendetv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-apunt"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-aragontv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-aranda"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-ard"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-argentisima"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-arirang"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-arisenews"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-asn"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-asturiastv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-atb"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-atp"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-atress"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-atvp"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-auria"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-av"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-avivamiento"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-awe"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-awesome"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-axn"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-azteca1"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-azteca7"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-babyfirst"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-baeble"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-bailentv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-band"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-barna"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-bar"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-bayern"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-bbc"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-bblack"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-bdn"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-beinus"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-beinn"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-beinlaliga"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-bemad"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-ben"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-benavente"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-bergueda"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-bet"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-beteve"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-bethel"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-betis"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-betterlife"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-bfmtv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-bgm"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-bhtv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-bielingue"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-biglife"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-bigsky"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-biosfera"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-birikina"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-biztv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-blaze"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-blazetv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-bloody"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-bloomberg"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-bnc"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-boing"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-bolivia"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-bolivision"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-bonappetit"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-bondiatv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-boomerang"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-brattv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-bravo"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-bspoketv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-burrianateve"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-buzzr"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-bvn"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-bx1"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-c4"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-c5n"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-c9bb"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-c9n"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-c10"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-c33madrid"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-c56"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cacerestv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cacoc"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-calitv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-campinasur"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-campus"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canal4"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canal4uy"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canal4b"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canal4j"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canal4m"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canal4tv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canal6"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canal7"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canal10e"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canal10m"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canal10n"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canal10u"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canal12"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canal13"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canal22"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canal33"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canal44"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canal54"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canal2000"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canalblau"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canalcapital"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canalcoin"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canalcongreso"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canalextremadura"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canalm"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canalmalaga"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canalplus"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canalsur"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canaltrece"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-canaltro"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cancionero"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-capital"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-caracol"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cardedeu"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-carolina"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cartoon"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cas"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-catholic"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cazavision"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cazaypesca"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cbc"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cbn"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cbs"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cbtv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cbtv_b"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cbtv_m"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cc"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-ccg"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cctv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cdf"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cdlc"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cdn"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cdo"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cds"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cetelmon"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cferia"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cgtn"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-challenge"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-channel4"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-channel5"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-chapintv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-chaulatv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-chch"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cheddar"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-chmedia"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-chv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cielo"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cine"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cinedigm"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cinelife"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cityradio"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-citytv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cl13"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-clantv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cm"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cmb"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cmc"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cmt"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cna"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cnc"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cncworld"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cnn"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-colorvision"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-combatgo"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-company"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-complex"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-compras"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cordobatv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cortofilms"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cosmo"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cosmovision"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-country"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-courttv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cpac"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cristovision"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cronica"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cspan"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-ct"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-ctni"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-ctv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cubavision"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cugat"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cw"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cyltv_7"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cyltv_8"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-cym"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-tyc"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-lequipe"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-tigopy"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-tigohn"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="tv-goltvec"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="formato-channel2"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="formato-channel"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="formato-channel2"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="formato-channel"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="formato-channel2"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="formato-channel2"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="formato-channel"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="formato-channel2"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="formato-channel"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="formato-channel2"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="formato-channel2"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="formato-channel"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="formato-channel2"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="formato-channel"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="formato-channel2"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="formato-channel2"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="formato-channel"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="formato-channel2"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="formato-channel"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL--
+  <div class="col-6 col-sm-3">  
+    <span class="formato-channel2"></span>
+  </div>
+   <!--/CANAL-->
+  
+     </div>
+     <br><br>
+     
+     </div>
+     
+     </div>
+     
+     <!--/TODO-->
+     
+    <!--PAIS-->
+     <div class="tab-pane fade show" id="list-pais" role="tabpanel" aria-labelledby="list-pais-list">
+     
+     <div class="container">
+      <input id="countrySearch" onkeyup="myFunction()" class="form-control mb-4" id="tableSearch" type="text"
+        placeholder="Buscar...">
+      </div>
+  
+      <div class="container" id="countryList">
+     
+     <h4 class="text-white">PAÍSES:</h4>
+     
+     <div class="row card-canal px-2">
+   
+   <!--COUN-->    
+  <div class="col-4 col-sm-4">  
+    <div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:alemania">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img alemania" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Alemania</h5></div>
+        </div>
+       </a>
+    </div>
+  </div>
+   <!--/COUN-->
+   
+   <!--COUN-->    
+  <div class="col-4 col-sm-4">  
+    <div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:argentina">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img argentina" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Argentina</h5></div>
+        </div>
+       </a>
+    </div>
+  </div>
+   <!--/COUN-->
+   
+   <!--COUN-->    
+  <div class="col-4 col-sm-4">  
+    <div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img belgica" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Bélgica</h5></div>
+        </div>
+       </a>
+    </div>
+  </div>
+   <!--/COUN-->
+   
+   <!--COUN-->    
+  <div class="col-4 col-sm-4">  
+    <div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:espana">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img espana" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>España</h5></div>
+        </div>
+       </a>
+    </div>
+  </div>
+   <!--/COUN-->
+   
+   <!--COUN-->    
+  <div class="col-4 col-sm-4">  
+    <div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:honduras">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img honduras" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Honduras</h5></div>
+        </div>
+       </a>
+    </div>
+  </div>
+   <!--/COUN-->
+   
+   <!--COUN-->    
+  <div class="col-4 col-sm-4">  
+    <div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:italia">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img italia" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Italia</h5></div>
+        </div>
+       </a>
+    </div>
+  </div>
+   <!--/COUN-->
+  
+  
+     </div>
+     <br><br>
+     </div>
+     
+     </div>
+     
+     <!--/PAIS-->
+     
+    <!--CATEGORIA-->
+     <div class="tab-pane fade show" id="list-categoria" role="tabpanel" aria-labelledby="list-categoria-list">
+     
+     <div class="container">
+      <input id="categorySearch" onkeyup="myFunction()" class="form-control mb-4" id="tableSearch" type="text"
+        placeholder="Buscar...">
+      </div>
+  
+      <div class="container" id="categoryList">
+     
+     <h4 class="text-white">CATEGORÍAS:</h4>
+     
+     <div class="row card-canal px-2">
+   
+   <!--CATEG-->    
+  <div class="col-4 col-sm-4">  
+    <div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+            <svg height="48px" viewBox="0 0 16 16" class="bi bi-brush" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.067 6.067 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.117 8.117 0 0 1-3.078.132 3.658 3.658 0 0 1-.563-.135 1.382 1.382 0 0 1-.465-.247.714.714 0 0 1-.204-.288.622.622 0 0 1 .004-.443c.095-.245.316-.38.461-.452.393-.197.625-.453.867-.826.094-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.2-.925 1.746-.896.126.007.243.025.348.048.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.175-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04zM4.705 11.912a1.23 1.23 0 0 0-.419-.1c-.247-.013-.574.05-.88.479a11.01 11.01 0 0 0-.5.777l-.104.177c-.107.181-.213.362-.32.528-.206.317-.438.61-.76.861a7.127 7.127 0 0 0 2.657-.12c.559-.139.843-.569.993-1.06a3.121 3.121 0 0 0 .126-.75l-.793-.792zm1.44.026c.12-.04.277-.1.458-.183a5.068 5.068 0 0 0 1.535-1.1c1.9-1.996 4.412-5.57 6.052-8.631-2.591 1.927-5.566 4.66-7.302 6.792-.442.543-.796 1.243-1.042 1.826a11.507 11.507 0 0 0-.276.721l.575.575zm-4.973 3.04l.007-.005a.031.031 0 0 1-.007.004zm3.582-3.043l.002.001h-.002z"/>
+            </svg>
+            </div>
+            
+            <div class="d-flex justify-content-center categ-text"><h5>Arte</h5></div>
+        </div>
+       </a>
+    </div>
+  </div>
+   <!--/CATEG-->
+   
+   <!--CATEG-->    
+  <div class="col-4 col-sm-4">  
+    <div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+            <svg height="48px" viewBox="0 0 16 16" class="bi bi-newspaper" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z"/>
+                <path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/>
+            </svg>
+            </div>
+            
+            <div class="d-flex justify-content-center categ-text"><h5>Noticias</h5></div>
+        </div>
+       </a>
+    </div>
+  </div>
+   <!--/CATEG-->
+   
+   <!--CATEG-->    
+  <div class="col-4 col-sm-4">  
+    <div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+            <svg height="48px" viewBox="0 0 16 16" class="bi bi-briefcase" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-6h-1v6a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-6H0v6z"/>
+              <path fill-rule="evenodd" d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5v2.384l-7.614 2.03a1.5 1.5 0 0 1-.772 0L0 6.884V4.5zM1.5 4a.5.5 0 0 0-.5.5v1.616l6.871 1.832a.5.5 0 0 0 .258 0L15 6.116V4.5a.5.5 0 0 0-.5-.5h-13zM5 2.5A1.5 1.5 0 0 1 6.5 1h3A1.5 1.5 0 0 1 11 2.5V3h-1v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V3H5v-.5z"/>
+            </svg>
+            </div>
+            
+            <div class="d-flex justify-content-center categ-text"><h5>Negocios</h5></div>
+        </div>
+       </a>
+    </div>
+  </div>
+   <!--/CATEG-->
+   
+   <!--CATEG-->    
+  <div class="col-4 col-sm-4">  
+    <div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+            <svg height="48px" viewBox="0 0 16 16" class="bi bi-emoji-laughing" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+              <path fill-rule="evenodd" d="M12.331 9.5a1 1 0 0 1 0 1A4.998 4.998 0 0 1 8 13a4.998 4.998 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5z"/>
+              <path d="M7 6.5c0 .828-.448 0-1 0s-1 .828-1 0S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 0-1 0s-1 .828-1 0S9.448 5 10 5s1 .672 1 1.5z"/>
+            </svg>
+            </div>
+            
+            <div class="d-flex justify-content-center categ-text"><h5>Comedia</h5></div>
+        </div>
+       </a>
+    </div>
+  </div>
+   <!--/CATEG-->
+   
+   <!--CATEG-->    
+  <div class="col-4 col-sm-4">  
+    <div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+            <svg height="48px" viewBox="0 0 16 16" class="bi bi-easel" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8.473.337a.5.5 0 0 0-.946 0L6.954 2h2.092L8.473.337zM12.15 11h-1.058l1.435 4.163a.5.5 0 0 0 .946-.326L12.15 11zM8.5 11h-1v2.5a.5.5 0 0 0 1 0V11zm-3.592 0H3.85l-1.323 3.837a.5.5 0 1 0 .946.326L4.908 11z"/>
+              <path fill-rule="evenodd" d="M14 3H2v7h12V3zM2 2a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z"/>
+            </svg>
+            </div>
+            
+            <div class="d-flex justify-content-center categ-text"><h5>Educación</h5></div>
+        </div>
+       </a>
+    </div>
+  </div>
+   <!--/CATEG-->
+   
+   <!--CATEG-->    
+  <div class="col-4 col-sm-4">  
+    <div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+            <svg height="48px" viewBox="0 0 16 16" class="bi bi-award" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M9.669.864L8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193l-1.51-.229L8 1.126l-1.355.702-1.51.229-.684 1.365-1.086 1.072L3.614 6l-.25 1.506 1.087 1.072.684 1.365 1.51.229L8 10.874l1.356-.702 1.509-.229.684-1.365 1.086-1.072L12.387 6l.248-1.506-1.086-1.072-.684-1.365z"/>
+              <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+            </svg>
+            </div>
+            
+            <div class="d-flex justify-content-center categ-text"><h5>Deporte</h5></div>
+        </div>
+       </a>
+    </div>
+  </div>
+   <!--/CATEG-->
+   
+   <!--CATEG-->    
+  <div class="col-4 col-sm-4">  
+    <div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+            <svg height="48px" viewBox="0 0 16 16" class="bi bi-heart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+            </svg>
+            </div>
+            
+            <div class="d-flex justify-content-center categ-text"><h5>Familiar</h5></div>
+        </div>
+       </a>
+    </div>
+  </div>
+   <!--/CATEG-->
+   
+   <!--CATEG-->    
+  <div class="col-4 col-sm-4">  
+    <div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+            <svg height="48px" viewBox="0 0 16 16" class="bi bi-headset" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M8 1a5 5 0 0 0-5 5v4.5H2V6a6 6 0 1 1 12 0v4.5h-1V6a5 5 0 0 0-5-5z"/>
+              <path d="M11 8a1 1 0 0 1 1-1h2v4a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1V8zM5 8a1 1 0 0 0-1-1H2v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V8z"/>
+              <path fill-rule="evenodd" d="M13.5 8.5a.5.5 0 0 1 .5.5v3a2.5 2.5 0 0 1-2.5 2.5H8a.5.5 0 0 1 0-1h3.5A1.5 1.5 0 0 0 13 12V9a.5.5 0 0 1 .5-.5z"/>
+              <path d="M6.5 14a1 1 0 0 1 1-1h1a1 1 0 1 1 0 2h-1a1 1 0 0 1-1-1z"/>
+            </svg>
+            </div>
+            
+            <div class="d-flex justify-content-center categ-text"><h5>Música</h5></div>
+        </div>
+       </a>
+    </div>
+  </div>
+   <!--/CATEG-->
+   
+   <!--CATEG-->    
+  <div class="col-4 col-sm-4">  
+    <div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+            <svg height="48px" viewBox="0 0 16 16" class="bi bi-journal-bookmark" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+              <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+              <path fill-rule="evenodd" d="M6 8V1h1v6.117L8.743 6.07a.5.5 0 0 1 .514 0L11 7.117V1h1v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8z"/>
+            </svg>
+            </div>
+            
+            <div class="d-flex justify-content-center categ-text"><h5>Historia</h5></div>
+        </div>
+       </a>
+    </div>
+  </div>
+   <!--/CATEG-->
+  
+  
+     </div>
+     <br><br>
+     </div>
+     
+     </div>
+     
+     <!--/CATEGORIA-->
+     <div class="tab-pane fade" id="list-categoria" role="tabpanel" aria-labelledby="list-categoria-list">CATEGORÍA</div>
+     <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">SETTINGS</div>
+     
+  </div>
+ </center>
+
+   <!--Nav-Bottom-->
+    <div class="navbar-bottom-home"></div>
+   <!--/Nav-Bottom-->
+    <!--JS-->
+    <script src="tv/lista.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/bottombar.js"></script>
+    <!-- Feather Icons -->
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
     <script>
-filterSelection("all") // Execute the function and show all columns
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("column");
-  if (c == "all") c = "";
-  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
-
-// Show filtered elements
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {
-      element.className += " " + arr2[i];
-    }
-  }
-}
-
-// Hide elements that are not selected
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);
-    }
-  }
-  element.className = arr1.join(" ");
-}
-
-// Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
-</script>
-   <br><br>
-    <div class="bottom-bar"></div>
-    <!--Ajax Scripts -->
-    <script src="js/index.js"></script>
-    <script src="sections/tv.js"></script>
-    <script src="js/canales.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <!--Bootstrap Scripts -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      feather.replace()
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <!--FILTERS-->
+    <script src="js/filtro.js"></script>
+    <!--/ACTIVE-->
+    <!--/JS-->
 </body>
 </html>
