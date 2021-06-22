@@ -3,7 +3,7 @@ let validacionOK = `
   <h1>¡Bienvenido!</h1>
   <h3>Esta versión estará disponible hasta: </h3>
   <p class="">30 de junio de 2021</p>
-  <a href="go:home"><div class="btn">Acceder</div></a>
+  <a href="go:post-login"><div class="btn">Acceder</div></a>
 </div>
 `;
 
