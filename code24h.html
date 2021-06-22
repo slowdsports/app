@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Code Box Copy – Full Example</title>
+        <!-- Bootstrap core CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" />
+        <!-- Material Design Bootstrap -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet" />
+        <!-- Cod Box Copy begin -->
+        <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
+        <link href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism.min.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/gh/jablonczay/code-box-copy/code-box-copy/css/code-box-copy.min.css" rel="stylesheet" />
+        <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/combine/gh/jablonczay/code-box-copy/clipboard/clipboard.min.js,gh/jablonczay/code-box-copy/code-box-copy/js/code-box-copy.min.js"></script>
+        <!-- Cod Box Copy end -->
+        <style>
+            .code-box-copy{
+            background-color: #000!important;
+            }
+            #example-full{
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+      
+      <div class="container">
+          <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col"><b>Fecha</b></th>
+              <th scope="col"><b>Código</b></th>
+              <th scope="col"><b>Próximo</b></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">22/06/21</th>
+              <td>
+                  <div class="code-box-copy">
+                    <button class="code-box-copy__btn" data-clipboard-target="#example-full" title="Copy"></button>
+                    <pre><span style="margin-left: 0%;">Toca para copiar ➡️</span><code class="language-html" id="example-full">eLL7hz</code></pre>
+                </div>
+
+               <script>
+                    $('.code-box-copy').codeBoxCopy({
+                        tooltipText: 'Copied',
+                        tooltipShowTime: 1000,
+                        tooltipFadeInTime: 300,
+                        tooltipFadeOutTime: 300
+                    });
+                </script>
+              </td>
+              <td>
+                  <p class="d1t12pm"></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </body>
+</html>
