@@ -1,5 +1,6 @@
 html {  
   background-color: #10151B;
+  align-content: center;  
   background: url(https://static.pexels.com/photos/3797/black-and-white-sport-fight-boxer.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -8,8 +9,11 @@ html {
 }
 
 body {
-  min-width: 200px!important;
-  margin: 0px; 
+  align-content: center;
+  margin: 0 auto;
+  vertical-align: middle;
+  text-align: center;  
+  align-items: center;  
   font-family: "Oswald", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
