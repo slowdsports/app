@@ -3,7 +3,7 @@ let validacionOK = `
   <h1>¡Bienvenido!</h1>
   <h3>Esta versión estará disponible hasta: </h3>
   <p class="">30 de junio de 2021</p>
-  <a href="#"><div class="btn">Acceder</div></a>
+  <a href="go:home"><div class="btn">Acceder</div></a>
 </div>
 `;
 
@@ -13,7 +13,7 @@ let validacionMal = `
 <div class="center">
   <h1>¡Lo Sentimos!</h1>
   <h3>Esta versión ha caducado: </h3>
-  <a href="#"><div class="btn">Actualizar</div></a>
+  <a href="go:update"><div class="btn">Actualizar</div></a>
 </div>
 `;
 

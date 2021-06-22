@@ -26,6 +26,7 @@ h1 {
   -ms-user-select: none;
   user-select: none;
   pointer-events: none;
+  vertical-align: middle;  
 }
 h3 , p {
   line-height: .95;
@@ -37,7 +38,8 @@ h3 , p {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  pointer-events: none;      
+  pointer-events: none;
+  vertical-align: middle;
 }
 
 .center {
