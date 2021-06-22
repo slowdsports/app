@@ -72,7 +72,7 @@ let bottombarFutbol = `
         <span>
         <a class="nav-bar-icon" href="javascript:void(0)">
         <i class="blancolormenu bottom-icon fas fa-home"></i>
-        <p class="blancolormenu bottom-text activo">Inicio</p>
+        <p class="blancolormenu bottom-text">Inicio</p>
         </a>
         </span>
         </a>
@@ -83,7 +83,7 @@ let bottombarFutbol = `
         <span>
         <a class="nav-bar-icon" href="go:futbol">
         <i class="blancolormenu bottom-icon fas fa-futbol activo"></i>
-        <p class="blancolormenu bottom-text">Fútbol</p>
+        <p class="blancolormenu bottom-text activo">Fútbol</p>
         </a>
         </span>
         </a>
@@ -136,7 +136,7 @@ let bottombarBasket = `
         <span>
         <a class="nav-bar-icon" href="javascript:void(0)">
         <i class="blancolormenu bottom-icon fas fa-home"></i>
-        <p class="blancolormenu bottom-text activo">Inicio</p>
+        <p class="blancolormenu bottom-text">Inicio</p>
         </a>
         </span>
         </a>
@@ -158,7 +158,7 @@ let bottombarBasket = `
         <span>
         <a class="nav-bar-icon" href="go:basket">
         <i class="blancolormenu bottom-icon fas fa-basketball-ball activo"></i>
-        <p class="blancolormenu bottom-text">Basket</p>
+        <p class="blancolormenu bottom-text activo">Basket</p>
         </a>
         </span>
         </a>
@@ -200,7 +200,7 @@ let bottombarTv = `
         <span>
         <a class="nav-bar-icon" href="javascript:void(0)">
         <i class="blancolormenu bottom-icon fas fa-home"></i>
-        <p class="blancolormenu bottom-text activo">Inicio</p>
+        <p class="blancolormenu bottom-text">Inicio</p>
         </a>
         </span>
         </a>
@@ -233,7 +233,7 @@ let bottombarTv = `
         <span>
         <a class="nav-bar-icon" href="go:tv">
         <i class="blancolormenu bottom-icon fas fa-tv activo"></i>
-        <p class="blancolormenu bottom-text">Televisión</p>
+        <p class="blancolormenu bottom-text activo">Televisión</p>
         </a>
         </span>
         </a>
@@ -264,7 +264,7 @@ let bottombarInfo = `
         <span>
         <a class="nav-bar-icon" href="javascript:void(0)">
         <i class="blancolormenu bottom-icon fas fa-home"></i>
-        <p class="blancolormenu bottom-text activo">Inicio</p>
+        <p class="blancolormenu bottom-text">Inicio</p>
         </a>
         </span>
         </a>
@@ -308,7 +308,7 @@ let bottombarInfo = `
         <span>
         <a class="nav-bar-icon" href="go:info">
         <i class="blancolormenu bottom-icon fas fa-info-circle activo"></i>
-        <p class="blancolormenu bottom-text">Información</p>
+        <p class="blancolormenu bottom-text activo">Información</p>
         </a>
         </span>
         </a>
