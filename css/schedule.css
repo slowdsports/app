@@ -409,3 +409,8 @@
     
     background-repeat: no-repeat;    
 }
+.eurocopa{
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/1/image);
+    
+    background-repeat: no-repeat;    
+}
