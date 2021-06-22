@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="14;url=go:code24" />
+  <title>CodePen - Intersecting Lines</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="./css/lines.css">
+
+</head>
+<body>
+
+<canvas id="canvas"></canvas>
+
+<!--Modal-->
+          <center>
+           <div class="modal fade " id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Validando Código de Acceso: <span id="time" class="bg-dark text-white"></span></h5>
+                  </div>
+                  <div class="modal-body bg-dark text-white">
+                    Cada 24 horas se genera un código nuevo para esta aplicación. <br>
+                    Nuevo código: <span class="d1t12pm"></span> <br>
+                    <button type="button" class="btn btn-outline-info btn-sm" onclick="window.location.href='go:code24'">Obtener Código</button>
+                    |
+                    <button type="button" class="btn btn-outline-success btn-sm" onclick="window.location.href='go:home'">Acceder</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </center>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script type="text/javascript">
+            $(window).on('load', function() {
+                $('#myModal').modal('show');
+            });
+            </script>
+        <!--/Modal-->
+ 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src='js/base_lines.js'></script><script  src="/js/lines.js"></script>
+    <script src="js/countdown.js"></script>
+
+</body>
+</html>
