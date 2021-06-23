@@ -29,7 +29,9 @@
             margin-bottom: 1%;
         }
         .canal-img{
-            width: 50px;
+            width: 45px; height: 45px;
+            background-size: cover;
+            margin-bottom: 5%;
             float: center;
         }
         .sports{

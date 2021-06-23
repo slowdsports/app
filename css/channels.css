@@ -160,3 +160,15 @@ tudn{
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Win_Sports%2B_logo.svg/1200px-Win_Sports%2B_logo.svg.png);
     background-repeat: no-repeat;    
 }
+.cuatro{
+    background-image: url(../tv/images/cuatro.png);
+    background-repeat: no-repeat;    
+}
+.telecinco{
+    background-image: url(../tv/images/T5.png);
+    background-repeat: no-repeat;    
+}
+.vamos{
+    background-image: url(../tv/images/vamos.png);
+    background-repeat: no-repeat;
+}
