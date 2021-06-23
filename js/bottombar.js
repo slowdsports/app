@@ -7,7 +7,7 @@ let bottombarHome = `
         <a href="javascript:void(0)">
         <span>
         <a class="nav-bar-icon" href="javascript:void(0)">
-        <i class="blancolormenu bottom-icon uil uil uil-estate activo"></i>
+        <i class="blancolormenu bottom-icon uil uil-estate activo"></i>
         <p class="blancolormenu bottom-text activo">Inicio</p>
         </a>
         </span>
