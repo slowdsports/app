@@ -1,0 +1,131 @@
+/*! CSS Used from: https://iqonic.design/themes/sofbox/sofbox-v4/css/bootstrap.min.css */
+*,::after,::before{box-sizing:border-box;}
+section{display:block;}
+h2,h5{margin-top:0;margin-bottom:.5rem;}
+h1{font-size: 38px;}
+a{text-decoration: none; color: #1e1e1e}
+p{margin-top:0;margin-bottom:1rem;}
+img{vertical-align:middle;border-style:none;}
+h2,h5{margin-bottom:.5rem;font-family:inherit;font-weight:500;line-height:1.2;color:inherit;}
+h2{font-size:2rem;}
+h5{font-size:1.25rem;}
+.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;}
+@media (min-width:576px){
+.container{max-width:540px;}
+}
+@media (min-width:768px){
+.container{max-width:720px;}
+}
+@media (min-width:992px){
+.container{max-width:960px;}
+}
+@media (min-width:1200px){
+.container{max-width:1140px;}
+}
+.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;}
+.col-lg-6,.col-lg-8{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px;}
+@media (min-width:992px){
+.col-lg-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%;}
+.col-lg-8{-ms-flex:0 0 66.666667%;flex:0 0 66.666667%;max-width:66.666667%;}
+}
+.media{display:-ms-flexbox;display:flex;-ms-flex-align:start;align-items:flex-start;}
+.media-body{-ms-flex:1;flex:1;}
+.justify-content-center{-ms-flex-pack:center!important;justify-content:center!important;}
+.position-relative{position:relative!important;}
+.mb-0{margin-bottom:0!important;}
+.mb-2{margin-bottom:.5rem!important;}
+.pb-0{padding-bottom:0!important;}
+.text-left{text-align:left!important;}
+@media print{
+*,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+img{page-break-inside:avoid;}
+h2,p{orphans:3;widows:3;}
+h2{page-break-after:avoid;}
+.container{min-width:992px!important;}
+}
+/*! PERSONAL STYLES */
+.muted{font-size: 11px;font-style: italic;text-transform: capitalize;}
+/*! CSS Used from: https://iqonic.design/themes/sofbox/sofbox-v4/css/typography.css */
+/*! @import https://iqonic.design/themes/sofbox/sofbox-v4/css/flaticon.css */
+[class*=" flaticon-"]:before,[class*=" flaticon-"]:after{font-family:Flaticon;font-size:50px;line-height:inherit;font-style:normal;}
+.flaticon-accounting:before{content:"\f100";}
+.flaticon-professional:before{content:"\f102";}
+.flaticon-growth-1:before{content:"\f10f";}
+.flaticon-document-1:before{content:"\f114";}
+/*! end @import */
+/*! @import https://iqonic.design/themes/sofbox/sofbox-v4/css/wow.css */
+.fadeInUp{-webkit-animation-name:fadeInUp;animation-name:fadeInUp;}
+/*! end @import */
+*::-moz-selection{background:var(--primary-color);color:#ffffff;text-shadow:none;}
+::-moz-selection{background:var(--primary-color);color:#ffffff;text-shadow:none;}
+::selection{background:var(--primary-color);color:#ffffff;text-shadow:none;}
+h2,h5{font-family:var(--title-font-family);color:#1e1e1e;margin:0;-ms-word-wrap:break-word;word-wrap:break-word;line-height:1.5em;font-weight:normal;}
+h2{font-size:2.441em;}
+h5{font-size:1.3em;}
+.container{max-width:1170px;}
+.title-box{margin-bottom:100px;text-align:center;}
+::-webkit-input-placeholder{color:#ffffff;}
+::-moz-placeholder{color:#ffffff;}
+:-ms-input-placeholder{color:#ffffff;}
+:-moz-placeholder{color:#ffffff;}
+section{padding:120px 0;}
+/*! CSS Used from: https://iqonic.design/themes/sofbox/sofbox-v4/css/sofbox-style.css */
+img{max-width:100%;height:auto;}
+p{margin-bottom:30px;}
+.title-box{margin-top:-5px;}
+.title-box h2{margin-bottom:15px;}
+.color-palette:hover{background:transparent;}
+.color-palette .circle-icon i{font-size:40px;}
+.color-palette{padding:30px;border-radius:4px;box-shadow:0px 0px 50px 0px rgba(0, 0, 0, 0.1);position:relative;margin-bottom:30px;background:#ffffff;}
+.color-palette .circle-icon,.color-palette .color-text,.color-palette p{transition:all 0.5s ease-in-out;transition:all 0.5s ease-in-out;-moz-transition:all 0.5s ease-in-out;-ms-transition:all 0.5s ease-in-out;-o-transition:all 0.5s ease-in-out;-webkit-transition:all 0.5s ease-in-out;}
+.color-palette:before{border-radius:4px;content:"";width:100%;height:100%;transition:all 0.5s ease-in-out;transition:all 0.5s ease-in-out;-moz-transition:all 0.5s ease-in-out;-ms-transition:all 0.5s ease-in-out;-o-transition:all 0.5s ease-in-out;-webkit-transition:all 0.5s ease-in-out;position:absolute;top:0;left:0;opacity:0;z-index:-1;}
+.color-palette:hover:before{opacity:1;z-index:-1;}
+.color-palette:hover .circle-icon:before{opacity:0.4;}
+.color-palette .circle-icon:before{border-radius:90px;line-height:80px;width:80px;height:80px;text-align:center;content:"";position:absolute;left:0;top:0;z-index:-1;opacity:0.2;transition:all 0.5s ease-in-out;transition:all 0.5s ease-in-out;-moz-transition:all 0.5s ease-in-out;-ms-transition:all 0.5s ease-in-out;-o-transition:all 0.5s ease-in-out;-webkit-transition:all 0.5s ease-in-out;}
+.color-palette .media:after{content:"";background:url('https://iqonic.design/themes/sofbox/sofbox-v4/images/home-4/01.png');display:inline-block;position:absolute;right:10px;width:95px;height:95px;bottom:10px;}
+.color-palette .circle-icon{z-index:0;width:80px;height:80px;margin-right:30px;color:#ffffff;position:relative;line-height:80px;text-align:center;}
+.color-palette:hover .color-text{color:#1e1e1e;}
+.color-palette:hover p{color:#1e1e1e;}
+.color-palette.purple-hover:before{background-image:-moz-linear-gradient(0deg, var(--linear-color-1) 0%, var(--linear-color-2) 100%);background-image:-webkit-linear-gradient(0deg, var(--linear-color-1) 0%, var(--linear-color-2) 100%);box-shadow:0px 10px 20px 0px rgba(139, 118, 246, 0.4);}
+.color-palette.purple-hover .circle-icon{color:#6e73ef;}
+.color-palette.purple-hover:hover .circle-icon{color:#ffffff;}
+.color-palette.purple-hover .circle-icon:before{background-image:-moz-linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(23, 51, 195) 100%);background-image:-webkit-linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(23, 51, 195) 100%);background-image:-ms-linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(23, 51, 195) 100%);}
+.color-palette.org-hover:before{background-image:-moz-linear-gradient( 0deg, rgb(255,121,109) 0%, rgb(255,175,167) 100%);background-image:-webkit-linear-gradient( 0deg, rgb(255,121,109) 0%, rgb(255,175,167) 100%);background-image:-ms-linear-gradient( 0deg, rgb(255,121,109) 0%, rgb(255,175,167) 100%);box-shadow:0px 10px 20px 0px rgba(255, 121, 109, 0.4);}
+.color-palette.org-hover .circle-icon{color:#ff6a5c;}
+.color-palette.org-hover:hover .circle-icon{color:#ffffff;}
+.color-palette.org-hover .circle-icon:before{background-image:-moz-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(255,106,92) 100%);background-image:-webkit-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(255,106,92) 100%);background-image:-ms-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(255,106,92) 100%);}
+.color-palette.green-hover:before{background-image:-moz-linear-gradient( 0deg, rgb(108,218,193) 0%, rgb(144,227,209) 100%);background-image:-webkit-linear-gradient( 0deg, rgb(108,218,193) 0%, rgb(144,227,209) 100%);background-image:-ms-linear-gradient( 0deg, rgb(108,218,193) 0%, rgb(144,227,209) 100%);box-shadow:0px 10px 20px 0px rgba(100,218,193, 0.6);}
+.color-palette.green-hover .circle-icon{color:#64d8be;}
+.color-palette.green-hover:hover .circle-icon{color:#ffffff;}
+.color-palette.green-hover .circle-icon:before{background-image:-moz-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(100,216,190) 100%);background-image:-webkit-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(100,216,190) 100%);background-image:-ms-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(100,216,190) 100%);}
+.iq-objects.style-two .iq-objects-02 img{transition:all 0.5s ease-in-out;transition:all 0.5s ease-in-out;-moz-transition:all 0.5s ease-in-out;-ms-transition:all 0.5s ease-in-out;-o-transition:all 0.5s ease-in-out;-webkit-transition:all 0.5s ease-in-out;-webkit-animation:bounces 2s infinite alternate;}
+.iq-objects.style-two.left-top .iq-objects-02 img{position:absolute;left:-300px;top:0;z-index:-2;-webkit-animation:bounces 2s infinite alternate;max-width:130%;}
+@media (max-width:1024px){
+.color-palette .color-text{font-size:16px;}
+}
+[class*=" flaticon-"]:before,[class*=" flaticon-"]:after{font-size:inherit;}
+/*! CSS Used from: https://iqonic.design/themes/sofbox/sofbox-v4/css/responsive.css */
+@media (max-width:1365px){
+.title-box{margin-bottom:60px;}
+}
+@media (max-width:992px){
+h2{font-size:1.875em;}
+.color-palette.purple-hover:after,.color-palette.org-hover:after{display:none;}
+.color-palette .color-text{font-size:20px;}
+}
+@media (max-width:767px){
+section{padding:80px 0;}
+.title-box h2{font-size:24px;}
+}
+@media (max-width:359px){
+.color-palette .media{display:block;}
+.color-palette .circle-icon{margin-bottom:30px;}
+}
+/*! CSS Used keyframes */
+@-webkit-keyframes fadeInUp{from{opacity:0;-webkit-transform:translate3d(0, 100%, 0);transform:translate3d(0, 100%, 0);}to{opacity:1;-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);}}
+@keyframes fadeInUp{from{opacity:0;-webkit-transform:translate3d(0, 100%, 0);transform:translate3d(0, 100%, 0);}to{opacity:1;-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);}}
+@keyframes bounces{from{transform:translateY(0px);}to{transform:translateY(-25px);}}
+@-webkit-keyframes bounces{from{transform:translateY(0px);}to{transform:translateY(-25px);}}
+/*! CSS Used fontfaces */
+@font-face{font-family:"Flaticon";src:url("https://iqonic.design/themes/sofbox/sofbox-v4/fonts/Flaticon.eot");src:url("https://iqonic.design/themes/sofbox/sofbox-v4/fonts/Flaticon.eot#iefix") format("embedded-opentype"),        url("https://iqonic.design/themes/sofbox/sofbox-v4/fonts/Flaticon.woff2") format("woff2"),        url("https://iqonic.design/themes/sofbox/sofbox-v4/fonts/Flaticon.woff") format("woff"),        url("https://iqonic.design/themes/sofbox/sofbox-v4/fonts/Flaticon.ttf") format("truetype"),        url("https://iqonic.design/themes/sofbox/sofbox-v4/fonts/Flaticon.svg#Flaticon") format("svg");font-weight:normal;font-style:normal;}
+@font-face{font-family:"Flaticon";src:url("https://iqonic.design/themes/sofbox/sofbox-v4/fonts/Flaticon.svg#Flaticon") format("svg");}
