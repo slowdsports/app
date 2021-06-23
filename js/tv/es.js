@@ -33,7 +33,7 @@ for(const ele of document.getElementsByClassName("tv-24h")){ele.innerHTML=(tv24h
 
 let Bein = `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="go:beinn">           
+       <a class="card-link text-white" href="go:beinne">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img beinn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
@@ -44,7 +44,7 @@ let Bein = `
        </a>
     </div>
 `
-for(const ele of document.getElementsByClassName("tv-beinn")){ele.innerHTML=(Bein)};
+for(const ele of document.getElementsByClassName("tv-beinne")){ele.innerHTML=(Bein)};
 
 
 let Cuatro = `
