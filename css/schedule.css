@@ -18,6 +18,9 @@
 .fa-circle{
     color: red;
 }
+.figure-caption{
+    text-transform: capitalize;
+}
 .tournament{
     background-image: url(https://www.sofascore.com/static/images/placeholders/tournament.png);
     
