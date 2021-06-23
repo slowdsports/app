@@ -68,7 +68,7 @@ let bottombarFutbol = `
       <ul style="margin-bottom: 1%;" class="list-group-horizontal">
        
         <li class="list-grup-item menu-element">
-        <a href="javascript:void(0)">
+        <a href="go:home">
         <span>
         <a class="nav-bar-icon" href="javascript:void(0)">
         <i class="blancolormenu bottom-icon uil uil uil-estate"></i>
@@ -79,7 +79,7 @@ let bottombarFutbol = `
         </li>
         
         <li class="list-grup-item menu-element">
-        <a href="go:futbol">
+        <a href="javascript:void(0)">
         <span>
         <a class="nav-bar-icon" href="go:futbol">
         <i class="blancolormenu bottom-icon uil uil-football activo"></i>
@@ -132,7 +132,7 @@ let bottombarBasket = `
       <ul style="margin-bottom: 1%;" class="list-group-horizontal">
        
         <li class="list-grup-item menu-element">
-        <a href="javascript:void(0)">
+        <a href="go:home">
         <span>
         <a class="nav-bar-icon" href="javascript:void(0)">
         <i class="blancolormenu bottom-icon uil uil uil-estate"></i>
@@ -154,7 +154,7 @@ let bottombarBasket = `
         </li>
         
         <li class="list-grup-item menu-element">
-        <a href="go:basket">
+        <a href="javascript:void(0)">
         <span>
         <a class="nav-bar-icon" href="go:basket">
         <i class="blancolormenu bottom-icon fas uil uil-basketball-hoop activo"></i>
@@ -196,7 +196,7 @@ let bottombarTv = `
       <ul style="margin-bottom: 1%;" class="list-group-horizontal">
        
         <li class="list-grup-item menu-element">
-        <a href="javascript:void(0)">
+        <a href="go:home">
         <span>
         <a class="nav-bar-icon" href="javascript:void(0)">
         <i class="blancolormenu bottom-icon uil uil uil-estate"></i>
@@ -229,7 +229,7 @@ let bottombarTv = `
         </li>
         
         <li class="list-grup-item menu-element">
-        <a href="go:livetv">
+        <a href="javascript:void(0)">
         <span>
         <a class="nav-bar-icon" href="go:livetv">
         <i class="blancolormenu bottom-icon uil uil-tv-retro activo"></i>
@@ -260,7 +260,7 @@ let bottombarInfo = `
       <ul style="margin-bottom: 1%;" class="list-group-horizontal">
        
         <li class="list-grup-item menu-element">
-        <a href="javascript:void(0)">
+        <a href="go:home">
         <span>
         <a class="nav-bar-icon" href="javascript:void(0)">
         <i class="blancolormenu bottom-icon uil uil uil-estate"></i>
@@ -304,7 +304,7 @@ let bottombarInfo = `
         </li>
         
         <li class="list-grup-item menu-element">
-        <a href="go:info">
+        <a href="javascript:void(0)">
         <span>
         <a class="nav-bar-icon" href="go:info">
         <i class="blancolormenu bottom-icon uil uil-info-circle activo"></i>
