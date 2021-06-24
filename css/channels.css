@@ -227,6 +227,41 @@ tudn{
     width: 100px;
     background-repeat: no-repeat;    
 }
+.clan{
+    background-image: url(../tv/images/clan.png);
+    width: 80px;
+    background-repeat: no-repeat;    
+}
+.divinity{
+    background-image: url(../tv/images/divinity.png);
+    width: 50px;
+    background-repeat: no-repeat;    
+}
+.energy{
+    background-image: url(../tv/images/energy.png);
+    width: 45px;
+    background-repeat: no-repeat;    
+}
+.fdf{
+    background-image: url(../tv/images/fdf.png);
+    width: 45px;
+    background-repeat: no-repeat;    
+}
+.mega{
+    background-image: url(../tv/images/mega.png);
+    width: 50px;
+    background-repeat: no-repeat;    
+}
+.neox{
+    background-image: url(../tv/images/neox.png);
+    width: 400px;
+    background-repeat: no-repeat;    
+}
+.nova{
+    background-image: url(../tv/images/nova.png);
+    width: 400px;
+    background-repeat: no-repeat;    
+}
 .raisport{
     background-image: url(../tv/images/rai.png);
     background-repeat: no-repeat;    
