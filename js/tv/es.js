@@ -31,6 +31,22 @@ let tv24h = `
 for(const ele of document.getElementsByClassName("tv-24h")){ele.innerHTML=(tv24h)};
 
 
+let A3MEDIA = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:a3media">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img a3media" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>A3Media</h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-a3media")){ele.innerHTML=(A3MEDIA)};
+
+
 let Bein = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:beinn">           
