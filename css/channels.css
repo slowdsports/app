@@ -172,3 +172,12 @@ tudn{
     background-image: url(../tv/images/vamos.png);
     background-repeat: no-repeat;
 }
+.bemad{
+    background-image: url(../tv/images/bemad.png);
+    background-repeat: no-repeat;
+}
+.foxsports{
+    background-image: url(../tv/images/foxsports.png);
+    width: 80px;
+    background-repeat: no-repeat;
+}
