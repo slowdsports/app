@@ -193,3 +193,16 @@ tudn{
     width: 110px;
     background-repeat: no-repeat;    
 }
+.la1{
+    background-image: url(../tv/images/la1.png);
+    background-repeat: no-repeat;    
+}
+.la2{
+    background-image: url(../tv/images/la2.png);
+    background-repeat: no-repeat;    
+}
+.tdp{
+    background-image: url(../tv/images/tdp.png);
+    width: 60px;
+    background-repeat: no-repeat;    
+}

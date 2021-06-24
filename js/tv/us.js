@@ -1,4 +1,18 @@
 // ESTADOS UNIDOS
+let BeINXtra = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:beinxtra">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img beinn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>BeIN Xtra <i class="flag us"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-beinxtra")){ele.innerHTML=(BeINXtra)};
 let ESPNUS = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:espnus">           
