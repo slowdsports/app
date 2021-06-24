@@ -143,6 +143,22 @@ let Cuatro = `
 for(const ele of document.getElementsByClassName("tv-cuatro")){ele.innerHTML=(Cuatro)};
 
 
+let ESport3 = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:esport3">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img esport3" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>ESport3</h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-esport3")){ele.innerHTML=(ESport3)};
+
+
 let Sexta = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:sexta">           
