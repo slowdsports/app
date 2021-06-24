@@ -1,4 +1,5 @@
 // ESTADOS UNIDOS
+
 let BeINXtra = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:beinxtra">           
@@ -13,6 +14,7 @@ let BeINXtra = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-beinxtra")){ele.innerHTML=(BeINXtra)};
+
 let ESPNUS = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:espnus">           
@@ -177,3 +179,4 @@ let TNT = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-tnt")){ele.innerHTML=(TNT)};
+

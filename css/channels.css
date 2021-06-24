@@ -180,7 +180,8 @@ tudn{
 }
 .foxsports{
     background-image: url(../tv/images/foxsports.png);
-    width: 80px;
+    width: 74px;
+    margin-bottom: 0px;
     background-repeat: no-repeat;
 }
 .sexta{
@@ -209,5 +210,15 @@ tudn{
 .esport3{
     background-image: url(../tv/images/e3.png);
     width: 80px;
+    background-repeat: no-repeat;    
+}
+.mtmad{
+    background-image: url(../tv/images/mtmad.png);
+    width: 65px;
+    background-repeat: no-repeat;    
+}
+.abc{
+    background-image: url(../tv/images/abc.png);
+    width: 45px;
     background-repeat: no-repeat;    
 }
