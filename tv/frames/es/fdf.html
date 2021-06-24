@@ -1,21 +1,19 @@
+<!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset=utf-8/>
-        <style>
-            #main{background-color: #000;}
-        </style>
-    </head>
-    <body id="main">
-        <div id='player'>
-            <video id="vidarea" class="video-js vjs-default-skin" width="100%" height="100%" controls autoplay ></video>
-            
-            <script src="key.js"></script>
-            <script>
-            var xurl = "https://mdst-cuatro-live-dash.secure.footprint.net/live/nas_live/nova/dash/fdf.mpd";    
-            var vid = document.getElementById("vidarea");
-            vid.src = xurl + b;
-            </script> 
-       
-        </div>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<script src="key.js">
+</script>
+<script>
+var xurl = "https://mdst-cuatro-live-dash.secure.footprint.net/live/nas_live/neox/dash/fdf.mpd";
+var src = xurl + b;
+</script>
+<script>    
+window.location.href = src;
+</script>
+<body>
+    
+</body>
 </html>
