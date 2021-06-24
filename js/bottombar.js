@@ -134,7 +134,7 @@ let bottombarFutbol = `
         <li class="list-grup-item menu-element">
         <a href="go:home">
         <span>
-        <a class="nav-bar-icon" href="javascript:void(0)">
+        <a class="nav-bar-icon" href="go:home">
         <i class="blancolormenu bottom-icon uil uil uil-estate"></i>
         <p class="blancolormenu bottom-text">Inicio</p>
         </a>
@@ -198,7 +198,7 @@ let bottombarBasket = `
         <li class="list-grup-item menu-element">
         <a href="go:home">
         <span>
-        <a class="nav-bar-icon" href="javascript:void(0)">
+        <a class="nav-bar-icon" href="go:home">
         <i class="blancolormenu bottom-icon uil uil uil-estate"></i>
         <p class="blancolormenu bottom-text">Inicio</p>
         </a>
@@ -220,7 +220,7 @@ let bottombarBasket = `
         <li class="list-grup-item menu-element">
         <a href="javascript:void(0)">
         <span>
-        <a class="nav-bar-icon" href="go:basket">
+        <a class="nav-bar-icon" href="javascript:void(0)">
         <i class="blancolormenu bottom-icon fas uil uil-basketball-hoop activo"></i>
         <p class="blancolormenu bottom-text activo">Basket</p>
         </a>
@@ -262,7 +262,7 @@ let bottombarTv = `
         <li class="list-grup-item menu-element">
         <a href="go:home">
         <span>
-        <a class="nav-bar-icon" href="javascript:void(0)">
+        <a class="nav-bar-icon" href="go:home">
         <i class="blancolormenu bottom-icon uil uil uil-estate"></i>
         <p class="blancolormenu bottom-text">Inicio</p>
         </a>
@@ -295,7 +295,7 @@ let bottombarTv = `
         <li class="list-grup-item menu-element">
         <a href="javascript:void(0)">
         <span>
-        <a class="nav-bar-icon" href="go:livetv">
+        <a class="nav-bar-icon" href="javascript:void(0)">
         <i class="blancolormenu bottom-icon uil uil-tv-retro activo"></i>
         <p class="blancolormenu bottom-text activo">Televisión</p>
         </a>
@@ -326,7 +326,7 @@ let bottombarInfo = `
         <li class="list-grup-item menu-element">
         <a href="go:home">
         <span>
-        <a class="nav-bar-icon" href="javascript:void(0)">
+        <a class="nav-bar-icon" href="go:home">
         <i class="blancolormenu bottom-icon uil uil uil-estate"></i>
         <p class="blancolormenu bottom-text">Inicio</p>
         </a>
@@ -370,7 +370,7 @@ let bottombarInfo = `
         <li class="list-grup-item menu-element">
         <a href="javascript:void(0)">
         <span>
-        <a class="nav-bar-icon" href="go:info">
+        <a class="nav-bar-icon" href="javascript:void(0)">
         <i class="blancolormenu bottom-icon uil uil-info-circle activo"></i>
         <p class="blancolormenu bottom-text activo">Información</p>
         </a>
