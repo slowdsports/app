@@ -113,7 +113,7 @@ let NBCSN = `
                 <img class="canal-img nbc" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>NBCSN <i class="flag us"></i></h5></div>
+            <div class="d-flex justify-content-center"><h5>NBCSN </h5></div>
         </div>
        </a>
     </div>
