@@ -152,10 +152,6 @@ tudn{
     background-image: url(https://www.flaticon.es/svg/static/icons/svg/2477/2477530.svg);
     background-repeat: no-repeat;    
 }
-.sexta{
-    background-image: url(https://www.brandemia.org//sites/default/files/sites/default/files/lasexta_nuevologo_1.jpg);
-    background-repeat: no-repeat;    
-}
 .win{
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Win_Sports%2B_logo.svg/1200px-Win_Sports%2B_logo.svg.png);
     background-repeat: no-repeat;    
@@ -186,4 +182,9 @@ tudn{
     background-image: url(../tv/images/foxsports.png);
     width: 80px;
     background-repeat: no-repeat;
+}
+.sexta{
+    background-image: url(../tv/images/sexta.png);
+    width: 40px;
+    background-repeat: no-repeat;    
 }

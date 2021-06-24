@@ -95,6 +95,22 @@ let Cuatro = `
 for(const ele of document.getElementsByClassName("tv-cuatro")){ele.innerHTML=(Cuatro)};
 
 
+let Sexta = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:sexta">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img sexta" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>La Sexta</h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-sexta")){ele.innerHTML=(Sexta)};
+
+
 let Telecinco = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:telecinco">           
