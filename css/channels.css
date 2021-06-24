@@ -188,3 +188,8 @@ tudn{
     width: 40px;
     background-repeat: no-repeat;    
 }
+.toros{
+    background-image: url(../tv/images/toros.png);
+    width: 110px;
+    background-repeat: no-repeat;    
+}
