@@ -15,7 +15,7 @@ for(const ele of document.getElementsByClassName("home-futbol")){ele.innerHTML=(
 
 let elementoBasket = `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="go:futbol">           
+       <a class="card-link text-white" href="go:basket">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img" src="https://image.flaticon.com/icons/svg/3076/3076850.svg" alt="">
@@ -30,7 +30,7 @@ for(const ele of document.getElementsByClassName("home-basket")){ele.innerHTML=(
 
 let elementoTv = `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="go:basket">           
+       <a class="card-link text-white" href="go:livetv">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img" src="https://www.flaticon.es/svg/static/icons/svg/3746/3746452.svg" alt="">
