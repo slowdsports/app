@@ -132,3 +132,33 @@ let NBCSN = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-nbcsn")){ele.innerHTML=(NBCSN)};
+
+let NBCLX = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:nbclx">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img nbc" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>NBCLX </h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-nbclx")){ele.innerHTML=(NBCLX)};
+
+let TNT = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:tntus">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img tnt" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>TNT <i class="flag us"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-tnt")){ele.innerHTML=(TNT)};
