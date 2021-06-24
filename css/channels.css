@@ -222,3 +222,12 @@ tudn{
     width: 45px;
     background-repeat: no-repeat;    
 }
+.sportitalia{
+    background-image: url(../tv/images/sportitalia.png);
+    width: 100px;
+    background-repeat: no-repeat;    
+}
+.raisport{
+    background-image: url(../tv/images/rai.png);
+    background-repeat: no-repeat;    
+}
