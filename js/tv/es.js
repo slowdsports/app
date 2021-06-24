@@ -348,7 +348,7 @@ for(const ele of document.getElementsByClassName("tv-fdf")){ele.innerHTML=(FDF)}
 
 let Clan = `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="go:clan">           
+       <a class="card-link text-white" href="tv/frames/es/clan.html">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img clan" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
