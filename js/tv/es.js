@@ -108,7 +108,7 @@ let Bein = `
        </a>
     </div>
 `
-for(const ele of document.getElementsByClassName("tv-beinne")){ele.innerHTML=(Bein)};
+for(const ele of document.getElementsByClassName("tv-beinn")){ele.innerHTML=(Bein)};
 
 
 let BeMad = `
