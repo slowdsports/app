@@ -424,12 +424,6 @@ let mlaliga2 = `
 <i class="es flag"></i> Movistar LaLiga 2 | HD</li>
 </a>
 `;
-let vamos = `
-<a href="go:vamos">
-<li class="list-group-item darkolorbg blancolor">
-<i class="es flag"></i> #Vamos | HD</li>
-</a>
-`;
 let azteca7 = `
 <a href="go:azteca7">
 <li class="list-group-item darkolorbg blancolor">
@@ -689,6 +683,12 @@ let lequipe = `
 <i class="fr flag"></i> L'Équipe | HD</li>
 </a>
 `;
+let mvamos = `
+<a href="go:vamos">
+<li class="list-group-item darkolorbg blancolor">
+<i class="es flag"></i> M #Vamos | HD</li>
+</a>
+`;
 let mdep = `
 <a href="go:mdep">
 <li class="list-group-item darkolorbg blancolor">
@@ -866,7 +866,6 @@ let tudnmx = `
 for(const ele of document.getElementsByClassName("bar")){ele.innerHTML=(bar)};
 for(const ele of document.getElementsByClassName("mlaliga1")){ele.innerHTML=(mlaliga1)};
 for(const ele of document.getElementsByClassName("mlaliga2")){ele.innerHTML=(mlaliga2)};
-for(const ele of document.getElementsByClassName("vamos")){ele.innerHTML=(vamos)};
 for(const ele of document.getElementsByClassName("azteca7")){ele.innerHTML=(azteca7)};
 for(const ele of document.getElementsByClassName("bemad")){ele.innerHTML=(bemad)};
 for(const ele of document.getElementsByClassName("beinne")){ele.innerHTML=(beinne)};
@@ -911,6 +910,7 @@ for(const ele of document.getElementsByClassName("goltvec")){ele.innerHTML=(golt
 for(const ele of document.getElementsByClassName("la1")){ele.innerHTML=(la1)};
 for(const ele of document.getElementsByClassName("mlaligasd")){ele.innerHTML=(mlaligasd)};
 for(const ele of document.getElementsByClassName("lequipe")){ele.innerHTML=(lequipe)};
+for(const ele of document.getElementsByClassName("mvamos")){ele.innerHTML=(mvamos)};
 for(const ele of document.getElementsByClassName("mdep")){ele.innerHTML=(mdep)};
 for(const ele of document.getElementsByClassName("mdep1")){ele.innerHTML=(mdep1)};
 for(const ele of document.getElementsByClassName("mdep2")){ele.innerHTML=(mdep2)};
