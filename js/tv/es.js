@@ -317,6 +317,21 @@ let MEGA = `
 `
 for(const ele of document.getElementsByClassName("tv-mega")){ele.innerHTML=(MEGA)};
 
+let MLaLiga = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:bar">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img mlaliga" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>La Liga</h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-mlaliga")){ele.innerHTML=(MLaLiga)};
+
 let Divinity = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="tv/frames/es/divinity.html">           
