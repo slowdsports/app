@@ -52,7 +52,7 @@ let bottombar = `
         <span>
         <a class="nav-bar-icon" href="go:info">
         <i class="blancolormenu bottom-icon uil uil-info-circle"></i>
-        <p class="blancolormenu bottom-text">Información</p>
+        <p class="blancolormenu bottom-text">Info</p>
         </a>
         </span>
         </a>
@@ -116,7 +116,7 @@ let bottombarHome = `
         <span>
         <a class="nav-bar-icon" href="go:info">
         <i class="blancolormenu bottom-icon uil uil-info-circle"></i>
-        <p class="blancolormenu bottom-text">Información</p>
+        <p class="blancolormenu bottom-text">Info</p>
         </a>
         </span>
         </a>
@@ -180,7 +180,7 @@ let bottombarFutbol = `
         <span>
         <a class="nav-bar-icon" href="go:info">
         <i class="blancolormenu bottom-icon uil uil-info-circle"></i>
-        <p class="blancolormenu bottom-text">Información</p>
+        <p class="blancolormenu bottom-text">Info</p>
         </a>
         </span>
         </a>
@@ -244,7 +244,7 @@ let bottombarBasket = `
         <span>
         <a class="nav-bar-icon" href="go:info">
         <i class="blancolormenu bottom-icon uil uil-info-circle"></i>
-        <p class="blancolormenu bottom-text">Información</p>
+        <p class="blancolormenu bottom-text">Info</p>
         </a>
         </span>
         </a>
@@ -308,7 +308,7 @@ let bottombarTv = `
         <span>
         <a class="nav-bar-icon" href="go:info">
         <i class="blancolormenu bottom-icon uil uil-info-circle"></i>
-        <p class="blancolormenu bottom-text">Información</p>
+        <p class="blancolormenu bottom-text">Info</p>
         </a>
         </span>
         </a>
@@ -372,7 +372,7 @@ let bottombarInfo = `
         <span>
         <a class="nav-bar-icon" href="javascript:void(0)">
         <i class="blancolormenu bottom-icon uil uil-info-circle activo"></i>
-        <p class="blancolormenu bottom-text activo">Información</p>
+        <p class="blancolormenu bottom-text activo">Info</p>
         </a>
         </span>
         </a>
