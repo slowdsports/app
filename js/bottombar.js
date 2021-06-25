@@ -6,7 +6,7 @@ let bottombar = `
         <li class="list-grup-item menu-element">
         <a href="go:home">
         <span>
-        <a class="nav-bar-icon" href="javascript:void(0)">
+        <a class="nav-bar-icon" href="go:home">
         <i class="blancolormenu bottom-icon uil-estate"></i>
         <p class="blancolormenu bottom-text">Inicio</p>
         </a>
