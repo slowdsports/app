@@ -158,7 +158,6 @@ tudn{
 }
 .a3media{
     background-image: url(../tv/images/A3.png);
-    width: 55px;
     background-repeat: no-repeat;    
 }
 .cuatro{
@@ -180,17 +179,14 @@ tudn{
 }
 .foxsports{
     background-image: url(../tv/images/foxsports.png);
-    width: 80px;
     background-repeat: no-repeat;
 }
 .sexta{
     background-image: url(../tv/images/sexta.png);
-    width: 40px;
     background-repeat: no-repeat;    
 }
 .toros{
     background-image: url(../tv/images/toros.png);
-    width: 110px;
     background-repeat: no-repeat;    
 }
 .la1{
@@ -203,6 +199,57 @@ tudn{
 }
 .tdp{
     background-image: url(../tv/images/tdp.png);
-    width: 60px;
+    background-repeat: no-repeat;    
+}
+.esport3{
+    background-image: url(../tv/images/e3.png);
+    background-repeat: no-repeat;    
+}
+.mtmad{
+    background-image: url(../tv/images/mtmad.png);
+    background-repeat: no-repeat;    
+}
+.abc{
+    background-image: url(../tv/images/abc.png);
+    background-repeat: no-repeat;    
+}
+.sportitalia{
+    background-image: url(../tv/images/sportitalia.png);
+    background-repeat: no-repeat;    
+}
+.clan{
+    background-image: url(../tv/images/clan.png);
+    background-repeat: no-repeat;    
+}
+.divinity{
+    background-image: url(../tv/images/divinity.png);
+    background-repeat: no-repeat;    
+}
+.energy{
+    background-image: url(../tv/images/energy.png);
+    background-repeat: no-repeat;    
+}
+.fdf{
+    background-image: url(../tv/images/fdf.png);
+    background-repeat: no-repeat;    
+}
+.mega{
+    background-image: url(../tv/images/mega.png);
+    background-repeat: no-repeat;    
+}
+.neox{
+    background-image: url(../tv/images/neox.png);
+    background-repeat: no-repeat;    
+}
+.nova{
+    background-image: url(../tv/images/nova.png);
+    background-repeat: no-repeat;    
+}
+.raisport{
+    background-image: url(../tv/images/rai.png);
+    background-repeat: no-repeat;    
+}
+.mmatv{
+    background-image: url(../tv/images/mmatv.png);
     background-repeat: no-repeat;    
 }
