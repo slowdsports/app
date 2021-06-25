@@ -713,10 +713,10 @@ let mlcamp2 = `
 <i class="es flag"></i> Liga Campeones 2 | HD</li>
 </a>
 `;
-let mformula1 = `
-<a href="go:mformula1">
+let daznf1 = `
+<a href="go:daznf1">
 <li class="list-group-item darkolorbg blancolor">
-<i class="es flag"></i> Movistar F1 | HD</li>
+<i class="es flag"></i> DAZN F1 | HD</li>
 </a>
 `;
 let movistar = `
@@ -897,7 +897,7 @@ for(const ele of document.getElementsByClassName("mdep3")){ele.innerHTML=(mdep3)
 for(const ele of document.getElementsByClassName("mlcamp")){ele.innerHTML=(mlcamp)};
 for(const ele of document.getElementsByClassName("mlcamp1")){ele.innerHTML=(mlcamp1)};
 for(const ele of document.getElementsByClassName("mlcamp2")){ele.innerHTML=(mlcamp2)};
-for(const ele of document.getElementsByClassName("mformula1")){ele.innerHTML=(mformula1)};
+for(const ele of document.getElementsByClassName("daznf1")){ele.innerHTML=(daznf1)};
 for(const ele of document.getElementsByClassName("movistar")){ele.innerHTML=(movistar)};
 for(const ele of document.getElementsByClassName("tdtvp")){ele.innerHTML=(tdtvp)};
 for(const ele of document.getElementsByClassName("telecadena")){ele.innerHTML=(telecadena)};
