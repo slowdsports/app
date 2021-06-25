@@ -550,14 +550,32 @@ let espnsur = `
 <i class="ar flag"></i> ESPN | HD</li>
 </a>
 `;
+let espnsurs = `
+<a href="go:espnsurs">
+<li class="list-group-item darkolorbg blancolor">
+<i class="ar flag"></i> ESPN | HD</li>
+</a>
+`;
 let espn2sur = `
 <a href="go:espn2sur">
 <li class="list-group-item darkolorbg blancolor">
 <i class="ar flag"></i> ESPN 2 | HD</li>
 </a>
 `;
+let espn2surs = `
+<a href="go:espn2surs">
+<li class="list-group-item darkolorbg blancolor">
+<i class="ar flag"></i> ESPN 2 | HD</li>
+</a>
+`;
 let espn3sur = `
 <a href="go:espn3sur">
+<li class="list-group-item darkolorbg blancolor">
+<i class="ar flag"></i> ESPN 3 | HD</li>
+</a>
+`;
+let espn3surs = `
+<a href="go:espn3surs">
 <li class="list-group-item darkolorbg blancolor">
 <i class="ar flag"></i> ESPN 3 | HD</li>
 </a>
@@ -869,8 +887,11 @@ for(const ele of document.getElementsByClassName("espn3mx")){ele.innerHTML=(espn
 for(const ele of document.getElementsByClassName("espndep")){ele.innerHTML=(espndep)};
 for(const ele of document.getElementsByClassName("espndepif")){ele.innerHTML=(espndepif)};
 for(const ele of document.getElementsByClassName("espnsur")){ele.innerHTML=(espnsur)};
+for(const ele of document.getElementsByClassName("espnsurs")){ele.innerHTML=(espnsurs)};
 for(const ele of document.getElementsByClassName("espn2sur")){ele.innerHTML=(espn2sur)};
+for(const ele of document.getElementsByClassName("espn2surs")){ele.innerHTML=(espn2surs)};
 for(const ele of document.getElementsByClassName("espn3sur")){ele.innerHTML=(espn3sur)};
+for(const ele of document.getElementsByClassName("espn3surs")){ele.innerHTML=(espn3surs)};
 for(const ele of document.getElementsByClassName("espnpsur")){ele.innerHTML=(espnpsur)};
 for(const ele of document.getElementsByClassName("eursport1")){ele.innerHTML=(eursport1)};
 for(const ele of document.getElementsByClassName("eursport2")){ele.innerHTML=(eurosport2)}
