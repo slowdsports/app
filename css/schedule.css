@@ -23,407 +23,330 @@
 }
 .tournament{
     background-image: url(https://www.sofascore.com/static/images/placeholders/tournament.png);
-    
     background-repeat: no-repeat;    
 }
 .ucl{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/7/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/7/image);    
     background-repeat: no-repeat;    
 }
 .mundial{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/16/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/16/image);    
     background-repeat: no-repeat;    
 }
 .shebelieves{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/3076/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/3076/image);    
     background-repeat: no-repeat;    
 }
 .mundialconmebol{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/295/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/295/image);    
     background-repeat: no-repeat;    
 }
 .club{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/357/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/357/image);    
     background-repeat: no-repeat;    
 }
 .nationsleague{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/10783/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/10783/image);    
     background-repeat: no-repeat;    
 }
 .copaamerica{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/133/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/133/image);    
     background-repeat: no-repeat;    
 }
 .olympic{
     background-image: url(https://www.sofascore.com/static/images/placeholders/tournament.png);
-    
     background-repeat: no-repeat;    
 }
 .uel{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/679/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/679/image);    
     background-repeat: no-repeat;    
 }
 .premier{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/17/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/17/image);    
     background-repeat: no-repeat;    
 }
 .laliga{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/8/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/8/image);    
     background-repeat: no-repeat;    
 }
 .laliga2{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/54/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/54/image);    
     background-repeat: no-repeat;    
 }
 .bundesliga{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/35/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/35/image);    
     background-repeat: no-repeat;    
 }
 .eredivisie{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/37/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/37/image);    
     background-repeat: no-repeat;    
 }
 .seriea{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/23/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/23/image);    
     background-repeat: no-repeat;    
 }
 
 .ligue1{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/34/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/34/image);    
     background-repeat: no-repeat;    
 }
 .ligamx{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/11621/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/11621/image);    
     background-repeat: no-repeat;    
 }
 .copamx{
     background-image: url(https://api.sofascore.com/api/v1/unique-tournament/1598/image);
-    
     background-repeat: no-repeat;    
 }
 .mls{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/242/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/242/image);    
     background-repeat: no-repeat;    
 }
 .nba{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/132/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/132/image);    
     background-repeat: no-repeat;    
 }
 .euroliga{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/138/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/138/image);    
     background-repeat: no-repeat;    
 }
 .apf{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/11540/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/11540/image);    
     background-repeat: no-repeat;    
 }
 .mlb{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/11205/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/11205/image);    
     background-repeat: no-repeat;    
 }
 .ufc{
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UFC_Logo.svg/1250px-UFC_Logo.svg.png);
-    
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UFC_Logo.svg/1250px-UFC_Logo.svg.png);    
     background-repeat: no-repeat;    
 }
 .coupedefrance{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/335/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/335/image);    
     background-repeat: no-repeat;    
 }
 .coupedelaligue{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/333/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/333/image);    
     background-repeat: no-repeat;    
 }
 .trophee{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/339/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/339/image);    
     background-repeat: no-repeat;    
 }
 .pokal{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/217/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/217/image);    
     background-repeat: no-repeat;    
 }
 .coppaitalia{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/328/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/328/image);    
     background-repeat: no-repeat;    
 }
 .supercoppa{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/341/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/341/image);    
     background-repeat: no-repeat;    
 }
 .segundab{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/544/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/544/image);    
     background-repeat: no-repeat;    
 }
 .copadelrey{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/329/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/329/image);    
     background-repeat: no-repeat;    
 }
 .supercopaspa{
     background-image: url(https://api.sofascore.com/api/v1/unique-tournament/213/image);
-    
     background-repeat: no-repeat;    
 }
 .eflcup{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/21/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/21/image);    
     background-repeat: no-repeat;    
 }
 .facup{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/19/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/19/image);    
     background-repeat: no-repeat;    
 }
 .championship{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/18/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/18/image);    
     background-repeat: no-repeat;    
 }
 .lnfp{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/925/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/925/image);    
     background-repeat: no-repeat;    
 }
 .libertadores{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/384/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/384/image);    
     background-repeat: no-repeat;    
 }
 .fpd{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/11535/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/11535/image);    
     background-repeat: no-repeat;    
 }
 .salvavida{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/11613/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/11613/image);    
     background-repeat: no-repeat;    
 }
 .copaamerica{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/133/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/133/image);    
     background-repeat: no-repeat;    
 }
 .sudamericana{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/480/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/480/image);    
     background-repeat: no-repeat;    
 }
 .recopa{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/490/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/490/image);    
     background-repeat: no-repeat;    
 }
 .ccl{
-    background-image: url(https://images.fotmob.com/image_resources/logo/leaguelogo/dark/297.png);
-    
+    background-image: url(https://images.fotmob.com/image_resources/logo/leaguelogo/dark/297.png);    
     background-repeat: no-repeat;    
 }
 .concacaf{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/10447/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/10447/image);    
     background-repeat: no-repeat;    
 }
 .leaguescup{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/13783/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/13783/image);    
     background-repeat: no-repeat;    
 }
 .copaoro{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/140/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/140/image);    
     background-repeat: no-repeat;    
 }
 .nationsleague{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/14100/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/14100/image);    
     background-repeat: no-repeat;    
 }
 .concaworldcup{
     background-image: url(https://api.sofascore.com/api/v1/unique-tournament/14/image);
-    
     background-repeat: no-repeat;    
 }
 .concaolympic{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/3071/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/3071/image);    
     background-repeat: no-repeat;    
 }
 .caribbeancup{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/1161/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/1161/image);    
     background-repeat: no-repeat;    
 }
 .centralamericaandcaribeangames{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/11304/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/11304/image);    
     background-repeat: no-repeat;    
 }
 .copacentroamericana{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/1217/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/1217/image);    
     background-repeat: no-repeat;    
 }
 .copapremier{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/13775/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/13775/image);    
     background-repeat: no-repeat;    
 }
 .afa{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/155/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/155/image);    
     background-repeat: no-repeat;    
 }
 .nhl{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/234/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/234/image);    
     background-repeat: no-repeat;    
 }
 .ncaa{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/648/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/648/image);    
     background-repeat: no-repeat;    
 }
 .cicket{
-    background-image: url(https://www.sofascore.com/images/team-logo/football_272044.png);
-    
+    background-image: url(https://www.sofascore.com/images/team-logo/football_272044.png);    
     background-repeat: no-repeat;    
 }
 .f1{
-    background-image: url(https://www.sofascore.com/static/images/flags/formula-1.png);
-    
+    background-image: url(https://www.sofascore.com/static/images/flags/formula-1.png);    
     background-repeat: no-repeat;    
 }
 .motogp{
-    background-image: url(https://www.sofascore.com/static/images/flags/motogp.png);
-    
+    background-image: url(https://www.sofascore.com/static/images/flags/motogp.png);    
     background-repeat: no-repeat;    
 }
 .moto3{
-    background-image: url(https://www.sofascore.com/static/images/flags/moto3.png);
-    
+    background-image: url(https://www.sofascore.com/static/images/flags/moto3.png);    
     background-repeat: no-repeat;    
 }
 .moto2{
-    background-image: url(https://www.sofascore.com/static/images/flags/moto2.png);
-    
+    background-image: url(https://www.sofascore.com/static/images/flags/moto2.png);    
     background-repeat: no-repeat;    
 }
 .superbike{
-    background-image: url(https://www.sofascore.com/static/images/flags/superbike.png);
-    
+    background-image: url(https://www.sofascore.com/static/images/flags/superbike.png);    
     background-repeat: no-repeat;    
 }
 .wrc{
-    background-image: url(https://www.sofascore.com/static/images/flags/wrc.png);
-    
+    background-image: url(https://www.sofascore.com/static/images/flags/wrc.png);    
     background-repeat: no-repeat;    
 }
 .royal{
-    background-image: url(https://cdn.sescoops.com/wp-content/uploads/2019/01/wwe-royal-rumble-2019-logo-711-x-399.jpg);
-    
+    background-image: url(https://cdn.sescoops.com/wp-content/uploads/2019/01/wwe-royal-rumble-2019-logo-711-x-399.jpg);    
     background-repeat: no-repeat;    
 }
 .nascar{
-    background-image: url(https://www.sofascore.com/static/images/flags/nascar.png);
-    
+    background-image: url(https://www.sofascore.com/static/images/flags/nascar.png);    
     background-repeat: no-repeat;    
 }
 .dtm{
-    background-image: url(https://www.sofascore.com/static/images/flags/dtm.png);
-    
+    background-image: url(https://www.sofascore.com/static/images/flags/dtm.png);    
     background-repeat: no-repeat;    
 }
 .indycar{
-    background-image: url(https://www.sofascore.com/static/images/flags/indycar.png);
-    
+    background-image: url(https://www.sofascore.com/static/images/flags/indycar.png);    
     background-repeat: no-repeat;    
 }
 .formulae{
-    background-image: url(https://www.sofascore.com/static/images/flags/formula-e.png);
-    
+    background-image: url(https://www.sofascore.com/static/images/flags/formula-e.png);    
     background-repeat: no-repeat;    
 }
 .serieabr{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/325/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/325/image);    
     background-repeat: no-repeat;    
 }
 .nfl{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/9464/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/9464/image);    
     background-repeat: no-repeat;    
 }
 .usp{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/465/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/465/image);    
     background-repeat: no-repeat;    
 }
 .betplay{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/11539/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/11539/image);    
     background-repeat: no-repeat;    
 }
 .saf{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/13475/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/13475/image);    
     background-repeat: no-repeat;    
 }
 .ligauy{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/278/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/278/image);    
     background-repeat: no-repeat;    
 }
 .ligapy{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/11541/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/11541/image);    
     background-repeat: no-repeat;    
 }
 .ligacl{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/11653/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/11653/image);    
     background-repeat: no-repeat;    
 }
 .eurocopa{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/1/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/1/image);    
     background-repeat: no-repeat;    
 }
 .amistosos{
-    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/851/image);
-    
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/851/image);    
     background-repeat: no-repeat;    
 }
 .atp{
-    background-image: url(https://www.sofascore.com/static/images/flags/atp.png);
-    
+    background-image: url(https://www.sofascore.com/static/images/flags/atp.png);    
+    background-repeat: no-repeat;    
+}
+.jjoo{
+    background-image: url(https://api.sofascore.com/api/v1/unique-tournament/436/image);    
     background-repeat: no-repeat;    
 }
