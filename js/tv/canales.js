@@ -731,6 +731,18 @@ let mlcamp2 = `
 <i class="es flag"></i> Liga Campeones 2 | HD</li>
 </a>
 `;
+let dazn1es = `
+<a href="go:dazn1es">
+<li class="list-group-item darkolorbg blancolor">
+<i class="es flag"></i> DAZN | HD</li>
+</a>
+`;
+let dazn2es = `
+<a href="go:dazn2es">
+<li class="list-group-item darkolorbg blancolor">
+<i class="es flag"></i> DAZN 2 | HD</li>
+</a>
+`;
 let daznf1 = `
 <a href="go:daznf1">
 <li class="list-group-item darkolorbg blancolor">
@@ -919,6 +931,8 @@ for(const ele of document.getElementsByClassName("mlcamp")){ele.innerHTML=(mlcam
 for(const ele of document.getElementsByClassName("mlcamp1")){ele.innerHTML=(mlcamp1)};
 for(const ele of document.getElementsByClassName("mlcamp2")){ele.innerHTML=(mlcamp2)};
 for(const ele of document.getElementsByClassName("daznf1")){ele.innerHTML=(daznf1)};
+for(const ele of document.getElementsByClassName("dazn1es")){ele.innerHTML=(dazn1es)};
+for(const ele of document.getElementsByClassName("dazn2es")){ele.innerHTML=(dazn2es)};
 for(const ele of document.getElementsByClassName("movistar")){ele.innerHTML=(movistar)};
 for(const ele of document.getElementsByClassName("tdtvp")){ele.innerHTML=(tdtvp)};
 for(const ele of document.getElementsByClassName("telecadena")){ele.innerHTML=(telecadena)};
