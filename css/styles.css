@@ -94,6 +94,10 @@
         .container-info{
             text-align: left;
         }
+        .link{
+            text-decoration: none;
+            color: #fff!important;
+        }
         /*MENU*/
         .altmenu
         {
