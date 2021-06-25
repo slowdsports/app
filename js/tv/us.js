@@ -120,6 +120,21 @@ let FSNews = `
 `
 for(const ele of document.getElementsByClassName("tv-fsnews")){ele.innerHTML=(FSNews)};
 
+let MLBNetwork = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:mlbtv">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img mlb" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>MLB Network </h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-mlbnetwork")){ele.innerHTML=(MLBNetwork)};
+
 let MMATV = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:mmatv">           
