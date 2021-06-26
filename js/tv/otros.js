@@ -30,6 +30,21 @@ let Bein_ar2 = `
 `
 for(const ele of document.getElementsByClassName("tv-beinar2")){ele.innerHTML=(Bein_ar2)};
 
+let CNBCID = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:cnbcid">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img cnbc" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>CNBC <i class="flag id"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-cnbcid")){ele.innerHTML=(CNBCID)};
+
 let SwissSports = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:swiss">           
