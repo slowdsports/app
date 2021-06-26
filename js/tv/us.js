@@ -150,6 +150,21 @@ let MMATV = `
 `
 for(const ele of document.getElementsByClassName("tv-mmatv")){ele.innerHTML=(MMATV)};
 
+let MLSTV = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:mlstv">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img mls" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>MLS TV </h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-mlstv")){ele.innerHTML=(MLSTV)};
+
 let NBC = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:nbcus">           
