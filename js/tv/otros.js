@@ -29,3 +29,18 @@ let Bein_ar2 = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-beinar2")){ele.innerHTML=(Bein_ar2)};
+
+let SwissSports = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:swiss">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img swiss" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Swiss Sports </h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-swiss")){ele.innerHTML=(SwissSports)};
