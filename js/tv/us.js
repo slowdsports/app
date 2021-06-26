@@ -285,6 +285,51 @@ let STIRRSports = `
 `
 for(const ele of document.getElementsByClassName("tv-stirrsports")){ele.innerHTML=(STIRRSports)};
 
+let Sk1Racing = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:sk1racing">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img sky" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Racing 1 </h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-sky-racing1")){ele.innerHTML=(Sk1Racing)};
+
+let Sk2Racing = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:sk2racing">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img sky" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Racing 2 </h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-sky-racing2")){ele.innerHTML=(Sk2Racing)};
+
+let Thouroughb = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:thouroughb">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img sky" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Thouroughb </h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-sky-thouroughb")){ele.innerHTML=(Thouroughb)};
+
 let TelemundoWashington = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:twashing">           
