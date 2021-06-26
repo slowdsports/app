@@ -255,6 +255,21 @@ let STIRRSports = `
 `
 for(const ele of document.getElementsByClassName("tv-stirrsports")){ele.innerHTML=(STIRRSports)};
 
+let TelemundoWashington = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:twashing">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img telemundo" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Washington </h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-telemundo-washington")){ele.innerHTML=(TelemundoWashington)};
+
 let TNT = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:tntus">           
