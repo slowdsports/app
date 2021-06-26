@@ -210,6 +210,21 @@ let NBCLX = `
 `
 for(const ele of document.getElementsByClassName("tv-nbclx")){ele.innerHTML=(NBCLX)};
 
+let NFLTV = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:nfltv">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img nfl" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>NFL TV </h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-nfltv")){ele.innerHTML=(NFLTV)};
+
 let TNT = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:tntus">           
