@@ -15,6 +15,21 @@ let BeINXtra = `
 `
 for(const ele of document.getElementsByClassName("tv-beinxtra")){ele.innerHTML=(BeINXtra)};
 
+let CBSHQ = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:cbshq">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img cbs" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>CBS HQ </h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-cbshq")){ele.innerHTML=(CBSHQ)};
+
 let ESPNUS = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:espnus">           
