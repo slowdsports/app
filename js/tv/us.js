@@ -240,6 +240,21 @@ let NFLTV = `
 `
 for(const ele of document.getElementsByClassName("tv-nfltv")){ele.innerHTML=(NFLTV)};
 
+let RBTV = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:redbulltv">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img redbull" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>RB TV </h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-redbulltv")){ele.innerHTML=(RBTV)};
+
 let STIRRSports = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:ssports">           
