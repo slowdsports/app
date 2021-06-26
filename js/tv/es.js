@@ -129,7 +129,7 @@ for(const ele of document.getElementsByClassName("tv-beinxtraes")){ele.innerHTML
 
 let BeMad = `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="go:bemad">           
+       <a class="card-link text-white" href="go:otro1">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img bemad" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
@@ -145,7 +145,7 @@ for(const ele of document.getElementsByClassName("tv-bemad")){ele.innerHTML=(BeM
 
 let Cuatro = `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="go:cuatro">           
+       <a class="card-link text-white" href="go:otro3">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img cuatro" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
@@ -257,7 +257,7 @@ for(const ele of document.getElementsByClassName("tv-tdp")){ele.innerHTML=(TDP)}
 
 let Telecinco = `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="go:telecinco">           
+       <a class="card-link text-white" href="go:otro2">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img telecinco" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
