@@ -75,6 +75,21 @@ let ESPNNews = `
 `
 for(const ele of document.getElementsByClassName("tv-espnnews")){ele.innerHTML=(ESPNNews)};
 
+let FoxSportsPluto = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:foxsports">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img foxsports" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>FS <i class="flag us"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-foxsports")){ele.innerHTML=(FoxSportsPluto)};
+
 let FSUS = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:fsus">           
