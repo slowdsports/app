@@ -261,7 +261,23 @@ tudn{
     background-image: url(https://cdn.worldvectorlogo.com/logos/movistar-3.svg);
     background-repeat: no-repeat;    
 }
+.motortrend{
+    background-image: url(https://play-lh.googleusercontent.com/ByZXRvcYHpB3O6ccZ0My-yCnU3nBsGxV3hgHalsX8SzZuRCM6-UbfMMeNByT-9S_lOI);
+    background-repeat: no-repeat;    
+}
+.stirr{
+    background-image: url(../tv/images/stirrw.png);
+    background-repeat: repeat;
+}
 .telemundo{
     background-image: url(https://download.logo.wine/logo/Telemundo/Telemundo-Logo.wine.png);
+    background-repeat: no-repeat;    
+}
+.redbull{
+    background-image: url(../tv/images/redbulltv.png);
+    background-repeat: no-repeat;    
+}
+.onegolf{
+    background-image: url(../tv/images/onegolf.png);
     background-repeat: no-repeat;    
 }

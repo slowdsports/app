@@ -75,6 +75,21 @@ let ESPNNews = `
 `
 for(const ele of document.getElementsByClassName("tv-espnnews")){ele.innerHTML=(ESPNNews)};
 
+let FoxSportsPluto = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:foxsports">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img foxsports" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>FS <i class="flag us"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-foxsports")){ele.innerHTML=(FoxSportsPluto)};
+
 let FSUS = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:fsus">           
@@ -150,6 +165,21 @@ let MMATV = `
 `
 for(const ele of document.getElementsByClassName("tv-mmatv")){ele.innerHTML=(MMATV)};
 
+let MLSTV = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:mlstv">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img mls" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>MLS TV </h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-mlstv")){ele.innerHTML=(MLSTV)};
+
 let NBC = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:nbcus">           
@@ -194,6 +224,81 @@ let NBCLX = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-nbclx")){ele.innerHTML=(NBCLX)};
+
+let NFLTV = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:nfltv">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img nfl" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>NFL TV </h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-nfltv")){ele.innerHTML=(NFLTV)};
+
+let OneGolf = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:onegolf">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img onegolf" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>One Golf </h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-nfltv")){ele.innerHTML=(OneGolf)};
+
+let RBTV = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:redbulltv">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img redbull" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>RB TV </h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-redbulltv")){ele.innerHTML=(RBTV)};
+
+let STIRRSports = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:ssports">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img stirr" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Sports <i class="flag us"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-stirrsports")){ele.innerHTML=(STIRRSports)};
+
+let TelemundoWashington = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:twashing">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img telemundo" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Washington </h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-telemundo-washington")){ele.innerHTML=(TelemundoWashington)};
 
 let TNT = `
 <div class="card darkolorbg text-white card-canal">
