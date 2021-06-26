@@ -240,6 +240,21 @@ let NFLTV = `
 `
 for(const ele of document.getElementsByClassName("tv-nfltv")){ele.innerHTML=(NFLTV)};
 
+let OneGolf = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:onegolf">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img onegolf" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>One Golf </h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-nfltv")){ele.innerHTML=(OneGolf)};
+
 let RBTV = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:redbulltv">           
