@@ -354,3 +354,7 @@
     background-image: url(https://api.sofascore.com/api/v1/unique-tournament/436/image);    
     background-repeat: no-repeat;    
 }
+.mma{
+    background-image: url(../tv/images/mma.png);    
+    background-repeat: no-repeat;    
+}

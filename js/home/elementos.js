@@ -162,3 +162,18 @@ let elementoTennis = `
     </div>
 `
 for(const ele of document.getElementsByClassName("home-tennis")){ele.innerHTML=(elementoTennis)};
+
+let elementoMMA = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:mma">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img" src="../../tv/images/mma-main.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>MMA</h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("home-mma")){ele.innerHTML=(elementoMMA)};
