@@ -863,6 +863,12 @@ let univision = `
 <i class="mx flag"></i> Univisión | HD</li>
 </a>
 `;
+let galavision = `
+<a href="go:galavision">
+<li class="list-group-item darkolorbg blancolor">
+<i class="mx flag"></i> Galavisión | HD</li>
+</a>
+`;
 let win = `
 <a href="go:win">
 <li class="list-group-item darkolorbg blancolor">
@@ -951,5 +957,6 @@ for(const ele of document.getElementsByClassName("tycus")){ele.innerHTML=(tycus)
 for(const ele of document.getElementsByClassName("tycsd")){ele.innerHTML=(tycsd)};
 for(const ele of document.getElementsByClassName("unimase")){ele.innerHTML=(unimase)};
 for(const ele of document.getElementsByClassName("univision")){ele.innerHTML=(univision)};
+for(const ele of document.getElementsByClassName("galavision")){ele.innerHTML=(galavision)};
 for(const ele of document.getElementsByClassName("win")){ele.innerHTML=(win)};
 for(const ele of document.getElementsByClassName("tudnmx")){ele.innerHTML=(tudnmx)};
