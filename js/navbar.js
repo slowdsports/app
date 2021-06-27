@@ -38,6 +38,16 @@ let navbarIconTennis = `
     <i class="blancolor uil uil-table-tennis"></i>
 </a>
 `;
+let navbarIconNFL = `
+<a class="nav-bar-icon" href="javascript:void(0)">
+    <i class="blancolor uil uil-football-american"></i>
+</a>
+`;
+let navbarIconBox = `
+<a class="nav-bar-icon" href="javascript:void(0)">
+    <i class="blancolor fas fa-ring"></i>
+</a>
+`;
 let navbarLogo = `
 <a class="navbar-brand mx-auto" href="#">
     <img src="https://i.ibb.co/kqmptsD/iRTVW.png" alt="" />
@@ -141,6 +151,8 @@ for(const ele of document.getElementsByClassName("navbar-icon-info")){ele.innerH
 for(const ele of document.getElementsByClassName("navbar-icon-f1")){ele.innerHTML=(navbarIconF1)};
 for(const ele of document.getElementsByClassName("navbar-icon-motogp")){ele.innerHTML=(navbarIconMotoGP)};
 for(const ele of document.getElementsByClassName("navbar-icon-tennis")){ele.innerHTML=(navbarIconTennis)};
+for(const ele of document.getElementsByClassName("navbar-icon-nfl")){ele.innerHTML=(navbarIconNFL)};
+for(const ele of document.getElementsByClassName("navbar-icon-box")){ele.innerHTML=(navbarIconBox)};
 for(const ele of document.getElementsByClassName("navbar-filters-movie")){ele.innerHTML=(navbarFiltersMovie)};
 for(const ele of document.getElementsByClassName("navbar-filters-tv")){ele.innerHTML=(navbarFiltersTv)};
 for(const ele of document.getElementsByClassName("navbar-filters-radio")){ele.innerHTML=(navbarFiltersRadio)};
