@@ -6,4 +6,4 @@ Sociedad
 </figcaption>
 </figure>
 `;
-for (const ele of document.getElementsByClassName("bund-holstein")){ele.innerHTML=(holstein)};
+for (const ele of document.getElementsByClassName("sud-holstein")){ele.innerHTML=(sociedad)};
