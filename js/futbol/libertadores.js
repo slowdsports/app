@@ -6,4 +6,4 @@ argentinos
 </figcaption>
 </figure>
 `;
-for (const ele of document.getElementsByClassName("lib-argentinos")){ele.innerHTML=(argentinos)};
+for (const ele of document.getElementsByClassName("libertador-argentinos")){ele.innerHTML=(argentinos)};
