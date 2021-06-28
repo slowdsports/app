@@ -791,6 +791,12 @@ let tigopy = `
 <i class="py flag"></i> Tigo Sports | HD</li>
 </a>
 `;
+let tigobo = `
+<a href="go:tigobo">
+<li class="list-group-item darkolorbg blancolor">
+<i class="bo flag"></i> Tigo Sports | HD</li>
+</a>
+`;
 let tntsports = `
 <a href="go:tntsports">
 <li class="list-group-item darkolorbg blancolor">
@@ -945,6 +951,7 @@ for(const ele of document.getElementsByClassName("telecadena")){ele.innerHTML=(t
 for(const ele of document.getElementsByClassName("telemundon")){ele.innerHTML=(telemundon)};
 for(const ele of document.getElementsByClassName("tigohn")){ele.innerHTML=(tigohn)};
 for(const ele of document.getElementsByClassName("tigopy")){ele.innerHTML=(tigopy)};
+for(const ele of document.getElementsByClassName("tigopbo")){ele.innerHTML=(tigobo)};
 for(const ele of document.getElementsByClassName("tntsports")){ele.innerHTML=(tntsports)};
 for(const ele of document.getElementsByClassName("tntar")){ele.innerHTML=(tntar)};
 for(const ele of document.getElementsByClassName("tntcl")){ele.innerHTML=(tntcl)};
