@@ -803,6 +803,12 @@ let tntsports = `
 <i class="ar flag"></i> TNT Sports | HD</li>
 </a>
 `;
+let tntus = `
+<a href="go:tntus">
+<li class="list-group-item darkolorbg blancolor">
+<i class="us flag"></i> TNT | HD</li>
+</a>
+`;
 let tntcl = `
 <a href="go:tntcl">
 <li class="list-group-item darkolorbg blancolor">
@@ -953,6 +959,7 @@ for(const ele of document.getElementsByClassName("tigohn")){ele.innerHTML=(tigoh
 for(const ele of document.getElementsByClassName("tigopy")){ele.innerHTML=(tigopy)};
 for(const ele of document.getElementsByClassName("tigopbo")){ele.innerHTML=(tigobo)};
 for(const ele of document.getElementsByClassName("tntsports")){ele.innerHTML=(tntsports)};
+for(const ele of document.getElementsByClassName("tntus")){ele.innerHTML=(tntus)};
 for(const ele of document.getElementsByClassName("tntar")){ele.innerHTML=(tntar)};
 for(const ele of document.getElementsByClassName("tntcl")){ele.innerHTML=(tntcl)};
 for(const ele of document.getElementsByClassName("tntcl2")){ele.innerHTML=(tntcl2)};
