@@ -177,3 +177,18 @@ let elementoMMA = `
     </div>
 `
 for(const ele of document.getElementsByClassName("home-mma")){ele.innerHTML=(elementoMMA)};
+
+let elementoResumen = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:resumen">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img" src="https://www.flaticon.es/svg/static/icons/svg/2085/2085913.svg" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Resumen</h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("home-resumen")){ele.innerHTML=(elementoResumen)};
