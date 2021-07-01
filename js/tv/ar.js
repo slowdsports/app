@@ -43,3 +43,18 @@ let ESPN3SUR = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-espn3sur")){ele.innerHTML=(ESPN3SUR)};
+
+let ESPNExtra = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:espnextra">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img espn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>ESPN Extra <i class="flag ar"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-espnextra")){ele.innerHTML=(ESPNExtra)};
