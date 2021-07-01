@@ -22,7 +22,7 @@ let DAZN2IT = `
                 <img class="canal-img dazn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>DAZN2 <i class="flag it"></i></h5></div>
+            <div class="d-flex justify-content-center"><h5>DAZN 2 <i class="flag it"></i></h5></div>
         </div>
        </a>
     </div>
