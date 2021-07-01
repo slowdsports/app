@@ -4,7 +4,7 @@ let SPORTTV1 = `
        <a class="card-link text-white" href="go:sporttv">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
-                <img class="canal-img sporttv1" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+                <img class="canal-img sporttv" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
             <div class="d-flex justify-content-center"><h5>Sporttv1 <i class="flag pt"></i></h5></div>
