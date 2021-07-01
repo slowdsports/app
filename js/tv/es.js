@@ -191,6 +191,22 @@ let EuroSP1 = `
 for(const ele of document.getElementsByClassName("tv-eurosport1")){ele.innerHTML=(EuroSP1)};
 
 
+let EuroSP2 = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:eurosport2">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img eurosport" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>EuroSport 2</h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-eurosport2")){ele.innerHTML=(EuroSP2)};
+
+
 let MTMad = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:mtmad">           
