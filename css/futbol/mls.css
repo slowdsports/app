@@ -129,3 +129,8 @@
     
     background-repeat: no-repeat;    
 }
+.austin{
+    background-image: url(https://api.sofascore.com/api/v1/team/377973/image);
+    
+    background-repeat: no-repeat;    
+}
