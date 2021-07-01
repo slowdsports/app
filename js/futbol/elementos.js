@@ -237,3 +237,18 @@ let futbolCopaAmerica = `
     </div>
 `
 for(const ele of document.getElementsByClassName("futbol-copaamerica")){ele.innerHTML=(futbolCopaAmerica)};
+
+let futbolMLS = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:mls">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img competition mls" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>MLS</h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("futbol-mls")){ele.innerHTML=(futbolMLS)};
