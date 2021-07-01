@@ -1,7 +1,7 @@
 // PORTUGAL
 let SPORTTV1 = `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="go:sporttv">           
+       <a class="card-link text-white" href="go:sporttv1">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img sporttv" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
