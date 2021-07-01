@@ -43,3 +43,33 @@ let SPORTTV3 = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-sporttv3")){ele.innerHTML=(SPORTTV3)};
+
+let SPORTTV4 = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:sporttv4">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img sporttv" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Sporttv4 <i class="flag pt"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-sporttv4")){ele.innerHTML=(SPORTTV4)};
+
+let SPORTTV5 = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:sporttv5">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img sporttv" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Sporttv5 <i class="flag pt"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-sporttv5")){ele.innerHTML=(SPORTTV5)};

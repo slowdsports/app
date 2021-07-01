@@ -1,4 +1,34 @@
 // ITALIA
+let DAZN1IT = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:dazn1it">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img dazn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>DAZN 1 <i class="flag it"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-dazn1it")){ele.innerHTML=(DAZN1IT)};
+
+let DAZN2IT = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:dazn2it">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img dazn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>DAZN2 <i class="flag it"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-dazn2it")){ele.innerHTML=(DAZN2IT)};
+
 let SportItalia = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:sportitali">           

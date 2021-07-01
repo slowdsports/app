@@ -104,3 +104,18 @@ let AmericaTV = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-americatv")){ele.innerHTML=(AmericaTV)};
+
+let TennisChannel = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:tennistv">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img tennistv" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Tennis TV</h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-tennistv")){ele.innerHTML=(TennisChannel)};
