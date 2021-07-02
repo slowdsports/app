@@ -749,6 +749,18 @@ let daznf1 = `
 <i class="es flag"></i> DAZN F1 | HD</li>
 </a>
 `;
+let daznf1s = `
+<a href="go:daznf1s">
+<li class="list-group-item darkolorbg blancolor">
+<i class="es flag"></i> DAZN F1 | SD</li>
+</a>
+`;
+let daznf1b = `
+<a href="go:daznf1b">
+<li class="list-group-item darkolorbg blancolor">
+<i class="es flag"></i> DAZN F1 | SD</li>
+</a>
+`;
 let movistar = `
 <a href="go:movistar">
 <li class="list-group-item darkolorbg blancolor">
@@ -949,6 +961,8 @@ for(const ele of document.getElementsByClassName("mlcamp")){ele.innerHTML=(mlcam
 for(const ele of document.getElementsByClassName("mlcamp1")){ele.innerHTML=(mlcamp1)};
 for(const ele of document.getElementsByClassName("mlcamp2")){ele.innerHTML=(mlcamp2)};
 for(const ele of document.getElementsByClassName("daznf1")){ele.innerHTML=(daznf1)};
+for(const ele of document.getElementsByClassName("daznf1s")){ele.innerHTML=(daznf1s)};
+for(const ele of document.getElementsByClassName("daznf1b")){ele.innerHTML=(daznf1b)};
 for(const ele of document.getElementsByClassName("dazn1es")){ele.innerHTML=(dazn1es)};
 for(const ele of document.getElementsByClassName("dazn2es")){ele.innerHTML=(dazn2es)};
 for(const ele of document.getElementsByClassName("movistar")){ele.innerHTML=(movistar)};
