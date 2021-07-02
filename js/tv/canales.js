@@ -773,6 +773,18 @@ let mlaligasd = `
 <i class="es flag"></i> Movistar LaLiga | SD</li>
 </a>
 `;
+let telecinco = `
+<a href="go:telecinco">
+<li class="list-group-item darkolorbg blancolor">
+<i class="es flag"></i> Telecinco | HD</li>
+</a>
+`;
+let cuatro = `
+<a href="go:cuatro">
+<li class="list-group-item darkolorbg blancolor">
+<i class="es flag"></i> Cuatro | HD</li>
+</a>
+`;
 let tdtvp = `
 <a href="go:tdtvp">
 <li class="list-group-item darkolorbg blancolor">
@@ -951,6 +963,8 @@ for(const ele of document.getElementsByClassName("goles")){ele.innerHTML=(goles)
 for(const ele of document.getElementsByClassName("goltvec")){ele.innerHTML=(goltvec)};
 for(const ele of document.getElementsByClassName("la1")){ele.innerHTML=(la1)};
 for(const ele of document.getElementsByClassName("mlaligasd")){ele.innerHTML=(mlaligasd)};
+for(const ele of document.getElementsByClassName("telecinco")){ele.innerHTML=(telecinco)};
+for(const ele of document.getElementsByClassName("cuatro")){ele.innerHTML=(cuatro)};
 for(const ele of document.getElementsByClassName("lequipe")){ele.innerHTML=(lequipe)};
 for(const ele of document.getElementsByClassName("mvamos")){ele.innerHTML=(mvamos)};
 for(const ele of document.getElementsByClassName("mdep")){ele.innerHTML=(mdep)};
@@ -971,7 +985,7 @@ for(const ele of document.getElementsByClassName("telecadena")){ele.innerHTML=(t
 for(const ele of document.getElementsByClassName("telemundon")){ele.innerHTML=(telemundon)};
 for(const ele of document.getElementsByClassName("tigohn")){ele.innerHTML=(tigohn)};
 for(const ele of document.getElementsByClassName("tigopy")){ele.innerHTML=(tigopy)};
-for(const ele of document.getElementsByClassName("tigopbo")){ele.innerHTML=(tigobo)};
+for(const ele of document.getElementsByClassName("tigobo")){ele.innerHTML=(tigobo)};
 for(const ele of document.getElementsByClassName("tntsports")){ele.innerHTML=(tntsports)};
 for(const ele of document.getElementsByClassName("tntus")){ele.innerHTML=(tntus)};
 for(const ele of document.getElementsByClassName("tntar")){ele.innerHTML=(tntar)};
