@@ -785,6 +785,12 @@ let cuatro = `
 <i class="es flag"></i> Cuatro | HD</li>
 </a>
 `;
+let esport3 = `
+<a href="go:esport3">
+<li class="list-group-item darkolorbg blancolor">
+<i class="es flag"></i> eSport3 | HD</li>
+</a>
+`;
 let tdtvp = `
 <a href="go:tdtvp">
 <li class="list-group-item darkolorbg blancolor">
@@ -965,6 +971,7 @@ for(const ele of document.getElementsByClassName("la1")){ele.innerHTML=(la1)};
 for(const ele of document.getElementsByClassName("mlaligasd")){ele.innerHTML=(mlaligasd)};
 for(const ele of document.getElementsByClassName("telecinco")){ele.innerHTML=(telecinco)};
 for(const ele of document.getElementsByClassName("cuatro")){ele.innerHTML=(cuatro)};
+for(const ele of document.getElementsByClassName("esport3")){ele.innerHTML=(esport3)};
 for(const ele of document.getElementsByClassName("lequipe")){ele.innerHTML=(lequipe)};
 for(const ele of document.getElementsByClassName("mvamos")){ele.innerHTML=(mvamos)};
 for(const ele of document.getElementsByClassName("mdep")){ele.innerHTML=(mdep)};
