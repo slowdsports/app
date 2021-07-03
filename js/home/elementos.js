@@ -192,3 +192,18 @@ let elementoResumen = `
     </div>
 `
 for(const ele of document.getElementsByClassName("home-resumen")){ele.innerHTML=(elementoResumen)};
+
+let elementoDonar = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:donar">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img" src="https://www.flaticon.es/svg/static/icons/svg/686/686379.svg" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Donar</h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("home-donar")){ele.innerHTML=(elementoDonar)};
