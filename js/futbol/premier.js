@@ -134,30 +134,31 @@ Burnley
 </figcaption>
 </figure>
 `;
-let fulham = `
+let norwich = `
 <figure class="figure">
-<img class="figure img-fluid competition fulham" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+<img class="figure img-fluid competition norwich" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
-Fulham
+Norwich
 </figcaption>
 </figure>
 `;
-let bromwich = `
+let brenford = `
 <figure class="figure">
-<img class="figure img-fluid competition bromwich" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+<img class="figure img-fluid competition brentford" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
-Bromwich
+Brentford
 </figcaption>
 </figure>
 `;
-let sheffield = `
+let watford = `
 <figure class="figure">
-<img class="figure img-fluid competition sheffield" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+<img class="figure img-fluid competition watford" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
 <figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
-Sheff
+Watford
 </figcaption>
 </figure>
 `;
+
 
 for (const ele of document.getElementsByClassName("pr-tottenham")){ele.innerHTML=(tottenham)}
 for (const ele of document.getElementsByClassName("pr-liverpool")){ele.innerHTML=(liverpool)}
@@ -176,6 +177,6 @@ for (const ele of document.getElementsByClassName("pr-leeds")){ele.innerHTML=(le
 for (const ele of document.getElementsByClassName("pr-newcastle")){ele.innerHTML=(newcastle)}
 for (const ele of document.getElementsByClassName("pr-brighton")){ele.innerHTML=(brighton)}
 for (const ele of document.getElementsByClassName("pr-burnley")){ele.innerHTML=(burnley)}
-for (const ele of document.getElementsByClassName("pr-fulham")){ele.innerHTML=(fulham)}
-for (const ele of document.getElementsByClassName("pr-bromwich")){ele.innerHTML=(bromwich)}
-for (const ele of document.getElementsByClassName("pr-sheffield")){ele.innerHTML=(sheffield)}
+for (const ele of document.getElementsByClassName("pr-norwich")){ele.innerHTML=(norwich)}
+for (const ele of document.getElementsByClassName("pr-brentford")){ele.innerHTML=(brentford)}
+for (const ele of document.getElementsByClassName("pr-watford")){ele.innerHTML=(watford)}
