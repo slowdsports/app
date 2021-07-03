@@ -1,11 +1,6 @@
 /*PREMIER LEAGUE*/
-.bromwich{
-    background-image: url(https://www.sofascore.com/images/team-logo/football_8.png);
-    
-    background-repeat: no-repeat;    
-}
-.fulham{
-    background-image: url(https://www.sofascore.com/images/team-logo/football_43.png);
+.brentford{
+    background-image: url(https://www.sofascore.com/images/team-logo/football_50.png);
     
     background-repeat: no-repeat;    
 }
@@ -54,11 +49,6 @@
     
     background-repeat: no-repeat;    
 }
-.sheffield{
-    background-image: url(https://www.sofascore.com/images/team-logo/football_15.png);
-    
-    background-repeat: no-repeat;    
-}
 .burnley{
     background-image: url(https://www.sofascore.com/images/team-logo/football_6.png);
     
@@ -96,11 +86,6 @@
 }
 .aston{
     background-image: url(https://www.sofascore.com/images/team-logo/football_40.png);
-    
-    background-repeat: no-repeat;    
-}
-.bournemouth{
-    background-image: url(https://www.sofascore.com/images/team-logo/football_60.png);
     
     background-repeat: no-repeat;    
 }
