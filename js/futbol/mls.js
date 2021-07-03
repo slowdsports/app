@@ -46,7 +46,7 @@ LAFC
 </figcaption>
 </figure>
 `;
-for (const ele of document.getElementsByClassName("major-lafc")){ele.innerHTML=(columbus)};
+for (const ele of document.getElementsByClassName("major-lafc")){ele.innerHTML=(lafc)};
 
 let toronto = `
 <figure class="figure">
