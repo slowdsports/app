@@ -1,0 +1,23 @@
+<html lang="es">
+    <head>
+        <meta charset=utf-8/>
+        <style>
+            #main{background-color: #000;}
+        </style>
+    </head>
+    <body id="main">
+        <div id='player'>
+            <video id="vidarea" class="video-js vjs-default-skin" width="100%" height="100%" controls autoplay ></video>
+            
+            <script src="../../../../js/resumen/base.js"></script>
+            <script>
+            var xvid = "c4d2bdd5-45b5-4802-bbd5-364a132ab841";
+            var xpre = "bd1fe7da-74e0-4c9d-9f6f-d9c8dd21fbbb";
+            var xurl = base + xvid + ext + "?presentationId=" + xpre;    
+            var vid = document.getElementById("vidarea");
+            vid.src = xurl;
+            </script> 
+       
+        </div>
+    </body>
+</html>
