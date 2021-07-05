@@ -159,6 +159,22 @@ let Cuatro = `
 for(const ele of document.getElementsByClassName("tv-cuatro")){ele.innerHTML=(Cuatro)};
 
 
+let DKiss = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:dkiss">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img dkiss" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>DKiss</h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-dkiss")){ele.innerHTML=(DKiss)};
+
+
 let ESport3 = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:esport3">           
