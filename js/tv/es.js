@@ -338,7 +338,7 @@ for(const ele of document.getElementsByClassName("tv-#0")){ele.innerHTML=(Cero)}
 
 let Neox = `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="tv/frames/es/neox.html">           
+       <a class="card-link text-white" href="go:neox">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img neox" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
@@ -353,7 +353,7 @@ for(const ele of document.getElementsByClassName("tv-neox")){ele.innerHTML=(Neox
 
 let Nova = `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="tv/frames/es/nova.html">           
+       <a class="card-link text-white" href="go:nova">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img nova" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
@@ -365,21 +365,6 @@ let Nova = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-nova")){ele.innerHTML=(Nova)};
-
-let MEGA = `
-<div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="tv/frames/es/mega.html">           
-        <div class="card-body">
-            <div class="d-flex justify-content-center">
-                <img class="canal-img mega" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-            </div>
-            
-            <div class="d-flex justify-content-center"><h5>Mega</h5></div>
-        </div>
-       </a>
-    </div>
-`
-for(const ele of document.getElementsByClassName("tv-mega")){ele.innerHTML=(MEGA)};
 
 let MLaLiga = `
 <div class="card darkolorbg text-white card-canal">
@@ -398,7 +383,7 @@ for(const ele of document.getElementsByClassName("tv-mlaliga")){ele.innerHTML=(M
 
 let Divinity = `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="tv/frames/es/divinity.html">           
+       <a class="card-link text-white" href="go:divinity">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img divinity" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
@@ -413,7 +398,7 @@ for(const ele of document.getElementsByClassName("tv-divinity")){ele.innerHTML=(
 
 let Energy = `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="tv/frames/es/energy.html">           
+       <a class="card-link text-white" href="go:energy">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img energy" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
@@ -428,7 +413,7 @@ for(const ele of document.getElementsByClassName("tv-energy")){ele.innerHTML=(En
 
 let FDF = `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="tv/frames/es/fdf.html">           
+       <a class="card-link text-white" href="go:fdf">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img fdf" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
@@ -443,7 +428,7 @@ for(const ele of document.getElementsByClassName("tv-fdf")){ele.innerHTML=(FDF)}
 
 let Clan = `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="tv/frames/es/clan.html">           
+       <a class="card-link text-white" href="go:clan">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img clan" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
