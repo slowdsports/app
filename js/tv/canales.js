@@ -472,6 +472,12 @@ let directv1 = `
 <i class="ar flag"></i> DirecTV 1 | HD</li>
 </a>
 `;
+let espnbr = `
+<a href="go:espnbr">
+<li class="list-group-item darkolorbg blancolor">
+<i class="br flag"></i> ESPN | HD</li>
+</a>
+`;
 let espnus = `
 <a href="go:espnus">
 <li class="list-group-item darkolorbg blancolor">
@@ -887,8 +893,8 @@ let tudne = `
 <i class="mx flag"></i> TUDN | HD</li>
 </a>
 `;
-let tyc = `
-<a href="go:tyc">
+let tycar = `
+<a href="go:tycar">
 <li class="list-group-item darkolorbg blancolor">
 <i class="ar flag"></i> TyC Sports | HD</li>
 </a>
@@ -941,6 +947,36 @@ let tudnmx = `
 <i class="mx flag"></i> TUDN | HD</li>
 </a>
 `;
+let sporttv1 = `
+<a href="go:sporttv1">
+<li class="list-group-item darkolorbg blancolor">
+<i class="pt flag"></i> Sport TV 1 | HD</li>
+</a>
+`;
+let sporttv2 = `
+<a href="go:sporttv2">
+<li class="list-group-item darkolorbg blancolor">
+<i class="pt flag"></i> Sport TV 2 | HD</li>
+</a>
+`;
+let sporttv3 = `
+<a href="go:sporttv3">
+<li class="list-group-item darkolorbg blancolor">
+<i class="pt flag"></i> Sport TV 3 | HD</li>
+</a>
+`;
+let sporttv4 = `
+<a href="go:sporttv4">
+<li class="list-group-item darkolorbg blancolor">
+<i class="pt flag"></i> Sport TV 4 | HD</li>
+</a>
+`;
+let sporttv5 = `
+<a href="go:sporttv5">
+<li class="list-group-item darkolorbg blancolor">
+<i class="pt flag"></i> Sport TV 5 | HD</li>
+</a>
+`;
 for(const ele of document.getElementsByClassName("bar")){ele.innerHTML=(bar)};
 for(const ele of document.getElementsByClassName("mlaliga1")){ele.innerHTML=(mlaliga1)};
 for(const ele of document.getElementsByClassName("mlaliga2")){ele.innerHTML=(mlaliga2)};
@@ -952,6 +988,7 @@ for(const ele of document.getElementsByClassName("beinuse")){ele.innerHTML=(bein
 for(const ele of document.getElementsByClassName("canal5hn")){ele.innerHTML=(canal5hn)};
 for(const ele of document.getElementsByClassName("cbshq")){ele.innerHTML=(cbshq)};
 for(const ele of document.getElementsByClassName("directv1")){ele.innerHTML=(directv1)};
+for(const ele of document.getElementsByClassName("espnbr")){ele.innerHTML=(espnbr)};
 for(const ele of document.getElementsByClassName("espnus")){ele.innerHTML=(espnus)};
 for(const ele of document.getElementsByClassName("espn2us")){ele.innerHTML=(espn2us)};
 for(const ele of document.getElementsByClassName("espn3us")){ele.innerHTML=(espn3us)};
@@ -1022,7 +1059,7 @@ for(const ele of document.getElementsByClassName("tntcl2")){ele.innerHTML=(tntcl
 for(const ele of document.getElementsByClassName("tntcl3")){ele.innerHTML=(tntcl3)};
 for(const ele of document.getElementsByClassName("tsi")){ele.innerHTML=(tsi)};
 for(const ele of document.getElementsByClassName("tudne")){ele.innerHTML=(tudne)};
-for(const ele of document.getElementsByClassName("tyc")){ele.innerHTML=(tyc)};
+for(const ele of document.getElementsByClassName("tycar")){ele.innerHTML=(tycar)};
 for(const ele of document.getElementsByClassName("tycus")){ele.innerHTML=(tycus)};
 for(const ele of document.getElementsByClassName("tycsd")){ele.innerHTML=(tycsd)};
 for(const ele of document.getElementsByClassName("unimase")){ele.innerHTML=(unimase)};
@@ -1030,6 +1067,11 @@ for(const ele of document.getElementsByClassName("univision")){ele.innerHTML=(un
 for(const ele of document.getElementsByClassName("galavision")){ele.innerHTML=(galavision)};
 for(const ele of document.getElementsByClassName("win")){ele.innerHTML=(win)};
 for(const ele of document.getElementsByClassName("tudnmx")){ele.innerHTML=(tudnmx)};
+for(const ele of document.getElementsByClassName("sporttv1")){ele.innerHTML=(sporttv1)};
+for(const ele of document.getElementsByClassName("sporttv2")){ele.innerHTML=(sporttv2)};
+for(const ele of document.getElementsByClassName("sporttv3")){ele.innerHTML=(sporttv3)};
+for(const ele of document.getElementsByClassName("sporttv4")){ele.innerHTML=(sporttv4)};
+for(const ele of document.getElementsByClassName("sporttv5")){ele.innerHTML=(sporttv5)};
 
 
 // Daddy Live - Iframe
