@@ -207,22 +207,6 @@ let EuroSP2 = `
 for(const ele of document.getElementsByClassName("tv-eurosport2")){ele.innerHTML=(EuroSP2)};
 
 
-let MTMad = `
-<div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="go:mtmad">           
-        <div class="card-body">
-            <div class="d-flex justify-content-center">
-                <img class="canal-img mtmad" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-            </div>
-            
-            <div class="d-flex justify-content-center"><h5>MT Mad</h5></div>
-        </div>
-       </a>
-    </div>
-`
-for(const ele of document.getElementsByClassName("tv-mtmad")){ele.innerHTML=(MTMad)};
-
-
 let MegaEs = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:megaes">           
@@ -237,6 +221,22 @@ let MegaEs = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-megaes")){ele.innerHTML=(MegaEs)};
+
+
+let MTMad = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:mtmad">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img mtmad" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>MT Mad</h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-mtmad")){ele.innerHTML=(MTMad)};
 
 
 let Sexta = `
