@@ -550,6 +550,12 @@ let espnsurs = `
 <i class="ar flag"></i> ESPN | HD</li>
 </a>
 `;
+let espnsurif = `
+<a href="go:espnsurif">
+<li class="list-group-item darkolorbg blancolor">
+<i class="ar flag"></i> ESPN | HD</li>
+</a>
+`;
 let espn2sur = `
 <a href="go:espn2sur">
 <li class="list-group-item darkolorbg blancolor">
@@ -562,6 +568,12 @@ let espn2surs = `
 <i class="ar flag"></i> ESPN 2 | HD</li>
 </a>
 `;
+let espn2surif = `
+<a href="go:espn2surif">
+<li class="list-group-item darkolorbg blancolor">
+<i class="ar flag"></i> ESPN 2 | HD</li>
+</a>
+`;
 let espn3sur = `
 <a href="go:espn3sur">
 <li class="list-group-item darkolorbg blancolor">
@@ -570,6 +582,12 @@ let espn3sur = `
 `;
 let espn3surs = `
 <a href="go:espn3surs">
+<li class="list-group-item darkolorbg blancolor">
+<i class="ar flag"></i> ESPN 3 | HD</li>
+</a>
+`;
+let espn3surif = `
+<a href="go:espn3surif">
 <li class="list-group-item darkolorbg blancolor">
 <i class="ar flag"></i> ESPN 3 | HD</li>
 </a>
@@ -947,10 +965,13 @@ for(const ele of document.getElementsByClassName("espndep")){ele.innerHTML=(espn
 for(const ele of document.getElementsByClassName("espndepif")){ele.innerHTML=(espndepif)};
 for(const ele of document.getElementsByClassName("espnsur")){ele.innerHTML=(espnsur)};
 for(const ele of document.getElementsByClassName("espnsurs")){ele.innerHTML=(espnsurs)};
+for(const ele of document.getElementsByClassName("espnsurif")){ele.innerHTML=(espnsurif)};
 for(const ele of document.getElementsByClassName("espn2sur")){ele.innerHTML=(espn2sur)};
 for(const ele of document.getElementsByClassName("espn2surs")){ele.innerHTML=(espn2surs)};
+for(const ele of document.getElementsByClassName("espn2surif")){ele.innerHTML=(espn2surif)};
 for(const ele of document.getElementsByClassName("espn3sur")){ele.innerHTML=(espn3sur)};
 for(const ele of document.getElementsByClassName("espn3surs")){ele.innerHTML=(espn3surs)};
+for(const ele of document.getElementsByClassName("espn3surif")){ele.innerHTML=(espn3surif)};
 for(const ele of document.getElementsByClassName("espnpsur")){ele.innerHTML=(espnpsur)};
 for(const ele of document.getElementsByClassName("eursport1")){ele.innerHTML=(eursport1)};
 for(const ele of document.getElementsByClassName("eursport2")){ele.innerHTML=(eurosport2)}
