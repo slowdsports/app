@@ -223,6 +223,22 @@ let MTMad = `
 for(const ele of document.getElementsByClassName("tv-mtmad")){ele.innerHTML=(MTMad)};
 
 
+let MegaEs = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:megaes">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img mega" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Mega</h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-megaes")){ele.innerHTML=(MegaEs)};
+
+
 let Sexta = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:sexta">           
