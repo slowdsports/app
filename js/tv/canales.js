@@ -1030,3 +1030,85 @@ for(const ele of document.getElementsByClassName("univision")){ele.innerHTML=(un
 for(const ele of document.getElementsByClassName("galavision")){ele.innerHTML=(galavision)};
 for(const ele of document.getElementsByClassName("win")){ele.innerHTML=(win)};
 for(const ele of document.getElementsByClassName("tudnmx")){ele.innerHTML=(tudnmx)};
+
+
+// Daddy Live - Iframe
+let btsport1if = `
+<a href="go:btsport1if">
+<li class="list-group-item darkolorbg blancolor">
+<i class="uk flag"></i> BT Sport 1 | HD</li>
+</a>
+`;
+for(const ele of document.getElementsByClassName("btsport1if")){ele.innerHTML=(btsport1if)};
+
+let btsport2if = `
+<a href="go:btsport2if">
+<li class="list-group-item darkolorbg blancolor">
+<i class="uk flag"></i> BT Sport 2 | HD</li>
+</a>
+`;
+for(const ele of document.getElementsByClassName("btsport2if")){ele.innerHTML=(btsport2if)};
+
+let btsport3if = `
+<a href="go:btsport3if">
+<li class="list-group-item darkolorbg blancolor">
+<i class="uk flag"></i> BT Sport 3 | HD</li>
+</a>
+`;
+for(const ele of document.getElementsByClassName("btsport3if")){ele.innerHTML=(btsport3if)};
+
+let skyfootif = `
+<a href="go:skyfootif">
+<li class="list-group-item darkolorbg blancolor">
+<i class="uk flag"></i> Sky Sports Football | HD</li>
+</a>
+`;
+for(const ele of document.getElementsByClassName("skyfootif")){ele.innerHTML=(skyfootif)};
+
+let skymainif = `
+<a href="go:skymainif">
+<li class="list-group-item darkolorbg blancolor">
+<i class="uk flag"></i> Sky Main Event | HD</li>
+</a>
+`;
+for(const ele of document.getElementsByClassName("skymainif")){ele.innerHTML=(skymainif)};
+
+let skyactif = `
+<a href="go:skyactif">
+<li class="list-group-item darkolorbg blancolor">
+<i class="uk flag"></i> Sky Sports Action | HD</li>
+</a>
+`;
+for(const ele of document.getElementsByClassName("skyactif")){ele.innerHTML=(skyactif)};
+
+let nbcsnif = `
+<a href="go:skyactif">
+<li class="list-group-item darkolorbg blancolor">
+<i class="us flag"></i> NBCSN | HD</li>
+</a>
+`;
+for(const ele of document.getElementsByClassName("nbcsnif")){ele.innerHTML=(nbcsnif)};
+
+let sporttv1if = `
+<a href="go:sporttv1if">
+<li class="list-group-item darkolorbg blancolor">
+<i class="pt flag"></i> Sport TV 1 | HD</li>
+</a>
+`;
+for(const ele of document.getElementsByClassName("sporttv1if")){ele.innerHTML=(sporttv1if)};
+
+let sporttv2if = `
+<a href="go:sporttv2if">
+<li class="list-group-item darkolorbg blancolor">
+<i class="pt flag"></i> Sport TV 2 | HD</li>
+</a>
+`;
+for(const ele of document.getElementsByClassName("sporttv2if")){ele.innerHTML=(sporttv2if)};
+
+let foxbrif = `
+<a href="go:foxbrif">
+<li class="list-group-item darkolorbg blancolor">
+<i class="br flag"></i> Fox Sports | HD</li>
+</a>
+`;
+for(const ele of document.getElementsByClassName("foxbrif")){ele.innerHTML=(foxbrif)};
