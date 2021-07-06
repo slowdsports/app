@@ -170,6 +170,9 @@
         .figure-caption , .mb-0 , .vs{
             color: #cccccc;
         }
+        .mititulo {
+            text-transform: capitalize;
+        }
         .timer{
             position: absolute; 
             margin-top: -3%;
