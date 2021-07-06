@@ -98,6 +98,13 @@
             text-decoration: none;
             color: #fff!important;
         }
+        .canalito:hover {
+            transform: scale(1.05);
+            text-decoration: underline;
+            background-image: url(../tv/images/0.png);
+            background-size: cover;
+            
+        }
         /*MENU*/
         .altmenu
         {

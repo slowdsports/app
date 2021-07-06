@@ -1,61 +1,61 @@
 // PREMIER
 let p1 = `
 <a href="go:p1">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="england flag"></i> Premier (1) | HD</li>
 </a>
 `;
 let p2 = `
 <a href="go:p2">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="england flag"></i> Premier (2) | HD</li>
 </a>
 `;
 let p3 = `
 <a href="go:p3">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="england flag"></i> Premier (3) | HD</li>
 </a>
 `;
 let p4 = `
 <a href="go:p4">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="england flag"></i> Premier (4) | HD</li>
 </a>
 `;
 let p5 = `
 <a href="go:p5">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="england flag"></i> Premier (5) | HD</li>
 </a>
 `;
 let p6 = `
 <a href="go:p6">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="england flag"></i> Premier (6) | HD</li>
 </a>
 `;
 let p7 = `
 <a href="go:p7">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="england flag"></i> Premier (7) | HD</li>
 </a>
 `;
 let p8 = `
 <a href="go:p8">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="england flag"></i> Premier (8) | HD</li>
 </a>
 `;
 let p9 = `
 <a href="go:p9">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="england flag"></i> Premier (9) | HD</li>
 </a>
 `;
 let p10 = `
 <a href="go:p10">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="england flag"></i> Premier (10) | HD</li>
 </a>
 `;
@@ -72,61 +72,61 @@ for(const ele of document.getElementsByClassName("p10")){ele.innerHTML=(p10)};
 // LALIGA
 let c1 = `
 <a href="go:c1">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> LaLiga (1) | HD</li>
 </a>
 `;
 let c2 = `
 <a href="go:c2">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> LaLiga (2) | HD</li>
 </a>
 `;
 let c3 = `
 <a href="go:c3">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> LaLiga (3) | HD</li>
 </a>
 `;
 let c4 = `
 <a href="go:c4">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> LaLiga (4) | HD</li>
 </a>
 `;
 let c5 = `
 <a href="go:c5">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> LaLiga (5) | HD</li>
 </a>
 `;
 let c6 = `
 <a href="go:c6">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> LaLiga (6) | HD</li>
 </a>
 `;
 let c7 = `
 <a href="go:c7">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> LaLiga (7) | HD</li>
 </a>
 `;
 let c8 = `
 <a href="go:c8">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> LaLiga (8) | HD</li>
 </a>
 `;
 let c9 = `
 <a href="go:c9">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> LaLiga (9) | HD</li>
 </a>
 `;
 let c10 = `
 <a href="go:c10">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> LaLiga (10) | HD</li>
 </a>
 `;
@@ -143,61 +143,61 @@ for(const ele of document.getElementsByClassName("c10")){ele.innerHTML=(c10)};
 // LALIGA 2
 let cc1 = `
 <a href="go:cc1">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> LaLiga (11) | HD</li>
 </a>
 `;
 let cc2 = `
 <a href="go:cc2">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> LaLiga (12) | HD</li>
 </a>
 `;
 let cc3 = `
 <a href="go:cc3">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> LaLiga (13) | HD</li>
 </a>
 `;
 let cc4 = `
 <a href="go:cc4">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> LaLiga (14) | HD</li>
 </a>
 `;
 let cc5 = `
 <a href="go:cc5">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> LaLiga (15) | HD</li>
 </a>
 `;
 let cc6 = `
 <a href="go:cc6">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> LaLiga (16) | HD</li>
 </a>
 `;
 let cc7 = `
 <a href="go:cc7">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> LaLiga (17) | HD</li>
 </a>
 `;
 let cc8 = `
 <a href="go:cc8">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> LaLiga (18) | HD</li>
 </a>
 `;
 let cc9 = `
 <a href="go:cc9">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> LaLiga (19) | HD</li>
 </a>
 `;
 let cc10 = `
 <a href="go:cc10">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> LaLiga (20) | HD</li>
 </a>
 `;
@@ -214,37 +214,37 @@ for(const ele of document.getElementsByClassName("cc10")){ele.innerHTML=(cc10)};
 // SERIE A
 let s1 = `
 <a href="go:s1">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Serie A (1) | HD</li>
 </a>
 `;
 let s2 = `
 <a href="go:s2">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Serie A (2) | HD</li>
 </a>
 `;
 let s3 = `
 <a href="go:s3">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Serie A (3) | HD</li>
 </a>
 `;
 let s4 = `
 <a href="go:s4">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Serie A (4) | HD</li>
 </a>
 `;
 let s5 = `
 <a href="go:s5">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Serie A (5) | HD</li>
 </a>
 `;
 let s6 = `
 <a href="go:s6">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Serie A (6) | HD</li>
 </a>
 `;
@@ -257,37 +257,37 @@ for(const ele of document.getElementsByClassName("s6")){ele.innerHTML=(s6)};
 // BUNDESLIGA
 let b1 = `
 <a href="go:b1">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="uk flag"></i> Bundesliga (1) | HD</li>
 </a>
 `;
 let b2 = `
 <a href="go:b2">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="uk flag"></i> Bundesliga (2) | HD</li>
 </a>
 `;
 let b3 = `
 <a href="go:b3">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="uk flag"></i> Bundesliga (3) | HD</li>
 </a>
 `;
 let b4 = `
 <a href="go:b4">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="uk flag"></i> Bundesliga (4) | HD</li>
 </a>
 `;
 let b5 = `
 <a href="go:b5">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="uk flag"></i> Bundesliga (5) | HD</li>
 </a>
 `;
 let b6 = `
 <a href="go:b6">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="uk flag"></i> Bundesliga (6) | HD</li>
 </a>
 `;
@@ -300,37 +300,37 @@ for(const ele of document.getElementsByClassName("b6")){ele.innerHTML=(b6)};
 // LIGUE 1
 let l1 = `
 <a href="go:l1">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="uk flag"></i> Ligue 1 (1) | HD</li>
 </a>
 `;
 let l2 = `
 <a href="go:l2">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="uk flag"></i> Ligue 1 (2) | HD</li>
 </a>
 `;
 let l3 = `
 <a href="go:l3">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="uk flag"></i> Ligue 1 (3) | HD</li>
 </a>
 `;
 let l4 = `
 <a href="go:l4">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="uk flag"></i> Ligue 1 (4) | HD</li>
 </a>
 `;
 let l5 = `
 <a href="go:l5">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="uk flag"></i> Ligue 1 (5) | HD</li>
 </a>
 `;
 let l6 = `
 <a href="go:l6">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="uk flag"></i> Ligue 1 (6) | HD</li>
 </a>
 `;
@@ -343,19 +343,19 @@ for(const ele of document.getElementsByClassName("l6")){ele.innerHTML=(l6)};
 // EREDIVISIE
 let espnnl = `
 <a href="go:espnnl">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="nl flag"></i> ESPN | HD</li>
 </a>
 `;
 let espn2nl = `
 <a href="go:espn2nl">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="nl flag"></i> ESPN 2 | HD</li>
 </a>
 `;
 let espn3nl = `
 <a href="go:espn3nl">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="nl flag"></i> ESPN 3 | HD</li>
 </a>
 `;
@@ -365,37 +365,37 @@ for(const ele of document.getElementsByClassName("espn3nl")){ele.innerHTML=(espn
 // OTROS
 let otro1 = `
 <a href="go:otro1">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Otro (1) | HD</li>
 </a>
 `;
 let otro2 = `
 <a href="go:otro2">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Otro (2) | HD</li>
 </a>
 `;
 let otro3 = `
 <a href="go:otro3">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Otro (3) | HD</li>
 </a>
 `;
 let otro4 = `
 <a href="go:otro4">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Otro (4) | HD</li>
 </a>
 `;
 let otro5 = `
 <a href="go:otro5">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Otro (5) | HD</li>
 </a>
 `;
 let otro6 = `
 <a href="go:otro6">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Otro (6) | HD</li>
 </a>
 `;
@@ -408,572 +408,572 @@ for(const ele of document.getElementsByClassName("otro6")){ele.innerHTML=(otro6)
 // CANALES
 let bar = `
 <a href="go:bar">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> Movistar LaLiga | HD</li>
 </a>
 `;
 let mlaliga1 = `
 <a href="go:mlaliga1">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> Movistar LaLiga 1 | HD</li>
 </a>
 `;
 let mlaliga2 = `
 <a href="go:mlaliga2">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> Movistar LaLiga 2 | HD</li>
 </a>
 `;
 let azteca7 = `
 <a href="go:azteca7">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> Azteca 7 | HD</li>
 </a>
 `;
 let bemad = `
 <a href="go:bemad">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> Be Mad! | HD</li>
 </a>
 `;
 let beinne = `
 <a href="go:beinne">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> BeIN Ñ | HD</li>
 </a>
 `;
 let beinn = `
 <a href="go:beinn">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> BeIN Ñ (Op2) | HD</li>
 </a>
 `;
 let beinuse = `
 <a href="go:beinuse">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> BeIN Sports | HD</li>
 </a>
 `;
 let canal5hn = `
 <a href="go:canal5hn">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="hn flag"></i> Canal 5 | HD</li>
 </a>
 `;
 let cbshq = `
 <a href="go:cbshq">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> CBS HQ | HD</li>
 </a>
 `;
 let directv1 = `
 <a href="go:directv1">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="ar flag"></i> DirecTV 1 | HD</li>
 </a>
 `;
 let espnbr = `
 <a href="go:espnbr">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="br flag"></i> ESPN | HD</li>
 </a>
 `;
 let espnus = `
 <a href="go:espnus">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> ESPN | HD</li>
 </a>
 `;
 let espn2us = `
 <a href="go:espn2us">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> ESPN 2 | HD</li>
 </a>
 `;
 let espn3us = `
 <a href="go:espn3us">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> ESPN 3 | HD</li>
 </a>
 `;
 let espnu = `
 <a href="go:espnu">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> ESPN U | HD</li>
 </a>
 `;
 let espnnews = `
 <a href="go:espnnews">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> ESPN News | HD</li>
 </a>
 `;
 let espnsec = `
 <a href="go:espnsec">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> ESPN Sec | HD</li>
 </a>
 `;
 let espnmx = `
 <a href="go:espnmx">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="mx flag"></i> ESPN | HD</li>
 </a>
 `;
 let espn2mx = `
 <a href="go:espn2mx">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="mx flag"></i> ESPN 2 | HD</li>
 </a>
 `;
 let espn3mx = `
 <a href="go:espn3mx">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="mx flag"></i> ESPN 3 | HD</li>
 </a>
 `;
 let espndep = `
 <a href="go:espndep">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="mx flag"></i> ESPN Deportes | HD</li>
 </a>
 `;
 let espndepif = `
 <a href="go:espndepif">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="mx flag"></i> ESPN Deportes | HD</li>
 </a>
 `;
 let espnsur = `
 <a href="go:espnsur">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="ar flag"></i> ESPN | HD</li>
 </a>
 `;
 let espnsurs = `
 <a href="go:espnsurs">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="ar flag"></i> ESPN | HD</li>
 </a>
 `;
 let espnsurif = `
 <a href="go:espnsurif">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="ar flag"></i> ESPN | HD</li>
 </a>
 `;
 let espn2sur = `
 <a href="go:espn2sur">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="ar flag"></i> ESPN 2 | HD</li>
 </a>
 `;
 let espn2surs = `
 <a href="go:espn2surs">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="ar flag"></i> ESPN 2 | HD</li>
 </a>
 `;
 let espn2surif = `
 <a href="go:espn2surif">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="ar flag"></i> ESPN 2 | HD</li>
 </a>
 `;
 let espn3sur = `
 <a href="go:espn3sur">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="ar flag"></i> ESPN 3 | HD</li>
 </a>
 `;
 let espn3surs = `
 <a href="go:espn3surs">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="ar flag"></i> ESPN 3 | HD</li>
 </a>
 `;
 let espn3surif = `
 <a href="go:espn3surif">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="ar flag"></i> ESPN 3 | HD</li>
 </a>
 `;
 let espnpsur = `
 <a href="go:espnpsur">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="ar flag"></i> ESPN + | HD</li>
 </a>
 `;
 let eurosport1 = `
 <a href="go:eurosport1">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class=" flag"></i> Eurosport 1 | HD</li>
 </a>
 `;
 let eurosport2 = `
 <a href="go:eurosport2">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class=" flag"></i> Eurosport 1 | HD</li>
 </a>
 `;
 let fox = `
 <a href="go:fox">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="mx flag"></i> Fox Action | HD</li>
 </a>
 `;
 let fsus = `
 <a href="go:fsus">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> FS1 | HD</li>
 </a>
 `;
 let fs2us = `
 <a href="go:fs2us">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> FS2 | HD</li>
 </a>
 `;
 let fsnews = `
 <a href="go:fsnews">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> FS News | HD</li>
 </a>
 `;
 let fs1mx = `
 <a href="go:fs1mx">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="mx flag"></i> Fox Sports | HD</li>
 </a>
 `;
 let fs2mx = `
 <a href="go:fs2mx">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="mx flag"></i> Fox Sports 2 | HD</li>
 </a>
 `;
 let fs3mx = `
 <a href="go:fs3mx">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="mx flag"></i> Fox Sports 3 | HD</li>
 </a>
 `;
 let fssur = `
 <a href="go:fssur">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="ar flag"></i> Fox Sports | HD</li>
 </a>
 `;
 let fs2sur = `
 <a href="go:fs2sur">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="ar flag"></i> Fox Sports 2 | HD</li>
 </a>
 `;
 let fs3sur = `
 <a href="go:fs3sur">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="ar flag"></i> Fox Sports 3 | HD</li>
 </a>
 `;
 let foxp = `
 <a href="go:foxp">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="ar flag"></i> Fox Premium | HD</li>
 </a>
 `;
 let goles = `
 <a href="go:goles">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> Gol | HD</li>
 </a>
 `;
 let goltvec = `
 <a href="go:goltvec">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="ec flag"></i> Gol TV | HD</li>
 </a>
 `;
 let la1 = `
 <a href="go:la1">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> La 1 | HD</li>
 </a>
 `;
 
 let lequipe = `
 <a href="go:lequipe">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="fr flag"></i> L'Équipe | HD</li>
 </a>
 `;
 let mvamos = `
 <a href="go:vamos">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> M #Vamos | HD</li>
 </a>
 `;
 let mdep = `
 <a href="go:mdep">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> Movistar Deportes | HD</li>
 </a>
 `;
 let mdep1 = `
 <a href="go:mdep1">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> Movistar Deportes 1 | HD</li>
 </a>
 `;
 let mdep2 = `
 <a href="go:mdep2">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> Movistar Deportes 2 | HD</li>
 </a>
 `;
 let mdep3 = `
 <a href="go:mdep3">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> Movistar Deportes 3 | HD</li>
 </a>
 `;
 let mlcamp = `
 <a href="go:mlcamp">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> Liga Campeones | HD</li>
 </a>
 `;
 let mlcamp1 = `
 <a href="go:mlcamp1">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> Liga Campeones 1 | HD</li>
 </a>
 `;
 let mlcamp2 = `
 <a href="go:mlcamp2">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> Liga Campeones 2 | HD</li>
 </a>
 `;
 let dazn1es = `
 <a href="go:dazn1es">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> DAZN | HD</li>
 </a>
 `;
 let dazn2es = `
 <a href="go:dazn2es">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> DAZN 2 | HD</li>
 </a>
 `;
 let daznf1 = `
 <a href="go:daznf1">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> DAZN F1 | HD</li>
 </a>
 `;
 let daznf1s = `
 <a href="go:daznf1s">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> DAZN F1 | SD</li>
 </a>
 `;
 let daznf1b = `
 <a href="go:daznf1b">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> DAZN F1 | SD</li>
 </a>
 `;
 let movistar = `
 <a href="go:movistar">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> Movistar LaLiga | HD</li>
 </a>
 `;
 let mlaligasd = `
 <a href="go:mlaligasd">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> Movistar LaLiga | SD</li>
 </a>
 `;
 let telecinco = `
 <a href="go:telecinco">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> Telecinco | HD</li>
 </a>
 `;
 let cuatro = `
 <a href="go:cuatro">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> Cuatro | HD</li>
 </a>
 `;
 let esport3 = `
 <a href="go:esport3">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> eSport3 | HD</li>
 </a>
 `;
 let tdtvp = `
 <a href="go:tdtvp">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="hn flag"></i> TDTV + | HD</li>
 </a>
 `;
 let telecadena = `
 <a href="go:telecadena">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="hn flag"></i> Telecadena | HD</li>
 </a>
 `;
 let telemundon = `
 <a href="go:telemundon">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="mx flag"></i> Telemundo | HD</li>
 </a>
 `;
 let tigohn = `
 <a href="go:tigohn">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="hn flag"></i> Tigo Sports | HD</li>
 </a>
 `;
 let tigopy = `
 <a href="go:tigopy">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="py flag"></i> Tigo Sports | HD</li>
 </a>
 `;
 let tigobo = `
 <a href="go:tigobo">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="bo flag"></i> Tigo Sports | HD</li>
 </a>
 `;
 let tntsports = `
 <a href="go:tntsports">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="ar flag"></i> TNT Sports | HD</li>
 </a>
 `;
 let tntus = `
 <a href="go:tntus">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> TNT | HD</li>
 </a>
 `;
 let tntcl = `
 <a href="go:tntcl">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="chile flag"></i> TNT Sports Chile | HD</li>
 </a>
 `;
 let tntcl2 = `
 <a href="go:tntcl2">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="chile flag"></i> TNT Sports Chile | HD</li>
 </a>
 `;
 let tntcl3 = `
 <a href="go:tntcl3">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="chile flag"></i> TNT Sports Chile | HD</li>
 </a>
 `;
 let tsi = `
 <a href="go:tsi">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="hn flag"></i> TSi | HD</li>
 </a>
 `;
 let tudne = `
 <a href="go:tudne">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="mx flag"></i> TUDN | HD</li>
 </a>
 `;
 let tycar = `
 <a href="go:tycar">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="ar flag"></i> TyC Sports | HD</li>
 </a>
 `;
 let tycus = `
 <a href="go:tycus">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="ar flag"></i> TyC Sports US | SD</li>
 </a>
 `;
 let tntar = `
 <a href="go:tntar">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="ar flag"></i> TNT Sports | HD</li>
 </a>
 `;
 let tycsd = `
 <a href="go:tycsd">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="ar flag"></i> TyC Sports | SD</li>
 </a>
 `;
 let unimase = `
 <a href="go:unimase">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="mx flag"></i> Unimás | HD</li>
 </a>
 `;
 let univision = `
 <a href="go:univision">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="mx flag"></i> Univisión | HD</li>
 </a>
 `;
 let galavision = `
 <a href="go:galavision">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="mx flag"></i> Galavisión | HD</li>
 </a>
 `;
 let win = `
 <a href="go:win">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="co flag"></i> Win Sports | HD</li>
 </a>
 `;
 let tudnmx = `
 <a href="go:tudnmx">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="mx flag"></i> TUDN | HD</li>
 </a>
 `;
 let sporttv1 = `
 <a href="go:sporttv1">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="pt flag"></i> Sport TV 1 | HD</li>
 </a>
 `;
 let sporttv2 = `
 <a href="go:sporttv2">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="pt flag"></i> Sport TV 2 | HD</li>
 </a>
 `;
 let sporttv3 = `
 <a href="go:sporttv3">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="pt flag"></i> Sport TV 3 | HD</li>
 </a>
 `;
 let sporttv4 = `
 <a href="go:sporttv4">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="pt flag"></i> Sport TV 4 | HD</li>
 </a>
 `;
 let sporttv5 = `
 <a href="go:sporttv5">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="pt flag"></i> Sport TV 5 | HD</li>
 </a>
 `;
@@ -1077,7 +1077,7 @@ for(const ele of document.getElementsByClassName("sporttv5")){ele.innerHTML=(spo
 // Daddy Live - Iframe
 let btsport1if = `
 <a href="go:btsport1if">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="uk flag"></i> BT Sport 1 | HD</li>
 </a>
 `;
@@ -1085,7 +1085,7 @@ for(const ele of document.getElementsByClassName("btsport1if")){ele.innerHTML=(b
 
 let btsport2if = `
 <a href="go:btsport2if">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="uk flag"></i> BT Sport 2 | HD</li>
 </a>
 `;
@@ -1093,7 +1093,7 @@ for(const ele of document.getElementsByClassName("btsport2if")){ele.innerHTML=(b
 
 let btsport3if = `
 <a href="go:btsport3if">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="uk flag"></i> BT Sport 3 | HD</li>
 </a>
 `;
@@ -1101,7 +1101,7 @@ for(const ele of document.getElementsByClassName("btsport3if")){ele.innerHTML=(b
 
 let skyfootif = `
 <a href="go:skyfootif">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="uk flag"></i> Sky Sports Football | HD</li>
 </a>
 `;
@@ -1109,7 +1109,7 @@ for(const ele of document.getElementsByClassName("skyfootif")){ele.innerHTML=(sk
 
 let skymainif = `
 <a href="go:skymainif">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="uk flag"></i> Sky Main Event | HD</li>
 </a>
 `;
@@ -1117,7 +1117,7 @@ for(const ele of document.getElementsByClassName("skymainif")){ele.innerHTML=(sk
 
 let skyactif = `
 <a href="go:skyactif">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="uk flag"></i> Sky Sports Action | HD</li>
 </a>
 `;
@@ -1125,7 +1125,7 @@ for(const ele of document.getElementsByClassName("skyactif")){ele.innerHTML=(sky
 
 let nbcsnif = `
 <a href="go:skyactif">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NBCSN | HD</li>
 </a>
 `;
@@ -1133,7 +1133,7 @@ for(const ele of document.getElementsByClassName("nbcsnif")){ele.innerHTML=(nbcs
 
 let sporttv1if = `
 <a href="go:sporttv1if">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="pt flag"></i> Sport TV 1 | HD</li>
 </a>
 `;
@@ -1141,7 +1141,7 @@ for(const ele of document.getElementsByClassName("sporttv1if")){ele.innerHTML=(s
 
 let sporttv2if = `
 <a href="go:sporttv2if">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="pt flag"></i> Sport TV 2 | HD</li>
 </a>
 `;
@@ -1149,7 +1149,7 @@ for(const ele of document.getElementsByClassName("sporttv2if")){ele.innerHTML=(s
 
 let foxbrif = `
 <a href="go:foxbrif">
-<li class="list-group-item darkolorbg blancolor">
+<li class="canalito list-group-item darkolorbg blancolor">
 <i class="br flag"></i> Fox Sports | HD</li>
 </a>
 `;
