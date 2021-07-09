@@ -164,3 +164,16 @@ for(const ele of document.getElementsByClassName("navbar-filters-tv")){ele.inner
 for(const ele of document.getElementsByClassName("navbar-filters-radio")){ele.innerHTML=(navbarFiltersRadio)};
 for(const ele of document.getElementsByClassName("navbar-icon-right")){ele.innerHTML=(navbarIconRight)};
 for(const ele of document.getElementsByClassName("navbar-icon-social")){ele.innerHTML=(navbarIconSocial)};
+
+// GOOGLE ANALYTICS
+let googleAnalytics = `
+<!--Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174658361-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-174658361-1');
+</script>
+`
+for(const ele of document.getElementsByClassName("analytics")){ele.innerHTML=(googleAnalytics)};
