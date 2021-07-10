@@ -13,7 +13,7 @@ let validacionMal = `
 <div class="center">
   <h1>¡Lo Sentimos!</h1>
   <h3>Esta versión ha caducado: </h3>
-  <a href="go:update"><div class="btn">Actualizar</div></a>
+  <a href="https://bit.ly/2UBW1zE"><div class="btn">Actualizar</div></a>
 </div>
 `;
 
