@@ -818,7 +818,7 @@ let esport3 = `
 let tdtvp = `
 <a href="go:tdtvp">
 <li class="canalito list-group-item darkolorbg blancolor">
-<i class="hn flag"></i> TDTV + | HD</li>
+<i class="hn flag"></i> TDTV + (GEO) | HD</li>
 </a>
 `;
 let telecadena = `
