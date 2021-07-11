@@ -989,6 +989,12 @@ let sporttv5 = `
 <i class="pt flag"></i> Sport TV 5 | HD</li>
 </a>
 `;
+let openbeyond = `
+<a href="go:openb">
+<li class="canalito list-group-item darkolorbg blancolor">
+<i class="gr flag"></i> Open Beyond | HD</li>
+</a>
+`;
 for(const ele of document.getElementsByClassName("bar")){ele.innerHTML=(bar)};
 for(const ele of document.getElementsByClassName("mlaliga1")){ele.innerHTML=(mlaliga1)};
 for(const ele of document.getElementsByClassName("mlaliga2")){ele.innerHTML=(mlaliga2)};
@@ -1086,6 +1092,7 @@ for(const ele of document.getElementsByClassName("sporttv2")){ele.innerHTML=(spo
 for(const ele of document.getElementsByClassName("sporttv3")){ele.innerHTML=(sporttv3)};
 for(const ele of document.getElementsByClassName("sporttv4")){ele.innerHTML=(sporttv4)};
 for(const ele of document.getElementsByClassName("sporttv5")){ele.innerHTML=(sporttv5)};
+for(const ele of document.getElementsByClassName("openbeyond")){ele.innerHTML=(openbeyond)};
 
 
 // Daddy Live - Iframe
