@@ -178,3 +178,30 @@ let googleAnalytics = `
 </script>
 `
 for(const ele of document.getElementsByClassName("analytics")){ele.innerHTML=(googleAnalytics)};
+
+// ALERTAS
+let alertaEsperar = `
+<div class="alert alert-1 alert-info" role="alert">
+  <i class="fa fa-info-circle"></i> Espera 30 segundos para que cargue cada canal!
+</div>
+`
+for(const ele of document.getElementsByClassName("esperar")){ele.innerHTML=(alertaEsperar)};
+
+let alertaCortes = `
+<div class="alert alert-2 alert-info" role="alert">
+  <i class="fa fa-info-circle"></i> Es normal tener 2 o 3 cortes en cada juego!
+</div>
+`
+for(const ele of document.getElementsByClassName("cortes")){ele.innerHTML=(alertaCortes)};
+
+// ALERTA AUTOHIDE
+window.setTimeout(function() {
+    $(".alert-1").fadeTo(500, 0).slideUp(500, function(){
+        $(this).remove(); 
+    });
+}, 4000);
+window.setTimeout(function() {
+    $(".alert-2").fadeTo(800, 0).slideUp(800, function(){
+        $(this).remove(); 
+    });
+}, 6000);
