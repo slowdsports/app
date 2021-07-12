@@ -75,6 +75,21 @@ let MTVEUR = `
 `
 for(const ele of document.getElementsByClassName("tv-mtveur")){ele.innerHTML=(MTVEUR)};
 
+let OpenBeyond = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:openbeyond">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img openbeyond" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Open <i class="flag gr"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-openbeyond")){ele.innerHTML=(OpenBeyond)};
+
 let TeleSur = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:telesur">           
