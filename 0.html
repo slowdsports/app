@@ -1,14 +1,16 @@
-<html>
-   <head>
-      <meta name='theme-color' content='black'>
-      <meta name='apple-mobile-web-app-status-bar-style' content='black'>
-      <meta content='width=device-width, initial-scale=1' name='viewport'>
-      <title>iRaffle Player</title>
-   </head>
-   <body bgcolor='black' style='margin:0' oncontextmenu='return false' onkeydown='return false'>
-     <script>
-         var chann = 31;
-     </script>
-      <script src="//eduveel19.github.io/assets/js/player/daddy.js"></script>
-   </body>
-</html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+<div class="alert alert-success" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <strong>Success!</strong> You have been signed in successfully!
+</div>
+
+<script>
+window.setTimeout(function() {
+    $(".alert").fadeTo(500, 0).slideUp(500, function(){
+        $(this).remove(); 
+    });
+}, 4000);
+</script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
