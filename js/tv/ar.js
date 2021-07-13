@@ -104,3 +104,18 @@ let ESPNExtra = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-espnextra")){ele.innerHTML=(ESPNExtra)};
+
+let MasChic = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:maschic">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img maschic" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>MasChic <i class="flag ar"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-maschic")){ele.innerHTML=(MasChic)};

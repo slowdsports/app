@@ -163,6 +163,12 @@ let canalesTVES = `
     <span class="tv-toros"></span>
   </div>
    <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
+    <span class="tv-tv3cat"></span>
+  </div>
+   <!--/CANAL-->
   
 </div>
 `

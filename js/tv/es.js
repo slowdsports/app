@@ -455,3 +455,18 @@ let SevillaTV = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-sevillatv")){ele.innerHTML=(SevillaTV)};
+
+let Tv3Cat = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:tv3cat">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img tv3" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>TV3</h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-tv3cat")){ele.innerHTML=(Tv3Cat)};
