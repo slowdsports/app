@@ -996,7 +996,7 @@ let openbeyond = `
 </a>
 `;
 let beinxtra = `
-<a href="go:beinxtra">
+<a href="go:beinxtraes">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="mx flag"></i> beIN XTRA | HD</li>
 </a>
@@ -1011,7 +1011,7 @@ for(const ele of document.getElementsByClassName("bemad")){ele.innerHTML=(bemad)
 for(const ele of document.getElementsByClassName("beinne")){ele.innerHTML=(beinne)};
 for(const ele of document.getElementsByClassName("beinn")){ele.innerHTML=(beinn)};
 for(const ele of document.getElementsByClassName("beinuse")){ele.innerHTML=(beinuse)};
-for(const ele of document.getElementsByClassName("beinxtra")){ele.innerHTML=(beinxtra)};
+for(const ele of document.getElementsByClassName("beinxtraes")){ele.innerHTML=(beinxtraes)};
 for(const ele of document.getElementsByClassName("canal5hn")){ele.innerHTML=(canal5hn)};
 for(const ele of document.getElementsByClassName("cbshq")){ele.innerHTML=(cbshq)};
 for(const ele of document.getElementsByClassName("directv1")){ele.innerHTML=(directv1)};
