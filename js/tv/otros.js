@@ -134,3 +134,33 @@ let TennisChannel = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-tennistv")){ele.innerHTML=(TennisChannel)};
+
+let TSi = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:tsi">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img tsi" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>TSi <i class="flag hn"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-tsi")){ele.innerHTML=(TSi)};
+
+let Telecadena = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:telecadena">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img telecadena" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Telecadena <i class="flag hn"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-telecadena")){ele.innerHTML=(Telecadena)};
