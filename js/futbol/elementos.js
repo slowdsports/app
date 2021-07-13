@@ -255,7 +255,7 @@ for(const ele of document.getElementsByClassName("futbol-mls")){ele.innerHTML=(f
 
 let futbolLibertadores = `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="go:libertadores">           
+       <a class="card-link text-white" href="go:libertador">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img competition libertadores" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
@@ -270,7 +270,7 @@ for(const ele of document.getElementsByClassName("futbol-libertadores")){ele.inn
 
 let futbolSudamericana = `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="go:sudamericana">           
+       <a class="card-link text-white" href="go:sudamerica">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img competition sudamericana" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
