@@ -43,6 +43,12 @@ let canalesTVAR = `
     <span class="tv-espn3surif"></span>
   </div>
    <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
+    <span class="tv-maschic"></span>
+  </div>
+   <!--/CANAL-->
   
 </div>
 `
