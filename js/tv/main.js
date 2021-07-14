@@ -531,6 +531,18 @@ let canalesTV = `
     <span class="tv-uclshow"></span>
   </div>
    <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
+    <span class="tv-win"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
+    <span class="tv-winp"></span>
+  </div>
+   <!--/CANAL-->
   
 </div>
 
