@@ -98,7 +98,7 @@ let ESPNExtra = `
                 <img class="canal-img espn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>ESPN Extra <i class="flag ar"></i></h5></div>
+            <div class="d-flex justify-content-center"><h5><span class="hidden">ESPN</span> Extra <i class="flag ar"></i></h5></div>
         </div>
        </a>
     </div>

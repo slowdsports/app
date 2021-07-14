@@ -83,7 +83,7 @@ let DiscoveryChannel = `
                 <img class="canal-img discovery" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>Discovery Channel <i class="flag us"></i></h5></div>
+            <div class="d-flex justify-content-center"><h5><span class="hidden">Discovery</span>Channel <i class="flag us"></i></h5></div>
         </div>
        </a>
     </div>
@@ -143,7 +143,7 @@ let ESPNNews = `
                 <img class="canal-img espn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>ESPN News <i class="flag us"></i></h5></div>
+            <div class="d-flex justify-content-center"><h5><span class="hidden">ESPN</span> News <i class="flag us"></i></h5></div>
         </div>
        </a>
     </div>
@@ -158,7 +158,7 @@ let FoxSportsPluto = `
                 <img class="canal-img foxsports" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>FS <i class="flag us"></i></h5></div>
+            <div class="d-flex justify-content-center"><h5><span class="hidden">Fox Sports</span>FS <i class="flag us"></i></h5></div>
         </div>
        </a>
     </div>
@@ -173,7 +173,7 @@ let FSUS = `
                 <img class="canal-img foxsports" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>FS 1 <i class="flag us"></i></h5></div>
+            <div class="d-flex justify-content-center"><h5><span class="hidden">FS Fox Sports</span>FS1 <i class="flag us"></i></h5></div>
         </div>
        </a>
     </div>
@@ -188,7 +188,7 @@ let FS2US = `
                 <img class="canal-img foxsports" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>FS 2 <i class="flag us"></i></h5></div>
+            <div class="d-flex justify-content-center"><h5><span class="hidden">FS Fox Sports</span>FS2 <i class="flag us"></i></h5></div>
         </div>
        </a>
     </div>
@@ -203,7 +203,7 @@ let FSNews = `
                 <img class="canal-img foxsports" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>FSNews <i class="flag us"></i></h5></div>
+            <div class="d-flex justify-content-center"><h5><span class="hidden">FS Fox Sports</span> News <i class="flag us"></i></h5></div>
         </div>
        </a>
     </div>
@@ -218,7 +218,7 @@ let FSPlus = `
                 <img class="canal-img foxsports" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>FSPlus <i class="flag us"></i></h5></div>
+            <div class="d-flex justify-content-center"><h5><span class="hidden">FS Fox Sports</span>Plus <i class="flag us"></i></h5></div>
         </div>
        </a>
     </div>
@@ -233,7 +233,7 @@ let Fx = `
                 <img class="canal-img fx" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>Fx <i class="flag us"></i></h5></div>
+            <div class="d-flex justify-content-center"><h5><span class="hidden">Fox</span>Fx <i class="flag us"></i></h5></div>
         </div>
        </a>
     </div>
@@ -428,7 +428,7 @@ let STIRRSports = `
                 <img class="canal-img stirr" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>Sports <i class="flag us"></i></h5></div>
+            <div class="d-flex justify-content-center"><h5><span class="hidden">Stirr</span>Sports <i class="flag us"></i></h5></div>
         </div>
        </a>
     </div>
@@ -443,7 +443,7 @@ let Sk1Racing = `
                 <img class="canal-img sky" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>Racing 1 </h5></div>
+            <div class="d-flex justify-content-center"><h5><span class="hidden">Sky</span>Racing 1 </h5></div>
         </div>
        </a>
     </div>
@@ -458,7 +458,7 @@ let Sk2Racing = `
                 <img class="canal-img sky" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>Racing 2 </h5></div>
+            <div class="d-flex justify-content-center"><h5><span class="hidden">Sky</span>Racing 2 </h5></div>
         </div>
        </a>
     </div>
@@ -473,7 +473,7 @@ let Thouroughb = `
                 <img class="canal-img sky" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>Thouroughb </h5></div>
+            <div class="d-flex justify-content-center"><h5><span class="hidden">Sky</span>Thouroughb </h5></div>
         </div>
        </a>
     </div>

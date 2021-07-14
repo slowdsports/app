@@ -23,7 +23,7 @@ let TNTSports = `
                 <img class="canal-img tntsports" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>TNT Sports <i class="flag br"></i></h5></div>
+            <div class="d-flex justify-content-center"><h5><span class="hidden">Sports</span>TNT <i class="flag br"></i></h5></div>
         </div>
        </a>
     </div>
