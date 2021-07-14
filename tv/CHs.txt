@@ -1,0 +1,139 @@
+// ARGENTINA
+TDC
+https://5e7cdf2370883.streamlock.net/tdconline/tdconline/playlist.m3u8
+
+Cine AR
+https://5fb24b460df87.streamlock.net/live-cont.ar/cinear/playlist.m3u8
+
+Garage TV
+http://186.0.233.76:1935/Garage/smil:garage.smil/master.m3u8
+
+RTN
+http://media.neuquen.gov.ar/rtn/television/media.m3u8
+
+Telemax
+https://live-edge01.telecentro.net.ar/live/smil:tlx.smil/master.m3u8
+
+TV Maná
+http://streamspub.manasat.com:1935/tvar/tvmanaar2/playlist.m3u8
+
+
+// BRASIL
+All Sports
+https://5cf4a2c2512a2.streamlock.net/dgrau/dgrau/playlist.m3u8
+
+Animestation
+https://stmv.video.expressolider.com.br/animestation1/animestation1/playlist.m3u8
+
+C Ghost
+https://stmv.video.expressolider.com.br/ghostv/ghostv/playlist.m3u8
+
+Central TV
+http://serv2.videovox.pw/joaorodrigo7309/joaorodrigo7309/playlist.m3u8
+
+Gospel - Cartoon
+https://stmv1.srvstm.com/gospelcartoon2/gospelcartoon2/playlist.m3u8
+
+Gospel - Movie
+https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
+
+ITV
+http://tv02.logicahost.com.br:1935/itutv/itutv/live.m3u8
+
+Kiss TV
+https://cast.cdnseguro.com:19360/8094/8094.m3u8
+
+
+
+
+// COLOMBIA
+Canal C (Cali | Valle del Cauca)
+https://cloud2.streaminglivehd.com:1936/8104/8104/playlist.m3u8
+
+Caracol
+http://186.101.216.211:8000/play/a08z
+
+Chavo TV
+https://videostreaming.cloudserverlatam.com/chavotv/chavotv/playlist.m3u8
+
+// ITALIA
+
+A3 Series
+https://atresmedia-atreseries-1-it.samsung.wurl.com/manifest/playlist.m3u8
+
+Azzurra TV
+https://sb.top-ix.org/avtvlive/streaming/playlist.m3u8
+
+Bike HD
+https://backup.superstreaming.inaria.me/BikeSmartMobilityDTT/tracks-v2a1/playlist.m3u8
+
+Boing
+http://194.76.186.69:8000/play/a0r3
+
+Canale 21
+https://stream.mariatvcdn.com/canaleventuno/f5d2060b3682e0dfffd5b2f18e935ad3.sdp/playlist.m3u8
+
+Gold TV
+http://151.0.207.99:1935/GoldTV/GOLD_17/playlist.m3u8
+
+Lazio TV
+http://151.0.207.99:1935/live/LAZIOTV12/playlist.m3u8
+
+Motor TV
+https://motorsportnetwork-motor1tv-1-it.samsung.wurl.com/manifest/playlist.m3u8
+
+RAI
+1
+http://194.76.186.69:8000/play/a0d1
+1 GEO
+http://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=2606803
+1 GEO 
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803
+
+2
+http://194.76.186.69:8000/play/a0d2
+2 GEO
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718
+
+3
+http://194.76.186.69:8000/play/a0d3
+3 GEO
+http://wzstreaming.rai.it/TVlive/liveStream/playlist.m3u8
+3 GEO
+http://wzstreaming.rai.it/TVlive/liveStream/chunklist_w823540263.m3u8
+3 GEO
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709
+
+4
+http://194.76.186.69:8000/play/a0pm
+4 GEO
+http://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=746966
+4 GEO
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966
+
+5
+http://194.76.186.69:8000/play/a0pl
+5 GEO
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276
+
+Movie
+http://194.76.186.69:8000/play/a0po
+Movie GEO
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002
+
+Premium
+http://194.76.186.69:8000/play/a038
+Premium GEO
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992
+
+Sport
+https://everyrai-lh.akamaihd.net/i/raisportjolly1_1@177967/master.m3u8
+Sport GEO
+http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=179975
+
+Sport +
+http://194.76.186.69:8000/play/a0d4
+Sport + GEO
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025
+Sport + GEO
+http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=4145
