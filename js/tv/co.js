@@ -6,7 +6,7 @@ let Win = `
                 <img class="canal-img win" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>Win</h5></div>
+            <div class="d-flex justify-content-center"><h5><span class="hidden">Sports</span>Win</h5></div>
         </div>
        </a>
     </div>
@@ -21,7 +21,7 @@ let WinPlus = `
                 <img class="canal-img win" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>Win+</h5></div>
+            <div class="d-flex justify-content-center"><h5><span class="hidden">Sports</span>Win+</h5></div>
         </div>
        </a>
     </div>
