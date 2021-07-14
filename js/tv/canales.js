@@ -406,6 +406,12 @@ for(const ele of document.getElementsByClassName("otro4")){ele.innerHTML=(otro4)
 for(const ele of document.getElementsByClassName("otro5")){ele.innerHTML=(otro5)};
 for(const ele of document.getElementsByClassName("otro6")){ele.innerHTML=(otro6)};
 // CANALES
+let abcus = `
+<a href="go:abcus">
+<li class="canalito list-group-item darkolorbg blancolor">
+<i class="us flag"></i> ABC | HD</li>
+</a>
+`;
 let bar = `
 <a href="go:bar">
 <li class="canalito list-group-item darkolorbg blancolor">
@@ -1001,6 +1007,7 @@ let beinxtra = `
 <i class="mx flag"></i> beIN XTRA | HD</li>
 </a>
 `;
+for(const ele of document.getElementsByClassName("abcus")){ele.innerHTML=(abcus)};
 for(const ele of document.getElementsByClassName("bar")){ele.innerHTML=(bar)};
 for(const ele of document.getElementsByClassName("mlaliga1")){ele.innerHTML=(mlaliga1)};
 for(const ele of document.getElementsByClassName("mlaliga2")){ele.innerHTML=(mlaliga2)};
