@@ -173,6 +173,9 @@
         .mititulo {
             text-transform: capitalize;
         }
+        .hidden{
+            display: none;
+        }
         .timer{
             position: absolute; 
             margin-top: -3%;

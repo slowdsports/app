@@ -1,5 +1,20 @@
 // ESTADOS UNIDOS
 
+let ABC = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:abc">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img abc" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>ABC <i class="flag us"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-abc")){ele.innerHTML=(ABC)};
+
 let BeINXtra = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:beinxtra">           
@@ -44,6 +59,21 @@ let CBSNews = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-cbsnews")){ele.innerHTML=(CBSNews)};
+
+let CineMax = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:cinemax">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img cinemax" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>CineMax </h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-cinemax")){ele.innerHTML=(CineMax)};
 
 let DiscoveryChannel = `
 <div class="card darkolorbg text-white card-canal">
@@ -209,6 +239,51 @@ let Fx = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-fx")){ele.innerHTML=(Fx)};
+
+let HBO = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:hbo">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img hbo" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>HBO <i class="flag us"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-hbo")){ele.innerHTML=(HBO)};
+
+let HBOFamily = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:hbof">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img hbo" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden">HBO</span>Family <i class="flag us"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-hbof")){ele.innerHTML=(HBOFamily)};
+
+let HBOSignature = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:hbos">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img hbo" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden">HBO</span>Signature <i class="flag us"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-hbos")){ele.innerHTML=(HBOSignature)};
 
 let MLBNetwork = `
 <div class="card darkolorbg text-white card-canal">
