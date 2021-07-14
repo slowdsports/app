@@ -1,4 +1,34 @@
 // MÉXICO
+let Azteca1 = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:azteca1">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img azteca" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden">Azteca</span>1 </h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-azteca1")){ele.innerHTML=(Azteca1)};
+
+let Azteca7 = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:azteca7">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img azteca" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden">Azteca</span>7 </h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-azteca7")){ele.innerHTML=(Azteca7)};
+
 let ComedyCentral = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:comedyc">           
@@ -7,7 +37,7 @@ let ComedyCentral = `
                 <img class="canal-img comedy" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>ComedyCentral <i class="flag mx"></i></h5></div>
+            <div class="d-flex justify-content-center"><h5><span class="hidden">Comedy Central</span>CC <i class="flag mx"></i></h5></div>
         </div>
        </a>
     </div>
@@ -28,3 +58,33 @@ let FOX = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-fox")){ele.innerHTML=(FOX)};
+
+let Univision = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:univisione">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img univision" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Univisión <i class="flag mx"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-univision")){ele.innerHTML=(Univision)};
+
+let Unimas = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:unimase">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img unimas" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden">Univisión</span>Unimás <i class="flag mx"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-unimas")){ele.innerHTML=(Unimas)};

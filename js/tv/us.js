@@ -2,7 +2,7 @@
 
 let ABC = `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="go:abc">           
+       <a class="card-link text-white" href="go:abcus">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img abc" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
@@ -38,12 +38,42 @@ let CBSHQ = `
                 <img class="canal-img cbs" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>CBS HQ </h5></div>
+            <div class="d-flex justify-content-center"><h5><span class="hidden">CBS</span> HQ </h5></div>
         </div>
        </a>
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-cbshq")){ele.innerHTML=(CBSHQ)};
+
+let CBSN = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:cbsn">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img cbsn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden">CBS</span> CBSN </h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-cbsn")){ele.innerHTML=(CBSN)};
+
+let CBSN2 = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:cbsn2">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img cbsn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden">CBS</span> 2 </h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-cbsn2")){ele.innerHTML=(CBSN2)};
 
 let CBSNews = `
 <div class="card darkolorbg text-white card-canal">
@@ -495,15 +525,45 @@ let SyFy = `
 `
 for(const ele of document.getElementsByClassName("tv-syfy")){ele.innerHTML=(SyFy)};
 
-let TelemundoWashington = `
+let TelemundoChicago = `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="go:twashing">           
+       <a class="card-link text-white" href="go:tlmch">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img telemundo" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>Washington </h5></div>
+            <div class="d-flex justify-content-center"><h5><span class="hidden">Telemundo</span>Chicago </h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-telemundo-chicago")){ele.innerHTML=(TelemundoChicago)};
+
+let TelemundoPhoenix = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:tlmphx">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img telemundo" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden">Telemundo</span>Phoenix </h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-telemundo-phoenix")){ele.innerHTML=(TelemundoPhoenix)};
+
+let TelemundoWashington = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:tlmwash">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img telemundo" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden">Telemundo</span>Washington </h5></div>
         </div>
        </a>
     </div>

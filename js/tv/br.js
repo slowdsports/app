@@ -38,7 +38,7 @@ let UCLShow = `
                 <img class="canal-img ucl" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>UCL Show <i class="flag br"></i></h5></div>
+            <div class="d-flex justify-content-center"><h5><span class="hidden">UCL Champions League UEFA</span> Show <i class="flag br"></i></h5></div>
         </div>
        </a>
     </div>

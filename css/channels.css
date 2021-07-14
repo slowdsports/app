@@ -353,6 +353,22 @@ tudn{
     background-image: url(../tv/images/cinemax.png);
     background-repeat: no-repeat;
 }
+.cbsn{
+    background-image: url(../tv/images/cbs.png);
+    background-repeat: no-repeat;
+}
+.azteca{
+    background-image: url(../tv/images/azteca.png);
+    background-repeat: no-repeat;
+}
+.univision{
+    background-image: url(../tv/images/univision.png);
+    background-repeat: no-repeat;
+}
+.unimas{
+    background-image: url(../tv/images/unimas.png);
+    background-repeat: no-repeat;
+}
 .tsi , .tvc , .telecadena , .televicentro{
     background-image: url(../tv/images/tvc.png);
     background-repeat: no-repeat;
