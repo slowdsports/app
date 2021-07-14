@@ -935,6 +935,12 @@ let tycsd = `
 <i class="ar flag"></i> TyC Sports | SD</li>
 </a>
 `;
+let unimas = `
+<a href="go:unimas">
+<li class="canalito list-group-item darkolorbg blancolor">
+<i class="mx flag"></i> Unimás | HD</li>
+</a>
+`;
 let unimase = `
 <a href="go:unimase">
 <li class="canalito list-group-item darkolorbg blancolor">
@@ -1097,6 +1103,7 @@ for(const ele of document.getElementsByClassName("tycar")){ele.innerHTML=(tycar)
 for(const ele of document.getElementsByClassName("tycus")){ele.innerHTML=(tycus)};
 for(const ele of document.getElementsByClassName("tycsd")){ele.innerHTML=(tycsd)};
 for(const ele of document.getElementsByClassName("unimase")){ele.innerHTML=(unimase)};
+for(const ele of document.getElementsByClassName("unimas")){ele.innerHTML=(unimas)};
 for(const ele of document.getElementsByClassName("univision")){ele.innerHTML=(univision)};
 for(const ele of document.getElementsByClassName("galavision")){ele.innerHTML=(galavision)};
 for(const ele of document.getElementsByClassName("win")){ele.innerHTML=(win)};
