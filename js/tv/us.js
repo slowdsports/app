@@ -45,6 +45,21 @@ let CBSNews = `
 `
 for(const ele of document.getElementsByClassName("tv-cbsnews")){ele.innerHTML=(CBSNews)};
 
+let DiscoveryChannel = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:discoveryc">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img discovery" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Discovery Channel <i class="flag us"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-discovery")){ele.innerHTML=(DiscoveryChannel)};
+
 let ESPNUS = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:espnus">           
@@ -179,6 +194,21 @@ let FSPlus = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-fsplus")){ele.innerHTML=(FSPlus)};
+
+let Fx = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:fx">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img fx" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Fx <i class="flag us"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-fx")){ele.innerHTML=(Fx)};
 
 let MLBNetwork = `
 <div class="card darkolorbg text-white card-canal">
@@ -374,6 +404,21 @@ let Thouroughb = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-sky-thouroughb")){ele.innerHTML=(Thouroughb)};
+
+let SyFy = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:syfy">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img syfy" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>SyFy <i class="flag us"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-syfy")){ele.innerHTML=(SyFy)};
 
 let TelemundoWashington = `
 <div class="card darkolorbg text-white card-canal">

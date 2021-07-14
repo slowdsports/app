@@ -28,6 +28,12 @@ let canalesTVUS = `
    
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
+    <span class="tv-discovery"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
     <span class="tv-espnus"></span>
   </div>
    <!--/CANAL-->
@@ -76,6 +82,12 @@ let canalesTVUS = `
    
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
+    <span class="tv-fx"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
     <span class="tv-mlstv"></span>
   </div>
    <!--/CANAL-->
@@ -119,6 +131,12 @@ let canalesTVUS = `
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
     <span class="tv-stirrsports"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
+    <span class="tv-syfy"></span>
   </div>
    <!--/CANAL-->
    

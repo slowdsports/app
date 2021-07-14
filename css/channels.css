@@ -137,7 +137,7 @@ tudn{
     background-repeat: no-repeat;
 }
 .tntsports{
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/TNT_Sports_logo.svg);    
+    background-image: url(../tv/images/tntsports.png);    
     background-repeat: no-repeat;
 }
 .goltv{
@@ -331,6 +331,18 @@ tudn{
 }
 .tv3{
     background-image: url(../tv/images/tv3w.png);
+    background-repeat: no-repeat;
+}
+.discovery{
+    background-image: url(../tv/images/discovery.png);
+    background-repeat: no-repeat;
+}
+.fx{
+    background-image: url(../tv/images/fxw.png);
+    background-repeat: no-repeat;
+}
+.syfy{
+    background-image: url(../tv/images/syfy.png);
     background-repeat: no-repeat;
 }
 .tsi , .tvc , .telecadena , .televicentro{
