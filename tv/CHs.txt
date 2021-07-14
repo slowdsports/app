@@ -137,3 +137,72 @@ Sport + GEO
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025
 Sport + GEO
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=4145
+
+Teletubbies
+https://dhx-teletubbies-2-it.samsung.wurl.com/manifest/playlist.m3u8
+
+// PORTUGAL
+
+Sporttv+
+http://185.236.229.21:9981/play/a03c
+
+// UK
+BT Sport 1
+http://116.202.245.40:9191/play/a03p
+
+BT Sport 2
+http://116.202.245.40:9191/play/a002
+
+Comedy Channel
+https://uksono1-samsunguk.amagi.tv/playlist.m3u8
+
+Edge Sport
+https://csm-e-stv.tls1.yospace.com/csm/live/195300285.m3u8
+
+Eleven Sports
+https://elevensports-samsunguk-de.samsung.wurl.com/manifest/playlist.m3u8
+1
+http://185.236.229.21:9981/play/a05v
+4
+http://185.236.229.21:9981/play/a05x
+5
+http://185.236.229.21:9981/play/a05y
+
+Free Sports
+https://csm-e-stv.tls1.yospace.com/csm/live/203444271.m3u8
+
+FTF For The Fans
+https://elevensports-uk.samsung.wurl.com/manifest/playlist.m3u8
+
+Reuters
+https://32ce4aad1eed49b1ba2999fb68d119c8.mediatailor.us-east-1.amazonaws.com/v1/manifest/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Plex_ReutersNow/678e78de-ad71-4747-936a-55da37f68898/6.m3u8
+
+Reuters Now
+https://reuters-reutersnow-1.plex.wurl.com/manifest/playlist.m3u8
+
+Rugby TV
+https://esmhls3-i.akamaihd.net/hls/live/510582/hls3/playlist.m3u8
+
+Sheffield TV
+http://tv.sheffieldlive.org/hls/main.m3u8
+
+Sports Channel Network
+https://vod365-sports-channel-network-1-gb.samsung.wurl.com/manifest/playlist.m3u8
+
+Sports Tonight
+http://sports.ashttp9.visionip.tv/live/visiontvuk-sports-sportstonightlive-hsslive-25f-4x3-SD/chunklist.m3u8
+
+Supertoons
+https://kedoo-supertoonstv-1-gb.samsung.wurl.com/manifest/playlist.m3u8
+
+Teletubbies
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-rokuteletubbies/CDN/playlist.m3u8
+
+Tennis Channel
+https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
+
+The Box
+https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,thebox-alldev.m3u8?yo.up=http://boxtv-origin-elb.cds1.yospace.com/uploads/thebox/
+
+// USA
+
