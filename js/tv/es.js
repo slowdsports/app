@@ -426,7 +426,7 @@ for(const ele of document.getElementsByClassName("tv-tdp")){ele.innerHTML=(TDP)}
 
 let TDPGeo = `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="go:tpdgeo">           
+       <a class="card-link text-white" href="go:tdpgeo">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img tdp" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
