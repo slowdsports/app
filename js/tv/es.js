@@ -408,6 +408,21 @@ let TDP = `
 `
 for(const ele of document.getElementsByClassName("tv-tdp")){ele.innerHTML=(TDP)};
 
+let TDPGeo = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:tpdgeo">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img tdp" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden"> tdp</span> GEO <i class="flag es"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-tdpgeo")){ele.innerHTML=(TDPGeo)};
+
 
 let Telecinco = `
 <div class="card darkolorbg text-white card-canal">
@@ -423,7 +438,6 @@ let Telecinco = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-telecinco")){ele.innerHTML=(Telecinco)};
-
 
 let Telemadrid = `
 <div class="card darkolorbg text-white card-canal">

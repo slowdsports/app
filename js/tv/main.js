@@ -423,6 +423,18 @@ let canalesTV = `
     <span class="tv-megaes"></span>
   </div>
    <!--/CANAL-->
+
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
+    <span class="tv-motortrend"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
+    <span class="tv-msnbc"></span>
+  </div>
+   <!--/CANAL-->
    
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
@@ -433,12 +445,6 @@ let canalesTV = `
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
     <span class="tv-mtveur"></span>
-  </div>
-   <!--/CANAL-->
-   
-   <!--CANAL-->
-  <div class="col-6 col-sm-4">  
-    <span class="tv-motortrend"></span>
   </div>
    <!--/CANAL-->
    
@@ -559,6 +565,12 @@ let canalesTV = `
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
     <span class="tv-tdp"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
+    <span class="tv-tdpgeo"></span>
   </div>
    <!--/CANAL-->
    
