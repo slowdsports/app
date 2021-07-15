@@ -44,6 +44,21 @@ let ComedyCentral = `
 `
 for(const ele of document.getElementsByClassName("tv-comedyc")){ele.innerHTML=(ComedyCentral)};
 
+let DiscoveryTurbo = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:dturbo">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img discovery" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden">discovery discovery</span>Turbo </h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-dturbo")){ele.innerHTML=(DiscoveryTurbo)};
+
 let FOX = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:fox">           
