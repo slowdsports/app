@@ -166,6 +166,12 @@ let canalesTVES = `
    
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
+    <span class="tv-supertoons"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
     <span class="tv-sevillatv"></span>
   </div>
    <!--/CANAL-->

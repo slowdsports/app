@@ -393,6 +393,22 @@ let Sexta = `
 for(const ele of document.getElementsByClassName("tv-sexta")){ele.innerHTML=(Sexta)};
 
 
+let Supertoons = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:supertoons">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img supertoons" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Supertoons <i class="flag es"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-supertoons")){ele.innerHTML=(Supertoons)};
+
+
 let Toros = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:toros">           
