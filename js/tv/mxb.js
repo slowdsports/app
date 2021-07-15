@@ -40,6 +40,18 @@ let canalesTVMX = `
    
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
+    <span class="tv-history"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
+    <span class="tv-tudn"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
     <span class="tv-univision"></span>
   </div>
    <!--/CANAL-->

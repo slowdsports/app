@@ -74,6 +74,36 @@ let FOX = `
 `
 for(const ele of document.getElementsByClassName("tv-fox")){ele.innerHTML=(FOX)};
 
+let History = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:history">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img history" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden"> channel</span>History <i class="flag mx"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-history")){ele.innerHTML=(History)};
+
+let TUDN = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:tudn">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img tudn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>TUDN <i class="flag mx"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-tudn")){ele.innerHTML=(TUDN)};
+
 let Univision = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:univisione">           

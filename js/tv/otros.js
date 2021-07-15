@@ -164,3 +164,18 @@ let Telecadena = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-telecadena")){ele.innerHTML=(Telecadena)};
+
+let TNTSportsCL = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:tntsportsc">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img tntsports" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden">Sports</span>TNT <i class="flag cl"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-tntsportscl")){ele.innerHTML=(TNTSportsCL)};

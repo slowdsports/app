@@ -612,7 +612,19 @@ let canalesTV = `
    
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
+    <span class="tv-tntsportscl"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
     <span class="tv-toros"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
+    <span class="tv-tudn"></span>
   </div>
    <!--/CANAL-->
    
