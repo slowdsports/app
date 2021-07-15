@@ -347,3 +347,23 @@ Quito
 </figure>
 `;
 for (const ele of document.getElementsByClassName("sudamerica-quito")){ele.innerHTML=(quito)};
+
+let tachira = `
+<figure class="figure">
+<img class="figure img-fluid competition tachira" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+<figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
+Tachira
+</figcaption>
+</figure>
+`;
+for (const ele of document.getElementsByClassName("sudamerica-tachira")){ele.innerHTML=(tachira)};
+
+let nacional = `
+<figure class="figure">
+<img class="figure img-fluid competition nacional" width="48" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+<figcaption style="margin-bottom: -10%; margin-top: 8%; margin-right: 5px;" class="figure-caption">
+Nacional
+</figcaption>
+</figure>
+`;
+for (const ele of document.getElementsByClassName("sudamerica-nacional")){ele.innerHTML=(nacional)};
