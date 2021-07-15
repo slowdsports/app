@@ -95,6 +95,22 @@ let A3SERIES = `
 for(const ele of document.getElementsByClassName("tv-a3series")){ele.innerHTML=(A3SERIES)};
 
 
+let BarcaTVB = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:barcatvb">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img barcelona" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden"> barca</span>TV </h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-barcatvb")){ele.innerHTML=(BarcaTVB)};
+
+
 let Bein = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:beinne">           
@@ -525,7 +541,7 @@ let SevillaTV = `
                 <img class="canal-img sevilla" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>Sevilla TV</h5></div>
+            <div class="d-flex justify-content-center"><h5><span class="hidden"> sevilla</span>TV </h5></div>
         </div>
        </a>
     </div>

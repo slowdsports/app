@@ -40,6 +40,12 @@ let canalesTVES = `
    
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
+    <span class="tv-barcatvb"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
     <span class="tv-bemad"></span>
   </div>
    <!--/CANAL-->
