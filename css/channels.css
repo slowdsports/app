@@ -369,6 +369,10 @@ tudn{
     background-image: url(../tv/images/unimas.png);
     background-repeat: no-repeat;
 }
+.ib3{
+    background-image: url(../tv/images/ib3.png);
+    background-repeat: no-repeat;
+}
 .tsi , .tvc , .telecadena , .televicentro{
     background-image: url(../tv/images/tvc.png);
     background-repeat: no-repeat;

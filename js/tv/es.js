@@ -223,6 +223,22 @@ let EuroSP2 = `
 for(const ele of document.getElementsByClassName("tv-eurosport2")){ele.innerHTML=(EuroSP2)};
 
 
+let IB3 = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:ib3">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img ib3" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>IB3</h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-ib3")){ele.innerHTML=(IB3)};
+
+
 let MegaEs = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:megaes">           
