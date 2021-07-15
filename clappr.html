@@ -12,25 +12,23 @@
       <script src='//cdn.jsdelivr.net/npm/clappr-pip@latest/dist/clappr-pip.min.js'></script>
       <script src='//cdn.jsdelivr.net/npm/dash-shaka-playback@latest/dist/dash-shaka-playback.min.js'></script>
       <script src='//cdn.jsdelivr.net/npm/clappr-playback-rate-plugin@latest/dist/clappr-playback-rate-plugin.min.js'></script>
-      <script src="https://towerz.me/clappr-youtube-playback/j/clappr-youtube-playback.js"></script>
    </head>
    <body bgcolor='black' style='margin:0' oncontextmenu='return false' onkeydown='return false'>
       <div id='player'></div>
       <script>
          window.onload = function() {
              var player = new Clappr.Player({
-                 source: 'QbHj7XvHrK0',
+                 source: window.atob("aHR0cHM6Ly9tZHN0LWR2bnR5LWxpdmUtZGFzaC5zZWN1cmUuZm9vdHByaW50Lm5ldC9saXZlL25hc19saXZlL2R2bnR5L2Rhc2gvZHZudHkubXBkP2JlZ2luPSZlbmQ9Jm52Yj0xNTk1MTc1MjM4Jm52YT0xOTEwNzA4MDM0Jmhhc2g9MDNhZDEyNWM5MmU4ZmU1MDMwOTRkMjUxMmUzMWYwZmYxNGNkNjJiMjk="),
                  parentId: '#player',
                  mimeType: 'audio/mpeg',
                  watermark: "https://i.ibb.co/Tgk2YrC/Logow-1-1.png", 
                  position: 'top-left',
-                 plugins: [YoutubePlayback, LevelSelector, ChromecastPlugin, ClapprPip.PipButton, ClapprPip.PipPlugin, DashShakaPlayback, Clappr.MediaControl, PlaybackRatePlugin],
+                 plugins: [LevelSelector, ChromecastPlugin, ClapprPip.PipButton, ClapprPip.PipPlugin, DashShakaPlayback, Clappr.MediaControl, PlaybackRatePlugin],
                  events: {onReady: function() {var plugin = this.getPlugin('click_to_pause'); plugin && plugin.disable();},},
                  height: '100%',
                  width: '100%',
                  autoPlay: false,
                  mute: true,
-                 youtubeShowRelated: true,
                  shakaConfiguration: {
                  manifest: {retryParameters: {maxAttempts: Infinity}},
                  streaming: {retryParameters: {maxAttempts: Infinity}},
