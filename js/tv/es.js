@@ -335,6 +335,22 @@ let Telecinco = `
 for(const ele of document.getElementsByClassName("tv-telecinco")){ele.innerHTML=(Telecinco)};
 
 
+let Telemadrid = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:telemadrid">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img telemadrid" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Telemadrid</h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-telemadrid")){ele.innerHTML=(Telemadrid)};
+
+
 let Cero = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:#0">           
