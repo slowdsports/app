@@ -612,6 +612,24 @@ let canalesTV = `
    
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
+    <span class="tv-tsn1if"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
+    <span class="tv-tsn2if"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
+    <span class="tv-tsn3if"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
     <span class="tv-tnt"></span>
   </div>
    <!--/CANAL-->
