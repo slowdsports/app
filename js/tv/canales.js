@@ -410,7 +410,7 @@ for(const ele of document.getElementsByClassName("otro6")){ele.innerHTML=(otro6)
 let fsoul  = `
 <a href="../../tv/p/usaf.html?get=fsoul">
 <li class="canalito list-group-item darkolorbg blancolor">
-<i class="us flag"></i> Fox Sports Soul | HD</li>
+<i class="us flag"></i> Fox Soul | HD</li>
 </a>
 `;
 for(const ele of document.getElementsByClassName("fsoul")){ele.innerHTML=(fsoul)};
@@ -418,7 +418,7 @@ for(const ele of document.getElementsByClassName("fsoul")){ele.innerHTML=(fsoul)
 let fseattle  = `
 <a href="../../tv/p/usaf.html?get=fseattle">
 <li class="canalito list-group-item darkolorbg blancolor">
-<i class="us flag"></i> Fox Sports Seattle | HD</li>
+<i class="us flag"></i> Fox Seattle | HD</li>
 </a>
 `;
 for(const ele of document.getElementsByClassName("fseattle")){ele.innerHTML=(fseattle)};
@@ -426,7 +426,7 @@ for(const ele of document.getElementsByClassName("fseattle")){ele.innerHTML=(fse
 let fdallas  = `
 <a href="../../tv/p/usaf.html?get=fdallas">
 <li class="canalito list-group-item darkolorbg blancolor">
-<i class="us flag"></i> Fox Sports Dallas | HD</li>
+<i class="us flag"></i> Fox Dallas | HD</li>
 </a>
 `;
 for(const ele of document.getElementsByClassName("fdallas")){ele.innerHTML=(fdallas)};
@@ -434,7 +434,7 @@ for(const ele of document.getElementsByClassName("fdallas")){ele.innerHTML=(fdal
 let fminneapolis  = `
 <a href="../../tv/p/usaf.html?get=fminneapolis">
 <li class="canalito list-group-item darkolorbg blancolor">
-<i class="us flag"></i> Fox Sports Minneapolis | HD</li>
+<i class="us flag"></i> Fox Minneapolis | HD</li>
 </a>
 `;
 for(const ele of document.getElementsByClassName("fminneapolis")){ele.innerHTML=(fminneapolis)};
@@ -442,7 +442,7 @@ for(const ele of document.getElementsByClassName("fminneapolis")){ele.innerHTML=
 let fhouston  = `
 <a href="../../tv/p/usaf.html?get=fhouston">
 <li class="canalito list-group-item darkolorbg blancolor">
-<i class="us flag"></i> Fox Sports Houston | HD</li>
+<i class="us flag"></i> Fox Houston | HD</li>
 </a>
 `;
 for(const ele of document.getElementsByClassName("fhouston")){ele.innerHTML=(fhouston)};
@@ -450,7 +450,7 @@ for(const ele of document.getElementsByClassName("fhouston")){ele.innerHTML=(fho
 let fphoenix  = `
 <a href="../../tv/p/usaf.html?get=fphoenix">
 <li class="canalito list-group-item darkolorbg blancolor">
-<i class="us flag"></i> Fox Sports Phoenix | HD</li>
+<i class="us flag"></i> Fox Phoenix | HD</li>
 </a>
 `;
 for(const ele of document.getElementsByClassName("fphoenix")){ele.innerHTML=(fphoenix)};
@@ -458,7 +458,7 @@ for(const ele of document.getElementsByClassName("fphoenix")){ele.innerHTML=(fph
 let faustin  = `
 <a href="../../tv/p/usaf.html?get=faustin">
 <li class="canalito list-group-item darkolorbg blancolor">
-<i class="us flag"></i> Fox Sports Austin | HD</li>
+<i class="us flag"></i> Fox Austin | HD</li>
 </a>
 `;
 for(const ele of document.getElementsByClassName("faustin")){ele.innerHTML=(faustin)};
@@ -466,7 +466,7 @@ for(const ele of document.getElementsByClassName("faustin")){ele.innerHTML=(faus
 let flosangeles  = `
 <a href="../../tv/p/usaf.html?get=flosangeles">
 <li class="canalito list-group-item darkolorbg blancolor">
-<i class="us flag"></i> Fox Sports Los Angeles | HD</li>
+<i class="us flag"></i> Fox Los Angeles | HD</li>
 </a>
 `;
 for(const ele of document.getElementsByClassName("flosangeles")){ele.innerHTML=(flosangeles)};
@@ -474,7 +474,7 @@ for(const ele of document.getElementsByClassName("flosangeles")){ele.innerHTML=(
 let fsanfrancisco  = `
 <a href="../../tv/p/usaf.html?get=fsanfrancisco">
 <li class="canalito list-group-item darkolorbg blancolor">
-<i class="us flag"></i> Fox Sports San Francisco | HD</li>
+<i class="us flag"></i> Fox San Francisco | HD</li>
 </a>
 `;
 for(const ele of document.getElementsByClassName("fsanfrancisco")){ele.innerHTML=(fsanfrancisco)};
@@ -482,7 +482,7 @@ for(const ele of document.getElementsByClassName("fsanfrancisco")){ele.innerHTML
 let fatlanta  = `
 <a href="../../tv/p/usaf.html?get=fatlanta">
 <li class="canalito list-group-item darkolorbg blancolor">
-<i class="us flag"></i> Fox Sports Atlanta | HD</li>
+<i class="us flag"></i> Fox Atlanta | HD</li>
 </a>
 `;
 for(const ele of document.getElementsByClassName("fatlanta")){ele.innerHTML=(fatlanta)};
@@ -490,7 +490,7 @@ for(const ele of document.getElementsByClassName("fatlanta")){ele.innerHTML=(fat
 let fchicago  = `
 <a href="../../tv/p/usaf.html?get=fchicago">
 <li class="canalito list-group-item darkolorbg blancolor">
-<i class="us flag"></i> Fox Sports Chicago | HD</li>
+<i class="us flag"></i> Fox Chicago | HD</li>
 </a>
 `;
 for(const ele of document.getElementsByClassName("fchicago")){ele.innerHTML=(fchicago)};
@@ -498,7 +498,7 @@ for(const ele of document.getElementsByClassName("fchicago")){ele.innerHTML=(fch
 let fmilwaukee  = `
 <a href="../../tv/p/usaf.html?get=fmilwaukee">
 <li class="canalito list-group-item darkolorbg blancolor">
-<i class="us flag"></i> Fox Sports Milwaukee | HD</li>
+<i class="us flag"></i> Fox Milwaukee | HD</li>
 </a>
 `;
 for(const ele of document.getElementsByClassName("fmilwaukee")){ele.innerHTML=(fmilwaukee)};
@@ -506,7 +506,7 @@ for(const ele of document.getElementsByClassName("fmilwaukee")){ele.innerHTML=(f
 let fdetroit  = `
 <a href="../../tv/p/usaf.html?get=fdetroit">
 <li class="canalito list-group-item darkolorbg blancolor">
-<i class="us flag"></i> Fox Sports Detroit | HD</li>
+<i class="us flag"></i> Fox Detroit | HD</li>
 </a>
 `;
 for(const ele of document.getElementsByClassName("fdetroit")){ele.innerHTML=(fdetroit)};
@@ -514,7 +514,7 @@ for(const ele of document.getElementsByClassName("fdetroit")){ele.innerHTML=(fde
 let fnewyork  = `
 <a href="../../tv/p/usaf.html?get=fnewyork">
 <li class="canalito list-group-item darkolorbg blancolor">
-<i class="us flag"></i> Fox Sports New York | HD</li>
+<i class="us flag"></i> Fox New York | HD</li>
 </a>
 `;
 for(const ele of document.getElementsByClassName("fnewyork")){ele.innerHTML=(fnewyork)};
@@ -522,7 +522,7 @@ for(const ele of document.getElementsByClassName("fnewyork")){ele.innerHTML=(fne
 let forlando  = `
 <a href="../../tv/p/usaf.html?get=forlando">
 <li class="canalito list-group-item darkolorbg blancolor">
-<i class="us flag"></i> Fox Sports Orlando | HD</li>
+<i class="us flag"></i> Fox Orlando | HD</li>
 </a>
 `;
 for(const ele of document.getElementsByClassName("forlando")){ele.innerHTML=(forlando)};
@@ -530,7 +530,7 @@ for(const ele of document.getElementsByClassName("forlando")){ele.innerHTML=(for
 let fsavannah  = `
 <a href="../../tv/p/usaf.html?get=fsavannah">
 <li class="canalito list-group-item darkolorbg blancolor">
-<i class="us flag"></i> Fox Sports Savannah | HD</li>
+<i class="us flag"></i> Fox Savannah | HD</li>
 </a>
 `;
 for(const ele of document.getElementsByClassName("fsavannah")){ele.innerHTML=(fsavannah)};
@@ -538,7 +538,7 @@ for(const ele of document.getElementsByClassName("fsavannah")){ele.innerHTML=(fs
 let ftulsa  = `
 <a href="../../tv/p/usaf.html?get=ftulsa">
 <li class="canalito list-group-item darkolorbg blancolor">
-<i class="us flag"></i> Fox Sports Soul | HD</li>
+<i class="us flag"></i> Fox Soul | HD</li>
 </a>
 `;
 for(const ele of document.getElementsByClassName("ftulsa")){ele.innerHTML=(ftulsa)};
@@ -546,7 +546,7 @@ for(const ele of document.getElementsByClassName("ftulsa")){ele.innerHTML=(ftuls
 let fmiami  = `
 <a href="../../tv/p/usaf.html?get=fmiami">
 <li class="canalito list-group-item darkolorbg blancolor">
-<i class="us flag"></i> Fox Sports Miami | HD</li>
+<i class="us flag"></i> Fox Miami | HD</li>
 </a>
 `;
 for(const ele of document.getElementsByClassName("fmiami")){ele.innerHTML=(fmiami)};
@@ -554,7 +554,7 @@ for(const ele of document.getElementsByClassName("fmiami")){ele.innerHTML=(fmiam
 let fwashington  = `
 <a href="../../tv/p/usaf.html?get=fwashington">
 <li class="canalito list-group-item darkolorbg blancolor">
-<i class="us flag"></i> Fox Sports Washington | HD</li>
+<i class="us flag"></i> Fox Washington | HD</li>
 </a>
 `;
 for(const ele of document.getElementsByClassName("fwashington")){ele.innerHTML=(fwashington)};
@@ -562,7 +562,7 @@ for(const ele of document.getElementsByClassName("fwashington")){ele.innerHTML=(
 let ftampa  = `
 <a href="../../tv/p/usaf.html?get=ftampa">
 <li class="canalito list-group-item darkolorbg blancolor">
-<i class="us flag"></i> Fox Sports Tampa | HD</li>
+<i class="us flag"></i> Fox Tampa | HD</li>
 </a>
 `;
 for(const ele of document.getElementsByClassName("ftampa")){ele.innerHTML=(ftampa)};
@@ -570,7 +570,7 @@ for(const ele of document.getElementsByClassName("ftampa")){ele.innerHTML=(ftamp
 let fphiladelphia  = `
 <a href="../../tv/p/usaf.html?get=fphiladelphia">
 <li class="canalito list-group-item darkolorbg blancolor">
-<i class="us flag"></i> Fox Sports Philadelphia | HD</li>
+<i class="us flag"></i> Fox Philadelphia | HD</li>
 </a>
 `;
 for(const ele of document.getElementsByClassName("fphiladelphia")){ele.innerHTML=(fphiladelphia)};
