@@ -1,7 +1,7 @@
 
 // F O X
 
-var fsoul = "https://lnc-fox-soul-scte.tubi.video/index.m3u8";
+var fsoul = "//lnc-fox-soul-scte.tubi.video/index.m3u8";
 let fseattle = "//lnc-kcpq-fox-aws.tubi.video/index.m3u8";
 let fdallas = "//lnc-kdfw-fox-aws.tubi.video/index.m3u8";
 let fminneapolis = "//lnc-kmsp-fox-aws.tubi.video/index.m3u8";
