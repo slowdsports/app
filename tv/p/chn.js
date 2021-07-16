@@ -16,7 +16,7 @@ let fmilwaukee = "//lnc-witi-fox-aws.tubi.video/index.m3u8";
 let fdetroit = "//lnc-wjbk-fox-aws.tubi.video/index.m3u8";
 let fnewyork = "//lnc-wnyw-fox-aws.tubi.video/index.m3u8";
 let forlando = "//lnc-wofl-fox-aws.tubi.video/index.m3u8";
-let fsacannah = "http://content.uplynk.com/channel/e56ba52a1b9d45ad8c8a033fd83fe480.m3u8";
+let fsavannah = "http://content.uplynk.com/channel/e56ba52a1b9d45ad8c8a033fd83fe480.m3u8";
 let ftulsa = "//d3nzocdfkx2ybv.cloudfront.net/in/cmg-kokitv-hls-v3/live.m3u8";
 let fmiami = "//bcsecurelivehls-i.akamaihd.net/hls/live/598043/4368278029001_1/onair/master.m3u8";
 let fwashington = "//lnc-wttg-fox-aws.tubi.video/index.m3u8";
@@ -50,7 +50,7 @@ var getURL = getParameterByName('get');
         if (getURL == "fdetroit") {getURL = fdetroit;}
         if (getURL == "fnewyork") {getURL = fnewyork;}
         if (getURL == "forlando") {getURL = forlando;}
-        if (getURL == "fsacannah") {getURL = fsacannah;}
+        if (getURL == "fsavannah") {getURL = fsavannah;}
         if (getURL == "ftulsa") {getURL = ftulsa;}
         if (getURL == "fmiami") {getURL = fmiami;}
         if (getURL == "fwashington") {getURL = fwashington;}
