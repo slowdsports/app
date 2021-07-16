@@ -12,7 +12,7 @@
       <script src='//cdn.jsdelivr.net/npm/clappr-pip@latest/dist/clappr-pip.min.js'></script>
       <script src='//cdn.jsdelivr.net/npm/dash-shaka-playback@latest/dist/dash-shaka-playback.min.js'></script>
       <script src='//cdn.jsdelivr.net/npm/clappr-playback-rate-plugin@latest/dist/clappr-playback-rate-plugin.min.js'></script>
-      <script src='chn.js'></script>
+      
    </head>
    <body bgcolor='black' style='margin:0' oncontextmenu='return false' onkeydown='return false'>
       <div id='player'></div>
@@ -52,17 +52,6 @@
              });
          };
       </script>
-         <script type="text/javascript">
-          function getParameterByName(name) {
-              name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-              var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-                  results = regex.exec(location.search);
-              return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-          }
-              var getURL = getParameterByName('get');
-        if (getURL == "#") {alert('Vuelve a la pÃ¡gina anterior');}
-        if (getURL == "") {alert('Vuelve a la pÃ¡gina anterior');}
-
-      </script>
+      <script src="chn.js"></script>
    </body>
 </html>
