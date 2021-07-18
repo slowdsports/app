@@ -174,6 +174,21 @@ let BeMad = `
 `
 for(const ele of document.getElementsByClassName("tv-bemad")){ele.innerHTML=(BeMad)};
 
+let CazaVision = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:cazavision">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img cazavision" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Cazavisión</h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-cazavision")){ele.innerHTML=(CazaVision)};
+
 let Clan = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:clan">           
@@ -312,7 +327,6 @@ let ESport3 = `
 `
 for(const ele of document.getElementsByClassName("tv-esport3")){ele.innerHTML=(ESport3)};
 
-
 let EuroSP1 = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:eurosport1">           
@@ -343,6 +357,37 @@ let EuroSP2 = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-eurosport2")){ele.innerHTML=(EuroSP2)};
+
+let EuroSP1es = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:eurosp1es">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img eurosport" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden"> eurosport</span> 1 <i class="flag es"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-eurosp1es")){ele.innerHTML=(EuroSP1es)};
+
+
+let EuroSP2es = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:eurosp2es">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img eurosport" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden"> eurosport</span> 2 <i class="flag es"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-eurosp2es")){ele.innerHTML=(EuroSP2es)};
 
 let FDF = `
 <div class="card darkolorbg text-white card-canal">
@@ -406,7 +451,6 @@ let MegaEs = `
 `
 for(const ele of document.getElementsByClassName("tv-megaes")){ele.innerHTML=(MegaEs)};
 
-
 let MTMad = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:mtmad">           
@@ -421,6 +465,36 @@ let MTMad = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-mtmad")){ele.innerHTML=(MTMad)};
+
+let MDepb = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:mdepb">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img mdep" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden"> movistar</span>Deportes</h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-mdepb")){ele.innerHTML=(MDepb)};
+
+let MLaLiga = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:mlaliga">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img mlaliga" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden"> movistar</span>LaLiga</h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-mlaliga")){ele.innerHTML=(MLaLiga)};
 
 
 let Sexta = `
@@ -594,21 +668,6 @@ let Nova = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-nova")){ele.innerHTML=(Nova)};
-
-let MLaLiga = `
-<div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="go:bar">           
-        <div class="card-body">
-            <div class="d-flex justify-content-center">
-                <img class="canal-img mlaliga" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-            </div>
-            
-            <div class="d-flex justify-content-center"><h5>La Liga</h5></div>
-        </div>
-       </a>
-    </div>
-`
-for(const ele of document.getElementsByClassName("tv-mlaliga")){ele.innerHTML=(MLaLiga)};
 
 let SevillaTV = `
 <div class="card darkolorbg text-white card-canal">

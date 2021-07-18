@@ -70,6 +70,12 @@ let canalesTVES = `
    
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
+    <span class="tv-cazavision"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
     <span class="tv-clan"></span>
   </div>
    <!--/CANAL-->
@@ -94,7 +100,7 @@ let canalesTVES = `
    
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
-    <span class="tv-dces"></span>
+    <span class="tv-discoveryes"></span>
   </div>
    <!--/CANAL-->
    
@@ -124,7 +130,19 @@ let canalesTVES = `
    
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
+    <span class="tv-eurosp1es"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
     <span class="tv-eurosport2"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
+    <span class="tv-eurosp2es"></span>
   </div>
    <!--/CANAL-->
    
@@ -173,6 +191,18 @@ let canalesTVES = `
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
     <span class="tv-mtmad"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
+    <span class="tv-mdepb"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
+    <span class="tv-mlaliga"></span>
   </div>
    <!--/CANAL-->
    
