@@ -616,7 +616,7 @@ let megaes = `
 let azteca7 = `
 <a href="go:azteca7">
 <li class="canalito list-group-item darkolorbg blancolor">
-<i class="es flag"></i> Azteca 7 | HD</li>
+<i class="mx flag"></i> Azteca 7 | HD</li>
 </a>
 `;
 let bemad = `
