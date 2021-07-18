@@ -113,7 +113,7 @@ let AmericaTV = `
                 <img class="canal-img americatv" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>América TV <i class="flag pe"></i></h5></div>
+            <div class="d-flex justify-content-center"><h5><span class="hidden">américa america</span> TV <i class="flag pe"></i></h5></div>
         </div>
        </a>
     </div>
@@ -179,3 +179,18 @@ let TNTSportsCL = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-tntsportscl")){ele.innerHTML=(TNTSportsCL)};
+
+let TvPeru = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:tvperu">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img tvperu" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden">perú peru</span>TV <i class="flag peru"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-tvperu")){ele.innerHTML=(TvPeru)};
