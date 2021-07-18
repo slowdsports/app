@@ -95,6 +95,22 @@ let A3SERIES = `
 for(const ele of document.getElementsByClassName("tv-a3series")){ele.innerHTML=(A3SERIES)};
 
 
+let AMCes = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:amces">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img amc" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>AMC <i class="flag es"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-amces")){ele.innerHTML=(AMCes)};
+
+
 let BarcaTVB = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:barcatvb">           
@@ -235,6 +251,21 @@ let DKiss = `
 `
 for(const ele of document.getElementsByClassName("tv-dkiss")){ele.innerHTML=(DKiss)};
 
+let DiscoveryCes = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:dces">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img discovery" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden"> discovery</span> Channel <i class="flag es"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-discoveryces")){ele.innerHTML=(DiscoveryCes)};
+
 let Divinity = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:divinity">           
@@ -327,6 +358,21 @@ let FDF = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-fdf")){ele.innerHTML=(FDF)};
+
+let FOXes = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:foxes">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img fox" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>FOX <i class="flag es"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-foxes")){ele.innerHTML=(FOXes)};
 
 
 let IB3 = `
@@ -485,6 +531,21 @@ let Telemadrid = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-telemadrid")){ele.innerHTML=(Telemadrid)};
+
+let TNTes = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:tntes">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img tnt" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>TNT <i class="flag es"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-tntes")){ele.innerHTML=(TNTes)};
 
 
 let Cero = `

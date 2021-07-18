@@ -72,6 +72,12 @@ let canalesTV = `
    
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
+    <span class="tv-amces"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
     <span class="tv-americatv"></span>
   </div>
    <!--/CANAL-->
@@ -204,6 +210,12 @@ let canalesTV = `
    
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
+    <span class="tv-discoveryces"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
     <span class="tv-discovery"></span>
   </div>
    <!--/CANAL-->
@@ -229,12 +241,6 @@ let canalesTV = `
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
     <span class="tv-energy"></span>
-  </div>
-   <!--/CANAL-->
-   
-   <!--CANAL-->
-  <div class="col-6 col-sm-4">  
-    <span class="tv-fdf"></span>
   </div>
    <!--/CANAL-->
    
@@ -325,6 +331,18 @@ let canalesTV = `
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
     <span class="tv-esport3"></span>
+  </div>
+   <!--/CANAL-->
+
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
+    <span class="tv-fdf"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
+    <span class="tv-foxes"></span>
   </div>
    <!--/CANAL-->
    
@@ -655,6 +673,12 @@ let canalesTV = `
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
     <span class="tv-tvperu"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
+    <span class="tv-tntes"></span>
   </div>
    <!--/CANAL-->
    
