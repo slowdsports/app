@@ -908,6 +908,12 @@ let mdep = `
 <i class="es flag"></i> Movistar Deportes | HD</li>
 </a>
 `;
+let mdepb = `
+<a href="go:mdepb">
+<li class="canalito list-group-item darkolorbg blancolor">
+<i class="es flag"></i> Movistar Deportes | HD</li>
+</a>
+`;
 let mdep1 = `
 <a href="go:mdep1">
 <li class="canalito list-group-item darkolorbg blancolor">
@@ -1250,6 +1256,7 @@ for(const ele of document.getElementsByClassName("esport3")){ele.innerHTML=(espo
 for(const ele of document.getElementsByClassName("lequipe")){ele.innerHTML=(lequipe)};
 for(const ele of document.getElementsByClassName("mvamos")){ele.innerHTML=(mvamos)};
 for(const ele of document.getElementsByClassName("mdep")){ele.innerHTML=(mdep)};
+for(const ele of document.getElementsByClassName("mdepb")){ele.innerHTML=(mdepb)};
 for(const ele of document.getElementsByClassName("mdep1")){ele.innerHTML=(mdep1)};
 for(const ele of document.getElementsByClassName("mdep2")){ele.innerHTML=(mdep2)};
 for(const ele of document.getElementsByClassName("mdep3")){ele.innerHTML=(mdep3)};
