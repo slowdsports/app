@@ -1226,6 +1226,18 @@ let beinxtra = `
 <i class="mx flag"></i> beIN XTRA | HD</li>
 </a>
 `;
+let rmtves = `
+<a href="go:rmtves">
+<li class="canalito list-group-item darkolorbg blancolor">
+<i class="es flag"></i> Real Madrid TV | HD</li>
+</a>
+`;
+let rmtvus = `
+<a href="go:rmtvus">
+<li class="canalito list-group-item darkolorbg blancolor">
+<i class="us flag"></i> Real Madrid TV | HD</li>
+</a>
+`;
 for(const ele of document.getElementsByClassName("espera")){ele.innerHTML=(espera)};
 for(const ele of document.getElementsByClassName("abcus")){ele.innerHTML=(abcus)};
 for(const ele of document.getElementsByClassName("bar")){ele.innerHTML=(bar)};
@@ -1242,6 +1254,8 @@ for(const ele of document.getElementsByClassName("beinn")){ele.innerHTML=(beinn)
 for(const ele of document.getElementsByClassName("beinuse")){ele.innerHTML=(beinuse)};
 for(const ele of document.getElementsByClassName("beinxtra")){ele.innerHTML=(beinxtra)};
 for(const ele of document.getElementsByClassName("beinxtraes")){ele.innerHTML=(beinxtraes)};
+for(const ele of document.getElementsByClassName("rmtves")){ele.innerHTML=(rmtves)};
+for(const ele of document.getElementsByClassName("rmtvus")){ele.innerHTML=(rmtvus)};
 for(const ele of document.getElementsByClassName("canal5hn")){ele.innerHTML=(canal5hn)};
 for(const ele of document.getElementsByClassName("cbshq")){ele.innerHTML=(cbshq)};
 for(const ele of document.getElementsByClassName("directv1")){ele.innerHTML=(directv1)};
