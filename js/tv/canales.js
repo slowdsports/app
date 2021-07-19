@@ -1220,7 +1220,7 @@ let beinxtra = `
 <i class="us flag"></i> beIN XTRA | HD</li>
 </a>
 `;
-let beinxtra = `
+let beinxtraes = `
 <a href="go:beinxtraes">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="mx flag"></i> beIN XTRA | HD</li>
