@@ -1,3 +1,43 @@
+// NUEVOS
+Atresmedia
+http://91.126.141.13:1935/live/11/playlist.m3u8
+
+La Sexta HD
+http://91.126.141.13:1935/live/21/playlist.m3u8
+
+Taurino TV
+http://91.126.141.13:1935/live/31/playlist.m3u8
+
+La 1
+http://91.126.141.13:1935/live/41/playlist.m3u8
+
+Cuatro HD
+http://91.126.141.13:1935/live/51/playlist.m3u8
+
+Telecinco
+http://91.126.141.13:1935/live/61/playlist.m3u8
+
+La 2
+http://91.126.141.13:1935/live/81/playlist.m3u8
+
+Teledeporte
+http://91.126.141.13:1935/live/91/playlist.m3u8
+
+A3Series
+http://91.126.141.13:1935/live/101/playlist.m3u8
+
+Ñam TV
+http://91.126.141.13:1935/live/121/playlist.m3u8
+
+    // INGLÉS
+    Sky Sports F1
+    
+    http://212.224.98.210:2200/EX/Sky_Sports_F1_HD-uk/tracks-v1a1/mono.m3u8
+    
+    Fox Sports
+    http://77.83.117.60:8888/02_foxsport_720p/chunklist.m3u8
+
+
 // ARGENTINA
 TDC
 https://5e7cdf2370883.streamlock.net/tdconline/tdconline/playlist.m3u8
