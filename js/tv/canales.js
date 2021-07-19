@@ -895,6 +895,12 @@ let goles = `
 <i class="es flag"></i> Gol | HD</li>
 </a>
 `;
+let golesgeo = `
+<a href="go:golesgeo">
+<li class="canalito list-group-item darkolorbg blancolor">
+<i class="es flag"></i> Gol (GEO) | HD</li>
+</a>
+`;
 let goltvec = `
 <a href="go:goltvec">
 <li class="canalito list-group-item darkolorbg blancolor">
@@ -1295,6 +1301,7 @@ for(const ele of document.getElementsByClassName("fs2sur")){ele.innerHTML=(fs2su
 for(const ele of document.getElementsByClassName("fs3sur")){ele.innerHTML=(fs3sur)};
 for(const ele of document.getElementsByClassName("foxp")){ele.innerHTML=(foxp)};
 for(const ele of document.getElementsByClassName("goles")){ele.innerHTML=(goles)};
+for(const ele of document.getElementsByClassName("golesgeo")){ele.innerHTML=(golesgeo)};
 for(const ele of document.getElementsByClassName("goltvec")){ele.innerHTML=(goltvec)};
 for(const ele of document.getElementsByClassName("la1")){ele.innerHTML=(la1)};
 for(const ele of document.getElementsByClassName("mlaligasd")){ele.innerHTML=(mlaligasd)};
