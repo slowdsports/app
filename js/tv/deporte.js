@@ -35,13 +35,13 @@ let canalesTVDeporte = `
 
     <!--CANAL-->
   <div class="col-6 col-sm-4">  
-    <span class="tv-bein1ar"></span>
+    <span class="tv-beinar1"></span>
   </div>
    <!--/CANAL-->
     
     <!--CANAL-->
   <div class="col-6 col-sm-4">  
-    <span class="tv-bein2ar"></span>
+    <span class="tv-beinar2"></span>
   </div>
    <!--/CANAL-->
 
@@ -71,13 +71,7 @@ let canalesTVDeporte = `
 
     <!--CANAL-->
   <div class="col-6 col-sm-4">  
-    <span class="tv-cbsh"></span>
-  </div>
-   <!--/CANAL-->
-
-    <!--CANAL-->
-  <div class="col-6 col-sm-4">  
-    <span class="tv-daznf1esb"></span>
+    <span class="tv-cbshq"></span>
   </div>
    <!--/CANAL-->
 
@@ -95,7 +89,7 @@ let canalesTVDeporte = `
 
     <!--CANAL-->
   <div class="col-6 col-sm-4">  
-    <span class="tv-espnsurs"></span>
+    <span class="tv-espnsur"></span>
   </div>
    <!--/CANAL-->
 
@@ -143,7 +137,7 @@ let canalesTVDeporte = `
 
     <!--CANAL-->
   <div class="col-6 col-sm-4">  
-    <span class="tv-espnxtra"></span>
+    <span class="tv-espnextra"></span>
   </div>
    <!--/CANAL-->
 
@@ -167,7 +161,7 @@ let canalesTVDeporte = `
 
     <!--CANAL-->
   <div class="col-6 col-sm-4">  
-    <span class="tv-eurosport1es"></span>
+    <span class="tv-eurosp1es"></span>
   </div>
    <!--/CANAL-->
 
@@ -179,7 +173,7 @@ let canalesTVDeporte = `
 
     <!--CANAL-->
   <div class="col-6 col-sm-4">  
-    <span class="tv-eurosport2es"></span>
+    <span class="tv-eurosp2es"></span>
   </div>
    <!--/CANAL-->
 
@@ -263,7 +257,7 @@ let canalesTVDeporte = `
 
     <!--CANAL-->
   <div class="col-6 col-sm-4">  
-    <span class="tv-ncbscn"></span>
+    <span class="tv-nbcsnif"></span>
   </div>
    <!--/CANAL-->
 
