@@ -578,9 +578,9 @@ for(const ele of document.getElementsByClassName("fphiladelphia")){ele.innerHTML
 
 // CANALES
 let espera = `
-<a href="go:abcus">
+<a href="go:ads">
 <li class="canalito list-group-item darkolorbg blancolor">
-<i class="us flag"></i> Sin información de </li>
+<i class=" flag"></i> Sin información de TV</li>
 </a>
 `;
 let abcus = `
@@ -593,6 +593,18 @@ let bar = `
 <a href="go:bar">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> Movistar LaLiga | HD</li>
+</a>
+`;
+let barcatv = `
+<a href="go:barcatv">
+<li class="canalito list-group-item darkolorbg blancolor">
+<i class="es flag"></i> Barca TV | HD</li>
+</a>
+`;
+let barcatvb = `
+<a href="go:barcatvb">
+<li class="canalito list-group-item darkolorbg blancolor">
+<i class="es flag"></i> Barca TV | HD</li>
 </a>
 `;
 let mlaliga1 = `
@@ -1016,6 +1028,12 @@ let esport3 = `
 <i class="es flag"></i> eSport3 | HD</li>
 </a>
 `;
+let sevillatv = `
+<a href="go:sevillatv">
+<li class="canalito list-group-item darkolorbg blancolor">
+<i class="es flag"></i> Sevilla TV | HD</li>
+</a>
+`;
 let tdtvp = `
 <a href="go:tdtvp">
 <li class="canalito list-group-item darkolorbg blancolor">
@@ -1197,6 +1215,12 @@ let openbeyond = `
 </a>
 `;
 let beinxtra = `
+<a href="go:beinxtra">
+<li class="canalito list-group-item darkolorbg blancolor">
+<i class="us flag"></i> beIN XTRA | HD</li>
+</a>
+`;
+let beinxtra = `
 <a href="go:beinxtraes">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="mx flag"></i> beIN XTRA | HD</li>
@@ -1205,6 +1229,8 @@ let beinxtra = `
 for(const ele of document.getElementsByClassName("espera")){ele.innerHTML=(espera)};
 for(const ele of document.getElementsByClassName("abcus")){ele.innerHTML=(abcus)};
 for(const ele of document.getElementsByClassName("bar")){ele.innerHTML=(bar)};
+for(const ele of document.getElementsByClassName("barcatv")){ele.innerHTML=(barcatv)};
+for(const ele of document.getElementsByClassName("barcatvb")){ele.innerHTML=(barcatvb)};
 for(const ele of document.getElementsByClassName("mlaliga1")){ele.innerHTML=(mlaliga1)};
 for(const ele of document.getElementsByClassName("mlaliga2")){ele.innerHTML=(mlaliga2)};
 for(const ele of document.getElementsByClassName("mega")){ele.innerHTML=(mega)};
@@ -1215,6 +1241,7 @@ for(const ele of document.getElementsByClassName("beinne")){ele.innerHTML=(beinn
 for(const ele of document.getElementsByClassName("beinn")){ele.innerHTML=(beinn)};
 for(const ele of document.getElementsByClassName("beinuse")){ele.innerHTML=(beinuse)};
 for(const ele of document.getElementsByClassName("beinxtra")){ele.innerHTML=(beinxtra)};
+for(const ele of document.getElementsByClassName("beinxtraes")){ele.innerHTML=(beinxtraes)};
 for(const ele of document.getElementsByClassName("canal5hn")){ele.innerHTML=(canal5hn)};
 for(const ele of document.getElementsByClassName("cbshq")){ele.innerHTML=(cbshq)};
 for(const ele of document.getElementsByClassName("directv1")){ele.innerHTML=(directv1)};
@@ -1260,6 +1287,7 @@ for(const ele of document.getElementsByClassName("mlaligasd")){ele.innerHTML=(ml
 for(const ele of document.getElementsByClassName("telecinco")){ele.innerHTML=(telecinco)};
 for(const ele of document.getElementsByClassName("cuatro")){ele.innerHTML=(cuatro)};
 for(const ele of document.getElementsByClassName("esport3")){ele.innerHTML=(esport3)};
+for(const ele of document.getElementsByClassName("sevillatv")){ele.innerHTML=(sevillatv)};
 for(const ele of document.getElementsByClassName("lequipe")){ele.innerHTML=(lequipe)};
 for(const ele of document.getElementsByClassName("mvamos")){ele.innerHTML=(mvamos)};
 for(const ele of document.getElementsByClassName("mdep")){ele.innerHTML=(mdep)};
