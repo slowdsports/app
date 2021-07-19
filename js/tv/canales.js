@@ -577,6 +577,12 @@ for(const ele of document.getElementsByClassName("fphiladelphia")){ele.innerHTML
 
 
 // CANALES
+let espera = `
+<a href="go:abcus">
+<li class="canalito list-group-item darkolorbg blancolor">
+<i class="us flag"></i> Sin información de </li>
+</a>
+`;
 let abcus = `
 <a href="go:abcus">
 <li class="canalito list-group-item darkolorbg blancolor">
