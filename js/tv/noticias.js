@@ -58,12 +58,6 @@ let canalesTVNoticias = `
    
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
-    <span class="tv-cbshq"></span>
-  </div>
-   <!--/CANAL-->
-   
-   <!--CANAL-->
-  <div class="col-6 col-sm-4">  
     <span class="tv-cbsnews"></span>
   </div>
    <!--/CANAL-->
@@ -89,36 +83,6 @@ let canalesTVNoticias = `
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
     <span class="tv-ib3"></span>
-  </div>
-   <!--/CANAL-->
-   
-   <!--CANAL-->
-  <div class="col-6 col-sm-4">  
-    <span class="tv-megaes"></span>
-  </div>
-   <!--/CANAL-->
-   
-   <!--CANAL-->
-  <div class="col-6 col-sm-4">  
-    <span class="tv-msnbc"></span>
-  </div>
-   <!--/CANAL-->
-   
-   <!--CANAL-->
-  <div class="col-6 col-sm-4">  
-    <span class="tv-nbcus"></span>
-  </div>
-   <!--/CANAL-->
-   
-   <!--CANAL-->
-  <div class="col-6 col-sm-4">  
-    <span class="tv-nbcsn"></span>
-  </div>
-   <!--/CANAL-->
-   
-   <!--CANAL-->
-  <div class="col-6 col-sm-4">  
-    <span class="tv-nbclx"></span>
   </div>
    <!--/CANAL-->
    
