@@ -158,7 +158,6 @@ let BeinXtra = `
 `
 for(const ele of document.getElementsByClassName("tv-beinxtraes")){ele.innerHTML=(BeinXtra)};
 
-
 let BeMad = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:otro1">           
@@ -173,6 +172,21 @@ let BeMad = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-bemad")){ele.innerHTML=(BeMad)};
+
+let Blaze = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:blaze">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img blaze" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>Blaze</h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-blaze")){ele.innerHTML=(Blaze)};
 
 let CazaVision = `
 <div class="card darkolorbg text-white card-canal">
