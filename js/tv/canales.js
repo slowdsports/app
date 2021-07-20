@@ -926,6 +926,12 @@ let mvamos = `
 <i class="es flag"></i> M #Vamos | HD</li>
 </a>
 `;
+let mvamosb = `
+<a href="go:vamosb">
+<li class="canalito list-group-item darkolorbg blancolor">
+<i class="es flag"></i> M #Vamos | HD</li>
+</a>
+`;
 let mdep = `
 <a href="go:mdep">
 <li class="canalito list-group-item darkolorbg blancolor">
@@ -1311,6 +1317,7 @@ for(const ele of document.getElementsByClassName("esport3")){ele.innerHTML=(espo
 for(const ele of document.getElementsByClassName("sevillatv")){ele.innerHTML=(sevillatv)};
 for(const ele of document.getElementsByClassName("lequipe")){ele.innerHTML=(lequipe)};
 for(const ele of document.getElementsByClassName("mvamos")){ele.innerHTML=(mvamos)};
+for(const ele of document.getElementsByClassName("mvamosb")){ele.innerHTML=(mvamosb)};
 for(const ele of document.getElementsByClassName("mdep")){ele.innerHTML=(mdep)};
 for(const ele of document.getElementsByClassName("mdepb")){ele.innerHTML=(mdepb)};
 for(const ele of document.getElementsByClassName("mdep1")){ele.innerHTML=(mdep1)};
