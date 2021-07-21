@@ -583,6 +583,12 @@ let espera = `
 <i class=" flag"></i> Sin información de TV</li>
 </a>
 `;
+let aragontv = `
+<a href="go:aragontv">
+<li class="canalito list-group-item darkolorbg blancolor">
+<i class="es flag"></i> Aragón TV | HD</li>
+</a>
+`;
 let abcus = `
 <a href="go:abcus">
 <li class="canalito list-group-item darkolorbg blancolor">
@@ -1251,6 +1257,7 @@ let rmtvus = `
 </a>
 `;
 for(const ele of document.getElementsByClassName("espera")){ele.innerHTML=(espera)};
+for(const ele of document.getElementsByClassName("aragontv")){ele.innerHTML=(aragontv)};
 for(const ele of document.getElementsByClassName("abcus")){ele.innerHTML=(abcus)};
 for(const ele of document.getElementsByClassName("bar")){ele.innerHTML=(bar)};
 for(const ele of document.getElementsByClassName("barcatv")){ele.innerHTML=(barcatv)};

@@ -119,6 +119,21 @@ let AMCes = `
 `
 for(const ele of document.getElementsByClassName("tv-amces")){ele.innerHTML=(AMCes)};
 
+let AragonTV = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:aragontv">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img aragontv" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden"> aragon aragón</span>TV <i class="flag es"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-aragontv")){ele.innerHTML=(AragonTV)};
+
 let AXNes = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:axnes">           
