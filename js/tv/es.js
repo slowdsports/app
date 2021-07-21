@@ -14,7 +14,6 @@ let Vamos = `
 `
 for(const ele of document.getElementsByClassName("tv-vamos")){ele.innerHTML=(Vamos)};
 
-
 let LA1 = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:la1">           
@@ -29,7 +28,6 @@ let LA1 = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-la1")){ele.innerHTML=(LA1)};
-
 
 let LA2 = `
 <div class="card darkolorbg text-white card-canal">
@@ -46,7 +44,6 @@ let LA2 = `
 `
 for(const ele of document.getElementsByClassName("tv-la2")){ele.innerHTML=(LA2)};
 
-
 let tv24h = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:24h">           
@@ -61,7 +58,6 @@ let tv24h = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-24h")){ele.innerHTML=(tv24h)};
-
 
 let A3MEDIA = `
 <div class="card darkolorbg text-white card-canal">
@@ -78,7 +74,6 @@ let A3MEDIA = `
 `
 for(const ele of document.getElementsByClassName("tv-a3media")){ele.innerHTML=(A3MEDIA)};
 
-
 let A3SERIES = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:a3series">           
@@ -94,7 +89,6 @@ let A3SERIES = `
 `
 for(const ele of document.getElementsByClassName("tv-a3series")){ele.innerHTML=(A3SERIES)};
 
-
 let AMCes = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:amces">           
@@ -109,6 +103,21 @@ let AMCes = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-amces")){ele.innerHTML=(AMCes)};
+
+let AXNes = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:axnes">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img axn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>AXN <i class="flag es"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-axnes")){ele.innerHTML=(AXNes)};
 
 
 let BarcaTVB = `
