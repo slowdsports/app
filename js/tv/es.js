@@ -457,6 +457,21 @@ let FOXes = `
 `
 for(const ele of document.getElementsByClassName("tv-foxes")){ele.innerHTML=(FOXes)};
 
+let GolEsGeo = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:golesgeo">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img goles" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>GOL (GEO) <i class="flag es"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-golesgeo")){ele.innerHTML=(GolEsGeo)};
+
 let Historyes = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:historyes">           
