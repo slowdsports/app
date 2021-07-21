@@ -153,7 +153,7 @@ for(const ele of document.getElementsByClassName("tv-barcatvb")){ele.innerHTML=(
 
 let Bein = `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="go:beinne">           
+       <a class="card-link text-white" href="go:beinn">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img beinn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
