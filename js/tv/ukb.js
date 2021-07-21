@@ -46,6 +46,12 @@ let canalesTVUK = `
    
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
+    <span class="tv-skyspf1"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
     <span class="tv-sky-thouroughb"></span>
   </div>
    <!--/CANAL-->
