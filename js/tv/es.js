@@ -1,4 +1,19 @@
 // ESPAÑA
+let Cero = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:cero">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img cero" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden"> movistar cero</span>#0</h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-cero")){ele.innerHTML=(Cero)};
+
 let Vamos = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:vamos">           
@@ -7,7 +22,7 @@ let Vamos = `
                 <img class="canal-img vamos" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>#Vamos</h5></div>
+            <div class="d-flex justify-content-center"><h5><span class="hidden"> movistar</span>#Vamos</h5></div>
         </div>
        </a>
     </div>
@@ -22,7 +37,7 @@ let LA1 = `
                 <img class="canal-img la1" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>LA 1</h5></div>
+            <div class="d-flex justify-content-center"><h5><span class="hidden"> rtve</span>LA 1</h5></div>
         </div>
        </a>
     </div>
@@ -37,7 +52,7 @@ let LA2 = `
                 <img class="canal-img la2" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>LA 2</h5></div>
+            <div class="d-flex justify-content-center"><h5><span class="hidden"> rtve</span>LA 2</h5></div>
         </div>
        </a>
     </div>
@@ -52,7 +67,7 @@ let tv24h = `
                 <img class="canal-img 24h" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5>24h</h5></div>
+            <div class="d-flex justify-content-center"><h5><span class="hidden"> rtve</span>24h</h5></div>
         </div>
        </a>
     </div>
@@ -732,22 +747,6 @@ let TNTes = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-tntes")){ele.innerHTML=(TNTes)};
-
-
-let Cero = `
-<div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="go:#0">           
-        <div class="card-body">
-            <div class="d-flex justify-content-center">
-                <img class="canal-img cero" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
-            </div>
-            
-            <div class="d-flex justify-content-center"><h5>#0</h5></div>
-        </div>
-       </a>
-    </div>
-`
-for(const ele of document.getElementsByClassName("tv-#0")){ele.innerHTML=(Cero)};
 
 // CON KEY
 
