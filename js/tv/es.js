@@ -221,7 +221,7 @@ for(const ele of document.getElementsByClassName("tv-clan")){ele.innerHTML=(Clan
 
 let Cuatro = `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="go:otro3">           
+       <a class="card-link text-white" href="go:cuatrob">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img cuatro" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
@@ -525,6 +525,21 @@ let MLaLiga = `
 `
 for(const ele of document.getElementsByClassName("tv-mlaliga")){ele.innerHTML=(MLaLiga)};
 
+let RTMVes = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:rmtves">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img realmadrid" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden"> real madrid</span>RMTV <i class="flag es"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-rmtves")){ele.innerHTML=(RTMVes)};
+
 
 let Sexta = `
 <div class="card darkolorbg text-white card-canal">
@@ -607,7 +622,7 @@ for(const ele of document.getElementsByClassName("tv-tdpgeo")){ele.innerHTML=(TD
 
 let Telecinco = `
 <div class="card darkolorbg text-white card-canal">
-       <a class="card-link text-white" href="go:otro2">           
+       <a class="card-link text-white" href="go:telecincob">           
         <div class="card-body">
             <div class="d-flex justify-content-center">
                 <img class="canal-img telecinco" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
