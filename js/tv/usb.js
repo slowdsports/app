@@ -142,6 +142,12 @@ let canalesTVUS = `
    
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
+    <span class="tv-nbatv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
     <span class="tv-nbcus"></span>
   </div>
    <!--/CANAL-->
