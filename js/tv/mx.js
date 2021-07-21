@@ -67,7 +67,7 @@ let ESPNMx = `
                 <img class="canal-img espn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
             </div>
             
-            <div class="d-flex justify-content-center"><h5><span class="hidden">discovery discovery</span>ESPN <i class="flag mx"></i></h5></div>
+            <div class="d-flex justify-content-center"><h5><span class="hidden"></span>ESPN <i class="flag mx"></i></h5></div>
         </div>
        </a>
     </div>

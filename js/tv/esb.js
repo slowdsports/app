@@ -118,6 +118,12 @@ let canalesTVES = `
    
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
+    <span class="tv-disneyes"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
     <span class="tv-divinity"></span>
   </div>
    <!--/CANAL-->
@@ -226,6 +232,12 @@ let canalesTVES = `
    
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
+    <span class="tv-natgeoes"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
     <span class="tv-sexta"></span>
   </div>
    <!--/CANAL-->
@@ -245,6 +257,12 @@ let canalesTVES = `
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
     <span class="tv-sevillatv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
+    <span class="tv-syfyes"></span>
   </div>
    <!--/CANAL-->
    

@@ -273,6 +273,21 @@ let DAZNF1 = `
 `
 for(const ele of document.getElementsByClassName("tv-daznf1s")){ele.innerHTML=(DAZNF1)};
 
+let Disneyes = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:disneyes">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img disney" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden"> Disney</span>Channel <i class="flag es"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-disneyes")){ele.innerHTML=(Disneyes)};
+
 
 let DKiss = `
 <div class="card darkolorbg text-white card-canal">
@@ -534,6 +549,21 @@ let MLaLiga = `
 `
 for(const ele of document.getElementsByClassName("tv-mlaliga")){ele.innerHTML=(MLaLiga)};
 
+let NatGeoes = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:natgeoes">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img natgeo" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden"> national geographic</span>NatGeo <i class="flag es"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-natgeoes")){ele.innerHTML=(NatGeoes)};
+
 let RTMVes = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:rmtves">           
@@ -565,7 +595,6 @@ let Sexta = `
 `
 for(const ele of document.getElementsByClassName("tv-sexta")){ele.innerHTML=(Sexta)};
 
-
 let Supertoons = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:supertoons">           
@@ -580,6 +609,21 @@ let Supertoons = `
     </div>
 `
 for(const ele of document.getElementsByClassName("tv-supertoons")){ele.innerHTML=(Supertoons)};
+
+let SyFyes = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:syfyes">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img syfy" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>SyFy <i class="flag es"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-syfyes")){ele.innerHTML=(SyFyes)};
 
 
 let Toros = `
