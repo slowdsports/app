@@ -408,7 +408,7 @@ for(const ele of document.getElementsByClassName("otro6")){ele.innerHTML=(otro6)
 
 // FOX NFL
 let fsoul  = `
-<a href="../../tv/p/usaf.html?get=fsoul">
+<a href="../tv/p/usaf.html?get=fsoul">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Fox Soul | HD</li>
 </a>
