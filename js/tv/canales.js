@@ -637,6 +637,12 @@ let megaes = `
 <i class="es flag"></i> Mega | HD</li>
 </a>
 `;
+let megaesb = `
+<a href="go:megaesb">
+<li class="canalito list-group-item darkolorbg blancolor">
+<i class="es flag"></i> Mega | HD</li>
+</a>
+`;
 let azteca7 = `
 <a href="go:azteca7">
 <li class="canalito list-group-item darkolorbg blancolor">
@@ -1266,6 +1272,7 @@ for(const ele of document.getElementsByClassName("mlaliga1")){ele.innerHTML=(mla
 for(const ele of document.getElementsByClassName("mlaliga2")){ele.innerHTML=(mlaliga2)};
 for(const ele of document.getElementsByClassName("mega")){ele.innerHTML=(mega)};
 for(const ele of document.getElementsByClassName("megaes")){ele.innerHTML=(megaes)};
+for(const ele of document.getElementsByClassName("megaesb")){ele.innerHTML=(megaesb)};
 for(const ele of document.getElementsByClassName("azteca7")){ele.innerHTML=(azteca7)};
 for(const ele of document.getElementsByClassName("bemad")){ele.innerHTML=(bemad)};
 for(const ele of document.getElementsByClassName("beinne")){ele.innerHTML=(beinne)};
