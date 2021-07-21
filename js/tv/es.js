@@ -433,6 +433,21 @@ let FOXes = `
 `
 for(const ele of document.getElementsByClassName("tv-foxes")){ele.innerHTML=(FOXes)};
 
+let Historyes = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:historyes">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img history" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5>History <i class="flag es"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-historyes")){ele.innerHTML=(Historyes)};
+
 
 let IB3 = `
 <div class="card darkolorbg text-white card-canal">
