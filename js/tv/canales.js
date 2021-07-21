@@ -1414,7 +1414,7 @@ let skyactif = `
 for(const ele of document.getElementsByClassName("skyactif")){ele.innerHTML=(skyactif)};
 
 let nbcsnif = `
-<a href="go:skyactif">
+<a href="go:nbcsnif">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NBCSN | HD</li>
 </a>
