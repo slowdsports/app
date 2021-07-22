@@ -1,57 +1,266 @@
-<html>
-   <head>
-      <meta name='theme-color' content='black'>
-      <meta name='apple-mobile-web-app-status-bar-style' content='black'>
-      <meta name='referrer' content='no-referrer'>
-      <meta content='width=device-width, initial-scale=1' name='viewport'>
-      <title>SlowD Player</title>
-      <link href='favicon2.ico' rel='shortcut icon' type='image/x-icon'>
-      <script src='//cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js'></script>
-      <script src='//cdn.jsdelivr.net/npm/level-selector@latest/dist/level-selector.min.js'></script>
-      <script src='//cdn.jsdelivr.net/npm/clappr-chromecast-plugin@latest/dist/clappr-chromecast-plugin.min.js'></script>
-      <script src='//cdn.jsdelivr.net/npm/clappr-pip@latest/dist/clappr-pip.min.js'></script>
-      <script src='//cdn.jsdelivr.net/npm/dash-shaka-playback@latest/dist/dash-shaka-playback.min.js'></script>
-      <script src='//cdn.jsdelivr.net/npm/clappr-playback-rate-plugin@latest/dist/clappr-playback-rate-plugin.min.js'></script>
-      <script src="https://towerz.me/clappr-youtube-playback/j/clappr-youtube-playback.js"></script>
-   </head>
-   <body bgcolor='black' style='margin:0' oncontextmenu='return false' onkeydown='return false'>
-      <div id='player'></div>
-      <script>
-         window.onload = function() {
-             var player = new Clappr.Player({
-                 source: 'https://edge5-sl.cvattv.com.ar//live/live/Telemundo_HD/SA_Live_dash_enc_2A/Telemundo_HD.mpd',
-                 parentId: '#player',
-                 mimeType: 'audio/mpeg',
-                 watermark: "https://i.ibb.co/Tgk2YrC/Logow-1-1.png", 
-                 position: 'top-left',
-                 plugins: [YoutubePlayback, LevelSelector, ChromecastPlugin, ClapprPip.PipButton, ClapprPip.PipPlugin, DashShakaPlayback, Clappr.MediaControl, PlaybackRatePlugin],
-                 events: {onReady: function() {var plugin = this.getPlugin('click_to_pause'); plugin && plugin.disable();},},
-                 height: '100%',
-                 width: '100%',
-                 autoPlay: false,
-                 mute: true,
-                 youtubeShowRelated: true,
-                 shakaConfiguration: {
-                 manifest: {retryParameters: {maxAttempts: Infinity}},
-                 streaming: {retryParameters: {maxAttempts: Infinity}},
-                 drm: {retryParameters: {maxAttempts: Infinity}},
-                 },
-                 playbackRateConfig: {
-                 defaultValue: '1.00x',
-                 options: [
-                 {value: '0.10', label: '0.10x'},
-                 {value: '0.25', label: '0.25x'},
-                 {value: '0.50', label: '0.50x'},
-                 {value: '0.75', label: '0.75x'},
-                 {value: '1.00', label: '1.00x'},
-                 {value: '1.25', label: '1.25x'},
-                 {value: '1.50', label: '1.50x'},
-                 {value: '1.75', label: '1.75x'},
-                 {value: '2.00', label: '2.00x'},
-                 ]
-                 },
-             });
-         };
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    <!-- theme version: 1.0.24 -->
+    <meta charset="UTF-8">
+    <title>En vivo - VTV</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="google-site-verification" content="" /> -->
+    <!-- FAVICONS -->
+    <meta name="theme-color" content="#0000">
+    
+    <script type='text/javascript' src='https://de3rejoj5263u.cloudfront.net/player-radiant.js'></script>
+
+<script type="text/javascript">
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  window.__octogoneConfig = {"meta":{"post_id":"56590","term_id":"0","permalink":"https:\/\/www.vtv.com.hn\/envivo\/","page_type":"pagina","disable_ads":false,"keywords":""},"display":{"ad_unit":"\/106021898\/VTV_Envivo","layout_slots":[{"id":"ad-slot-mpu1","sizeMap":"mpuSizeMap","restrict":false,"declared":false},{"id":"ad-slot-top","sizeMap":"topSizeMap","restrict":false,"declared":false},{"id":"ad-slot-skin","sizeMap":"skinSizeMap","restrict":"desktop","declared":false},{"id":"ad-slot-floating","sizeMap":"floatingSizeMap","restrict":"mobile","declared":false},{"id":"ad-slot-1x1","sizeMap":null,"restrict":false,"declared":false},{"id":"ad-slot-1x1-b","sizeMap":null,"restrict":false,"declared":false},{"id":"ad-slot-1x1-c","sizeMap":null,"restrict":false,"declared":false},{"id":"ad-slot-1x1-d","sizeMap":null,"restrict":false,"declared":false},{"id":"ad-slot-1x1-widget","sizeMap":null,"restrict":false,"declared":false},{"id":"ad-slot-outofpage","sizeMap":null,"restrict":false,"outOfPage":true,"outOfPageIntersitial":false,"declared":false},{"id":"ad-slot-itt-mobile","useChildrenAdunit":true,"childrenAdunitName":"\/ITT_Mobile","sizeMap":null,"restrict":"mobile","outOfPage":true,"outOfPageIntersitial":true,"declared":false}]},"video":{"tags":{"pre":"https:\/\/pubads.g.doubleclick.net\/gampad\/ads?iu=\/106021898\/VTV_Envivo&description_url=https%3A%2F%2Fwww.vtv.com.hn%2Fenvivo%2F%2F&tfcd=0&npa=0&sz=640x480&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=1626946150","mid":"","post":""},"config":{"min_duration_in_minutes_for_midroll":"","mid_roll_interval_in_minutes":""}}};
+  window.__octogoneRuntime = {
+    display: {
+      slots: [],
+      loadedSlots: {},
+      emptySlots: {},
+      viewableSlots: {},
+      viewableCallbacks: [],
+      loadedCallbacks: [],
+      debug: function _gptDebug (messages) {
+        function getQueryString (field, url) {
+          var href = url ? url : window.location.href
+          var reg = new RegExp('[?&]' + field + '=([^&#]*)', 'i')
+          var string = reg.exec(href)
+          return string ? string[1] : null
+        }
+        if (getQueryString('ads-debug') !== 'true') {
+          return false;
+        }
+        if (typeof console === undefined) {
+          return false
+        }
+        typeof console.group === 'function' ? console.group('*** ADVERTISING DEBUG  *** ') : console.log('*** ADVERTISING DEBUG  *** ')
+        messages.forEach(function(message) {
+          typeof console.info === 'functon' ? console.info(message) : console.log(message)
+        })
+        typeof console.groupEnd === 'function' && console.groupEnd()
+      },
+      getSlot: function _slotFn(slotId, type) {
+        if (['loaded', 'empty', 'viewable'].indexOf(type) === -1) {
+          return console.warn('ADVERTISING DEBUG: Unknown slot pool to query')
+        }
+        if (!window.__octogoneRuntime.display[type + 'Slots'][slotId]) {
+          return console.warn('ADVERTISING DEBUG: Unknown slot id')
+        }
+        return window.__octogoneRuntime.display[type + 'Slots'][slotId]
+      },
+      onViewable: function (slotId) {
+        window.__octogoneRuntime.display.viewableCallbacks.forEach(function(callback) {
+          typeof callback === 'function' && callback(slotId)
+        })
+      },
+      onLoaded: function(slotid) {
+        window.__octogoneRuntime.display.loadedCallbacks.forEach(function(callback) {
+          typeof callback === 'function' && callback(slotId)
+        })
+      }
+    },
+    getMeta: function _gptMeta (id) {
+      var meta = window.__octogoneConfig.meta[id]
+      if (meta && typeof meta.substr === 'function') {
+        meta = meta.substr(0, 40)
+      }
+      return typeof meta === 'undefined' ? '' : meta
+    }
+  }
+
+  function initGooglePublisherTag () {
+    googletag.cmd.push(function() {
+      /*
+        The first dimension is is the browser size and each subsequent dimension is an ad size.
+        GPT will detect the browser size and use the largest mapping that fits.
+        To determine the largest mapping GPT will first consider width,
+        then height (i.e. [100, 10] > [10, 100]) .
+        https://developers.google.com/doubleclick-gpt/guides/ad-sizes
+      */
+
+      var responsiveSizeMaps = {
+        topSizeMap: googletag.sizeMapping()
+                      .addSize([1280, 1], [ [728,90], [970,90] ])
+                      .addSize([980, 1], [ [728,90], [970,90] ])
+                      .addSize([768, 1], [ [728,90] ] )
+                      .addSize([0, 0], [ [320,100], [320, 200], [320,50], [300,100], [300,50] ])
+                      .build(),
+        midtopSizeMap: googletag.sizeMapping()
+                        .addSize([1280, 1], [ [728,90], [970,90] ])
+                        .addSize([980, 1], [ [728,90], [970,90] ])
+                        .addSize([768, 1], [ [728,90] ] )
+                        .addSize([0, 0], [ [320,100], [320, 200], [320,50], [300,100], [300,50] ])
+                        .build(),
+        mpuSizeMap: googletag.sizeMapping()
+                      .addSize([0, 0], [ [ 300, 250 ], [300, 300] ])
+                      .build(),
+        mpuBiggerSizeMap: googletag.sizeMapping()
+                            .addSize([1025, 1], [[300, 250 ], [300, 300], [300, 600]])
+                            .addSize([0, 0], [ [ 300, 250 ], [300, 300] ])
+                            .build(),
+        mpuSizeMobileMap: googletag.sizeMapping()
+                            .addSize([1025, 1], [[300, 250 ], [300, 300], [300, 600]])
+                            .addSize([0, 0], [ [ 300, 250 ], [300, 300] ])
+                            .build(),
+        mpuSizeDesktopMap: googletag.sizeMapping()
+                            .addSize([1280, 1], [[ 300, 250 ], [300, 300]])
+                            .addSize([0, 0], [])
+                            .build(),
+        mpuBiggerSizeDesktopMap: googletag.sizeMapping()
+                                      .addSize([1280, 1], [ [300, 250], [300, 300], [300, 600] ])
+                                      .addSize([0, 0], [])
+                                      .build(),
+        floatingSizeMap: googletag.sizeMapping()
+                          .addSize([767, 1], [])
+                          .addSize([0, 0], [ [ 320, 50 ], [300, 50] ])
+                          .build(),
+        skinSizeMap: googletag.sizeMapping()
+                          .addSize([1280, 1], [1,1])
+                          .addSize([0, 0], [])
+                          .build()
+      }
+
+      var defaultSizeMaps = {
+        topSizeMap: [ [320,100], [320, 200], [320,50], [300,100], [300,50], [728,90], [970,90]],
+        midtopSizeMap: [ [320,100], [320, 200], [320,50], [300,100], [300,50], [970,90], [979,250], [728,90]  ],
+        mpuSizeMap: [[300,250], [300,300]],
+        mpuBiggerSizeMap: [[300,250], [300, 300]],
+        mpuSizeMobileMap: [[300,250], [300,300]],
+        mpuSizeDesktopMap: [[300, 300], [300, 250]],
+        mpuBiggerSizeDesktopMap: [[300, 300], [300, 600]],
+        floatingSizeMap: [[320,50], [320,100]],
+        skinSizeMap: [1,1],
+      }
+
+          if (window.innerWidth <= 1024) {
+    window.__octogoneRuntime.display.slots.push(googletag.defineSlot(window.__octogoneConfig.display.ad_unit,defaultSizeMaps['floatingSizeMap' ],'ad-slot-floating').setTargeting('pos',['floating']).defineSizeMapping(responsiveSizeMaps['floatingSizeMap']).addService(googletag.pubads()));
+var tmp_oop_itt_slot_10 = googletag.defineOutOfPageSlot(window.__octogoneConfig.display.ad_unit + '/ITT_Mobile', googletag.enums.OutOfPageFormat.INTERSTITIAL);if (tmp_oop_itt_slot_10) { tmp_oop_itt_slot_10.setTargeting('pos',['itt-mobile']).addService(googletag.pubads()) }; 
+window.__octogoneRuntime.display.slots.push(tmp_oop_itt_slot_10);
+      } else {
+    window.__octogoneRuntime.display.slots.push(googletag.defineSlot(window.__octogoneConfig.display.ad_unit,defaultSizeMaps['skinSizeMap' ],'ad-slot-skin').setTargeting('pos',['skin']).defineSizeMapping(responsiveSizeMaps['skinSizeMap']).addService(googletag.pubads()));
+      }
+
+    window.__octogoneRuntime.display.slots.push(googletag.defineSlot(window.__octogoneConfig.display.ad_unit,defaultSizeMaps['mpuSizeMap' ],'ad-slot-mpu1').setTargeting('pos',['mpu1']).defineSizeMapping(responsiveSizeMaps['mpuSizeMap']).addService(googletag.pubads()));
+window.__octogoneRuntime.display.slots.push(googletag.defineSlot(window.__octogoneConfig.display.ad_unit,defaultSizeMaps['topSizeMap' ],'ad-slot-top').setTargeting('pos',['top']).defineSizeMapping(responsiveSizeMaps['topSizeMap']).addService(googletag.pubads()));
+window.__octogoneRuntime.display.slots.push(googletag.defineSlot(window.__octogoneConfig.display.ad_unit,[1,1],'ad-slot-1x1').setTargeting('pos',['1x1']).addService(googletag.pubads()));
+window.__octogoneRuntime.display.slots.push(googletag.defineSlot(window.__octogoneConfig.display.ad_unit,[1,1],'ad-slot-1x1-b').setTargeting('pos',['1x1-b']).addService(googletag.pubads()));
+window.__octogoneRuntime.display.slots.push(googletag.defineSlot(window.__octogoneConfig.display.ad_unit,[1,1],'ad-slot-1x1-c').setTargeting('pos',['1x1-c']).addService(googletag.pubads()));
+window.__octogoneRuntime.display.slots.push(googletag.defineSlot(window.__octogoneConfig.display.ad_unit,[1,1],'ad-slot-1x1-d').setTargeting('pos',['1x1-d']).addService(googletag.pubads()));
+window.__octogoneRuntime.display.slots.push(googletag.defineSlot(window.__octogoneConfig.display.ad_unit,[1,1],'ad-slot-1x1-widget').setTargeting('pos',['1x1-widget']).addService(googletag.pubads()));
+window.__octogoneRuntime.display.slots.push(googletag.defineOutOfPageSlot(window.__octogoneConfig.display.ad_unit,'ad-slot-outofpage').setTargeting('pos',['outofpage']).addService(googletag.pubads()));
+
+      googletag.pubads().setTargeting('keywords', window.__octogoneRuntime.getMeta('keywords'));
+      googletag.pubads().setTargeting('postid', window.__octogoneRuntime.getMeta('post_id'));
+      googletag.pubads().setTargeting('termid', window.__octogoneRuntime.getMeta('term_id'));
+      googletag.pubads().setTargeting('pagetype', window.__octogoneRuntime.getMeta('page_type'));
+
+      googletag.pubads().addEventListener('slotRenderEnded', function(e) {
+          if (!e.isEmpty) {
+              window.__octogoneRuntime.display.loadedSlots[e.slot.getSlotElementId()] = e.slot;
+              window.__octogoneRuntime.display.debug(['SLOT LOADED: ' + e.slot.getSlotElementId(), e.slot.getResponseInformation()])
+              window.__octogoneRuntime.display.onLoaded(e.slot.getSlotElementId())
+          } else {
+              window.__octogoneRuntime.display.emptySlots[e.slot.getSlotElementId()] = e.slot;
+              window.__octogoneRuntime.display.debug(['SLOT ' + e.slot.getSlotElementId() + ' came empty'])
+          }
+      });
+
+      googletag.pubads().addEventListener('impressionViewable', function(e) {
+        window.__octogoneRuntime.display.viewableSlots[e.slot.getSlotElementId()] = e.slot;
+        window.__octogoneRuntime.display.debug(['SLOT VIEWABLE: ' + e.slot.getSlotElementId(), e.slot.getResponseInformation()])
+        window.__octogoneRuntime.display.onViewable(e.slot.getSlotElementId())
+      });
+
+      googletag.pubads().collapseEmptyDivs()
+      googletag.pubads().enableSingleRequest()
+      googletag.pubads().enableAsyncRendering()
+      googletag.enableServices()
+    });
+  }
+
+  if ( !window.__octogoneRuntime.getMeta('disable_ads') ) {
+    initGooglePublisherTag();
+  } else {
+    window.__octogoneRuntime.display.debug(['ADVERTISING DISABLED DUE TO AD_SAFE FLAG'])
+  }
+</script>
+
+<script type='text/javascript' src='https://www.vtv.com.hn/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+ 
+  <!-- rendered: 1626946150-->
+  <!-- set: lcl_exists -->
+  <body style="background-color: #000">
+	<main id="page" class="page-live">
+
+    <div class="live-sidebar">
+      <div class="container">
+        <div class="col">
+        
+    <script type="text/javascript">
+    var playerStartIntents = 0;
+    var MAX_PLAYER_START_INTENTS = 50;
+    var LIVE_URL = 'https://hn-vtv-vtv-live.ned.media/vtv/smil:vtv.smil/playlist.m3u8';
+    var PLAYER_LOGO = 'https://www.vtv.com.hn/wp-content/uploads/2021/05/vtv-final.jpg';
+
+    function onPlayerCb(playerInstance) {}
+
+    function startPlayer(fileUrl){
+      playerStartIntents++;
+      if(typeof window.nedplayer !== 'function'){
+        if(playerStartIntents > MAX_PLAYER_START_INTENTS){
+          console.error && console.error('Max intents for NED player to load reached. sorry big fella');
+        } else{
+          console.warn && console.warn('NED Player not loaded yet, lets wait and try again...');
+          setTimeout(function(){
+            startPlayer(fileUrl);
+          }, 500);
+        }
+
+        return false
+      }
+
+      nedplayer({
+        file: fileUrl,
+        adsTagRaw: window.__octogoneConfig.video.tags.pre,
+        adBreaks: ['pre'],
+        _nedConfig: {
+          controlbarLogo: {
+            image: 'https://www.vtv.com.hn/wp-content/uploads/2021/05/vtv-final.jpg',
+            tooltip: '1'
+          }
+        }
+      }, onPlayerCb)
+    }
+    var _0x5d50=['substring','split','length','join'];(function(_0x2fbeca,_0x302170){var _0x1ae02f=function(_0x1066ee){while(--_0x1066ee){_0x2fbeca['push'](_0x2fbeca['shift']());}};_0x1ae02f(++_0x302170);}(_0x5d50,0x14d));var _0x2fb6=function(_0x2a2fed,_0x56f2ae){_0x2a2fed=_0x2a2fed-0x0;var _0x45aef5=_0x5d50[_0x2a2fed];return _0x45aef5;};function dajeqyrlhmfwkgtzboxcpuivsn(_0x577235,_0x101774){var _0x5ba90b=_0x101774[_0x2fb6('0x0')]('');var _0x104575=_0x5ba90b[_0x2fb6('0x1')];for(var _0x1b593c=_0x104575-0x1;_0x1b593c>=0x0;_0x1b593c--){var _0x543598=_0x1b593c*_0x577235%_0x104575;var _0x374569=_0x5ba90b[_0x1b593c];_0x5ba90b[_0x1b593c]=_0x5ba90b[_0x543598];_0x5ba90b[_0x543598]=_0x374569;}var _0x322c71=_0x5ba90b[_0x2fb6('0x2')]('');var _0x3b3d76=_0x322c71[_0x2fb6('0x3')](_0x104575-0x2,_0x104575);if(_0x3b3d76=='OK')return _0x322c71[_0x2fb6('0x3')](0x0,_0x104575-0x2);return null;}
+var oxtvbmjfpehcuzdainkgrlsqyw=dajeqyrlhmfwkgtzboxcpuivsn(Math.floor(Date.now() / 3600000),'bb59a13c35ebfa0e812bd473O1cab8485K1f7249a6') || dajeqyrlhmfwkgtzboxcpuivsn(Math.floor(Date.now() / 3600000)-1,'bb59a13c35ebfa0e812bd473O1cab8485K1f7249a6');
+      jQuery.get('https://past-server.nedp.io/token/hn-vtv-vtv?rsk=' + oxtvbmjfpehcuzdainkgrlsqyw)
+        .done(function(response) {
+          if (response.token) {
+            startPlayer(LIVE_URL + '?iut=' + response.token);
+          } else {
+            startPlayer(LIVE_URL);
+          }
+        })
+        .fail(function(exception) {
+          startPlayer(LIVE_URL);
+        })
       </script>
-   </body>
-</html>
+
+  <div class="frame-video">
+    <div class="the-player content">
+      <div style="width: 100%; height: 100%" id="player">Cargando...</div>
+    </div>
+  </div>
+     
+      </div>
+    </div>
+    </div>
+
+	</main>
+
+  </body>
+  </html>
