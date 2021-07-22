@@ -1273,6 +1273,30 @@ let lfctv = `
 <i class="uk flag"></i> Liverpool TV | HD</li>
 </a>
 `;
+let eurosp1uk = `
+<a href="go:eurosport1">
+<li class="canalito list-group-item darkolorbg blancolor">
+<i class="uk flag"></i> EuroSport 1 | HD</li>
+</a>
+`;
+let eurosp2uk = `
+<a href="go:eurosport2">
+<li class="canalito list-group-item darkolorbg blancolor">
+<i class="uk flag"></i> EuroSport 2 | HD</li>
+</a>
+`;
+let eursp1es = `
+<a href="go:eurosp1es">
+<li class="canalito list-group-item darkolorbg blancolor">
+<i class="es flag"></i> EuroSport 1 | HD</li>
+</a>
+`;
+let eursp2es = `
+<a href="go:eurosp2es">
+<li class="canalito list-group-item darkolorbg blancolor">
+<i class="es flag"></i> EuroSport 2 | HD</li>
+</a>
+`;
 for(const ele of document.getElementsByClassName("espera")){ele.innerHTML=(espera)};
 for(const ele of document.getElementsByClassName("aragontv")){ele.innerHTML=(aragontv)};
 for(const ele of document.getElementsByClassName("abcus")){ele.innerHTML=(abcus)};
@@ -1389,6 +1413,10 @@ for(const ele of document.getElementsByClassName("sporttv3")){ele.innerHTML=(spo
 for(const ele of document.getElementsByClassName("sporttv4")){ele.innerHTML=(sporttv4)};
 for(const ele of document.getElementsByClassName("sporttv5")){ele.innerHTML=(sporttv5)};
 for(const ele of document.getElementsByClassName("openbeyond")){ele.innerHTML=(openbeyond)};
+for(const ele of document.getElementsByClassName("eurosp1uk")){ele.innerHTML=(eurosp1uk)};
+for(const ele of document.getElementsByClassName("eurosp2uk")){ele.innerHTML=(eurosp2uk)};
+for(const ele of document.getElementsByClassName("eurosp1es")){ele.innerHTML=(eurosp1es)};
+for(const ele of document.getElementsByClassName("eurosp2es")){ele.innerHTML=(eurosp2es)};
 
 
 // Daddy Live - Iframe
