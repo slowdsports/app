@@ -1285,13 +1285,13 @@ let eurosp2uk = `
 <i class="uk flag"></i> EuroSport 2 | HD</li>
 </a>
 `;
-let eursp1es = `
+let eurosp1es = `
 <a href="go:eurosp1es">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> EuroSport 1 | HD</li>
 </a>
 `;
-let eursp2es = `
+let eurosp2es = `
 <a href="go:eurosp2es">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> EuroSport 2 | HD</li>
