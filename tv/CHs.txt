@@ -29,6 +29,73 @@ http://91.126.141.13:1935/live/101/playlist.m3u8
 Ñam TV
 http://91.126.141.13:1935/live/121/playlist.m3u8
 
+Cinefamilia
+https://pubads.g.doubleclick.net/ssai/event/mdndtLgeToWtwOAX6pg6Og/master.m3u8
+
+A3Cine
+https://live.atresmediainternacional.com/ATRESMEDIA/a3cine-1080.m3u8
+
+Hola TV
+https://live.atresmediainternacional.com/ATRESMEDIA/holatv-1080.m3u8
+
+Telecinco Nius
+https://mdslivehlsb-i.akamaihd.net/hls/live/875601/niusdiario/01.m3u8
+
+Popular TV Melilla
+http://media.profesionalhosting.com:1935/8009/8009/playlist.m3u8
+
+RTV Murcia
+http://rtvmurcia_01-lh.akamaihd.net/i/rtvmurcia_1_0@507973/master.m3u8
+
+Canal Extremadura
+https://cdnlive.shooowit.net/canalextremaduralive/smil:channel1DVR.smil/playlist.m3u8
+
+ESport3
+https://directes-tv-int.ccma.cat/int/ngrp:324_web/.m3u8?dvr
+
+LN Adrenaline Rush
+https://adrenalinerush.localnowlive.com/v1/master/385c85a93929f94966d0fb186fc33b431e6f1eb9/DSP_600202d9f9bc43167875ae14_adrenaline-live/playlist.m3u8?ads.cb=2588284317399585&ads.w=1366&ads.h=768&ads.app_bundle=&ads.app_name=&ads.did=&ads.ifa_type=&ads.dnt=&ads.device_make=&ads.device_model=&ads.device_type=&ads.cust_devicename=desktop_web&ads.ua=Mozilla%2F5.0%20%28Windows%20NT%206.1%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F88.0.4324.190%20Safari%2F537.36&ads.cust_channelid=&ads.cust_channeltitle=&ads.content_title=EPG%20%7C%20Adrenaline%20Rush&ads.content_id=600202d9f9bc43167875ae14&ads.content_series=&ads.content_episode=&ads.content_season=&ads.content_genre=Travel&ads.ic=&ads.content_provider=ln-adrenaline-rush&ads.content_len=&ads.content_livestream=1&ads.us_privacy=&ads.ip=156.146.59.2&ads.payid=6ec8debb969b70cf&ads.SSID=&ads.iris_id=iris_6664cb55944facc8
+
+Docubay
+https://docubayvh.s.llnwi.net/526a07ab-6ae7-4b6c-84a1-159791416484_1000004372_HLS/manifest.m3u8
+
+Canal Sur Andalucía
+https://cdnlive.shooowit.net/rtvalive/smil:83CRxkDnV6DVR.smil/playlist.m3u8
+
+
+
+
+// RTVE
+
+LA 1 NEUTRA: https://rtvelivestream.akamaized.net/la1_dvr.m3u8
+LA 2 NEUTRA: https://rtvelivestream.akamaized.net/la2_dvr.m3u8
+24H NEUTRA: https://rtvelivestream.akamaized.net/24h_dvr.m3u8
+TDP NEUTRA: https://rtvelivestream.akamaized.net/tdp_dvr.m3u8
+
+LA 1 CAT: https://hlsliveamdgl7-lh.akamaihd.net/i/hlsdvrlive_1@130182/master.m3u8
+LA 2 CAT: https://hlsliveamdgl1-lh.akamaihd.net/i/hlslive_1@155343/master.m3u8
+24H CAT: https://hlsliveamdgl8-lh.akamaihd.net/i/hlslive_1@156275/master.m3u8
+
+LA 1 CAN: https://hlsliveamdgl7-lh.akamaihd.net/i ... aster.m3u8
+LA 2 CAN: https://hlsliveamdgl1-lh.akamaihd.net/i ... aster.m3u8
+24H CAN: https://hlsliveamdgl8-lh.akamaihd.net/i ... aster.m3u8
+
+LA 1 ANDALUCÍA: https://hlsliveamdgl7-lh.akamaihd.net/i/hlsdvrlive_1@321466/master.m3u8
+LA 1 ARAGON: https://hlsliveamdgl7-lh.akamaihd.net/i/hlsdvrlive_1@381054/master.m3u8
+LA 1 ASTURIAS: https://hlsliveamdgl7-lh.akamaihd.net/i/hlsdvrlive_1@381564/master.m3u8
+LA 1 CANTABRIA: https://hlsliveamdgl7-lh.akamaihd.net/i/hlsdvrlive_1@381567/master.m3u8
+LA 1 CASTILLA LA MANCHA: https://hlsliveamdgl7-lh.akamaihd.net/i/hlsdvrlive_1@382229/master.m3u8
+LA 1 CASTILLA Y LEÓN: https://hlsliveamdgl7-lh.akamaihd.net/i/hlsdvrlive_1@385144/master.m3u8
+LA 1 EXTREMADURA: https://hlsliveamdgl7-lh.akamaihd.net/i/hlsdvrlive_1@380750/master.m3u8
+LA 1 GALICIA: https://hlsliveamdgl7-lh.akamaihd.net/i/hlsdvrlive_1@134550/master.m3u8
+LA 1 BALEARES: https://hlsliveamdgl7-lh.akamaihd.net/i/hlsdvrlive_1@385145/master.m3u8
+LA 1 RIOJA: https://hlsliveamdgl7-lh.akamaihd.net/i/hlsdvrlive_1@372884/master.m3u8
+LA 1 MADRID: https://hlsliveamdgl7-lh.akamaihd.net/i/hlsdvrlive_1@14880/master.m3u8
+LA 1 MURCIA: https://hlsliveamdgl7-lh.akamaihd.net/i/hlsdvrlive_1@393818/master.m3u8
+LA 1 NAVARRA: https://hlsliveamdgl7-lh.akamaihd.net/i/hlsdvrlive_1@372797/master.m3u8
+LA 1 EUSKADI: https://hlsliveamdgl7-lh.akamaihd.net/i/hlsdvrlive_1@323582/master.m3u8
+LA 1 C. VALENCIANA: https://hlsliveamdgl7-lh.akamaihd.net/i/hlsdvrlive_1@372775/master.m3u8
+
     // INGLÉS
     Sky Sports F1
     
@@ -36,6 +103,97 @@ http://91.126.141.13:1935/live/121/playlist.m3u8
     
     Fox Sports
     http://77.83.117.60:8888/02_foxsport_720p/chunklist.m3u8
+    
+    AMC
+    https://5def33c73f084e11a19ca77697d6b413.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Plex_AMCPresents/playlist.m3u8?ads.wurl_channel=474&ads.wurl_name=AMCPresents&ads.us_privacy=1---&ads.psid=9dada7b9-5bea-5735-bde0-193417bf2195&ads.targetopt=0&ads.plex_token=FahjXuA7PHyjtX8ygf6-&ads.plex_id=60369408f64296002c658085&ads.ua=Mozilla%2F5.0%20(Windows%20NT%206.1)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F89.0.4389.72%20Safari%2F537.36&ads.app_bundle=com.plexapp.desktop&ads.app_store_url=https%3A%2F%2Fapp.plex.tv&ads.gdpr=0&ads.consent=0&ads.device_type=desktop
+    
+    MTVSparkin'New
+    https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d14fdb8ca91eedee1633117/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=false&deviceId=a75c3503-789a-4528-a59e-15ba63900445&deviceLat=37.7510&deviceLon=-97.8220&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=86.0.4240.198&includeExtendedEvents=false&marketingRegion=US&sid=5d7caefe-34d8-11eb-a2dd-0242ac110002&userId=&serverSideAds=false
+    
+    MTVPop
+    https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d14fd1a252d35decbc4080c/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=false&deviceId=a75c3503-789a-4528-a59e-15ba63900445&deviceLat=37.7510&deviceLon=-97.8220&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=86.0.4240.198&includeExtendedEvents=false&marketingRegion=US&sid=5d7caefe-34d8-11eb-a2dd-0242ac110002&userId=&serverSideAds=false
+    
+    MTVYo!
+    https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d14fc31252d35decbc4080b/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=false&deviceId=a75c3503-789a-4528-a59e-15ba63900445&deviceLat=37.7510&deviceLon=-97.8220&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=86.0.4240.198&includeExtendedEvents=false&marketingRegion=US&sid=5d7caefe-34d8-11eb-a2dd-0242ac110002&userId=&serverSideAds=false
+    
+    MTVParty
+    https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5e150a3d73fd3f00094f722f/master.m3u8?deviceId=8f9e4f90-4ea5-54da-b12e-c3bc59a138c9&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=8f9e4f90-4ea5-54da-b12e-c3bc59a138c9&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=cc22deddb2eb526ca02d003e5116d5dc&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=8f9e4f90-4ea5-54da-b12e-c3bc59a138c9&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=151908&channelStore=us
+    
+    Showtime
+    https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f988934a507de00075d9ae7/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=false&deviceId=a75c3503-789a-4528-a59e-15ba63900445&deviceLat=37.7510&deviceLon=-97.8220&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=86.0.4240.198&includeExtendedEvents=false&marketingRegion=US&sid=5d7caefe-34d8-11eb-a2dd-0242ac110002&userId=&serverSideAds=false
+    
+    
+
+    
+    // INFNTILES - PLUTO
+    Big Time Rush
+    http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f1aa7aab66c76000790ee7e/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+    
+    Las pistas de blue
+    http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f1aa82c150b2500077733d7/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+    
+    Go Diego go
+    http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f1aa89d42a0500007363ea3/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+    
+    PlutoJunior
+    http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f1aa9bcd8160700076d45d1/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+    
+    PlutoKids
+    http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f1aab1d29b39600073e243f/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+    
+    PlutoAnimakids
+    http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f1aabee6f4a2c00076a322c/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+    
+    Bob Esponja
+    http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f1aca0b4e448e00075e7c5e/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+    
+    PlutoTeenStars
+    http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60016a60a8e3520008e0d331/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+    
+    PlutoActionKids
+    http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60218c2a32f9c40007c2f7cc/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+    
+    // RAKUTEN
+    Acción
+    https://rakuten-actionmovies-2-es.samsung.wurl.com/manifest/playlist.m3u8
+    
+    Comedia
+    https://rakuten-comedymovies-2-es.samsung.wurl.com/manifest/playlist.m3u8
+    
+    Drama
+    https://rakuten-tvshows-2-es.samsung.wurl.com/manifest/playlist.m3u8
+    
+    Familia
+    https://rakuten-family-2-es.samsung.wurl.com/manifest/playlist.m3u8
+    
+    Hola
+    https://rakuten-hola-2-es.samsung.wurl.tv/playlist.m3u8
+    
+    Spotlight
+    https://rakuten-spotlight-2-es.samsung.wurl.com/manifest/playlist.m3u8
+    
+    Topfree
+    https://rakuten-topfree-2-eu.rakuten.wurl.tv/playlist.m3u8
+    
+    
+    // VERDI
+    
+    Cines
+    https://contracorriente-canalcinesverdi-1-es.samsung.wurl.com/manifest/playlist.m3u8
+    
+    FeelGood
+    https://contracorriente-canalfeelgood-1-es.samsung.wurl.com/manifest/playlist.m3u8
+    
+    Runtime
+    https://runtimeespana-samsungspain.amagi.tv/playlist.m3u8
+    
+    My time movie maker
+    https://appletree-mytimespain-samsung.amagi.tv/playlist.m3u8
+    
+    Butaca
+    https://veranda-butacatv-1-es.samsung.wurl.com/manifest/playlist.m3u8
+    
+    
 
 
 // ARGENTINA
