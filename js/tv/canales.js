@@ -1303,6 +1303,12 @@ let olympicc = `
 <i class="us flag"></i> Olympic Channel | HD</li>
 </a>
 `;
+let vtvhn = `
+<a href="go:vtvhn">
+<li class="canalito list-group-item darkolorbg blancolor">
+<i class="hn flag"></i> VTV | HD</li>
+</a>
+`;
 for(const ele of document.getElementsByClassName("espera")){ele.innerHTML=(espera)};
 for(const ele of document.getElementsByClassName("aragontv")){ele.innerHTML=(aragontv)};
 for(const ele of document.getElementsByClassName("abcus")){ele.innerHTML=(abcus)};
@@ -1424,6 +1430,7 @@ for(const ele of document.getElementsByClassName("eurosp2uk")){ele.innerHTML=(eu
 for(const ele of document.getElementsByClassName("eurosp1es")){ele.innerHTML=(eurosp1es)};
 for(const ele of document.getElementsByClassName("eurosp2es")){ele.innerHTML=(eurosp2es)};
 for(const ele of document.getElementsByClassName("olympicc")){ele.innerHTML=(olympicc)};
+for(const ele of document.getElementsByClassName("vtvhn")){ele.innerHTML=(vtvhn)};
 
 
 // Daddy Live - Iframe
