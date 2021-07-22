@@ -22,6 +22,12 @@ let canalesTVUK = `
    
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
+    <span class="tv-lfctv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
     <span class="tv-mtveur"></span>
   </div>
    <!--/CANAL-->
@@ -35,6 +41,12 @@ let canalesTVUK = `
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
     <span class="tv-sky-racing2"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
+    <span class="tv-skyspf1"></span>
   </div>
    <!--/CANAL-->
    

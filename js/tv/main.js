@@ -36,6 +36,12 @@ let canalesTV = `
    
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
+    <span class="tv-cero"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
     <span class="tv-la1"></span>
   </div>
    <!--/CANAL-->
@@ -73,6 +79,18 @@ let canalesTV = `
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
     <span class="tv-amces"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
+    <span class="tv-aragontv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
+    <span class="tv-axnes"></span>
   </div>
    <!--/CANAL-->
    
@@ -240,6 +258,12 @@ let canalesTV = `
    
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
+    <span class="tv-disneyes"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
     <span class="tv-divinity"></span>
   </div>
    <!--/CANAL-->
@@ -259,6 +283,12 @@ let canalesTV = `
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
     <span class="tv-espnbr"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
+    <span class="tv-espnmx"></span>
   </div>
    <!--/CANAL-->
    
@@ -414,6 +444,12 @@ let canalesTV = `
    
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
+    <span class="tv-golesgeo"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
     <span class="tv-hbo"></span>
   </div>
    <!--/CANAL-->
@@ -432,7 +468,25 @@ let canalesTV = `
    
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
+    <span class="tv-historyes"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
     <span class="tv-ib3"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
+    <span class="tv-lfctv"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
+    <span class="tv-nbatv"></span>
   </div>
    <!--/CANAL-->
    
@@ -510,6 +564,12 @@ let canalesTV = `
    
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
+    <span class="tv-natgeoes"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
     <span class="tv-nbcus"></span>
   </div>
    <!--/CANAL-->
@@ -558,6 +618,12 @@ let canalesTV = `
    
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
+    <span class="tv-rmtves"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
     <span class="tv-sevillatv"></span>
   </div>
    <!--/CANAL-->
@@ -577,6 +643,12 @@ let canalesTV = `
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
     <span class="tv-sky-racing2"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
+    <span class="tv-skyspf1"></span>
   </div>
    <!--/CANAL-->
    
@@ -625,6 +697,12 @@ let canalesTV = `
    <!--CANAL-->
   <div class="col-6 col-sm-4">  
     <span class="tv-syfy"></span>
+  </div>
+   <!--/CANAL-->
+   
+   <!--CANAL-->
+  <div class="col-6 col-sm-4">  
+    <span class="tv-syfyes"></span>
   </div>
    <!--/CANAL-->
    

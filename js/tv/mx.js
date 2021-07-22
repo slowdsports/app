@@ -59,6 +59,51 @@ let DiscoveryTurbo = `
 `
 for(const ele of document.getElementsByClassName("tv-dturbo")){ele.innerHTML=(DiscoveryTurbo)};
 
+let ESPNMx = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:espnmx">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img espn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden"></span>ESPN <i class="flag mx"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-espnmx")){ele.innerHTML=(ESPNMx)};
+
+let ESP2NMx = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:espn2mx">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img espn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden">discovery discovery</span>ESPN 2 <i class="flag mx"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-espn2mx")){ele.innerHTML=(ESPN2Mx)};
+
+let ESPN3Mx = `
+<div class="card darkolorbg text-white card-canal">
+       <a class="card-link text-white" href="go:espn3mx">           
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                <img class="canal-img espn" src="https://i.ibb.co/w0qg9JF/trans.png" alt="">
+            </div>
+            
+            <div class="d-flex justify-content-center"><h5><span class="hidden">discovery discovery</span>ESPN 3 <i class="flag mx"></i></h5></div>
+        </div>
+       </a>
+    </div>
+`
+for(const ele of document.getElementsByClassName("tv-espn3mx")){ele.innerHTML=(ESPN3Mx)};
+
 let FOX = `
 <div class="card darkolorbg text-white card-canal">
        <a class="card-link text-white" href="go:fox">           

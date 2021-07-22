@@ -52,11 +52,11 @@
     background-repeat: no-repeat;
 }
 .gol{
-    background-image: url(https://allvectorlogo.com/img/2016/07/goltv-logo.png);
+    background-image: url(../tv/images/goltv.png);
     background-repeat: no-repeat;
 }
 .goles{
-    background-image: url(https://www.telefonoatencionclientes.com/wp-content/uploads/2018/10/telefono-goltv.jpg);
+    background-image: url(../tv/images/GOL.png);
     background-repeat: no-repeat;
 }
 .cbs{
@@ -278,7 +278,7 @@ tudn{
     background-repeat: no-repeat;
 }
 .mtv{
-    background-image: url(../tv/images/MTV.png);
+    background-image: url(../tv/images/MTVW.png);
     background-repeat: no-repeat;
 }
 .telesur{
@@ -403,5 +403,33 @@ tudn{
 }
 .blaze{
     background-image: url(../tv/images/blaze.png);
+    background-repeat: no-repeat;
+}
+.history{
+    background-image: url(../tv/images/HIST.png);
+    background-repeat: no-repeat;
+}
+.axn{
+    background-image: url(../tv/images/AXNW.png);
+    background-repeat: no-repeat;
+}
+.disney{
+    background-image: url(../tv/images/disneyw.png);
+    background-repeat: no-repeat;
+}
+.natgeo{
+    background-image: url(../tv/images/NATGEOW.png);
+    background-repeat: no-repeat;
+}
+.nbatv{
+    background-image: url(../tv/images/nba.png);
+    background-repeat: no-repeat;
+}
+.cero{
+    background-image: url(../tv/images/0w.png);
+    background-repeat: no-repeat;
+}
+.aragontv{
+    background-image: url(../tv/images/aragontv.png);
     background-repeat: no-repeat;
 }

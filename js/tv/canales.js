@@ -408,7 +408,7 @@ for(const ele of document.getElementsByClassName("otro6")){ele.innerHTML=(otro6)
 
 // FOX NFL
 let fsoul  = `
-<a href="../../tv/p/usaf.html?get=fsoul">
+<a href="../tv/p/usaf.html?get=fsoul">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Fox Soul | HD</li>
 </a>
@@ -416,7 +416,7 @@ let fsoul  = `
 for(const ele of document.getElementsByClassName("fsoul")){ele.innerHTML=(fsoul)};
 
 let fseattle  = `
-<a href="../../tv/p/usaf.html?get=fseattle">
+<a href="../tv/p/usaf.html?get=fseattle">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Fox Seattle | HD</li>
 </a>
@@ -424,7 +424,7 @@ let fseattle  = `
 for(const ele of document.getElementsByClassName("fseattle")){ele.innerHTML=(fseattle)};
 
 let fdallas  = `
-<a href="../../tv/p/usaf.html?get=fdallas">
+<a href="../tv/p/usaf.html?get=fdallas">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Fox Dallas | HD</li>
 </a>
@@ -432,7 +432,7 @@ let fdallas  = `
 for(const ele of document.getElementsByClassName("fdallas")){ele.innerHTML=(fdallas)};
 
 let fminneapolis  = `
-<a href="../../tv/p/usaf.html?get=fminneapolis">
+<a href="../tv/p/usaf.html?get=fminneapolis">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Fox Minneapolis | HD</li>
 </a>
@@ -440,7 +440,7 @@ let fminneapolis  = `
 for(const ele of document.getElementsByClassName("fminneapolis")){ele.innerHTML=(fminneapolis)};
 
 let fhouston  = `
-<a href="../../tv/p/usaf.html?get=fhouston">
+<a href="../tv/p/usaf.html?get=fhouston">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Fox Houston | HD</li>
 </a>
@@ -448,7 +448,7 @@ let fhouston  = `
 for(const ele of document.getElementsByClassName("fhouston")){ele.innerHTML=(fhouston)};
 
 let fphoenix  = `
-<a href="../../tv/p/usaf.html?get=fphoenix">
+<a href="../tv/p/usaf.html?get=fphoenix">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Fox Phoenix | HD</li>
 </a>
@@ -456,7 +456,7 @@ let fphoenix  = `
 for(const ele of document.getElementsByClassName("fphoenix")){ele.innerHTML=(fphoenix)};
 
 let faustin  = `
-<a href="../../tv/p/usaf.html?get=faustin">
+<a href="../tv/p/usaf.html?get=faustin">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Fox Austin | HD</li>
 </a>
@@ -464,7 +464,7 @@ let faustin  = `
 for(const ele of document.getElementsByClassName("faustin")){ele.innerHTML=(faustin)};
 
 let flosangeles  = `
-<a href="../../tv/p/usaf.html?get=flosangeles">
+<a href="../tv/p/usaf.html?get=flosangeles">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Fox Los Angeles | HD</li>
 </a>
@@ -472,7 +472,7 @@ let flosangeles  = `
 for(const ele of document.getElementsByClassName("flosangeles")){ele.innerHTML=(flosangeles)};
 
 let fsanfrancisco  = `
-<a href="../../tv/p/usaf.html?get=fsanfrancisco">
+<a href="../tv/p/usaf.html?get=fsanfrancisco">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Fox San Francisco | HD</li>
 </a>
@@ -480,7 +480,7 @@ let fsanfrancisco  = `
 for(const ele of document.getElementsByClassName("fsanfrancisco")){ele.innerHTML=(fsanfrancisco)};
 
 let fatlanta  = `
-<a href="../../tv/p/usaf.html?get=fatlanta">
+<a href="../tv/p/usaf.html?get=fatlanta">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Fox Atlanta | HD</li>
 </a>
@@ -488,7 +488,7 @@ let fatlanta  = `
 for(const ele of document.getElementsByClassName("fatlanta")){ele.innerHTML=(fatlanta)};
 
 let fchicago  = `
-<a href="../../tv/p/usaf.html?get=fchicago">
+<a href="../tv/p/usaf.html?get=fchicago">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Fox Chicago | HD</li>
 </a>
@@ -496,7 +496,7 @@ let fchicago  = `
 for(const ele of document.getElementsByClassName("fchicago")){ele.innerHTML=(fchicago)};
 
 let fmilwaukee  = `
-<a href="../../tv/p/usaf.html?get=fmilwaukee">
+<a href="../tv/p/usaf.html?get=fmilwaukee">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Fox Milwaukee | HD</li>
 </a>
@@ -504,7 +504,7 @@ let fmilwaukee  = `
 for(const ele of document.getElementsByClassName("fmilwaukee")){ele.innerHTML=(fmilwaukee)};
 
 let fdetroit  = `
-<a href="../../tv/p/usaf.html?get=fdetroit">
+<a href="../tv/p/usaf.html?get=fdetroit">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Fox Detroit | HD</li>
 </a>
@@ -512,7 +512,7 @@ let fdetroit  = `
 for(const ele of document.getElementsByClassName("fdetroit")){ele.innerHTML=(fdetroit)};
 
 let fnewyork  = `
-<a href="../../tv/p/usaf.html?get=fnewyork">
+<a href="../tv/p/usaf.html?get=fnewyork">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Fox New York | HD</li>
 </a>
@@ -520,7 +520,7 @@ let fnewyork  = `
 for(const ele of document.getElementsByClassName("fnewyork")){ele.innerHTML=(fnewyork)};
 
 let forlando  = `
-<a href="../../tv/p/usaf.html?get=forlando">
+<a href="../tv/p/usaf.html?get=forlando">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Fox Orlando | HD</li>
 </a>
@@ -528,7 +528,7 @@ let forlando  = `
 for(const ele of document.getElementsByClassName("forlando")){ele.innerHTML=(forlando)};
 
 let fsavannah  = `
-<a href="../../tv/p/usaf.html?get=fsavannah">
+<a href="../tv/p/usaf.html?get=fsavannah">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Fox Savannah | HD</li>
 </a>
@@ -536,7 +536,7 @@ let fsavannah  = `
 for(const ele of document.getElementsByClassName("fsavannah")){ele.innerHTML=(fsavannah)};
 
 let ftulsa  = `
-<a href="../../tv/p/usaf.html?get=ftulsa">
+<a href="../tv/p/usaf.html?get=ftulsa">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Fox Soul | HD</li>
 </a>
@@ -544,7 +544,7 @@ let ftulsa  = `
 for(const ele of document.getElementsByClassName("ftulsa")){ele.innerHTML=(ftulsa)};
 
 let fmiami  = `
-<a href="../../tv/p/usaf.html?get=fmiami">
+<a href="../tv/p/usaf.html?get=fmiami">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Fox Miami | HD</li>
 </a>
@@ -552,7 +552,7 @@ let fmiami  = `
 for(const ele of document.getElementsByClassName("fmiami")){ele.innerHTML=(fmiami)};
 
 let fwashington  = `
-<a href="../../tv/p/usaf.html?get=fwashington">
+<a href="../tv/p/usaf.html?get=fwashington">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Fox Washington | HD</li>
 </a>
@@ -560,7 +560,7 @@ let fwashington  = `
 for(const ele of document.getElementsByClassName("fwashington")){ele.innerHTML=(fwashington)};
 
 let ftampa  = `
-<a href="../../tv/p/usaf.html?get=ftampa">
+<a href="../tv/p/usaf.html?get=ftampa">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Fox Tampa | HD</li>
 </a>
@@ -568,7 +568,7 @@ let ftampa  = `
 for(const ele of document.getElementsByClassName("ftampa")){ele.innerHTML=(ftampa)};
 
 let fphiladelphia  = `
-<a href="../../tv/p/usaf.html?get=fphiladelphia">
+<a href="../tv/p/usaf.html?get=fphiladelphia">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> Fox Philadelphia | HD</li>
 </a>
@@ -581,6 +581,12 @@ let espera = `
 <a href="go:ads">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class=" flag"></i> Sin información de TV</li>
+</a>
+`;
+let aragontv = `
+<a href="go:aragontv">
+<li class="canalito list-group-item darkolorbg blancolor">
+<i class="es flag"></i> Aragón TV | HD</li>
 </a>
 `;
 let abcus = `
@@ -627,6 +633,12 @@ let mega = `
 `;
 let megaes = `
 <a href="go:megaes">
+<li class="canalito list-group-item darkolorbg blancolor">
+<i class="es flag"></i> Mega | HD</li>
+</a>
+`;
+let megaesb = `
+<a href="go:megaesb">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="es flag"></i> Mega | HD</li>
 </a>
@@ -1255,7 +1267,14 @@ let rmtvus = `
 <i class="us flag"></i> Real Madrid TV | HD</li>
 </a>
 `;
+let lfctv = `
+<a href="go:lfctv">
+<li class="canalito list-group-item darkolorbg blancolor">
+<i class="uk flag"></i> Liverpool TV | HD</li>
+</a>
+`;
 for(const ele of document.getElementsByClassName("espera")){ele.innerHTML=(espera)};
+for(const ele of document.getElementsByClassName("aragontv")){ele.innerHTML=(aragontv)};
 for(const ele of document.getElementsByClassName("abcus")){ele.innerHTML=(abcus)};
 for(const ele of document.getElementsByClassName("bar")){ele.innerHTML=(bar)};
 for(const ele of document.getElementsByClassName("barcatv")){ele.innerHTML=(barcatv)};
@@ -1264,6 +1283,7 @@ for(const ele of document.getElementsByClassName("mlaliga1")){ele.innerHTML=(mla
 for(const ele of document.getElementsByClassName("mlaliga2")){ele.innerHTML=(mlaliga2)};
 for(const ele of document.getElementsByClassName("mega")){ele.innerHTML=(mega)};
 for(const ele of document.getElementsByClassName("megaes")){ele.innerHTML=(megaes)};
+for(const ele of document.getElementsByClassName("megaesb")){ele.innerHTML=(megaesb)};
 for(const ele of document.getElementsByClassName("azteca7")){ele.innerHTML=(azteca7)};
 for(const ele of document.getElementsByClassName("bemad")){ele.innerHTML=(bemad)};
 for(const ele of document.getElementsByClassName("beinne")){ele.innerHTML=(beinne)};
@@ -1273,6 +1293,7 @@ for(const ele of document.getElementsByClassName("beinxtra")){ele.innerHTML=(bei
 for(const ele of document.getElementsByClassName("beinxtraes")){ele.innerHTML=(beinxtraes)};
 for(const ele of document.getElementsByClassName("rmtves")){ele.innerHTML=(rmtves)};
 for(const ele of document.getElementsByClassName("rmtvus")){ele.innerHTML=(rmtvus)};
+for(const ele of document.getElementsByClassName("lfctv")){ele.innerHTML=(lfctv)};
 for(const ele of document.getElementsByClassName("canal5hn")){ele.innerHTML=(canal5hn)};
 for(const ele of document.getElementsByClassName("cbshq")){ele.innerHTML=(cbshq)};
 for(const ele of document.getElementsByClassName("directv1")){ele.innerHTML=(directv1)};
@@ -1420,7 +1441,7 @@ let skyactif = `
 for(const ele of document.getElementsByClassName("skyactif")){ele.innerHTML=(skyactif)};
 
 let nbcsnif = `
-<a href="go:skyactif">
+<a href="go:nbcsnif">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="us flag"></i> NBCSN | HD</li>
 </a>
