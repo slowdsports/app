@@ -925,7 +925,6 @@ let la1 = `
 <i class="es flag"></i> La 1 | HD</li>
 </a>
 `;
-
 let lequipe = `
 <a href="go:lequipe">
 <li class="canalito list-group-item darkolorbg blancolor">
@@ -1070,10 +1069,16 @@ let telecadena = `
 <i class="hn flag"></i> Telecadena | HD</li>
 </a>
 `;
-let telemundon = `
-<a href="go:telemundon">
+let tlmphx = `
+<a href="go:tlmphx">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="mx flag"></i> Telemundo | HD</li>
+</a>
+`;
+let nbcu = `
+<a href="go:nbcu">
+<li class="canalito list-group-item darkolorbg blancolor">
+<i class="mx flag"></i> Universo | HD</li>
 </a>
 `;
 let tigohn = `
@@ -1344,6 +1349,7 @@ for(const ele of document.getElementsByClassName("mdepb")){ele.innerHTML=(mdepb)
 for(const ele of document.getElementsByClassName("mdep1")){ele.innerHTML=(mdep1)};
 for(const ele of document.getElementsByClassName("mdep2")){ele.innerHTML=(mdep2)};
 for(const ele of document.getElementsByClassName("mdep3")){ele.innerHTML=(mdep3)};
+for(const ele of document.getElementsByClassName("nbcu")){ele.innerHTML=(nbcu)};
 for(const ele of document.getElementsByClassName("mlcamp")){ele.innerHTML=(mlcamp)};
 for(const ele of document.getElementsByClassName("mlcamp1")){ele.innerHTML=(mlcamp1)};
 for(const ele of document.getElementsByClassName("mlcamp2")){ele.innerHTML=(mlcamp2)};
@@ -1355,7 +1361,7 @@ for(const ele of document.getElementsByClassName("dazn2es")){ele.innerHTML=(dazn
 for(const ele of document.getElementsByClassName("movistar")){ele.innerHTML=(movistar)};
 for(const ele of document.getElementsByClassName("tdtvp")){ele.innerHTML=(tdtvp)};
 for(const ele of document.getElementsByClassName("telecadena")){ele.innerHTML=(telecadena)};
-for(const ele of document.getElementsByClassName("telemundon")){ele.innerHTML=(telemundon)};
+for(const ele of document.getElementsByClassName("tlmphx")){ele.innerHTML=(tlmphx)};
 for(const ele of document.getElementsByClassName("tigohn")){ele.innerHTML=(tigohn)};
 for(const ele of document.getElementsByClassName("tigopy")){ele.innerHTML=(tigopy)};
 for(const ele of document.getElementsByClassName("tigobo")){ele.innerHTML=(tigobo)};
