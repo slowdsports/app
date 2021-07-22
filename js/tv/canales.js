@@ -925,7 +925,6 @@ let la1 = `
 <i class="es flag"></i> La 1 | HD</li>
 </a>
 `;
-
 let lequipe = `
 <a href="go:lequipe">
 <li class="canalito list-group-item darkolorbg blancolor">
@@ -1081,6 +1080,7 @@ let nbcu = `
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="mx flag"></i> Universo | HD</li>
 </a>
+`;
 let tigohn = `
 <a href="go:tigohn">
 <li class="canalito list-group-item darkolorbg blancolor">
