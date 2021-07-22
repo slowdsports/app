@@ -1262,6 +1262,12 @@ let rmtvus = `
 <i class="us flag"></i> Real Madrid TV | HD</li>
 </a>
 `;
+let lfctv = `
+<a href="go:lfctv">
+<li class="canalito list-group-item darkolorbg blancolor">
+<i class="uk flag"></i> Liverpool TV | HD</li>
+</a>
+`;
 for(const ele of document.getElementsByClassName("espera")){ele.innerHTML=(espera)};
 for(const ele of document.getElementsByClassName("aragontv")){ele.innerHTML=(aragontv)};
 for(const ele of document.getElementsByClassName("abcus")){ele.innerHTML=(abcus)};
@@ -1282,6 +1288,7 @@ for(const ele of document.getElementsByClassName("beinxtra")){ele.innerHTML=(bei
 for(const ele of document.getElementsByClassName("beinxtraes")){ele.innerHTML=(beinxtraes)};
 for(const ele of document.getElementsByClassName("rmtves")){ele.innerHTML=(rmtves)};
 for(const ele of document.getElementsByClassName("rmtvus")){ele.innerHTML=(rmtvus)};
+for(const ele of document.getElementsByClassName("lfctv")){ele.innerHTML=(lfctv)};
 for(const ele of document.getElementsByClassName("canal5hn")){ele.innerHTML=(canal5hn)};
 for(const ele of document.getElementsByClassName("cbshq")){ele.innerHTML=(cbshq)};
 for(const ele of document.getElementsByClassName("directv1")){ele.innerHTML=(directv1)};
