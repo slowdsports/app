@@ -1070,8 +1070,8 @@ let telecadena = `
 <i class="hn flag"></i> Telecadena | HD</li>
 </a>
 `;
-let telemundop = `
-<a href="go:telemundop">
+let tlmphx = `
+<a href="go:tlmphx">
 <li class="canalito list-group-item darkolorbg blancolor">
 <i class="mx flag"></i> Telemundo | HD</li>
 </a>
@@ -1361,7 +1361,7 @@ for(const ele of document.getElementsByClassName("dazn2es")){ele.innerHTML=(dazn
 for(const ele of document.getElementsByClassName("movistar")){ele.innerHTML=(movistar)};
 for(const ele of document.getElementsByClassName("tdtvp")){ele.innerHTML=(tdtvp)};
 for(const ele of document.getElementsByClassName("telecadena")){ele.innerHTML=(telecadena)};
-for(const ele of document.getElementsByClassName("telemundop")){ele.innerHTML=(telemundop)};
+for(const ele of document.getElementsByClassName("tlmphx")){ele.innerHTML=(tlmphx)};
 for(const ele of document.getElementsByClassName("tigohn")){ele.innerHTML=(tigohn)};
 for(const ele of document.getElementsByClassName("tigopy")){ele.innerHTML=(tigopy)};
 for(const ele of document.getElementsByClassName("tigobo")){ele.innerHTML=(tigobo)};
